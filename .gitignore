@@ -3,6 +3,12 @@ bin/
 bin-debug/
 bin-release/
 
+# IntelliJ IDEA
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/tasks.xml
+.idea/libraries/*.xml
+
 # Other files and folders
 .settings/
 
