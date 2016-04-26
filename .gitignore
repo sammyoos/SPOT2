@@ -3,6 +3,9 @@ bin/
 bin-debug/
 bin-release/
 
+#logs...
+*_log
+
 # IntelliJ IDEA
 .idea/workspace.xml
 .idea/gradle.xml
