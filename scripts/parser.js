@@ -8,88 +8,140 @@ function qLog ( text ) {
   qLog.element.text( qLog.element.text() + "\n - " + text );
 }
 
+var parseEffInIng = function(td) {
+  var eff = {};
+  eff.idx = -1;
+  eff.nam = "";
+  eff.val = 1;
+  eff.mag = 1;
+  
+  console.info("parsing the effect in the ingredient");
+  eff.lix = $(td).hasClass("EffectPos");
+  var aCntr = 0;
+  var size = $(td).find("font").text().trim();
+  console.info("size:"+size);
+  $(td).find("a").each(function(){
+    console.error("a -> "+aCntr+" -> "+$(this).text().trim());
+    switch(aCntr++){
+      case 0: break; // initial image
+      case 1: eff.nam = $(this).text().trim(); break;
+      case 2:
+            console.info("attr:"+$(this).attr("title"));
+            if($(this).attr("title")=="Magnitude"){
+              eff.mag = size;
+            } else {
+              eff.val = size;
+            }
+            break;
+      default: // do nothing
+    }
+  });
 
-// var parse_row = function ( pNum, ing, rowContent, prop ) {
-var parse_row = function ( interRow, n, rowContent, props ) {
-  if( interRow == -1 ) {
-    console.debug( "skipped header row" );
-    return;
-  }
+  return(eff);
+}
 
+var parseIngTD = function (rowTop, tdCnt, rowContent, props ) {
   var qText = $(rowContent).text().trim();
-  // console.info( "qText = " + qText );
-
-  if( interRow == 0 ) {
-    switch( n ) {
+  console.info( "qText = " + qText );
+  
+  if(rowTop) {
+    switch(tdCnt) {
       case 0: // images two rows high
         console.debug( "parsing first half" );
-        console.debug( rowContent );
         break;
 
       case 1:
-        props.name = $(rowContent).find("a").text().trim();
+        var aFlds = 0;
+
+        props.dlc="none";
+        $(rowContent).find("a").each( function() {
+          var aText=$(this).text().trim();
+          switch(aFlds++){
+            case 0: props.nam=aText; break;
+            case 1: props.dlc=aText; break;
+            default: /* heh */
+          }
+        
+        });
         console.debug( "Name = " + props.name );
         // could also extract ID from here
         break;
 
       case 2:
-        props.source = qText;
+        props.src = qText;
         console.debug( "Source = " + props.source );
         break;
 
-      default: console.error( "Parser Error : out of bounds error at " + props.name );
+      default: // do nothing
     }
-
-
-  // }else{
-  }else if( interRow == 1 ) {
-    console.debug( "n = " + n + ":" + qText );
-    switch( n ) {
-      case 0: props.eff1 = qText; break;
-      case 1: props.eff2 = qText; break;
-      case 2: props.eff3 = qText; break;
-      case 3: props.eff4 = qText; break;
-      case 4: props.value = qText; break;
-      case 5: props.weight = qText; break;
-      case 6: props.planting = qText; break;
-      default: console.info( "Unexpected Parser Field : out of bounds error at " + props.name );
+  }else{
+    console.debug( "tdCnt = " + tdCnt + ":" + qText );
+    switch( tdCnt ) {
+      case 0: /* fall through */
+      case 1: /* fall through */
+      case 2: /* fall through */
+      case 3: props.eff.push(parseEffInIng(rowContent)); break;
+      case 4: props.val = qText; break;
+      case 5: props.wgt = qText; break;
+      case 6: props.plt = qText; break;
+      default: // do nothing
     };
   }
   console.warn( props );
 }
 
+function newBaseIng(idx){
+  var p = {};
+  p.idx = idx;
+  p.nam = "";
+  p.val = -1;
+  p.wgt = -1;
+  p.plt = -1;
+  p.eff = [];
+  
+  return(p);
+}
+
 function parseIngFile( idx, fn ){
   return(
-    $.ajax( {
-      url: fn,
-      dataType: 'text',
-      success: function( doc ) {
-        qLog( "loaded ingredients source data" );
+      $.ajax( {
+        url: fn,
+        dataType: 'text',
+        success: function( doc ) {
+          qLog( "loaded ingredients source data" );
 
-        // source: http://stackoverflow.com/questions/15150264/jquery-how-to-stop-auto-load-imges-when-parsehtml
-        var new_doc = doc.replace(/<img [^>]*src=['"]([^'"]+)[^>]*>/gi, function (match, capture) {return "<img no_load_src=\"" +capture+ "\" />";});
-        var interRow = -1; // want to skip the first row -- it is headers
-        var props = {};
-        props.name = "";
+          // source: http://stackoverflow.com/questions/15150264/jquery-how-to-stop-auto-load-imges-when-parsehtml
+          var new_doc = doc.replace(/<img [^>]*src=['"]([^'"]+)[^>]*>/gi, function (match, capture) {return "<img no_load_src=\"" +capture+ "\" />";});
+          var topHalf = true; 
+          var ingIdx = 0;
+          var props = newBaseIng(ingIdx);
+          var skipper=0;
 
-        $( "tr", new_doc ).each( function() {
-          var iterField = 0;
+          $( "tr", new_doc ).each( function() {
+            var iterField = 0;
 
-          $(this).find( "td" ).each( function() { parse_row( interRow, iterField++, this, props ); });
+            $(this).find( "td" ).each( function() {
+              if(skipper++>200)return; // TODO: remove this line
+              parseIngTD(topHalf, iterField++, this, props);
+            });
+            
+            if( iterField==0) return; // must be a header row
 
-          if( ++interRow == 2 ) {
-            interRow = 0;
-            idx.ip.push( props );
-            console.warn( props );
-            props = {};
-            props.name = "";
-          }
-
-        });
-        qLog( "parsed ingredients data" );
-      },
-      error:function(jqXHR, textStatus, errorThrown){ alert(textStatus); }
-    })
+            if(topHalf){
+              topHalf=false;
+              console.info( "finished parsing top half" );
+            }else{
+              console.info( "finished parsing row" );
+              console.warn( props );
+              idx.ip.push( props );
+              props = newBaseIng(++ingIdx);
+              topHalf=true;
+            }
+          });
+          qLog( "parsed ingredients data" );
+        },
+        error:function(jqXHR, textStatus, errorThrown){ alert(textStatus); }
+      })
   );
 }
 
