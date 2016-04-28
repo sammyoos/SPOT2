@@ -1,188 +1,201 @@
-"use strict";
+(function () {
+  "use strict";
 
-function qLog ( text ) {
-  // only find fullJSON once
-  if( typeof qLog.element == 'undefined' ) {
-    qLog.element = $("#fullJSON");
-  }
-  qLog.element.text( qLog.element.text() + "\n - " + text );
-}
-
-var parseEffInIng = function(td) {
-  var eff = {};
-  eff.idx = -1;
-  eff.nam = "";
-  eff.val = 1;
-  eff.mag = 1;
-  
-  console.info("parsing the effect in the ingredient");
-  eff.lix = $(td).hasClass("EffectPos");
-  var aCntr = 0;
-  var size = $(td).find("font").text().trim();
-  console.info("size:"+size);
-  $(td).find("a").each(function(){
-    console.error("a -> "+aCntr+" -> "+$(this).text().trim());
-    switch(aCntr++){
-      case 0: break; // initial image
-      case 1: eff.nam = $(this).text().trim(); break;
-      case 2:
-            console.info("attr:"+$(this).attr("title"));
-            if($(this).attr("title")=="Magnitude"){
-              eff.mag = size;
-            } else {
-              eff.val = size;
-            }
-            break;
-      default: // do nothing
+  function qLog(text) {
+    // only find fullJSON once
+    if (typeof qLog.element == 'undefined') {
+      qLog.element = $("#fullJSON");
     }
-  });
-
-  return(eff);
-}
-
-var parseIngTD = function (rowTop, tdCnt, rowContent, props ) {
-  var qText = $(rowContent).text().trim();
-  console.info( "qText = " + qText );
-  
-  if(rowTop) {
-    switch(tdCnt) {
-      case 0: // images two rows high
-        console.debug( "parsing first half" );
-        break;
-
-      case 1:
-        var aFlds = 0;
-
-        props.dlc="none";
-        $(rowContent).find("a").each( function() {
-          var aText=$(this).text().trim();
-          switch(aFlds++){
-            case 0: props.nam=aText; break;
-            case 1: props.dlc=aText; break;
-            default: /* heh */
-          }
-        
-        });
-        console.debug( "Name = " + props.name );
-        // could also extract ID from here
-        break;
-
-      case 2:
-        props.src = qText;
-        console.debug( "Source = " + props.source );
-        break;
-
-      default: // do nothing
-    }
-  }else{
-    console.debug( "tdCnt = " + tdCnt + ":" + qText );
-    switch( tdCnt ) {
-      case 0: /* fall through */
-      case 1: /* fall through */
-      case 2: /* fall through */
-      case 3: props.eff.push(parseEffInIng(rowContent)); break;
-      case 4: props.val = qText; break;
-      case 5: props.wgt = qText; break;
-      case 6: props.plt = qText; break;
-      default: // do nothing
-    };
+    qLog.element.text(qLog.element.text() + "\n - " + text);
   }
-  console.warn( props );
-}
 
-function newBaseIng(idx){
-  var p = {};
-  p.idx = idx;
-  p.nam = "";
-  p.val = -1;
-  p.wgt = -1;
-  p.plt = -1;
-  p.eff = [];
-  
-  return(p);
-}
+  var parseEffInIng = function (td) {
+    var eff = {};
+    eff.idx = -1;
+    eff.nam = "";
+    eff.val = 1;
+    eff.mag = 1;
 
-function parseIngFile( idx, fn ){
-  return(
-      $.ajax( {
-        url: fn,
-        dataType: 'text',
-        success: function( doc ) {
-          qLog( "loaded ingredients source data" );
+    eff.lix = $(td).hasClass("EffectPos");
+    var aCntr = 0;
+    var size = [];
+    $(td).find("font").each(function(){size.push($(this).find("b").text().trim())});
+    $(td).find("a").each(function () {
+      switch (aCntr++) {
+        case 0: break; // initial image
+        case 1: eff.nam = $(this).text().trim(); break;
+        default: // absorb all the rest
+          if ($(this).attr("title") == "Magnitude") { eff.mag = size.pop(); }
+          if ($(this).attr("title") == "Value") { eff.val = size.pop(); }
+          break;
+      }
+    });
 
-          // source: http://stackoverflow.com/questions/15150264/jquery-how-to-stop-auto-load-imges-when-parsehtml
-          var new_doc = doc.replace(/<img [^>]*src=['"]([^'"]+)[^>]*>/gi, function (match, capture) {return "<img no_load_src=\"" +capture+ "\" />";});
-          var topHalf = true; 
-          var ingIdx = 0;
-          var props = newBaseIng(ingIdx);
-          var skipper=0;
+    return (eff);
+  };
 
-          $( "tr", new_doc ).each( function() {
-            var iterField = 0;
+  var parseIngTD = function (rowTop, tdCnt, rowContent, props) {
+    var qText = $(rowContent).text().trim();
 
-            $(this).find( "td" ).each( function() {
-              if(skipper++>200)return; // TODO: remove this line
-              parseIngTD(topHalf, iterField++, this, props);
-            });
-            
-            if( iterField==0) return; // must be a header row
+    if (rowTop) {
+      switch (tdCnt) {
+        case 0: break; // images two rows high 
+        case 1:
+          var aFlds = 0;
 
-            if(topHalf){
-              topHalf=false;
-              console.info( "finished parsing top half" );
-            }else{
-              console.info( "finished parsing row" );
-              console.warn( props );
-              idx.ip.push( props );
-              props = newBaseIng(++ingIdx);
-              topHalf=true;
+          $(rowContent).find("a").each(function () {
+            var aText = $(this).text().trim();
+            switch (aFlds++) {
+              case 0:
+                props.nam = aText;
+                break;
+              case 1:
+                  if(aText=="xx"){
+                    props.dlc = "DB";
+                  } else {
+                    props.dlc = aText;
+                  }
+                break;
+              default: /* heh */
             }
+
           });
-          qLog( "parsed ingredients data" );
-        },
-        error:function(jqXHR, textStatus, errorThrown){ alert(textStatus); }
-      })
-  );
-}
+          // could also extract ID from here
+          break;
 
-$(document).ready(function(){
-  var idx = {};
-  idx.ip = [];
-  idx.ii = {};
-  idx.ep = [];
-  idx.ei = {};
+        case 2:
+          props.src = qText;
+          break;
+
+        default: // do nothing
+      }
+    } else {
+      switch (tdCnt) {
+        case 0: /* fall through */
+        case 1: /* fall through */
+        case 2: /* fall through */
+        case 3: props.eff.push(parseEffInIng(rowContent)); break;
+        case 4: props.val = qText; break;
+        case 5: props.wgt = qText; break;
+        case 6: props.plt = qText; break;
+        default: // do nothing
+      }
+    }
+  };
+
+  function newBaseIng(idx,tableNumber) {
+    var p = {};
+    p.idx = idx;
+    p.nam = "";
+    p.val = -1;
+    p.wgt = -1;
+    p.plt = -1;
+    p.dlc = "none";
+    p.eff = [];
+
+    if(tableNumber===3){p.dlc="DB"}
+    return (p);
+  }
+
+  function incMetric(idx,a,b,c){
+    if( ! idx.hasOwnProperty(a) ){idx[a]={}}
+    if( ! idx[a].hasOwnProperty(b) ){idx[a][b]={}}
+    if( ! idx[a][b].hasOwnProperty(c) ){
+      idx[a][b][c]=1;
+    }else{
+      ++idx[a][b][c];
+    }
+  }
+
+  function parseIngFile(idx, fn) {
+    return (
+        $.ajax({
+          url: fn,
+          dataType: 'text',
+          success: function (doc) {
+            qLog("loaded ingredients source data");
+
+            // source: http://stackoverflow.com/questions/15150264/jquery-how-to-stop-auto-load-imges-when-parsehtml
+            var new_doc = doc.replace(/<img [^>]*src=['"]([^'"]+)[^>]*>/gi, function (match, capture) { return "<img no_load_src=\"" + capture + "\" />"; });
+            var topHalf = true;
+            var ingIdx = 0;
+            var props = newBaseIng(ingIdx,0);
+            var tableNum = 0; // terrible hack to get the DLC for Dragon Born
+            var skipper = 0;
+
+            $("tr", new_doc).each(function () {
+              var iterField = 0;
+
+              $(this).find("td").each(function () {
+                //if (skipper++ > 200)return; // TODO: remove this line
+                parseIngTD(topHalf, iterField++, this, props);
+              });
+
+              if (iterField === 0) {
+                tableNum++;
+                return; // no fields processed, must be a header row
+              }
+                  
+
+              if (topHalf) {
+                topHalf = false;
+              } else {
+                idx.ingL.push(props);
+                idx.ingN[props.nam] = props.idx;
+                incMetric(idx.metrics, "ing", "dlc", props.dlc );
+                incMetric(idx.metrics, "ing", "plt", props.plt );
+                props = newBaseIng(++ingIdx,tableNum);
+                topHalf = true;
+              }
+            });
+            qLog("parsed ingredients data");
+          },
+          error: function (jqXHR, textStatus, errorThrown) { alert(textStatus); }
+        })
+    );
+  }
+
+  $(document).ready(function () {
+    var idx = {};
+    idx.ingL = [];
+    idx.ingN = {};
+    idx.metrics = {};
+    idx.ii = {};
+    idx.ep = [];
+    idx.ei = {};
 
 
-  // fullJSON.text( JSON.stringify( idx ));
-  // source: http://stackoverflow.com/questions/3709597/wait-until-all-jquery-ajax-requests-are-done
-  $.when(
-    parseIngFile( idx, "source_data/simple_www.uesp.net_wiki_Skyrim_Ingredients.html" )
-  ).done( function( p1 ){
-    // indexIngData( idx );
-    $("#fullJSON").text( "/* autogenerated content -- DO NOT MODIFY\n"
-      + " * to change this data you must:\n"
-      + " * 1. edit js/parser.js\n"
-      + " * 2. load parser.html\n"
-      + " * 3. paste the content into js/idx.js\n"
-      + " */\n\n"
-      + "function getIdx() { return( \n"
-      + JSON.stringify( idx, null, ' ' )
-      + "\n);}" );
+    // fullJSON.text( JSON.stringify( idx ));
+    // source: http://stackoverflow.com/questions/3709597/wait-until-all-jquery-ajax-requests-are-done
+    $.when(
+        parseIngFile(idx, "source_data/simple_www.uesp.net_wiki_Skyrim_Ingredients.html")
+    ).done(function (p1) {
+      // indexIngData( idx );
+      $("#fullJSON").text("/* autogenerated content -- DO NOT MODIFY\n" +
+          " * to change this data you must:\n" +
+          " * 1. edit js/parser.js\n" +
+          " * 2. load parser.html\n" +
+          " * 3. paste the content into js/idx.js\n" +
+          " */\n\n" +
+          "function getIdx() { return(" +
+          JSON.stringify(idx, null, ' ') +
+          "\n);}");
+    });
   });
-});
 
 
-/*
-$(document).ready(function(){
-  var idx = getIdx();
-  var ingList = $("#ingredients");
-  $.each( idx.ip, function( index, value ) {
-    ingList.append(
-      "<li data-role=\"presentation\" data-idx="+index+">"
-      + "<span class=\"label label-default\">"
-      + value.name
-      + "</span></li>" );
-  });
-});
-*/
+  /*
+   $(document).ready(function(){
+   var idx = getIdx();
+   var ingList = $("#ingredients");
+   $.each( idx.ip, function( index, value ) {
+   ingList.append(
+   "<li data-role=\"presentation\" data-idx="+index+">"
+   + "<span class=\"label label-default\">"
+   + value.name
+   + "</span></li>" );
+   });
+   });
+   */
+}());
 // vim: set ts=2 sw=2 et:
