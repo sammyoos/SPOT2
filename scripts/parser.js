@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  function qLog(text) {
+  function qLog(text){
     // only find fullJSON once
     if (typeof qLog.element == 'undefined') {
       qLog.element = $("#fullJSON");
@@ -9,7 +9,35 @@
     qLog.element.text(qLog.element.text() + "\n - " + text);
   }
 
-  var parseEffInIng = function (td) {
+  function newBaseEffect(index,name){
+    var e = {};
+    e.idx = index;
+    e.nam = name;
+    e.ing = [];
+    
+    return(e);
+  }
+  
+  function getEffIdx(idx,effNam,ingNam){
+    var effIdx = idx.effL.length;
+    // console.error(idx);
+    console.log(effIdx);
+    
+    if(effNam in idx.effN){
+      effIdx=idx.effN[effNam];
+      console.info(effIdx);
+    }else{
+      idx.effN[effNam] = effIdx;
+      idx.effL.push(newBaseEffect(effIdx,effNam));
+    }
+
+    console.log(effIdx);
+    console.log(idx.effL);
+    idx.effL[effIdx]["ing"].push(ingNam);
+    return(effIdx);
+  }
+
+  function parseEffInIng(idx,td,ing){
     var eff = {};
     eff.idx = -1;
     eff.nam = "";
@@ -30,11 +58,13 @@
           break;
       }
     });
+    
+    eff.idx = getEffIdx(idx,eff.nam,ing);
 
     return (eff);
-  };
+  }
 
-  var parseIngTD = function (rowTop, tdCnt, rowContent, props) {
+  function parseIngTD(idx,rowTop, tdCnt, rowContent, props) {
     var qText = $(rowContent).text().trim();
 
     if (rowTop) {
@@ -74,7 +104,7 @@
         case 0: /* fall through */
         case 1: /* fall through */
         case 2: /* fall through */
-        case 3: props.eff.push(parseEffInIng(rowContent)); break;
+        case 3: props.eff.push(parseEffInIng(idx,rowContent,props.nam)); break;
         case 4: props.val = qText; break;
         case 5: props.wgt = qText; break;
         case 6: props.plt = qText; break;
@@ -83,7 +113,7 @@
     }
   };
 
-  function newBaseIng(idx,tableNumber) {
+  function newBaseIng(idx) {
     var p = {};
     p.idx = idx;
     p.nam = "";
@@ -93,17 +123,16 @@
     p.dlc = "none";
     p.eff = [];
 
-    if(tableNumber===3){p.dlc="DB"}
     return (p);
   }
 
-  function incMetric(idx,a,b,c){
-    if( ! idx.hasOwnProperty(a) ){idx[a]={}}
-    if( ! idx[a].hasOwnProperty(b) ){idx[a][b]={}}
-    if( ! idx[a][b].hasOwnProperty(c) ){
-      idx[a][b][c]=1;
+  function incMetric(metric,a,b,c){
+    if( ! metric.hasOwnProperty(a) ){metric[a]={}}
+    if( ! metric[a].hasOwnProperty(b) ){metric[a][b]={}}
+    if( ! metric[a][b].hasOwnProperty(c) ){
+      metric[a][b][c]=1;
     }else{
-      ++idx[a][b][c];
+      ++metric[a][b][c];
     }
   }
 
@@ -120,19 +149,17 @@
             var topHalf = true;
             var ingIdx = 0;
             var props = newBaseIng(ingIdx,0);
-            var tableNum = 0; // terrible hack to get the DLC for Dragon Born
-            var skipper = 0;
+            //var skipper = 0;
 
             $("tr", new_doc).each(function () {
               var iterField = 0;
 
               $(this).find("td").each(function () {
                 //if (skipper++ > 200)return; // TODO: remove this line
-                parseIngTD(topHalf, iterField++, this, props);
+                parseIngTD(idx,topHalf, iterField++, this, props);
               });
 
               if (iterField === 0) {
-                tableNum++;
                 return; // no fields processed, must be a header row
               }
                   
@@ -144,7 +171,7 @@
                 idx.ingN[props.nam] = props.idx;
                 incMetric(idx.metrics, "ing", "dlc", props.dlc );
                 incMetric(idx.metrics, "ing", "plt", props.plt );
-                props = newBaseIng(++ingIdx,tableNum);
+                props = newBaseIng(++ingIdx);
                 topHalf = true;
               }
             });
@@ -159,11 +186,9 @@
     var idx = {};
     idx.ingL = [];
     idx.ingN = {};
+    idx.effL = [];
+    idx.effN = {};
     idx.metrics = {};
-    idx.ii = {};
-    idx.ep = [];
-    idx.ei = {};
-
 
     // fullJSON.text( JSON.stringify( idx ));
     // source: http://stackoverflow.com/questions/3709597/wait-until-all-jquery-ajax-requests-are-done
@@ -180,6 +205,11 @@
           "function getIdx() { return(" +
           JSON.stringify(idx, null, ' ') +
           "\n);}");
+      
+      if(!(JSON.stringify(idx)===JSON.stringify(getIdx()))){
+        alert("idx has changed");
+        console.error("idx has changed");
+      }
     });
   });
 

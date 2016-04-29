@@ -13,6 +13,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.5",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -43,7 +44,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Abacean Longfin fish."
   },
   {
@@ -52,6 +52,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None",
+   "dlc": "DG",
    "eff": [
     {
      "idx": -1,
@@ -82,7 +83,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "DG",
    "src": "Collected by catching Ancestor Moths."
   },
   {
@@ -91,6 +91,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -121,7 +122,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from various types of dead Bears."
   },
   {
@@ -130,6 +130,7 @@ function getIdx() { return({
    "val": "3",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -160,7 +161,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from beehives and by catching Bees."
   },
   {
@@ -169,6 +169,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "1",
    "plt": "None (Common)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -199,7 +200,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from beehives."
   },
   {
@@ -208,6 +208,7 @@ function getIdx() { return({
    "val": "10",
    "wgt": "0.3",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -238,7 +239,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Bleeding Crown, a mushroom found in various caves."
   },
   {
@@ -247,6 +247,7 @@ function getIdx() { return({
    "val": "12",
    "wgt": "0.2",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -277,7 +278,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Blisterwort mushrooms found in various caves."
   },
   {
@@ -286,6 +286,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -316,7 +317,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Blue Butterflies. Often found during daylight hours near flowering plants."
   },
   {
@@ -325,6 +325,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -355,7 +356,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Dragonflies found near rivers and streams below the snow line."
   },
   {
@@ -364,6 +364,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -394,7 +395,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from the blue variety of Mountain Flower, found throughout Skyrim."
   },
   {
@@ -403,6 +403,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.5",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -433,7 +434,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from undead such as skeletons, and Draugr."
   },
   {
@@ -442,6 +442,7 @@ function getIdx() { return({
    "val": "20",
    "wgt": "0.5",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -472,7 +473,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from Forsworn Briarhearts."
   },
   {
@@ -481,6 +481,7 @@ function getIdx() { return({
    "val": "3",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -511,7 +512,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from catching Monarch Butterflies. Often found during daylight hours near flowering plants."
   },
   {
@@ -520,6 +520,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -550,7 +551,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Canis Root, found in The Rift and Hjaalmarch."
   },
   {
@@ -559,6 +559,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.5",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -589,7 +590,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Food, collected from dead Skeevers found on roasting spits."
   },
   {
@@ -598,6 +598,7 @@ function getIdx() { return({
    "val": "10",
    "wgt": "0.2",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -628,7 +629,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from Chaurus Egg Sacs, found in Falmer caves."
   },
   {
@@ -637,6 +637,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None",
+   "dlc": "DG",
    "eff": [
     {
      "idx": -1,
@@ -667,7 +668,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "DG",
    "src": "Collected from dead Chaurus Hunters and Chaurus Hunter Fledglings."
   },
   {
@@ -676,6 +676,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.5",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -706,7 +707,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Food, harvested from Chicken nests in various farms."
   },
   {
@@ -715,6 +715,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.2",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -745,7 +746,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Creep Cluster, found in the volcanic tundra of Eastmarch."
   },
   {
@@ -754,6 +754,7 @@ function getIdx() { return({
    "val": "10",
    "wgt": "0.2",
    "plt": "None",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -784,7 +785,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Crimson Nirnroot, found in Blackreach, needed for the quest A Return To Your Roots."
   },
   {
@@ -793,6 +793,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.25",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -823,7 +824,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Cyrodilic Spadetail fish."
   },
   {
@@ -832,6 +832,7 @@ function getIdx() { return({
    "val": "250",
    "wgt": "0.5",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -862,7 +863,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Dremora."
   },
   {
@@ -871,6 +871,7 @@ function getIdx() { return({
    "val": "4",
    "wgt": "0.1",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -901,7 +902,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Deathbell, found in Hjaalmarch."
   },
   {
@@ -910,6 +910,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -940,7 +941,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Dragon's Tongue, found in the volcanic tundra of Eastmarch."
   },
   {
@@ -949,6 +949,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -979,7 +980,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from destroyed Dwarven Automatons, found in Dwarven Ruins."
   },
   {
@@ -988,6 +988,7 @@ function getIdx() { return({
    "val": "25",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1018,7 +1019,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from undead Ghosts."
   },
   {
@@ -1027,6 +1027,7 @@ function getIdx() { return({
    "val": "10",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1057,7 +1058,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Dried Elves Ear bunches found in homes and camps."
   },
   {
@@ -1066,6 +1066,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1096,7 +1097,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Sabre Cats."
   },
   {
@@ -1105,6 +1105,7 @@ function getIdx() { return({
    "val": "10",
    "wgt": "0.2",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1135,7 +1136,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Falmer."
   },
   {
@@ -1144,6 +1144,7 @@ function getIdx() { return({
    "val": "50",
    "wgt": "0.25",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1174,7 +1175,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Flame Atronachs, a type of daedra."
   },
   {
@@ -1183,6 +1183,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1213,7 +1214,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Fly Amanita mushrooms, found in various caves."
   },
   {
@@ -1222,6 +1222,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1252,7 +1253,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Dried Frost Mirriam bunches found in homes and camps."
   },
   {
@@ -1261,6 +1261,7 @@ function getIdx() { return({
    "val": "100",
    "wgt": "0.25",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1291,7 +1292,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Frost Atronachs, a type of daedra."
   },
   {
@@ -1300,6 +1300,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.25",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1330,7 +1331,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Food. Can also be harvested from Garlic Braids."
   },
   {
@@ -1339,6 +1339,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1369,7 +1370,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Giant Lichen, found in Hjaalmarch."
   },
   {
@@ -1378,6 +1378,7 @@ function getIdx() { return({
    "val": "20",
    "wgt": "1",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1408,7 +1409,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Giants, which can be found in Giant Camps."
   },
   {
@@ -1417,6 +1417,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.1",
    "plt": "None",
+   "dlc": "DG",
    "eff": [
     {
      "idx": -1,
@@ -1447,7 +1448,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "DG",
    "src": "Harvested from the plant of the same name."
   },
   {
@@ -1456,6 +1456,7 @@ function getIdx() { return({
    "val": "20",
    "wgt": "0.5",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1486,7 +1487,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Wisps and Wispmothers."
   },
   {
@@ -1495,6 +1495,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.2",
    "plt": "None",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1525,7 +1526,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Glowing Mushrooms, found in various caves."
   },
   {
@@ -1534,6 +1534,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1564,7 +1565,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Spiky Grass, found in northern regions of Skyrim."
   },
   {
@@ -1573,6 +1573,7 @@ function getIdx() { return({
    "val": "20",
    "wgt": "0.25",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1603,7 +1604,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Hagravens."
   },
   {
@@ -1612,6 +1612,7 @@ function getIdx() { return({
    "val": "20",
    "wgt": "0.1",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1642,7 +1643,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Hagravens. Can also be found scattered around their sleeping areas."
   },
   {
@@ -1651,6 +1651,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1681,7 +1682,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Hanging Moss."
   },
   {
@@ -1690,6 +1690,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1720,7 +1721,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Hawks."
   },
   {
@@ -1729,6 +1729,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1759,7 +1760,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Hawks."
   },
   {
@@ -1768,6 +1768,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.5",
    "plt": "None",
+   "dlc": "HF",
    "eff": [
     {
      "idx": -1,
@@ -1798,7 +1799,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "HF",
    "src": "Harvested from Hawk nests."
   },
   {
@@ -1807,6 +1807,7 @@ function getIdx() { return({
    "val": "6",
    "wgt": "0.25",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1837,7 +1838,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Histcarp fish."
   },
   {
@@ -1846,6 +1846,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "1",
    "plt": "None (Common)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1876,7 +1877,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Food. Collected from beehives."
   },
   {
@@ -1885,6 +1885,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.25",
    "plt": "None",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1915,7 +1916,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Cannot be harvested or collected; with the Dawnguard plug-in installed, several respawning samples can be found in Volkihar Keep."
   },
   {
@@ -1924,6 +1924,7 @@ function getIdx() { return({
    "val": "0",
    "wgt": "1",
    "plt": "None",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1954,7 +1955,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Cannot be harvested or collected; limited number of samples available."
   },
   {
@@ -1963,6 +1963,7 @@ function getIdx() { return({
    "val": "30",
    "wgt": "0.25",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -1993,7 +1994,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from Ice Wraiths."
   },
   {
@@ -2002,6 +2002,7 @@ function getIdx() { return({
    "val": "0",
    "wgt": "0.3",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2032,7 +2033,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Imp Stool mushrooms, found in various caves."
   },
   {
@@ -2041,6 +2041,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.2",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2071,7 +2072,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Jazbay vines, found in the volcanic tundra of Eastmarch."
   },
   {
@@ -2080,6 +2080,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2110,7 +2111,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Juniper shrubs, common in The Reach."
   },
   {
@@ -2119,6 +2119,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2149,7 +2150,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead male Elk."
   },
   {
@@ -2158,6 +2158,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2188,7 +2189,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Lavender, most common in Whiterun Hold."
   },
   {
@@ -2197,6 +2197,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2227,7 +2228,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Luna Moths. Often found near flowers after dark."
   },
   {
@@ -2236,6 +2236,7 @@ function getIdx() { return({
    "val": "50",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2266,7 +2267,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Cannot be collected or harvested. Can be purchased from the Khajiit Traders."
   },
   {
@@ -2275,6 +2275,7 @@ function getIdx() { return({
    "val": "4",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2305,7 +2306,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Mora Tapinella mushrooms, found growing on dead trees."
   },
   {
@@ -2314,6 +2314,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.25",
    "plt": "None (Common)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2344,7 +2345,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Mudcrabs, found in or near bodies of water."
   },
   {
@@ -2353,6 +2353,7 @@ function getIdx() { return({
    "val": "0",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2383,7 +2384,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Namira's Rot mushrooms, found in various caves."
   },
   {
@@ -2392,6 +2392,7 @@ function getIdx() { return({
    "val": "8",
    "wgt": "0.1",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2422,7 +2423,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Nightshade, found growing throughout Skyrim."
   },
   {
@@ -2431,6 +2431,7 @@ function getIdx() { return({
    "val": "10",
    "wgt": "0.2",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2461,7 +2462,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Nirnroot, found near bodies of water throughout Skyrim."
   },
   {
@@ -2470,6 +2470,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.2",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2500,7 +2501,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Nordic Barnacle Clusters, found in or near water."
   },
   {
@@ -2509,6 +2509,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "None (Common)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2539,7 +2540,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Dragonflies found near rivers and streams below the snow line."
   },
   {
@@ -2548,6 +2548,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2578,7 +2579,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim."
   },
   {
@@ -2587,6 +2587,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.5",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2617,7 +2618,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from bird nests in forested regions, in particular The Rift."
   },
   {
@@ -2626,6 +2626,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.25",
    "plt": "None",
+   "dlc": "DG",
    "eff": [
     {
      "idx": -1,
@@ -2656,7 +2657,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "DG",
    "src": "Harvested from the plant of the same name."
   },
   {
@@ -2665,6 +2665,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2695,7 +2696,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Cannot be harvested or collected; only readily available after the Merchant perk has been unlocked."
   },
   {
@@ -2704,6 +2704,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2734,7 +2735,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from the purple variety of Mountain Flower."
   },
   {
@@ -2743,6 +2743,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2773,7 +2774,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from the red variety of Mountain Flower."
   },
   {
@@ -2782,6 +2782,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.25",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2812,7 +2813,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching River Betty fish."
   },
   {
@@ -2821,6 +2821,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.5",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2851,7 +2852,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from bird nests in rocky regions, in particular The Reach."
   },
   {
@@ -2860,6 +2860,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2890,7 +2891,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Sabre cats."
   },
   {
@@ -2899,6 +2899,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.2",
    "plt": "None",
+   "dlc": "HF",
    "eff": [
     {
      "idx": -1,
@@ -2929,7 +2930,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "HF",
    "src": "Harvested from jumping Salmon."
   },
   {
@@ -2938,6 +2938,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.2",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -2968,7 +2969,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Food. Cannot be harvested or collected, but is commonly found in barrels and sacks."
   },
   {
@@ -2977,6 +2977,7 @@ function getIdx() { return({
    "val": "4",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3007,7 +3008,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Scaly Pholiota mushrooms, found growing on dead trees."
   },
   {
@@ -3016,6 +3016,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.25",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3046,7 +3047,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Silverside Perch fish."
   },
   {
@@ -3055,6 +3055,7 @@ function getIdx() { return({
    "val": "3",
    "wgt": "0.2",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3085,7 +3086,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Skeevers."
   },
   {
@@ -3094,6 +3094,7 @@ function getIdx() { return({
    "val": "3",
    "wgt": "0.2",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3124,7 +3125,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from Slaughterfish Egg Nests, found in or near water."
   },
   {
@@ -3133,6 +3133,7 @@ function getIdx() { return({
    "val": "3",
    "wgt": "0.1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3163,7 +3164,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Slaughterfish."
   },
   {
@@ -3172,6 +3172,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Common)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3202,7 +3203,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead female Elk."
   },
   {
@@ -3211,6 +3211,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3241,7 +3242,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim."
   },
   {
@@ -3250,6 +3250,7 @@ function getIdx() { return({
    "val": "4",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3280,7 +3281,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Snowberry bushes, found in snowy regions of Skyrim."
   },
   {
@@ -3289,6 +3289,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.2",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3319,7 +3320,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from spider Egg Sacs and Web Sacs."
   },
   {
@@ -3328,6 +3328,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.2",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3358,7 +3359,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Cannot be harvested or collected; best source is merchants."
   },
   {
@@ -3367,6 +3367,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.25",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3397,7 +3398,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Swamp Fungal Pod, common in the tundra marsh of Hjaalmarch."
   },
   {
@@ -3406,6 +3406,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "0.5",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3436,7 +3437,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Spriggans."
   },
   {
@@ -3445,6 +3445,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3475,7 +3476,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Thistle."
   },
   {
@@ -3484,6 +3484,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "None (Common)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3514,7 +3515,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected by catching Torchbugs. Found below the snowline after dark."
   },
   {
@@ -3523,6 +3523,7 @@ function getIdx() { return({
    "val": "15",
    "wgt": "1",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3553,7 +3554,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Trolls."
   },
   {
@@ -3562,6 +3562,7 @@ function getIdx() { return({
    "val": "1",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3592,7 +3593,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Harvested from Tundra Cotton, found in Whiterun Hold."
   },
   {
@@ -3601,6 +3601,7 @@ function getIdx() { return({
    "val": "25",
    "wgt": "0.2",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3631,7 +3632,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Vampires."
   },
   {
@@ -3640,6 +3640,7 @@ function getIdx() { return({
    "val": "125",
    "wgt": "0.2",
    "plt": "Rare",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3670,7 +3671,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Storm Atronachs."
   },
   {
@@ -3679,6 +3679,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.1",
    "plt": "Common",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3709,7 +3710,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Food. Harvested from wheat bushels, found in various farms."
   },
   {
@@ -3718,6 +3718,7 @@ function getIdx() { return({
    "val": "0",
    "wgt": "0.3",
    "plt": "Uncommon",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3748,7 +3749,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "Harvested from White Cap mushrooms, found in various caves."
   },
   {
@@ -3757,6 +3757,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None (Uncommon)",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3787,7 +3788,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "Collected from dead Wispmothers."
   },
   {
@@ -3796,6 +3796,7 @@ function getIdx() { return({
    "val": "2",
    "wgt": "0.1",
    "plt": "None",
+   "dlc": "DG",
    "eff": [
     {
      "idx": -1,
@@ -3826,7 +3827,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "DG",
    "src": "Harvested from the yellow variety of Mountain Flower."
   },
   {
@@ -3835,6 +3835,7 @@ function getIdx() { return({
    "val": "5",
    "wgt": "0.2",
    "plt": "None",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3865,7 +3866,6 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "This ingredient is given as a quest item. Its effects are all identical to standard Bone Meal."
   },
   {
@@ -3874,6 +3874,7 @@ function getIdx() { return({
    "val": "100",
    "wgt": "0.25",
    "plt": "None",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3904,7 +3905,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "This ingredient is given as a quest item. It is identical to standard Frost Salts, except for its name."
   },
   {
@@ -3913,6 +3913,7 @@ function getIdx() { return({
    "val": "125",
    "wgt": "0.2",
    "plt": "None",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3943,7 +3944,6 @@ function getIdx() { return({
      "lix": true
     }
    ],
-   "dlc": "none",
    "src": "This ingredient is given as a quest item. It is identical to standard Void Salts, except for its name."
   },
   {
@@ -3952,6 +3952,7 @@ function getIdx() { return({
    "val": "10",
    "wgt": "0.5",
    "plt": "None",
+   "dlc": "none",
    "eff": [
     {
      "idx": -1,
@@ -3982,8 +3983,436 @@ function getIdx() { return({
      "lix": false
     }
    ],
-   "dlc": "none",
    "src": "You may only receive this ingredient once during the Dark Brotherhood quest line."
+  },
+  {
+   "idx": 102,
+   "nam": "Ash Creep Cluster",
+   "val": "20",
+   "wgt": "0.25",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Damage Stamina",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Invisibility",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Resist Fire",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Destruction",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    }
+   ],
+   "src": "Harvested from creep cluster plants unique to Solstheim."
+  },
+  {
+   "idx": 103,
+   "nam": "Ash Hopper Jelly",
+   "val": "20",
+   "wgt": "0.25",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Restore Health",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Light Armor",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Resist Shock",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Weakness to Frost",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    }
+   ],
+   "src": "Collected from dead ash hoppers."
+  },
+  {
+   "idx": 104,
+   "nam": "Ashen Grass Pod",
+   "val": "1",
+   "wgt": "0.1",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Resist Fire",
+     "val": 1,
+     "mag": "1.34",
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Weakness to Shock",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Lockpicking",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Sneak",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    }
+   ],
+   "src": "Harvested from spiky grass plants unique to Solstheim."
+  },
+  {
+   "idx": 105,
+   "nam": "Boar Tusk",
+   "val": "20",
+   "wgt": "0.5",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Fortify Stamina",
+     "val": "1.25",
+     "mag": "5.9",
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Health",
+     "val": "5.9",
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Block",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Frenzy",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    }
+   ],
+   "src": "Collected from dead bristlebacks and rieklings."
+  },
+  {
+   "idx": 106,
+   "nam": "Burnt Spriggan Wood",
+   "val": "20",
+   "wgt": "0.5",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Weakness to Fire",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Alteration",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Damage Magicka Regen",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Slow",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    }
+   ],
+   "src": "Collected from dead burnt spriggans."
+  },
+  {
+   "idx": 107,
+   "nam": "Emperor Parasol Moss",
+   "val": "1",
+   "wgt": "0.25",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Damage Health",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Magicka",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Regenerate Health",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Two-handed",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    }
+   ],
+   "src": "Harvested from emperor parasol moss plants near Tel Mithryn."
+  },
+  {
+   "idx": 108,
+   "nam": "Felsaad Tern Feathers",
+   "val": "15",
+   "wgt": "0.1",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Restore Health",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Light Armor",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Resist Magic",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    }
+   ],
+   "src": "Collected from dead Felsaad terns."
+  },
+  {
+   "idx": 109,
+   "nam": "Netch Jelly",
+   "val": "20",
+   "wgt": "0.5",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Paralysis",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Carry Weight",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Restore Stamina",
+     "val": 1,
+     "mag": "2",
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fear",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    }
+   ],
+   "src": "Collected from dead netch."
+  },
+  {
+   "idx": 110,
+   "nam": "Scathecraw",
+   "val": "1",
+   "wgt": "0.1",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Ravage Health",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Ravage Stamina",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Ravage Magicka",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Lingering Damage Health",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    }
+   ],
+   "src": "Harvested from scathecraw plants."
+  },
+  {
+   "idx": 111,
+   "nam": "Spawn Ash",
+   "val": "20",
+   "wgt": "0.1",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Ravage Stamina",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Resist Fire",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Enchanting",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Ravage Magicka",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    }
+   ],
+   "src": "Collected from dead ash spawn."
+  },
+  {
+   "idx": 112,
+   "nam": "Trama Root",
+   "val": "1",
+   "wgt": "0.2",
+   "plt": "",
+   "dlc": "DB",
+   "eff": [
+    {
+     "idx": -1,
+     "nam": "Weakness to Shock",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Fortify Carry Weight",
+     "val": 1,
+     "mag": 1,
+     "lix": true
+    },
+    {
+     "idx": -1,
+     "nam": "Damage Magicka",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    },
+    {
+     "idx": -1,
+     "nam": "Slow",
+     "val": 1,
+     "mag": 1,
+     "lix": false
+    }
+   ],
+   "src": "Harvested from trama root plants."
   }
  ],
  "ingN": {
@@ -4088,9 +4517,38 @@ function getIdx() { return({
   "Berit's Ashes": 98,
   "Farengar's Frost Salt": 99,
   "Fine-Cut Void Salts": 100,
-  "Jarrin Root": 101
+  "Jarrin Root": 101,
+  "Ash Creep Cluster": 102,
+  "Ash Hopper Jelly": 103,
+  "Ashen Grass Pod": 104,
+  "Boar Tusk": 105,
+  "Burnt Spriggan Wood": 106,
+  "Emperor Parasol Moss": 107,
+  "Felsaad Tern Feathers": 108,
+  "Netch Jelly": 109,
+  "Scathecraw": 110,
+  "Spawn Ash": 111,
+  "Trama Root": 112
  },
- "metrics": {},
+ "metrics": {
+  "ing": {
+   "dlc": {
+    "none": 95,
+    "DG": 5,
+    "HF": 2,
+    "DB": 11
+   },
+   "plt": {
+    "Common": 22,
+    "None": 15,
+    "None (Uncommon)": 9,
+    "None (Common)": 6,
+    "Uncommon": 35,
+    "Rare": 15,
+    "": 11
+   }
+  }
+ },
  "ii": {},
  "ep": [],
  "ei": {}
