@@ -1,34 +1,9 @@
 body {
-	background: darkgrey;
+	background-color: darkgrey;
 }
 
-#nav_wrapper {
-	padding: 15px;
-}
-
-#spot_content {
-	margin: 55px 15px 15px 15px;
-}
-
-.navbar-fixed-top {
-	top: 15px;
-	left: 15px;
-	right: 15px;
-}
-
-.row {
-	width: 100%;
-}
-
-
-li {
-	padding: 15px;
-}
-
-span.label {
-	float: left;
-	text-align: left;
-	font-size: 11pt;
-	width: 220px;
+.sspot-page {
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
