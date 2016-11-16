@@ -21,19 +21,19 @@
 
 	<header class="navbar navbar-static-top navbar-dark bg-inverse">
 		<a class="navbar-brand" href="#">Skyrim Potion Optimizing Tool</a>
-		<ul class="nav navbar-nav float-xs-right">
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" id="ing_menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># Ingredients</a>
+
+		<div class="nav navbar-nav float-xs-right">
+			<div class="btn-group">
+				<button type="button" id="ing_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># Ingredients</button>
 				<div class="dropdown-menu" aria-labelledby="ing_menu">
 					<a class="dropdown-item" href="#">Two Ingredients</a>
 					<a class="dropdown-item" href="#">Three Ingredients</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="#">Any # of Ingredients</a>
 				</div>
-			</li>
-			<li class="nav-item">&nbsp;</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" id="eff_menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># Effects</a>
+			</div>
+			<div class="btn-group">
+				<button type="button" id="eff_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># Effects</button>
 				<div class="dropdown-menu" aria-labelledby="eff_menu">
 					<a class="dropdown-item" href="#">One Effect</a>
 					<a class="dropdown-item" href="#">Two Effects</a>
@@ -43,11 +43,10 @@
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="#">Any # of Effects</a>
 				</div>
-			</li>
-			<li class="nav-item">&nbsp;</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" id="ing_menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DLC Ingredients</a>
-				<div class="dropdown-menu" aria-labelledby="ing_menu">
+			</div>
+			<div class="btn-group">
+				<button type="button" id="dlc_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DLC Ingredients</button>
+				<div class="dropdown-menu" aria-labelledby="dlc_menu">
 					<a class="dropdown-item" href="#">Base Skyrim</a>
 					<a class="dropdown-item" href="#">Dawnguard</a>
 					<a class="dropdown-item" href="#">Dragonborn</a>
@@ -55,12 +54,9 @@
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="#">All Ingredients</a>
 				</div>
-			</li>
-			<li class="nav-item">&nbsp;</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Reset</a>
-			</li>
-		</ul>
+			</div>
+			<button type="button" id="reset" class="btn btn-sm btn-secondary btn-warning">Reset</button>
+		</div>
 	</header>
 
 	<div class="container spot-page">
@@ -71,7 +67,11 @@
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<h3>Ingredients</h3>
-				One of three columns
+				<p>Onions</p>
+				<p>Lettuce</p>
+				<p>Garlic</p>
+				<p>Peppers</p>
+
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<h3>Effects</h3>
