@@ -2,8 +2,12 @@ body {
 	background-color: darkgrey;
 }
 
-.sspot-page {
-	margin-left: 5px;
-	margin-right: 5px;
+
+.tag-list > p {
+		text-align: left;
+		font-size: 110%;
+		width: 100%;
+		display: block;
+		margin-bottom: 2px !important;
 }
 
