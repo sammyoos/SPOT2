@@ -2,18 +2,11 @@ body {
 	background-color: darkgrey;
 }
 
-p {
-		font-size: 110%;
-		text-align: left !important;
-		width: 100% !important;
-		display: block !important;
-		margin-bottom: 2px !important;
-}
-
 
 .tag-list > p {
 		text-align: left;
 		font-size: 110%;
+		font-weight: 200;
 		width: 100%;
 		display: block;
 		margin-bottom: 2px !important;
