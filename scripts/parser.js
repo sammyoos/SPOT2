@@ -19,21 +19,21 @@
   }
   
   function getEffIdx(idx,effNam,ingIdx){
-    var effIdx = idx.effL.length;
+    var effIdx = idx.eff.lab.length;
     // console.error(idx);
     // console.log(effIdx);
     
-    if(effNam in idx.effN){
-      effIdx=idx.effN[effNam];
+    if(effNam in idx.eff.num){
+      effIdx=idx.eff.num[effNam];
       // console.info(effIdx);
     }else{
-      idx.effN[effNam] = effIdx;
-      idx.effL.push(newBaseEffect(effIdx,effNam));
+      idx.eff.num[effNam] = effIdx;
+      idx.eff.lab.push(newBaseEffect(effIdx,effNam));
     }
 
     // console.log(effIdx);
-    // console.log(idx.effL);
-    idx.effL[effIdx].ing.push(ingIdx);
+    // console.log(idx.eff.lab);
+    idx.eff.lab[effIdx].ing.push(ingIdx);
     return(effIdx);
   }
 
@@ -166,8 +166,8 @@
               if (topHalf) {
                 topHalf = false;
               } else {
-                idx.ingL.push(props);
-                idx.ingN[props.nam] = props.idx;
+                idx.ing.lab.push(props);
+                idx.ing.num[props.nam] = props.idx;
                 incMetric(idx.metrics, "ing", "dlc", props.dlc );
                 incMetric(idx.metrics, "ing", "plt", props.plt );
                 props = newBaseIng(++ingIdx);
@@ -235,20 +235,5 @@
       }
     });
   });
-
-
-  /*
-   $(document).ready(function(){
-   var idx = getIdx();
-   var ingList = $("#ingredients");
-   $.each( idx.ip, function( index, value ) {
-   ingList.append(
-   "<li data-role=\"presentation\" data-idx="+index+">"
-   + "<span class=\"label label-default\">"
-   + value.name
-   + "</span></li>" );
-   });
-   });
-   */
 }());
 // vim: set ts=2 sw=2 et:
