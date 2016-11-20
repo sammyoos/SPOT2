@@ -183,10 +183,10 @@
 
   function indexIngData( idx )
   {
-    idx.ingSorted = new Object();
+    idx.ingSorted = [];
     for( var i=0; i<idx.ingL.length; i++ )
     {
-      idx.ingSorted[i] = i;
+      idx.ingSorted.push(i);
     }
 
     idx.ingSorted.sort( function(a,b){
