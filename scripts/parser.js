@@ -184,14 +184,18 @@
   function indexIngData( idx )
   {
     idx.ingSorted = [];
+    idx.prevDisplay = [];
+    idx.nextDisplay = [];
+    idx.selDisplay = [];
     for( var i=0; i<idx.ingL.length; i++ )
     {
       idx.ingSorted.push(i);
+      idx.prevDisplay.push(true);
+      idx.nextDisplay.push(true);
+      idx.selDisplay.push(false);
     }
 
-    idx.ingSorted.sort( function(a,b){
-      return( idx.ingL[a] - idx.ingL[b] );
-    });
+    idx.ingSorted.sort( function(a,b){ return( idx.ingL[a] - idx.ingL[b] ); });
   }
 
 
