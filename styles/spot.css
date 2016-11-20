@@ -2,13 +2,18 @@ body {
 	background-color: darkgrey;
 }
 
-
-.tag-list > p {
-		text-align: left;
-		font-size: 110%;
-		font-weight: 200;
-		width: 100%;
-		display: block;
-		margin-bottom: 2px !important;
+.tag-list {
+	cursor: cell;
 }
 
+
+.tag-list > p {
+	text-align: left;
+	font-size: 110%;
+	font-weight: 200;
+	width: 100%;
+	display: block;
+	margin-bottom: 2px !important;
+}
+
+// vim:set tabstop=2 shiftwidth=2 noexpandtab:
