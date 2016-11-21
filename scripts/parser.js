@@ -190,12 +190,12 @@
     for( var i=0; i<idx.lab.length; i++ )
     {
       idx.sorted.push(i);
-      idx.prevDisplay.push(true);
+      idx.prevDisplay.push(false);
       idx.nextDisplay.push(true);
       idx.selDisplay.push(false);
     }
 
-    idx.sorted.sort( function(a,b){ return( idx.lab[a] - idx.lab[b] ); });
+    idx.sorted.sort( function(a,b){ return( idx.lab[a].nam - idx.lab[b].nam ); });
   }
 
 

@@ -18,7 +18,11 @@
 		"selected" 	: "p.tIngs.tag-primary",
 		"selClass" 	: "tIngs tag tag-primary",
 		"notClass" 	: "tIngs tag",
-		"global"	 	: getIdx().ingL,
+		"global"	 	: getIdx().ing.lab,
+		"sorted"	 	: getIdx().ing.sorted,
+		"prevDis"	  : getIdx().ing.prevDisplay,
+		"nextDis"	  : getIdx().ing.nextDisplay,
+		"selDis"	  : getIdx().ing.selDisplay,
 		"list"			: "#ingredient-list",
 		"fpSelect"	: selectIngredient,
 	 	"type"			: "i",
@@ -29,7 +33,11 @@
 		"selected"  : "p.tEffs.tag-success",
 		"selClass"  : "tEffs tag tag-success",
 		"notClass"  : "tEffs tag",
-		"global"	  : getIdx().effL,
+		"global"	  : getIdx().eff.lab,
+		"sorted"	  : getIdx().eff.sorted,
+		"prevDis"	  : getIdx().eff.prevDisplay,
+		"nextDis"	  : getIdx().eff.nextDisplay,
+		"selDis"	  : getIdx().eff.selDisplay,
 		"list"			: "#effect-list",
 		"fpSelect"	: selectEffect,
 	 	"type"			: "e",
@@ -56,14 +64,13 @@
 		return( false );
 	}
 
-	spot_ns.display_list = function( validList, selected, options )
+	spot_ns.create_display_list = function( options )
 	{
 		$( options.list ).empty();
 
-		for( var i in validList )
+		for( var i=0; i<options.sorted.length; i++ )
 		{
-			var item = options.global[ validList[ i ]];
-
+			var item = options.global[ options.sorted[i] ];
 			$( options.list ).append( "<p class=\""
 					+ options.notClass
 					+ "\">" + item.nam + "</p>" );
@@ -80,11 +87,11 @@ $(document).ready( function()
 
 	spot_ns.gi = new Object();
 	for( i=0; i<spot_ns.iOptions.global.length; i++ ) spot_ns.gi[i]=i;
-	spot_ns.display_list( spot_ns.gi, null, spot_ns.iOptions );
+	spot_ns.create_display_list( spot_ns.iOptions );
 
 	spot_ns.ge = new Object();
 	for( i=0; i<spot_ns.eOptions.global.length; i++ ) spot_ns.ge[i]=i;
-	spot_ns.display_list( spot_ns.ge, null, spot_ns.eOptions );
+	spot_ns.create_display_list( spot_ns.eOptions );
 
 });
 
