@@ -71,12 +71,35 @@
 		for( var i=0; i<options.sorted.length; i++ )
 		{
 			var item = options.global[ options.sorted[i] ];
-			$( options.list ).append( "<p class=\""
-					+ options.notClass
-					+ "\">" + item.nam + "</p>" );
+			console.log( i );
+			console.log( options.sorted[i] );
+			console.log( options.nextDisplay[i] );
+			console.log( options.selDisplay[i] );
+			$( options.list ).append( "<p" 
+					+ " style=\"display:none;\""
+					+ " data-idx=\"" + options.sorted[i] + "\""
+					+ " data-viable=\"" + (options.nextDisplay[i]?"y":"n") + "\""
+					+ " data-selected=\"" + (options.selDisplay[i]?"y":"n") + "\""
+					+ " class=\"" + options.notClass + "\">" 
+					+ item.nam + "</p>" );
 		}
 
 		$( options.selector ).click( options.fpSelect );
+	}
+
+	spot_ns.display_list = function( options )
+	{
+		console.log( options.list );
+		$( options.list ).children( 'p' ).each( function(){ 
+			console.log( this );
+			//this.show( 'slow' ); 
+		});
+	}
+
+	spot_ns.redraw = function( )
+	{
+		spot_ns.display_list( spot_ns.iOptions );
+		// spot_ns.display_list( spot_ns.eOptions );
 	}
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
@@ -93,6 +116,7 @@ $(document).ready( function()
 	for( i=0; i<spot_ns.eOptions.global.length; i++ ) spot_ns.ge[i]=i;
 	spot_ns.create_display_list( spot_ns.eOptions );
 
+	spot_ns.redraw();
 });
 
 // vim:set tabstop=2 shiftwidth=2 noexpandtab:

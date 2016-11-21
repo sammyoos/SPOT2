@@ -190,7 +190,7 @@
     for( var i=0; i<idx.lab.length; i++ )
     {
       idx.sorted.push(i);
-      idx.prevDisplay.push(false);
+      idx.prevDisplay.push(true);
       idx.nextDisplay.push(true);
       idx.selDisplay.push(false);
     }
