@@ -47,9 +47,6 @@
 	spot_ns.allEffects 			= new Array();
 	spot_ns.favorites				= null;
 
-	// needs to be reset _every_ pass through...
-	var netIndex = null, validEff = null, validIng = null, ingScopeFilter = null, effScopeFilter = null; 
-
 	function selectIngredient()
 	{
 		$(this).toggleClass( "tag-primary" );
@@ -71,15 +68,18 @@
 		for( var i=0; i<options.sorted.length; i++ )
 		{
 			var item = options.global[ options.sorted[i] ];
+			/*
+			console.log( options );
 			console.log( i );
 			console.log( options.sorted[i] );
-			console.log( options.nextDisplay[i] );
-			console.log( options.selDisplay[i] );
+			console.log( options.nextDis[i] );
+			console.log( options.selDis[i] );
+			*/
 			$( options.list ).append( "<p" 
 					+ " style=\"display:none;\""
 					+ " data-idx=\"" + options.sorted[i] + "\""
-					+ " data-viable=\"" + (options.nextDisplay[i]?"y":"n") + "\""
-					+ " data-selected=\"" + (options.selDisplay[i]?"y":"n") + "\""
+					+ " data-viable=\"" + (options.nextDis[i]?"y":"n") + "\""
+					+ " data-selected=\"" + (options.selDis[i]?"y":"n") + "\""
 					+ " class=\"" + options.notClass + "\">" 
 					+ item.nam + "</p>" );
 		}
@@ -90,10 +90,7 @@
 	spot_ns.display_list = function( options )
 	{
 		console.log( options.list );
-		$( options.list ).children( 'p' ).each( function(){ 
-			console.log( this );
-			//this.show( 'slow' ); 
-		});
+		$( options.list ).children( 'p[viable="y"]' ).this.show( 'slow' ); 
 	}
 
 	spot_ns.redraw = function( )

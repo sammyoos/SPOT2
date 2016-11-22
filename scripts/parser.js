@@ -23,12 +23,10 @@
     // console.error(idx);
     // console.log(effIdx);
     
-    if(effNam in idx.eff.num){
-      effIdx=idx.eff.num[effNam];
-      // console.info(effIdx);
-    }else{
-      idx.eff.num[effNam] = effIdx;
-      idx.eff.lab.push(newBaseEffect(effIdx,effNam));
+    
+    effIdx=idx.eff.num[effNam];
+    if( idx.eff.lab[ effIdx ] == undefined ) {
+      idx.eff.lab[effIdx] = newBaseEffect(effIdx,effNam);
     }
 
     // console.log(effIdx);
@@ -166,8 +164,8 @@
               if (topHalf) {
                 topHalf = false;
               } else {
-                idx.ing.lab.push(props);
-                idx.ing.num[props.nam] = props.idx;
+                props.idx = idx.ing.num[props.nam];
+                idx.ing.lab[props.idx] = props;
                 incMetric(idx.metrics, "ing", "dlc", props.dlc );
                 incMetric(idx.metrics, "ing", "plt", props.plt );
                 props = newBaseIng(++ingIdx);
@@ -183,19 +181,20 @@
 
   function indexData( idx )
   {
-    idx.sorted = [];
-    idx.prevDisplay = [];
-    idx.nextDisplay = [];
-    idx.selDisplay = [];
-    for( var i=0; i<idx.lab.length; i++ )
-    {
-      idx.sorted.push(i);
-      idx.prevDisplay.push(true);
-      idx.nextDisplay.push(true);
-      idx.selDisplay.push(false);
-    }
+    var len = idx.lab.length;
 
-    idx.sorted.sort( function(a,b){ return( idx.lab[a].nam - idx.lab[b].nam ); });
+    idx.prevDisplay = new Array( len );
+    idx.nextDisplay = new Array( len );
+    idx.selected = new Array( len );
+    idx.display = new Array( len );
+
+    for( var i=0; i<len; i++ )
+    {
+      idx.prevDisplay[i]=true;
+      idx.nextDisplay[i]=true;
+      idx.selected[i]=false;
+      idx.display[i]=null;
+    }
   }
 
 
@@ -203,12 +202,12 @@
     var idx = {};
 
     idx.ing = {};
-    idx.ing.lab = [];
-    idx.ing.num = {};
+    idx.ing.num = { "Abecean Longfin": 0, "Ancestor Moth Wing": 1, "Ash Creep Cluster": 2, "Ash Hopper Jelly": 3, "Ashen Grass Pod": 4, "Bear Claws": 5, "Bee": 6, "Beehive Husk": 7, "Berit's Ashes": 8, "Bleeding Crown": 9, "Blisterwort": 10, "Blue Butterfly Wing": 11, "Blue Dartwing": 12, "Blue Mountain Flower": 13, "Boar Tusk": 14, "Bone Meal": 15, "Briar Heart": 16, "Burnt Spriggan Wood": 17, "Butterfly Wing": 18, "Canis Root": 19, "Charred Skeever Hide": 20, "Chaurus Eggs": 21, "Chaurus Hunter Antennae": 22, "Chicken's Egg": 23, "Creep Cluster": 24, "Crimson Nirnroot": 25, "Cyrodilic Spadetail": 26, "Daedra Heart": 27, "Deathbell": 28, "Dragon's Tongue": 29, "Dwarven Oil": 30, "Ectoplasm": 31, "Elves Ear": 32, "Emperor Parasol Moss": 33, "Eye of Sabre Cat": 34, "Falmer Ear": 35, "Farengar's Frost Salt": 36, "Felsaad Tern Feathers": 37, "Fine-Cut Void Salts": 38, "Fire Salts": 39, "Fly Amanita": 40, "Frost Mirriam": 41, "Frost Salts": 42, "Garlic": 43, "Giant's Toe": 44, "Giant Lichen": 45, "Gleamblossom": 46, "Glow Dust": 47, "Glowing Mushroom": 48, "Grass Pod": 49, "Hagraven Claw": 50, "Hagraven Feathers": 51, "Hanging Moss": 52, "Hawk's Egg": 53, "Hawk Beak": 54, "Hawk Feathers": 55, "Histcarp": 56, "Honeycomb": 57, "Human Flesh": 58, "Human Heart": 59, "Ice Wraith Teeth": 60, "Imp Stool": 61, "Jarrin Root": 62, "Jazbay Grapes": 63, "Juniper Berries": 64, "Large Antlers": 65, "Lavender": 66, "Luna Moth Wing": 67, "Moon Sugar": 68, "Mora Tapinella": 69, "Mudcrab Chitin": 70, "Namira's Rot": 71, "Netch Jelly": 72, "Nightshade": 73, "Nirnroot": 74, "Nordic Barnacle": 75, "Orange Dartwing": 76, "Pearl": 77, "Pine Thrush Egg": 78, "Poison Bloom": 79, "Powdered Mammoth Tusk": 80, "Purple Mountain Flower": 81, "Red Mountain Flower": 82, "River Betty": 83, "Rock Warbler Egg": 84, "Sabre Cat Tooth": 85, "Salmon Roe": 86, "Salt Pile": 87, "Scaly Pholiota": 88, "Scathecraw": 89, "Silverside Perch": 90, "Skeever Tail": 91, "Slaughterfish Egg": 92, "Slaughterfish Scales": 93, "Small Antlers": 94, "Small Pearl": 95, "Snowberries": 96, "Spawn Ash": 97, "Spider Egg": 98, "Spriggan Sap": 99, "Swamp Fungal Pod": 100, "Taproot": 101, "Thistle Branch": 102, "Torchbug Thorax": 103, "Trama Root": 104, "Troll Fat": 105, "Tundra Cotton": 106, "Vampire Dust": 107, "Void Salts": 108, "Wheat": 109, "White Cap": 110, "Wisp Wrappings": 111, "Yellow Mountain Flower": 112 };
+    idx.ing.lab = new Array( Object.keys( idx.ing.num ));
 
     idx.eff = {};
-    idx.eff.lab = [];
-    idx.eff.num = {};
+    idx.eff.num = { "Cure Disease": 0, "Damage Health": 1, "Damage Magicka Regen": 2, "Damage Magicka": 3, "Damage Stamina Regen": 4, "Damage Stamina": 5, "Fear": 6, "Fortify Alteration": 7, "Fortify Barter": 8, "Fortify Block": 9, "Fortify Carry Weight": 10, "Fortify Conjuration": 11, "Fortify Destruction": 12, "Fortify Enchanting": 13, "Fortify Health": 14, "Fortify Heavy Armor": 15, "Fortify Illusion": 16, "Fortify Light Armor": 17, "Fortify Lockpicking": 18, "Fortify Magicka": 19, "Fortify Marksman": 20, "Fortify One-handed": 21, "Fortify Pickpocket": 22, "Fortify Restoration": 23, "Fortify Smithing": 24, "Fortify Sneak": 25, "Fortify Stamina": 26, "Fortify Two-handed": 27, "Frenzy": 28, "Invisibility": 29, "Lingering Damage Health": 30, "Lingering Damage Magicka": 31, "Lingering Damage Stamina": 32, "Paralysis": 33, "Ravage Health": 34, "Ravage Magicka": 35, "Ravage Stamina": 36, "Regenerate Health": 37, "Regenerate Magicka": 38, "Regenerate Stamina": 39, "Resist Fire": 40, "Resist Frost": 41, "Resist Magic": 42, "Resist Poison": 43, "Resist Shock": 44, "Restore Health": 45, "Restore Magicka": 46, "Restore Stamina": 47, "Slow": 48, "Waterbreathing": 49, "Weakness to Fire": 50, "Weakness to Frost": 51, "Weakness to Magic": 52, "Weakness to Poison": 53, "Weakness to Shock": 54 };
+    idx.eff.lab = new Array( Object.keys( idx.eff.num ));
 
     idx.metrics = {};
 
