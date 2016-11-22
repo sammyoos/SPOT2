@@ -25,7 +25,7 @@
     
     
     effIdx=idx.eff.num[effNam];
-    if( idx.eff.lab[ effIdx ] == undefined ) {
+    if( idx.eff.lab[ effIdx ] == undefined || idx.eff.lab[ effIdx ] == null ) {
       idx.eff.lab[effIdx] = newBaseEffect(effIdx,effNam);
     }
 
