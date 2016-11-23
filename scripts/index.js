@@ -7,6 +7,121 @@
 
 function getIdx() { return({
  "ing": {
+  "num": {
+   "Abecean Longfin": 0,
+   "Ancestor Moth Wing": 1,
+   "Ash Creep Cluster": 2,
+   "Ash Hopper Jelly": 3,
+   "Ashen Grass Pod": 4,
+   "Bear Claws": 5,
+   "Bee": 6,
+   "Beehive Husk": 7,
+   "Berit's Ashes": 8,
+   "Bleeding Crown": 9,
+   "Blisterwort": 10,
+   "Blue Butterfly Wing": 11,
+   "Blue Dartwing": 12,
+   "Blue Mountain Flower": 13,
+   "Boar Tusk": 14,
+   "Bone Meal": 15,
+   "Briar Heart": 16,
+   "Burnt Spriggan Wood": 17,
+   "Butterfly Wing": 18,
+   "Canis Root": 19,
+   "Charred Skeever Hide": 20,
+   "Chaurus Eggs": 21,
+   "Chaurus Hunter Antennae": 22,
+   "Chicken's Egg": 23,
+   "Creep Cluster": 24,
+   "Crimson Nirnroot": 25,
+   "Cyrodilic Spadetail": 26,
+   "Daedra Heart": 27,
+   "Deathbell": 28,
+   "Dragon's Tongue": 29,
+   "Dwarven Oil": 30,
+   "Ectoplasm": 31,
+   "Elves Ear": 32,
+   "Emperor Parasol Moss": 33,
+   "Eye of Sabre Cat": 34,
+   "Falmer Ear": 35,
+   "Farengar's Frost Salt": 36,
+   "Felsaad Tern Feathers": 37,
+   "Fine-Cut Void Salts": 38,
+   "Fire Salts": 39,
+   "Fly Amanita": 40,
+   "Frost Mirriam": 41,
+   "Frost Salts": 42,
+   "Garlic": 43,
+   "Giant's Toe": 44,
+   "Giant Lichen": 45,
+   "Gleamblossom": 46,
+   "Glow Dust": 47,
+   "Glowing Mushroom": 48,
+   "Grass Pod": 49,
+   "Hagraven Claw": 50,
+   "Hagraven Feathers": 51,
+   "Hanging Moss": 52,
+   "Hawk's Egg": 53,
+   "Hawk Beak": 54,
+   "Hawk Feathers": 55,
+   "Histcarp": 56,
+   "Honeycomb": 57,
+   "Human Flesh": 58,
+   "Human Heart": 59,
+   "Ice Wraith Teeth": 60,
+   "Imp Stool": 61,
+   "Jarrin Root": 62,
+   "Jazbay Grapes": 63,
+   "Juniper Berries": 64,
+   "Large Antlers": 65,
+   "Lavender": 66,
+   "Luna Moth Wing": 67,
+   "Moon Sugar": 68,
+   "Mora Tapinella": 69,
+   "Mudcrab Chitin": 70,
+   "Namira's Rot": 71,
+   "Netch Jelly": 72,
+   "Nightshade": 73,
+   "Nirnroot": 74,
+   "Nordic Barnacle": 75,
+   "Orange Dartwing": 76,
+   "Pearl": 77,
+   "Pine Thrush Egg": 78,
+   "Poison Bloom": 79,
+   "Powdered Mammoth Tusk": 80,
+   "Purple Mountain Flower": 81,
+   "Red Mountain Flower": 82,
+   "River Betty": 83,
+   "Rock Warbler Egg": 84,
+   "Sabre Cat Tooth": 85,
+   "Salmon Roe": 86,
+   "Salt Pile": 87,
+   "Scaly Pholiota": 88,
+   "Scathecraw": 89,
+   "Silverside Perch": 90,
+   "Skeever Tail": 91,
+   "Slaughterfish Egg": 92,
+   "Slaughterfish Scales": 93,
+   "Small Antlers": 94,
+   "Small Pearl": 95,
+   "Snowberries": 96,
+   "Spawn Ash": 97,
+   "Spider Egg": 98,
+   "Spriggan Sap": 99,
+   "Swamp Fungal Pod": 100,
+   "Taproot": 101,
+   "Thistle Branch": 102,
+   "Torchbug Thorax": 103,
+   "Trama Root": 104,
+   "Troll Fat": 105,
+   "Tundra Cotton": 106,
+   "Vampire Dust": 107,
+   "Void Salts": 108,
+   "Wheat": 109,
+   "White Cap": 110,
+   "Wisp Wrappings": 111,
+   "Yellow Mountain Flower": 112
+  },
   "lab": [
    {
     "idx": 0,
@@ -17,28 +132,28 @@ function getIdx() { return({
     "dlc": "none",
     "eff": [
      {
-      "idx": 0,
+      "idx": 51,
       "nam": "Weakness to Frost",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 1,
+      "idx": 25,
       "nam": "Fortify Sneak",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 2,
+      "idx": 53,
       "nam": "Weakness to Poison",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 3,
+      "idx": 23,
       "nam": "Fortify Restoration",
       "val": 1,
       "mag": 1,
@@ -56,28 +171,28 @@ function getIdx() { return({
     "dlc": "DG",
     "eff": [
      {
-      "idx": 4,
+      "idx": 5,
       "nam": "Damage Stamina",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 5,
+      "idx": 11,
       "nam": "Fortify Conjuration",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 6,
+      "idx": 2,
       "nam": "Damage Magicka Regen",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 7,
+      "idx": 13,
       "nam": "Fortify Enchanting",
       "val": 1,
       "mag": 1,
@@ -88,3906 +203,6 @@ function getIdx() { return({
    },
    {
     "idx": 2,
-    "nam": "Bear Claws",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": "0.8",
-      "lix": true
-     },
-     {
-      "idx": 9,
-      "nam": "Fortify Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 10,
-      "nam": "Fortify One-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from various types of dead Bears."
-   },
-   {
-    "idx": 3,
-    "nam": "Bee",
-    "val": "3",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 11,
-      "nam": "Ravage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 12,
-      "nam": "Regenerate Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 13,
-      "nam": "Weakness to Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from beehives and by catching Bees."
-   },
-   {
-    "idx": 4,
-    "nam": "Beehive Husk",
-    "val": "5",
-    "wgt": "1",
-    "plt": "None (Common)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": "0.5",
-      "lix": true
-     },
-     {
-      "idx": 15,
-      "nam": "Fortify Light Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 1,
-      "nam": "Fortify Sneak",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 16,
-      "nam": "Fortify Destruction",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from beehives."
-   },
-   {
-    "idx": 5,
-    "nam": "Bleeding Crown",
-    "val": "10",
-    "wgt": "0.3",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 17,
-      "nam": "Weakness to Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 18,
-      "nam": "Fortify Block",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 2,
-      "nam": "Weakness to Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Bleeding Crown, a mushroom found in various caves."
-   },
-   {
-    "idx": 6,
-    "nam": "Blisterwort",
-    "val": "12",
-    "wgt": "0.2",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 20,
-      "nam": "Frenzy",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": "0.6",
-      "lix": true
-     },
-     {
-      "idx": 22,
-      "nam": "Fortify Smithing",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Blisterwort mushrooms found in various caves."
-   },
-   {
-    "idx": 7,
-    "nam": "Blue Butterfly Wing",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 7,
-      "nam": "Fortify Enchanting",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected by catching Blue Butterflies. Often found during daylight hours near flowering plants."
-   },
-   {
-    "idx": 8,
-    "nam": "Blue Dartwing",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 23,
-      "nam": "Resist Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 24,
-      "nam": "Fortify Pickpocket",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 25,
-      "nam": "Fear",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected by catching Dragonflies found near rivers and streams below the snow line."
-   },
-   {
-    "idx": 9,
-    "nam": "Blue Mountain Flower",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 9,
-      "nam": "Fortify Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from the blue variety of Mountain Flower, found throughout Skyrim."
-   },
-   {
-    "idx": 10,
-    "nam": "Bone Meal",
-    "val": "5",
-    "wgt": "0.5",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 26,
-      "nam": "Resist Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 11,
-      "nam": "Ravage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from undead such as skeletons, and Draugr."
-   },
-   {
-    "idx": 11,
-    "nam": "Briar Heart",
-    "val": "20",
-    "wgt": "0.5",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 18,
-      "nam": "Fortify Block",
-      "val": 1,
-      "mag": "0.5",
-      "lix": true
-     },
-     {
-      "idx": 28,
-      "nam": "Paralysis",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from Forsworn Briarhearts."
-   },
-   {
-    "idx": 12,
-    "nam": "Butterfly Wing",
-    "val": "3",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 30,
-      "nam": "Fortify Barter",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 31,
-      "nam": "Lingering Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from catching Monarch Butterflies. Often found during daylight hours near flowering plants."
-   },
-   {
-    "idx": 13,
-    "nam": "Canis Root",
-    "val": "5",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 10,
-      "nam": "Fortify One-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 33,
-      "nam": "Fortify Marksman",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 28,
-      "nam": "Paralysis",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from Canis Root, found in The Rift and Hjaalmarch."
-   },
-   {
-    "idx": 14,
-    "nam": "Charred Skeever Hide",
-    "val": "1",
-    "wgt": "0.5",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 34,
-      "nam": "Cure Disease",
-      "val": "0.36",
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Food, collected from dead Skeevers found on roasting spits."
-   },
-   {
-    "idx": 15,
-    "nam": "Chaurus Eggs",
-    "val": "10",
-    "wgt": "0.2",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 2,
-      "nam": "Weakness to Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 35,
-      "nam": "Fortify Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 36,
-      "nam": "Invisibility",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from Chaurus Egg Sacs, found in Falmer caves."
-   },
-   {
-    "idx": 16,
-    "nam": "Chaurus Hunter Antennae",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None",
-    "dlc": "DG",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 7,
-      "nam": "Fortify Enchanting",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Chaurus Hunters and Chaurus Hunter Fledglings."
-   },
-   {
-    "idx": 17,
-    "nam": "Chicken's Egg",
-    "val": "2",
-    "wgt": "0.5",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 37,
-      "nam": "Waterbreathing",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 31,
-      "nam": "Lingering Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Food, harvested from Chicken nests in various farms."
-   },
-   {
-    "idx": 18,
-    "nam": "Creep Cluster",
-    "val": "1",
-    "wgt": "0.2",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 39,
-      "nam": "Fortify Carry Weight",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 40,
-      "nam": "Weakness to Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from Creep Cluster, found in the volcanic tundra of Eastmarch."
-   },
-   {
-    "idx": 19,
-    "nam": "Crimson Nirnroot",
-    "val": "10",
-    "wgt": "0.2",
-    "plt": "None",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": "3",
-      "lix": false
-     },
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": "3",
-      "lix": false
-     },
-     {
-      "idx": 36,
-      "nam": "Invisibility",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Crimson Nirnroot, found in Blackreach, needed for the quest A Return To Your Roots."
-   },
-   {
-    "idx": 20,
-    "nam": "Cyrodilic Spadetail",
-    "val": "15",
-    "wgt": "0.25",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 3,
-      "nam": "Fortify Restoration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 25,
-      "nam": "Fear",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 42,
-      "nam": "Ravage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected by catching Cyrodilic Spadetail fish."
-   },
-   {
-    "idx": 21,
-    "nam": "Daedra Heart",
-    "val": "250",
-    "wgt": "0.5",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 25,
-      "nam": "Fear",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from dead Dremora."
-   },
-   {
-    "idx": 22,
-    "nam": "Deathbell",
-    "val": "4",
-    "wgt": "0.1",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": "1.5",
-      "lix": false
-     },
-     {
-      "idx": 11,
-      "nam": "Ravage Stamina",
-      "val": "2.1",
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 43,
-      "nam": "Slow",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 2,
-      "nam": "Weakness to Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from Deathbell, found in Hjaalmarch."
-   },
-   {
-    "idx": 23,
-    "nam": "Dragon's Tongue",
-    "val": "5",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 26,
-      "nam": "Resist Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 30,
-      "nam": "Fortify Barter",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 44,
-      "nam": "Fortify Illusion",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 45,
-      "nam": "Fortify Two-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Dragon's Tongue, found in the volcanic tundra of Eastmarch."
-   },
-   {
-    "idx": 24,
-    "nam": "Dwarven Oil",
-    "val": "15",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 40,
-      "nam": "Weakness to Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 44,
-      "nam": "Fortify Illusion",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 46,
-      "nam": "Regenerate Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from destroyed Dwarven Automatons, found in Dwarven Ruins."
-   },
-   {
-    "idx": 25,
-    "nam": "Ectoplasm",
-    "val": "25",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 16,
-      "nam": "Fortify Destruction",
-      "val": 1,
-      "mag": "0.8",
-      "lix": true
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from undead Ghosts."
-   },
-   {
-    "idx": 26,
-    "nam": "Elves Ear",
-    "val": "10",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 33,
-      "nam": "Fortify Marksman",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 0,
-      "nam": "Weakness to Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 26,
-      "nam": "Resist Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Dried Elves Ear bunches found in homes and camps."
-   },
-   {
-    "idx": 27,
-    "nam": "Eye of Sabre Cat",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 42,
-      "nam": "Ravage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Sabre Cats."
-   },
-   {
-    "idx": 28,
-    "nam": "Falmer Ear",
-    "val": "10",
-    "wgt": "0.2",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 20,
-      "nam": "Frenzy",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 47,
-      "nam": "Fortify Lockpicking",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Falmer."
-   },
-   {
-    "idx": 29,
-    "nam": "Fire Salts",
-    "val": "50",
-    "wgt": "0.25",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 0,
-      "nam": "Weakness to Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 26,
-      "nam": "Resist Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 46,
-      "nam": "Regenerate Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Flame Atronachs, a type of daedra."
-   },
-   {
-    "idx": 30,
-    "nam": "Fly Amanita",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 26,
-      "nam": "Resist Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 45,
-      "nam": "Fortify Two-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 20,
-      "nam": "Frenzy",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 12,
-      "nam": "Regenerate Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Fly Amanita mushrooms, found in various caves."
-   },
-   {
-    "idx": 31,
-    "nam": "Frost Mirriam",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 1,
-      "nam": "Fortify Sneak",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 49,
-      "nam": "Ravage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from Dried Frost Mirriam bunches found in homes and camps."
-   },
-   {
-    "idx": 32,
-    "nam": "Frost Salts",
-    "val": "100",
-    "wgt": "0.25",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 17,
-      "nam": "Weakness to Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Frost Atronachs, a type of daedra."
-   },
-   {
-    "idx": 33,
-    "nam": "Garlic",
-    "val": "1",
-    "wgt": "0.25",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 35,
-      "nam": "Fortify Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 46,
-      "nam": "Regenerate Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 50,
-      "nam": "Regenerate Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Food. Can also be harvested from Garlic Braids."
-   },
-   {
-    "idx": 34,
-    "nam": "Giant Lichen",
-    "val": "5",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 13,
-      "nam": "Weakness to Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 42,
-      "nam": "Ravage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 2,
-      "nam": "Weakness to Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Giant Lichen, found in Hjaalmarch."
-   },
-   {
-    "idx": 35,
-    "nam": "Giant's Toe",
-    "val": "20",
-    "wgt": "1",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 9,
-      "nam": "Fortify Health",
-      "val": "5.9",
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 39,
-      "nam": "Fortify Carry Weight",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from dead Giants, which can be found in Giant Camps."
-   },
-   {
-    "idx": 36,
-    "nam": "Gleamblossom",
-    "val": "5",
-    "wgt": "0.1",
-    "plt": "None",
-    "dlc": "DG",
-    "eff": [
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 25,
-      "nam": "Fear",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 50,
-      "nam": "Regenerate Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 28,
-      "nam": "Paralysis",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from the plant of the same name."
-   },
-   {
-    "idx": 37,
-    "nam": "Glow Dust",
-    "val": "20",
-    "wgt": "0.5",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 16,
-      "nam": "Fortify Destruction",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 23,
-      "nam": "Resist Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Wisps and Wispmothers."
-   },
-   {
-    "idx": 38,
-    "nam": "Glowing Mushroom",
-    "val": "5",
-    "wgt": "0.2",
-    "plt": "None",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 23,
-      "nam": "Resist Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 16,
-      "nam": "Fortify Destruction",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 22,
-      "nam": "Fortify Smithing",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 9,
-      "nam": "Fortify Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Glowing Mushrooms, found in various caves."
-   },
-   {
-    "idx": 39,
-    "nam": "Grass Pod",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 49,
-      "nam": "Ravage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 51,
-      "nam": "Fortify Alteration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Spiky Grass, found in northern regions of Skyrim."
-   },
-   {
-    "idx": 40,
-    "nam": "Hagraven Claw",
-    "val": "20",
-    "wgt": "0.25",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 52,
-      "nam": "Lingering Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 7,
-      "nam": "Fortify Enchanting",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 30,
-      "nam": "Fortify Barter",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Hagravens."
-   },
-   {
-    "idx": 41,
-    "nam": "Hagraven Feathers",
-    "val": "20",
-    "wgt": "0.1",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 20,
-      "nam": "Frenzy",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 13,
-      "nam": "Weakness to Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from dead Hagravens. Can also be found scattered around their sleeping areas."
-   },
-   {
-    "idx": 42,
-    "nam": "Hanging Moss",
-    "val": "1",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 9,
-      "nam": "Fortify Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 10,
-      "nam": "Fortify One-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Hanging Moss."
-   },
-   {
-    "idx": 43,
-    "nam": "Hawk Beak",
-    "val": "15",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 39,
-      "nam": "Fortify Carry Weight",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 23,
-      "nam": "Resist Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Hawks."
-   },
-   {
-    "idx": 44,
-    "nam": "Hawk Feathers",
-    "val": "15",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 34,
-      "nam": "Cure Disease",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 15,
-      "nam": "Fortify Light Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 10,
-      "nam": "Fortify One-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 1,
-      "nam": "Fortify Sneak",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Hawks."
-   },
-   {
-    "idx": 45,
-    "nam": "Hawk's Egg",
-    "val": "5",
-    "wgt": "0.5",
-    "plt": "None",
-    "dlc": "HF",
-    "eff": [
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 37,
-      "nam": "Waterbreathing",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 31,
-      "nam": "Lingering Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from Hawk nests."
-   },
-   {
-    "idx": 46,
-    "nam": "Histcarp",
-    "val": "6",
-    "wgt": "0.25",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 37,
-      "nam": "Waterbreathing",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected by catching Histcarp fish."
-   },
-   {
-    "idx": 47,
-    "nam": "Honeycomb",
-    "val": "5",
-    "wgt": "1",
-    "plt": "None (Common)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 18,
-      "nam": "Fortify Block",
-      "val": 1,
-      "mag": "0.5",
-      "lix": true
-     },
-     {
-      "idx": 15,
-      "nam": "Fortify Light Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 11,
-      "nam": "Ravage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Food. Collected from beehives."
-   },
-   {
-    "idx": 48,
-    "nam": "Human Flesh",
-    "val": "1",
-    "wgt": "0.25",
-    "plt": "None",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 28,
-      "nam": "Paralysis",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 1,
-      "nam": "Fortify Sneak",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Cannot be harvested or collected; with the Dawnguard plug-in installed, several respawning samples can be found in Volkihar Keep."
-   },
-   {
-    "idx": 49,
-    "nam": "Human Heart",
-    "val": "0",
-    "wgt": "1",
-    "plt": "None",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 20,
-      "nam": "Frenzy",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Cannot be harvested or collected; limited number of samples available."
-   },
-   {
-    "idx": 50,
-    "nam": "Ice Wraith Teeth",
-    "val": "30",
-    "wgt": "0.25",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 0,
-      "nam": "Weakness to Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 53,
-      "nam": "Fortify Heavy Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 36,
-      "nam": "Invisibility",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 17,
-      "nam": "Weakness to Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from Ice Wraiths."
-   },
-   {
-    "idx": 51,
-    "nam": "Imp Stool",
-    "val": "0",
-    "wgt": "0.3",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 54,
-      "nam": "Lingering Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 28,
-      "nam": "Paralysis",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": "0.6",
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Imp Stool mushrooms, found in various caves."
-   },
-   {
-    "idx": 52,
-    "nam": "Jazbay Grapes",
-    "val": "1",
-    "wgt": "0.2",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 40,
-      "nam": "Weakness to Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 46,
-      "nam": "Regenerate Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 42,
-      "nam": "Ravage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from Jazbay vines, found in the volcanic tundra of Eastmarch."
-   },
-   {
-    "idx": 53,
-    "nam": "Juniper Berries",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 17,
-      "nam": "Weakness to Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 33,
-      "nam": "Fortify Marksman",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 50,
-      "nam": "Regenerate Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from Juniper shrubs, common in The Reach."
-   },
-   {
-    "idx": 54,
-    "nam": "Large Antlers",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 35,
-      "nam": "Fortify Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 43,
-      "nam": "Slow",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from dead male Elk."
-   },
-   {
-    "idx": 55,
-    "nam": "Lavender",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 35,
-      "nam": "Fortify Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 49,
-      "nam": "Ravage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Lavender, most common in Whiterun Hold."
-   },
-   {
-    "idx": 56,
-    "nam": "Luna Moth Wing",
-    "val": "5",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 15,
-      "nam": "Fortify Light Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 50,
-      "nam": "Regenerate Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 36,
-      "nam": "Invisibility",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected by catching Luna Moths. Often found near flowers after dark."
-   },
-   {
-    "idx": 57,
-    "nam": "Moon Sugar",
-    "val": "50",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 17,
-      "nam": "Weakness to Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 46,
-      "nam": "Regenerate Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Cannot be collected or harvested. Can be purchased from the Khajiit Traders."
-   },
-   {
-    "idx": 58,
-    "nam": "Mora Tapinella",
-    "val": "4",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 54,
-      "nam": "Lingering Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 12,
-      "nam": "Regenerate Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 44,
-      "nam": "Fortify Illusion",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Mora Tapinella mushrooms, found growing on dead trees."
-   },
-   {
-    "idx": 59,
-    "nam": "Mudcrab Chitin",
-    "val": "2",
-    "wgt": "0.25",
-    "plt": "None (Common)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 34,
-      "nam": "Cure Disease",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 26,
-      "nam": "Resist Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Mudcrabs, found in or near bodies of water."
-   },
-   {
-    "idx": 60,
-    "nam": "Namira's Rot",
-    "val": "0",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 47,
-      "nam": "Fortify Lockpicking",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 25,
-      "nam": "Fear",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 50,
-      "nam": "Regenerate Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Namira's Rot mushrooms, found in various caves."
-   },
-   {
-    "idx": 61,
-    "nam": "Nightshade",
-    "val": "8",
-    "wgt": "0.1",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 31,
-      "nam": "Lingering Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 16,
-      "nam": "Fortify Destruction",
-      "val": 1,
-      "mag": "0.8",
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Nightshade, found growing throughout Skyrim."
-   },
-   {
-    "idx": 62,
-    "nam": "Nirnroot",
-    "val": "10",
-    "wgt": "0.2",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": "12.6",
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 36,
-      "nam": "Invisibility",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Nirnroot, found near bodies of water throughout Skyrim."
-   },
-   {
-    "idx": 63,
-    "nam": "Nordic Barnacle",
-    "val": "5",
-    "wgt": "0.2",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 37,
-      "nam": "Waterbreathing",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 50,
-      "nam": "Regenerate Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 24,
-      "nam": "Fortify Pickpocket",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Nordic Barnacle Clusters, found in or near water."
-   },
-   {
-    "idx": 64,
-    "nam": "Orange Dartwing",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "None (Common)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 49,
-      "nam": "Ravage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 24,
-      "nam": "Fortify Pickpocket",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 54,
-      "nam": "Lingering Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected by catching Dragonflies found near rivers and streams below the snow line."
-   },
-   {
-    "idx": 65,
-    "nam": "Pearl",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 18,
-      "nam": "Fortify Block",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 23,
-      "nam": "Resist Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim."
-   },
-   {
-    "idx": 66,
-    "nam": "Pine Thrush Egg",
-    "val": "2",
-    "wgt": "0.5",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 47,
-      "nam": "Fortify Lockpicking",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 2,
-      "nam": "Weakness to Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 23,
-      "nam": "Resist Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from bird nests in forested regions, in particular The Rift."
-   },
-   {
-    "idx": 67,
-    "nam": "Poison Bloom",
-    "val": "5",
-    "wgt": "0.25",
-    "plt": "None",
-    "dlc": "DG",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": "1.5",
-      "lix": false
-     },
-     {
-      "idx": 43,
-      "nam": "Slow",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 39,
-      "nam": "Fortify Carry Weight",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 25,
-      "nam": "Fear",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from the plant of the same name."
-   },
-   {
-    "idx": 68,
-    "nam": "Powdered Mammoth Tusk",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 1,
-      "nam": "Fortify Sneak",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 17,
-      "nam": "Weakness to Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 25,
-      "nam": "Fear",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Cannot be harvested or collected; only readily available after the Merchant perk has been unlocked."
-   },
-   {
-    "idx": 69,
-    "nam": "Purple Mountain Flower",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 1,
-      "nam": "Fortify Sneak",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 52,
-      "nam": "Lingering Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from the purple variety of Mountain Flower."
-   },
-   {
-    "idx": 70,
-    "nam": "Red Mountain Flower",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 49,
-      "nam": "Ravage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from the red variety of Mountain Flower."
-   },
-   {
-    "idx": 71,
-    "nam": "River Betty",
-    "val": "15",
-    "wgt": "0.25",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": "2.5",
-      "lix": false
-     },
-     {
-      "idx": 51,
-      "nam": "Fortify Alteration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 43,
-      "nam": "Slow",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 39,
-      "nam": "Fortify Carry Weight",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected by catching River Betty fish."
-   },
-   {
-    "idx": 72,
-    "nam": "Rock Warbler Egg",
-    "val": "2",
-    "wgt": "0.5",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 10,
-      "nam": "Fortify One-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 40,
-      "nam": "Weakness to Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from bird nests in rocky regions, in particular The Reach."
-   },
-   {
-    "idx": 73,
-    "nam": "Sabre Cat Tooth",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 53,
-      "nam": "Fortify Heavy Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 22,
-      "nam": "Fortify Smithing",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 2,
-      "nam": "Weakness to Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from dead Sabre cats."
-   },
-   {
-    "idx": 74,
-    "nam": "Salmon Roe",
-    "val": "5",
-    "wgt": "0.2",
-    "plt": "None",
-    "dlc": "HF",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": "0.4",
-      "lix": true
-     },
-     {
-      "idx": 37,
-      "nam": "Waterbreathing",
-      "val": "15.4",
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": "12.5",
-      "mag": "1.05",
-      "lix": true
-     },
-     {
-      "idx": 46,
-      "nam": "Regenerate Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from jumping Salmon."
-   },
-   {
-    "idx": 75,
-    "nam": "Salt Pile",
-    "val": "2",
-    "wgt": "0.2",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 40,
-      "nam": "Weakness to Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 3,
-      "nam": "Fortify Restoration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 43,
-      "nam": "Slow",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 46,
-      "nam": "Regenerate Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Food. Cannot be harvested or collected, but is commonly found in barrels and sacks."
-   },
-   {
-    "idx": 76,
-    "nam": "Scaly Pholiota",
-    "val": "4",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 40,
-      "nam": "Weakness to Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 44,
-      "nam": "Fortify Illusion",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 12,
-      "nam": "Regenerate Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 39,
-      "nam": "Fortify Carry Weight",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Scaly Pholiota mushrooms, found growing on dead trees."
-   },
-   {
-    "idx": 77,
-    "nam": "Silverside Perch",
-    "val": "15",
-    "wgt": "0.25",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 42,
-      "nam": "Ravage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected by catching Silverside Perch fish."
-   },
-   {
-    "idx": 78,
-    "nam": "Skeever Tail",
-    "val": "3",
-    "wgt": "0.2",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 42,
-      "nam": "Ravage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 15,
-      "nam": "Fortify Light Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Skeevers."
-   },
-   {
-    "idx": 79,
-    "nam": "Slaughterfish Egg",
-    "val": "3",
-    "wgt": "0.2",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 24,
-      "nam": "Fortify Pickpocket",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 54,
-      "nam": "Lingering Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 35,
-      "nam": "Fortify Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from Slaughterfish Egg Nests, found in or near water."
-   },
-   {
-    "idx": 80,
-    "nam": "Slaughterfish Scales",
-    "val": "3",
-    "wgt": "0.1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 54,
-      "nam": "Lingering Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 53,
-      "nam": "Fortify Heavy Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 18,
-      "nam": "Fortify Block",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Slaughterfish."
-   },
-   {
-    "idx": 81,
-    "nam": "Small Antlers",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Common)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 2,
-      "nam": "Weakness to Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 3,
-      "nam": "Fortify Restoration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 31,
-      "nam": "Lingering Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from dead female Elk."
-   },
-   {
-    "idx": 82,
-    "nam": "Small Pearl",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 10,
-      "nam": "Fortify One-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 3,
-      "nam": "Fortify Restoration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim."
-   },
-   {
-    "idx": 83,
-    "nam": "Snowberries",
-    "val": "4",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 26,
-      "nam": "Resist Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 7,
-      "nam": "Fortify Enchanting",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 23,
-      "nam": "Resist Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Snowberry bushes, found in snowy regions of Skyrim."
-   },
-   {
-    "idx": 84,
-    "nam": "Spider Egg",
-    "val": "5",
-    "wgt": "0.2",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 47,
-      "nam": "Fortify Lockpicking",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 33,
-      "nam": "Fortify Marksman",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from spider Egg Sacs and Web Sacs."
-   },
-   {
-    "idx": 85,
-    "nam": "Spriggan Sap",
-    "val": "15",
-    "wgt": "0.2",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 7,
-      "nam": "Fortify Enchanting",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 22,
-      "nam": "Fortify Smithing",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 51,
-      "nam": "Fortify Alteration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Cannot be harvested or collected; best source is merchants."
-   },
-   {
-    "idx": 86,
-    "nam": "Swamp Fungal Pod",
-    "val": "5",
-    "wgt": "0.25",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 23,
-      "nam": "Resist Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 52,
-      "nam": "Lingering Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 28,
-      "nam": "Paralysis",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Swamp Fungal Pod, common in the tundra marsh of Hjaalmarch."
-   },
-   {
-    "idx": 87,
-    "nam": "Taproot",
-    "val": "15",
-    "wgt": "0.5",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 40,
-      "nam": "Weakness to Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 44,
-      "nam": "Fortify Illusion",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 46,
-      "nam": "Regenerate Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Spriggans."
-   },
-   {
-    "idx": 88,
-    "nam": "Thistle Branch",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 11,
-      "nam": "Ravage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": "0.75",
-      "lix": true
-     },
-     {
-      "idx": 53,
-      "nam": "Fortify Heavy Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Thistle."
-   },
-   {
-    "idx": 89,
-    "nam": "Torchbug Thorax",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "None (Common)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 52,
-      "nam": "Lingering Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 40,
-      "nam": "Weakness to Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 35,
-      "nam": "Fortify Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected by catching Torchbugs. Found below the snowline after dark."
-   },
-   {
-    "idx": 90,
-    "nam": "Troll Fat",
-    "val": "15",
-    "wgt": "1",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 45,
-      "nam": "Fortify Two-handed",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 20,
-      "nam": "Frenzy",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Collected from dead Trolls."
-   },
-   {
-    "idx": 91,
-    "nam": "Tundra Cotton",
-    "val": "1",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 18,
-      "nam": "Fortify Block",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 30,
-      "nam": "Fortify Barter",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Harvested from Tundra Cotton, found in Whiterun Hold."
-   },
-   {
-    "idx": 92,
-    "nam": "Vampire Dust",
-    "val": "25",
-    "wgt": "0.2",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 36,
-      "nam": "Invisibility",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 50,
-      "nam": "Regenerate Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 34,
-      "nam": "Cure Disease",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Vampires."
-   },
-   {
-    "idx": 93,
-    "nam": "Void Salts",
-    "val": "125",
-    "wgt": "0.2",
-    "plt": "Rare",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 13,
-      "nam": "Weakness to Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Storm Atronachs."
-   },
-   {
-    "idx": 94,
-    "nam": "Wheat",
-    "val": "5",
-    "wgt": "0.1",
-    "plt": "Common",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 21,
-      "nam": "Restore Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 9,
-      "nam": "Fortify Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 52,
-      "nam": "Lingering Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Food. Harvested from wheat bushels, found in various farms."
-   },
-   {
-    "idx": 95,
-    "nam": "White Cap",
-    "val": "0",
-    "wgt": "0.3",
-    "plt": "Uncommon",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 0,
-      "nam": "Weakness to Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 53,
-      "nam": "Fortify Heavy Armor",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 49,
-      "nam": "Ravage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from White Cap mushrooms, found in various caves."
-   },
-   {
-    "idx": 96,
-    "nam": "Wisp Wrappings",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None (Uncommon)",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 8,
-      "nam": "Restore Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 16,
-      "nam": "Fortify Destruction",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 39,
-      "nam": "Fortify Carry Weight",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "Collected from dead Wispmothers."
-   },
-   {
-    "idx": 97,
-    "nam": "Yellow Mountain Flower",
-    "val": "2",
-    "wgt": "0.1",
-    "plt": "None",
-    "dlc": "DG",
-    "eff": [
-     {
-      "idx": 14,
-      "nam": "Resist Poison",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 3,
-      "nam": "Fortify Restoration",
-      "val": 1,
-      "mag": "1.25",
-      "lix": true
-     },
-     {
-      "idx": 9,
-      "nam": "Fortify Health",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 38,
-      "nam": "Damage Stamina Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "Harvested from the yellow variety of Mountain Flower."
-   },
-   {
-    "idx": 98,
-    "nam": "Berit's Ashes",
-    "val": "5",
-    "wgt": "0.2",
-    "plt": "None",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 26,
-      "nam": "Resist Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 11,
-      "nam": "Ravage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "This ingredient is given as a quest item. Its effects are all identical to standard Bone Meal."
-   },
-   {
-    "idx": 99,
-    "nam": "Farengar's Frost Salt",
-    "val": "100",
-    "wgt": "0.25",
-    "plt": "None",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 17,
-      "nam": "Weakness to Fire",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 48,
-      "nam": "Resist Frost",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 27,
-      "nam": "Restore Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 5,
-      "nam": "Fortify Conjuration",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "This ingredient is given as a quest item. It is identical to standard Frost Salts, except for its name."
-   },
-   {
-    "idx": 100,
-    "nam": "Fine-Cut Void Salts",
-    "val": "125",
-    "wgt": "0.2",
-    "plt": "None",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 13,
-      "nam": "Weakness to Shock",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 19,
-      "nam": "Resist Magic",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     },
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 29,
-      "nam": "Fortify Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": true
-     }
-    ],
-    "src": "This ingredient is given as a quest item. It is identical to standard Void Salts, except for its name."
-   },
-   {
-    "idx": 101,
-    "nam": "Jarrin Root",
-    "val": "10",
-    "wgt": "0.5",
-    "plt": "None",
-    "dlc": "none",
-    "eff": [
-     {
-      "idx": 41,
-      "nam": "Damage Health",
-      "val": 1,
-      "mag": "100",
-      "lix": false
-     },
-     {
-      "idx": 32,
-      "nam": "Damage Magicka",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 4,
-      "nam": "Damage Stamina",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     },
-     {
-      "idx": 6,
-      "nam": "Damage Magicka Regen",
-      "val": 1,
-      "mag": 1,
-      "lix": false
-     }
-    ],
-    "src": "You may only receive this ingredient once during the Dark Brotherhood quest line."
-   },
-   {
-    "idx": 102,
     "nam": "Ash Creep Cluster",
     "val": "20",
     "wgt": "0.25",
@@ -3995,28 +210,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 4,
+      "idx": 5,
       "nam": "Damage Stamina",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 36,
+      "idx": 29,
       "nam": "Invisibility",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 26,
+      "idx": 40,
       "nam": "Resist Fire",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 16,
+      "idx": 12,
       "nam": "Fortify Destruction",
       "val": 1,
       "mag": 1,
@@ -4026,7 +241,7 @@ function getIdx() { return({
     "src": "Harvested from creep cluster plants unique to Solstheim."
    },
    {
-    "idx": 103,
+    "idx": 3,
     "nam": "Ash Hopper Jelly",
     "val": "20",
     "wgt": "0.25",
@@ -4034,28 +249,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 21,
+      "idx": 45,
       "nam": "Restore Health",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 15,
+      "idx": 17,
       "nam": "Fortify Light Armor",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 23,
+      "idx": 44,
       "nam": "Resist Shock",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 0,
+      "idx": 51,
       "nam": "Weakness to Frost",
       "val": 1,
       "mag": 1,
@@ -4065,7 +280,7 @@ function getIdx() { return({
     "src": "Collected from dead ash hoppers."
    },
    {
-    "idx": 104,
+    "idx": 4,
     "nam": "Ashen Grass Pod",
     "val": "1",
     "wgt": "0.1",
@@ -4073,28 +288,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 26,
+      "idx": 40,
       "nam": "Resist Fire",
       "val": 1,
       "mag": "1.34",
       "lix": true
      },
      {
-      "idx": 13,
+      "idx": 54,
       "nam": "Weakness to Shock",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 47,
+      "idx": 18,
       "nam": "Fortify Lockpicking",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 1,
+      "idx": 25,
       "nam": "Fortify Sneak",
       "val": 1,
       "mag": 1,
@@ -4104,7 +319,358 @@ function getIdx() { return({
     "src": "Harvested from spiky grass plants unique to Solstheim."
    },
    {
-    "idx": 105,
+    "idx": 5,
+    "nam": "Bear Claws",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": "0.8",
+      "lix": true
+     },
+     {
+      "idx": 14,
+      "nam": "Fortify Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 21,
+      "nam": "Fortify One-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from various types of dead Bears."
+   },
+   {
+    "idx": 6,
+    "nam": "Bee",
+    "val": "3",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 36,
+      "nam": "Ravage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 39,
+      "nam": "Regenerate Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 54,
+      "nam": "Weakness to Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from beehives and by catching Bees."
+   },
+   {
+    "idx": 7,
+    "nam": "Beehive Husk",
+    "val": "5",
+    "wgt": "1",
+    "plt": "None (Common)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": "0.5",
+      "lix": true
+     },
+     {
+      "idx": 17,
+      "nam": "Fortify Light Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 25,
+      "nam": "Fortify Sneak",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 12,
+      "nam": "Fortify Destruction",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from beehives."
+   },
+   {
+    "idx": 8,
+    "nam": "Berit's Ashes",
+    "val": "5",
+    "wgt": "0.2",
+    "plt": "None",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 40,
+      "nam": "Resist Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 36,
+      "nam": "Ravage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "This ingredient is given as a quest item. Its effects are all identical to standard Bone Meal."
+   },
+   {
+    "idx": 9,
+    "nam": "Bleeding Crown",
+    "val": "10",
+    "wgt": "0.3",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 50,
+      "nam": "Weakness to Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 9,
+      "nam": "Fortify Block",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 53,
+      "nam": "Weakness to Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Bleeding Crown, a mushroom found in various caves."
+   },
+   {
+    "idx": 10,
+    "nam": "Blisterwort",
+    "val": "12",
+    "wgt": "0.2",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 28,
+      "nam": "Frenzy",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": "0.6",
+      "lix": true
+     },
+     {
+      "idx": 24,
+      "nam": "Fortify Smithing",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Blisterwort mushrooms found in various caves."
+   },
+   {
+    "idx": 11,
+    "nam": "Blue Butterfly Wing",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 13,
+      "nam": "Fortify Enchanting",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected by catching Blue Butterflies. Often found during daylight hours near flowering plants."
+   },
+   {
+    "idx": 12,
+    "nam": "Blue Dartwing",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 44,
+      "nam": "Resist Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 22,
+      "nam": "Fortify Pickpocket",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 6,
+      "nam": "Fear",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected by catching Dragonflies found near rivers and streams below the snow line."
+   },
+   {
+    "idx": 13,
+    "nam": "Blue Mountain Flower",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 14,
+      "nam": "Fortify Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from the blue variety of Mountain Flower, found throughout Skyrim."
+   },
+   {
+    "idx": 14,
     "nam": "Boar Tusk",
     "val": "20",
     "wgt": "0.5",
@@ -4112,28 +678,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 35,
+      "idx": 26,
       "nam": "Fortify Stamina",
       "val": "1.25",
       "mag": "5.9",
       "lix": true
      },
      {
-      "idx": 9,
+      "idx": 14,
       "nam": "Fortify Health",
       "val": "5.9",
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 18,
+      "idx": 9,
       "nam": "Fortify Block",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 20,
+      "idx": 28,
       "nam": "Frenzy",
       "val": 1,
       "mag": 1,
@@ -4143,7 +709,85 @@ function getIdx() { return({
     "src": "Collected from dead bristlebacks and rieklings."
    },
    {
-    "idx": 106,
+    "idx": 15,
+    "nam": "Bone Meal",
+    "val": "5",
+    "wgt": "0.5",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 40,
+      "nam": "Resist Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 36,
+      "nam": "Ravage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from undead such as skeletons, and Draugr."
+   },
+   {
+    "idx": 16,
+    "nam": "Briar Heart",
+    "val": "20",
+    "wgt": "0.5",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 9,
+      "nam": "Fortify Block",
+      "val": 1,
+      "mag": "0.5",
+      "lix": true
+     },
+     {
+      "idx": 33,
+      "nam": "Paralysis",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from Forsworn Briarhearts."
+   },
+   {
+    "idx": 17,
     "nam": "Burnt Spriggan Wood",
     "val": "20",
     "wgt": "0.5",
@@ -4151,28 +795,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 17,
+      "idx": 50,
       "nam": "Weakness to Fire",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 51,
+      "idx": 7,
       "nam": "Fortify Alteration",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 6,
+      "idx": 2,
       "nam": "Damage Magicka Regen",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 43,
+      "idx": 48,
       "nam": "Slow",
       "val": 1,
       "mag": 1,
@@ -4182,7 +826,592 @@ function getIdx() { return({
     "src": "Collected from dead burnt spriggans."
    },
    {
-    "idx": 107,
+    "idx": 18,
+    "nam": "Butterfly Wing",
+    "val": "3",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 8,
+      "nam": "Fortify Barter",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 32,
+      "nam": "Lingering Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from catching Monarch Butterflies. Often found during daylight hours near flowering plants."
+   },
+   {
+    "idx": 19,
+    "nam": "Canis Root",
+    "val": "5",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 21,
+      "nam": "Fortify One-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 20,
+      "nam": "Fortify Marksman",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 33,
+      "nam": "Paralysis",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from Canis Root, found in The Rift and Hjaalmarch."
+   },
+   {
+    "idx": 20,
+    "nam": "Charred Skeever Hide",
+    "val": "1",
+    "wgt": "0.5",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 0,
+      "nam": "Cure Disease",
+      "val": "0.36",
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Food, collected from dead Skeevers found on roasting spits."
+   },
+   {
+    "idx": 21,
+    "nam": "Chaurus Eggs",
+    "val": "10",
+    "wgt": "0.2",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 53,
+      "nam": "Weakness to Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 26,
+      "nam": "Fortify Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 29,
+      "nam": "Invisibility",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from Chaurus Egg Sacs, found in Falmer caves."
+   },
+   {
+    "idx": 22,
+    "nam": "Chaurus Hunter Antennae",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None",
+    "dlc": "DG",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 13,
+      "nam": "Fortify Enchanting",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Chaurus Hunters and Chaurus Hunter Fledglings."
+   },
+   {
+    "idx": 23,
+    "nam": "Chicken's Egg",
+    "val": "2",
+    "wgt": "0.5",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 49,
+      "nam": "Waterbreathing",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 32,
+      "nam": "Lingering Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Food, harvested from Chicken nests in various farms."
+   },
+   {
+    "idx": 24,
+    "nam": "Creep Cluster",
+    "val": "1",
+    "wgt": "0.2",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 10,
+      "nam": "Fortify Carry Weight",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 52,
+      "nam": "Weakness to Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from Creep Cluster, found in the volcanic tundra of Eastmarch."
+   },
+   {
+    "idx": 25,
+    "nam": "Crimson Nirnroot",
+    "val": "10",
+    "wgt": "0.2",
+    "plt": "None",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": "3",
+      "lix": false
+     },
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": "3",
+      "lix": false
+     },
+     {
+      "idx": 29,
+      "nam": "Invisibility",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Crimson Nirnroot, found in Blackreach, needed for the quest A Return To Your Roots."
+   },
+   {
+    "idx": 26,
+    "nam": "Cyrodilic Spadetail",
+    "val": "15",
+    "wgt": "0.25",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 23,
+      "nam": "Fortify Restoration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 6,
+      "nam": "Fear",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 34,
+      "nam": "Ravage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected by catching Cyrodilic Spadetail fish."
+   },
+   {
+    "idx": 27,
+    "nam": "Daedra Heart",
+    "val": "250",
+    "wgt": "0.5",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 6,
+      "nam": "Fear",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from dead Dremora."
+   },
+   {
+    "idx": 28,
+    "nam": "Deathbell",
+    "val": "4",
+    "wgt": "0.1",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": "1.5",
+      "lix": false
+     },
+     {
+      "idx": 36,
+      "nam": "Ravage Stamina",
+      "val": "2.1",
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 48,
+      "nam": "Slow",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 53,
+      "nam": "Weakness to Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from Deathbell, found in Hjaalmarch."
+   },
+   {
+    "idx": 29,
+    "nam": "Dragon's Tongue",
+    "val": "5",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 40,
+      "nam": "Resist Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 8,
+      "nam": "Fortify Barter",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 16,
+      "nam": "Fortify Illusion",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 27,
+      "nam": "Fortify Two-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Dragon's Tongue, found in the volcanic tundra of Eastmarch."
+   },
+   {
+    "idx": 30,
+    "nam": "Dwarven Oil",
+    "val": "15",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 52,
+      "nam": "Weakness to Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 16,
+      "nam": "Fortify Illusion",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 38,
+      "nam": "Regenerate Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from destroyed Dwarven Automatons, found in Dwarven Ruins."
+   },
+   {
+    "idx": 31,
+    "nam": "Ectoplasm",
+    "val": "25",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 12,
+      "nam": "Fortify Destruction",
+      "val": 1,
+      "mag": "0.8",
+      "lix": true
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from undead Ghosts."
+   },
+   {
+    "idx": 32,
+    "nam": "Elves Ear",
+    "val": "10",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 20,
+      "nam": "Fortify Marksman",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 51,
+      "nam": "Weakness to Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 40,
+      "nam": "Resist Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Dried Elves Ear bunches found in homes and camps."
+   },
+   {
+    "idx": 33,
     "nam": "Emperor Parasol Moss",
     "val": "1",
     "wgt": "0.25",
@@ -4190,28 +1419,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 41,
+      "idx": 1,
       "nam": "Damage Health",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 29,
+      "idx": 19,
       "nam": "Fortify Magicka",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 50,
+      "idx": 37,
       "nam": "Regenerate Health",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 45,
+      "idx": 27,
       "nam": "Fortify Two-handed",
       "val": 1,
       "mag": 1,
@@ -4221,7 +1450,124 @@ function getIdx() { return({
     "src": "Harvested from emperor parasol moss plants near Tel Mithryn."
    },
    {
-    "idx": 108,
+    "idx": 34,
+    "nam": "Eye of Sabre Cat",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 34,
+      "nam": "Ravage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Sabre Cats."
+   },
+   {
+    "idx": 35,
+    "nam": "Falmer Ear",
+    "val": "10",
+    "wgt": "0.2",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 28,
+      "nam": "Frenzy",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 18,
+      "nam": "Fortify Lockpicking",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Falmer."
+   },
+   {
+    "idx": 36,
+    "nam": "Farengar's Frost Salt",
+    "val": "100",
+    "wgt": "0.25",
+    "plt": "None",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 50,
+      "nam": "Weakness to Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "This ingredient is given as a quest item. It is identical to standard Frost Salts, except for its name."
+   },
+   {
+    "idx": 37,
     "nam": "Felsaad Tern Feathers",
     "val": "15",
     "wgt": "0.1",
@@ -4229,28 +1575,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 21,
+      "idx": 45,
       "nam": "Restore Health",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 15,
+      "idx": 17,
       "nam": "Fortify Light Armor",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 34,
+      "idx": 0,
       "nam": "Cure Disease",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 19,
+      "idx": 42,
       "nam": "Resist Magic",
       "val": 1,
       "mag": 1,
@@ -4260,7 +1606,1333 @@ function getIdx() { return({
     "src": "Collected from dead Felsaad terns."
    },
    {
-    "idx": 109,
+    "idx": 38,
+    "nam": "Fine-Cut Void Salts",
+    "val": "125",
+    "wgt": "0.2",
+    "plt": "None",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 54,
+      "nam": "Weakness to Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "This ingredient is given as a quest item. It is identical to standard Void Salts, except for its name."
+   },
+   {
+    "idx": 39,
+    "nam": "Fire Salts",
+    "val": "50",
+    "wgt": "0.25",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 51,
+      "nam": "Weakness to Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 40,
+      "nam": "Resist Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 38,
+      "nam": "Regenerate Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Flame Atronachs, a type of daedra."
+   },
+   {
+    "idx": 40,
+    "nam": "Fly Amanita",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 40,
+      "nam": "Resist Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 27,
+      "nam": "Fortify Two-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 28,
+      "nam": "Frenzy",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 39,
+      "nam": "Regenerate Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Fly Amanita mushrooms, found in various caves."
+   },
+   {
+    "idx": 41,
+    "nam": "Frost Mirriam",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 25,
+      "nam": "Fortify Sneak",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 35,
+      "nam": "Ravage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from Dried Frost Mirriam bunches found in homes and camps."
+   },
+   {
+    "idx": 42,
+    "nam": "Frost Salts",
+    "val": "100",
+    "wgt": "0.25",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 50,
+      "nam": "Weakness to Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Frost Atronachs, a type of daedra."
+   },
+   {
+    "idx": 43,
+    "nam": "Garlic",
+    "val": "1",
+    "wgt": "0.25",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 26,
+      "nam": "Fortify Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 38,
+      "nam": "Regenerate Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 37,
+      "nam": "Regenerate Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Food. Can also be harvested from Garlic Braids."
+   },
+   {
+    "idx": 44,
+    "nam": "Giant's Toe",
+    "val": "20",
+    "wgt": "1",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 14,
+      "nam": "Fortify Health",
+      "val": "5.9",
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 10,
+      "nam": "Fortify Carry Weight",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from dead Giants, which can be found in Giant Camps."
+   },
+   {
+    "idx": 45,
+    "nam": "Giant Lichen",
+    "val": "5",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 54,
+      "nam": "Weakness to Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 34,
+      "nam": "Ravage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 53,
+      "nam": "Weakness to Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Giant Lichen, found in Hjaalmarch."
+   },
+   {
+    "idx": 46,
+    "nam": "Gleamblossom",
+    "val": "5",
+    "wgt": "0.1",
+    "plt": "None",
+    "dlc": "DG",
+    "eff": [
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 6,
+      "nam": "Fear",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 37,
+      "nam": "Regenerate Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 33,
+      "nam": "Paralysis",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from the plant of the same name."
+   },
+   {
+    "idx": 47,
+    "nam": "Glow Dust",
+    "val": "20",
+    "wgt": "0.5",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 12,
+      "nam": "Fortify Destruction",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 44,
+      "nam": "Resist Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Wisps and Wispmothers."
+   },
+   {
+    "idx": 48,
+    "nam": "Glowing Mushroom",
+    "val": "5",
+    "wgt": "0.2",
+    "plt": "None",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 44,
+      "nam": "Resist Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 12,
+      "nam": "Fortify Destruction",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 24,
+      "nam": "Fortify Smithing",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 14,
+      "nam": "Fortify Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Glowing Mushrooms, found in various caves."
+   },
+   {
+    "idx": 49,
+    "nam": "Grass Pod",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 35,
+      "nam": "Ravage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 7,
+      "nam": "Fortify Alteration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Spiky Grass, found in northern regions of Skyrim."
+   },
+   {
+    "idx": 50,
+    "nam": "Hagraven Claw",
+    "val": "20",
+    "wgt": "0.25",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 31,
+      "nam": "Lingering Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 13,
+      "nam": "Fortify Enchanting",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 8,
+      "nam": "Fortify Barter",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Hagravens."
+   },
+   {
+    "idx": 51,
+    "nam": "Hagraven Feathers",
+    "val": "20",
+    "wgt": "0.1",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 28,
+      "nam": "Frenzy",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 54,
+      "nam": "Weakness to Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from dead Hagravens. Can also be found scattered around their sleeping areas."
+   },
+   {
+    "idx": 52,
+    "nam": "Hanging Moss",
+    "val": "1",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 14,
+      "nam": "Fortify Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 21,
+      "nam": "Fortify One-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Hanging Moss."
+   },
+   {
+    "idx": 53,
+    "nam": "Hawk's Egg",
+    "val": "5",
+    "wgt": "0.5",
+    "plt": "None",
+    "dlc": "HF",
+    "eff": [
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 49,
+      "nam": "Waterbreathing",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 32,
+      "nam": "Lingering Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from Hawk nests."
+   },
+   {
+    "idx": 54,
+    "nam": "Hawk Beak",
+    "val": "15",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 10,
+      "nam": "Fortify Carry Weight",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 44,
+      "nam": "Resist Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Hawks."
+   },
+   {
+    "idx": 55,
+    "nam": "Hawk Feathers",
+    "val": "15",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 0,
+      "nam": "Cure Disease",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 17,
+      "nam": "Fortify Light Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 21,
+      "nam": "Fortify One-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 25,
+      "nam": "Fortify Sneak",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Hawks."
+   },
+   {
+    "idx": 56,
+    "nam": "Histcarp",
+    "val": "6",
+    "wgt": "0.25",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 49,
+      "nam": "Waterbreathing",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected by catching Histcarp fish."
+   },
+   {
+    "idx": 57,
+    "nam": "Honeycomb",
+    "val": "5",
+    "wgt": "1",
+    "plt": "None (Common)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 9,
+      "nam": "Fortify Block",
+      "val": 1,
+      "mag": "0.5",
+      "lix": true
+     },
+     {
+      "idx": 17,
+      "nam": "Fortify Light Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 36,
+      "nam": "Ravage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Food. Collected from beehives."
+   },
+   {
+    "idx": 58,
+    "nam": "Human Flesh",
+    "val": "1",
+    "wgt": "0.25",
+    "plt": "None",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 33,
+      "nam": "Paralysis",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 25,
+      "nam": "Fortify Sneak",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Cannot be harvested or collected; with the Dawnguard plug-in installed, several respawning samples can be found in Volkihar Keep."
+   },
+   {
+    "idx": 59,
+    "nam": "Human Heart",
+    "val": "0",
+    "wgt": "1",
+    "plt": "None",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 28,
+      "nam": "Frenzy",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Cannot be harvested or collected; limited number of samples available."
+   },
+   {
+    "idx": 60,
+    "nam": "Ice Wraith Teeth",
+    "val": "30",
+    "wgt": "0.25",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 51,
+      "nam": "Weakness to Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 15,
+      "nam": "Fortify Heavy Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 29,
+      "nam": "Invisibility",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 50,
+      "nam": "Weakness to Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from Ice Wraiths."
+   },
+   {
+    "idx": 61,
+    "nam": "Imp Stool",
+    "val": "0",
+    "wgt": "0.3",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 30,
+      "nam": "Lingering Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 33,
+      "nam": "Paralysis",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": "0.6",
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Imp Stool mushrooms, found in various caves."
+   },
+   {
+    "idx": 62,
+    "nam": "Jarrin Root",
+    "val": "10",
+    "wgt": "0.5",
+    "plt": "None",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": "100",
+      "lix": false
+     },
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "You may only receive this ingredient once during the Dark Brotherhood quest line."
+   },
+   {
+    "idx": 63,
+    "nam": "Jazbay Grapes",
+    "val": "1",
+    "wgt": "0.2",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 52,
+      "nam": "Weakness to Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 38,
+      "nam": "Regenerate Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 34,
+      "nam": "Ravage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from Jazbay vines, found in the volcanic tundra of Eastmarch."
+   },
+   {
+    "idx": 64,
+    "nam": "Juniper Berries",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 50,
+      "nam": "Weakness to Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 20,
+      "nam": "Fortify Marksman",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 37,
+      "nam": "Regenerate Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from Juniper shrubs, common in The Reach."
+   },
+   {
+    "idx": 65,
+    "nam": "Large Antlers",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 26,
+      "nam": "Fortify Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 48,
+      "nam": "Slow",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from dead male Elk."
+   },
+   {
+    "idx": 66,
+    "nam": "Lavender",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 26,
+      "nam": "Fortify Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 35,
+      "nam": "Ravage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 11,
+      "nam": "Fortify Conjuration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Lavender, most common in Whiterun Hold."
+   },
+   {
+    "idx": 67,
+    "nam": "Luna Moth Wing",
+    "val": "5",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 17,
+      "nam": "Fortify Light Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 37,
+      "nam": "Regenerate Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 29,
+      "nam": "Invisibility",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected by catching Luna Moths. Often found near flowers after dark."
+   },
+   {
+    "idx": 68,
+    "nam": "Moon Sugar",
+    "val": "50",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 50,
+      "nam": "Weakness to Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 38,
+      "nam": "Regenerate Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Cannot be collected or harvested. Can be purchased from the Khajiit Traders."
+   },
+   {
+    "idx": 69,
+    "nam": "Mora Tapinella",
+    "val": "4",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 30,
+      "nam": "Lingering Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 39,
+      "nam": "Regenerate Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 16,
+      "nam": "Fortify Illusion",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Mora Tapinella mushrooms, found growing on dead trees."
+   },
+   {
+    "idx": 70,
+    "nam": "Mudcrab Chitin",
+    "val": "2",
+    "wgt": "0.25",
+    "plt": "None (Common)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 0,
+      "nam": "Cure Disease",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 40,
+      "nam": "Resist Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Mudcrabs, found in or near bodies of water."
+   },
+   {
+    "idx": 71,
+    "nam": "Namira's Rot",
+    "val": "0",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 18,
+      "nam": "Fortify Lockpicking",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 6,
+      "nam": "Fear",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 37,
+      "nam": "Regenerate Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Namira's Rot mushrooms, found in various caves."
+   },
+   {
+    "idx": 72,
     "nam": "Netch Jelly",
     "val": "20",
     "wgt": "0.5",
@@ -4268,28 +2940,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 28,
+      "idx": 33,
       "nam": "Paralysis",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 39,
+      "idx": 10,
       "nam": "Fortify Carry Weight",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 8,
+      "idx": 47,
       "nam": "Restore Stamina",
       "val": 1,
       "mag": "2",
       "lix": true
      },
      {
-      "idx": 25,
+      "idx": 6,
       "nam": "Fear",
       "val": 1,
       "mag": 1,
@@ -4299,7 +2971,631 @@ function getIdx() { return({
     "src": "Collected from dead netch."
    },
    {
-    "idx": 110,
+    "idx": 73,
+    "nam": "Nightshade",
+    "val": "8",
+    "wgt": "0.1",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 32,
+      "nam": "Lingering Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 12,
+      "nam": "Fortify Destruction",
+      "val": 1,
+      "mag": "0.8",
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Nightshade, found growing throughout Skyrim."
+   },
+   {
+    "idx": 74,
+    "nam": "Nirnroot",
+    "val": "10",
+    "wgt": "0.2",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": "12.6",
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 29,
+      "nam": "Invisibility",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Nirnroot, found near bodies of water throughout Skyrim."
+   },
+   {
+    "idx": 75,
+    "nam": "Nordic Barnacle",
+    "val": "5",
+    "wgt": "0.2",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 3,
+      "nam": "Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 49,
+      "nam": "Waterbreathing",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 37,
+      "nam": "Regenerate Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 22,
+      "nam": "Fortify Pickpocket",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Nordic Barnacle Clusters, found in or near water."
+   },
+   {
+    "idx": 76,
+    "nam": "Orange Dartwing",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "None (Common)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 35,
+      "nam": "Ravage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 22,
+      "nam": "Fortify Pickpocket",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 30,
+      "nam": "Lingering Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected by catching Dragonflies found near rivers and streams below the snow line."
+   },
+   {
+    "idx": 77,
+    "nam": "Pearl",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 9,
+      "nam": "Fortify Block",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 44,
+      "nam": "Resist Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim."
+   },
+   {
+    "idx": 78,
+    "nam": "Pine Thrush Egg",
+    "val": "2",
+    "wgt": "0.5",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 18,
+      "nam": "Fortify Lockpicking",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 53,
+      "nam": "Weakness to Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 44,
+      "nam": "Resist Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from bird nests in forested regions, in particular The Rift."
+   },
+   {
+    "idx": 79,
+    "nam": "Poison Bloom",
+    "val": "5",
+    "wgt": "0.25",
+    "plt": "None",
+    "dlc": "DG",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": "1.5",
+      "lix": false
+     },
+     {
+      "idx": 48,
+      "nam": "Slow",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 10,
+      "nam": "Fortify Carry Weight",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 6,
+      "nam": "Fear",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from the plant of the same name."
+   },
+   {
+    "idx": 80,
+    "nam": "Powdered Mammoth Tusk",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 25,
+      "nam": "Fortify Sneak",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 50,
+      "nam": "Weakness to Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 6,
+      "nam": "Fear",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Cannot be harvested or collected; only readily available after the Merchant perk has been unlocked."
+   },
+   {
+    "idx": 81,
+    "nam": "Purple Mountain Flower",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 25,
+      "nam": "Fortify Sneak",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 31,
+      "nam": "Lingering Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from the purple variety of Mountain Flower."
+   },
+   {
+    "idx": 82,
+    "nam": "Red Mountain Flower",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 35,
+      "nam": "Ravage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from the red variety of Mountain Flower."
+   },
+   {
+    "idx": 83,
+    "nam": "River Betty",
+    "val": "15",
+    "wgt": "0.25",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": "2.5",
+      "lix": false
+     },
+     {
+      "idx": 7,
+      "nam": "Fortify Alteration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 48,
+      "nam": "Slow",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 10,
+      "nam": "Fortify Carry Weight",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected by catching River Betty fish."
+   },
+   {
+    "idx": 84,
+    "nam": "Rock Warbler Egg",
+    "val": "2",
+    "wgt": "0.5",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 21,
+      "nam": "Fortify One-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 52,
+      "nam": "Weakness to Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from bird nests in rocky regions, in particular The Reach."
+   },
+   {
+    "idx": 85,
+    "nam": "Sabre Cat Tooth",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 15,
+      "nam": "Fortify Heavy Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 24,
+      "nam": "Fortify Smithing",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 53,
+      "nam": "Weakness to Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from dead Sabre cats."
+   },
+   {
+    "idx": 86,
+    "nam": "Salmon Roe",
+    "val": "5",
+    "wgt": "0.2",
+    "plt": "None",
+    "dlc": "HF",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": "0.4",
+      "lix": true
+     },
+     {
+      "idx": 49,
+      "nam": "Waterbreathing",
+      "val": "15.4",
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": "12.5",
+      "mag": "1.05",
+      "lix": true
+     },
+     {
+      "idx": 38,
+      "nam": "Regenerate Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from jumping Salmon."
+   },
+   {
+    "idx": 87,
+    "nam": "Salt Pile",
+    "val": "2",
+    "wgt": "0.2",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 52,
+      "nam": "Weakness to Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 23,
+      "nam": "Fortify Restoration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 48,
+      "nam": "Slow",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 38,
+      "nam": "Regenerate Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Food. Cannot be harvested or collected, but is commonly found in barrels and sacks."
+   },
+   {
+    "idx": 88,
+    "nam": "Scaly Pholiota",
+    "val": "4",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 52,
+      "nam": "Weakness to Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 16,
+      "nam": "Fortify Illusion",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 39,
+      "nam": "Regenerate Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 10,
+      "nam": "Fortify Carry Weight",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Scaly Pholiota mushrooms, found growing on dead trees."
+   },
+   {
+    "idx": 89,
     "nam": "Scathecraw",
     "val": "1",
     "wgt": "0.1",
@@ -4307,28 +3603,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 42,
+      "idx": 34,
       "nam": "Ravage Health",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 11,
+      "idx": 36,
       "nam": "Ravage Stamina",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 49,
+      "idx": 35,
       "nam": "Ravage Magicka",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 54,
+      "idx": 30,
       "nam": "Lingering Damage Health",
       "val": 1,
       "mag": 1,
@@ -4338,7 +3634,280 @@ function getIdx() { return({
     "src": "Harvested from scathecraw plants."
    },
    {
-    "idx": 111,
+    "idx": 90,
+    "nam": "Silverside Perch",
+    "val": "15",
+    "wgt": "0.25",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 34,
+      "nam": "Ravage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected by catching Silverside Perch fish."
+   },
+   {
+    "idx": 91,
+    "nam": "Skeever Tail",
+    "val": "3",
+    "wgt": "0.2",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 34,
+      "nam": "Ravage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 17,
+      "nam": "Fortify Light Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Skeevers."
+   },
+   {
+    "idx": 92,
+    "nam": "Slaughterfish Egg",
+    "val": "3",
+    "wgt": "0.2",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 22,
+      "nam": "Fortify Pickpocket",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 30,
+      "nam": "Lingering Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 26,
+      "nam": "Fortify Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from Slaughterfish Egg Nests, found in or near water."
+   },
+   {
+    "idx": 93,
+    "nam": "Slaughterfish Scales",
+    "val": "3",
+    "wgt": "0.1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 30,
+      "nam": "Lingering Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 15,
+      "nam": "Fortify Heavy Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 9,
+      "nam": "Fortify Block",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Slaughterfish."
+   },
+   {
+    "idx": 94,
+    "nam": "Small Antlers",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Common)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 53,
+      "nam": "Weakness to Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 23,
+      "nam": "Fortify Restoration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 32,
+      "nam": "Lingering Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from dead female Elk."
+   },
+   {
+    "idx": 95,
+    "nam": "Small Pearl",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 21,
+      "nam": "Fortify One-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 23,
+      "nam": "Fortify Restoration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim."
+   },
+   {
+    "idx": 96,
+    "nam": "Snowberries",
+    "val": "4",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 40,
+      "nam": "Resist Fire",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 13,
+      "nam": "Fortify Enchanting",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 44,
+      "nam": "Resist Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Snowberry bushes, found in snowy regions of Skyrim."
+   },
+   {
+    "idx": 97,
     "nam": "Spawn Ash",
     "val": "20",
     "wgt": "0.1",
@@ -4346,28 +3915,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 11,
+      "idx": 36,
       "nam": "Ravage Stamina",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 26,
+      "idx": 40,
       "nam": "Resist Fire",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 7,
+      "idx": 13,
       "nam": "Fortify Enchanting",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 49,
+      "idx": 35,
       "nam": "Ravage Magicka",
       "val": 1,
       "mag": 1,
@@ -4377,7 +3946,241 @@ function getIdx() { return({
     "src": "Collected from dead ash spawn."
    },
    {
-    "idx": 112,
+    "idx": 98,
+    "nam": "Spider Egg",
+    "val": "5",
+    "wgt": "0.2",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 5,
+      "nam": "Damage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 18,
+      "nam": "Fortify Lockpicking",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 20,
+      "nam": "Fortify Marksman",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from spider Egg Sacs and Web Sacs."
+   },
+   {
+    "idx": 99,
+    "nam": "Spriggan Sap",
+    "val": "15",
+    "wgt": "0.2",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 2,
+      "nam": "Damage Magicka Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 13,
+      "nam": "Fortify Enchanting",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 24,
+      "nam": "Fortify Smithing",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 7,
+      "nam": "Fortify Alteration",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Cannot be harvested or collected; best source is merchants."
+   },
+   {
+    "idx": 100,
+    "nam": "Swamp Fungal Pod",
+    "val": "5",
+    "wgt": "0.25",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 44,
+      "nam": "Resist Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 31,
+      "nam": "Lingering Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 33,
+      "nam": "Paralysis",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Swamp Fungal Pod, common in the tundra marsh of Hjaalmarch."
+   },
+   {
+    "idx": 101,
+    "nam": "Taproot",
+    "val": "15",
+    "wgt": "0.5",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 52,
+      "nam": "Weakness to Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 16,
+      "nam": "Fortify Illusion",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 38,
+      "nam": "Regenerate Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Spriggans."
+   },
+   {
+    "idx": 102,
+    "nam": "Thistle Branch",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 41,
+      "nam": "Resist Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 36,
+      "nam": "Ravage Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": "0.75",
+      "lix": true
+     },
+     {
+      "idx": 15,
+      "nam": "Fortify Heavy Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Thistle."
+   },
+   {
+    "idx": 103,
+    "nam": "Torchbug Thorax",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "None (Common)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 31,
+      "nam": "Lingering Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 52,
+      "nam": "Weakness to Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 26,
+      "nam": "Fortify Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected by catching Torchbugs. Found below the snowline after dark."
+   },
+   {
+    "idx": 104,
     "nam": "Trama Root",
     "val": "1",
     "wgt": "0.2",
@@ -4385,28 +4188,28 @@ function getIdx() { return({
     "dlc": "DB",
     "eff": [
      {
-      "idx": 13,
+      "idx": 54,
       "nam": "Weakness to Shock",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 39,
+      "idx": 10,
       "nam": "Fortify Carry Weight",
       "val": 1,
       "mag": 1,
       "lix": true
      },
      {
-      "idx": 32,
+      "idx": 3,
       "nam": "Damage Magicka",
       "val": 1,
       "mag": 1,
       "lix": false
      },
      {
-      "idx": 43,
+      "idx": 48,
       "nam": "Slow",
       "val": 1,
       "mag": 1,
@@ -4414,352 +4217,434 @@ function getIdx() { return({
      }
     ],
     "src": "Harvested from trama root plants."
+   },
+   {
+    "idx": 105,
+    "nam": "Troll Fat",
+    "val": "15",
+    "wgt": "1",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 27,
+      "nam": "Fortify Two-handed",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 28,
+      "nam": "Frenzy",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Collected from dead Trolls."
+   },
+   {
+    "idx": 106,
+    "nam": "Tundra Cotton",
+    "val": "1",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 9,
+      "nam": "Fortify Block",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 8,
+      "nam": "Fortify Barter",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Harvested from Tundra Cotton, found in Whiterun Hold."
+   },
+   {
+    "idx": 107,
+    "nam": "Vampire Dust",
+    "val": "25",
+    "wgt": "0.2",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 29,
+      "nam": "Invisibility",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 37,
+      "nam": "Regenerate Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 0,
+      "nam": "Cure Disease",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Vampires."
+   },
+   {
+    "idx": 108,
+    "nam": "Void Salts",
+    "val": "125",
+    "wgt": "0.2",
+    "plt": "Rare",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 54,
+      "nam": "Weakness to Shock",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 1,
+      "nam": "Damage Health",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 19,
+      "nam": "Fortify Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Storm Atronachs."
+   },
+   {
+    "idx": 109,
+    "nam": "Wheat",
+    "val": "5",
+    "wgt": "0.1",
+    "plt": "Common",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 45,
+      "nam": "Restore Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 14,
+      "nam": "Fortify Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 31,
+      "nam": "Lingering Damage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Food. Harvested from wheat bushels, found in various farms."
+   },
+   {
+    "idx": 110,
+    "nam": "White Cap",
+    "val": "0",
+    "wgt": "0.3",
+    "plt": "Uncommon",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 51,
+      "nam": "Weakness to Frost",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     },
+     {
+      "idx": 15,
+      "nam": "Fortify Heavy Armor",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 46,
+      "nam": "Restore Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 35,
+      "nam": "Ravage Magicka",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from White Cap mushrooms, found in various caves."
+   },
+   {
+    "idx": 111,
+    "nam": "Wisp Wrappings",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None (Uncommon)",
+    "dlc": "none",
+    "eff": [
+     {
+      "idx": 47,
+      "nam": "Restore Stamina",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 12,
+      "nam": "Fortify Destruction",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 10,
+      "nam": "Fortify Carry Weight",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 42,
+      "nam": "Resist Magic",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     }
+    ],
+    "src": "Collected from dead Wispmothers."
+   },
+   {
+    "idx": 112,
+    "nam": "Yellow Mountain Flower",
+    "val": "2",
+    "wgt": "0.1",
+    "plt": "None",
+    "dlc": "DG",
+    "eff": [
+     {
+      "idx": 43,
+      "nam": "Resist Poison",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 23,
+      "nam": "Fortify Restoration",
+      "val": 1,
+      "mag": "1.25",
+      "lix": true
+     },
+     {
+      "idx": 14,
+      "nam": "Fortify Health",
+      "val": 1,
+      "mag": 1,
+      "lix": true
+     },
+     {
+      "idx": 4,
+      "nam": "Damage Stamina Regen",
+      "val": 1,
+      "mag": 1,
+      "lix": false
+     }
+    ],
+    "src": "Harvested from the yellow variety of Mountain Flower."
    }
   ],
-  "num": {
-   "Abecean Longfin": 0,
-   "Ancestor Moth Wing": 1,
-   "Bear Claws": 2,
-   "Bee": 3,
-   "Beehive Husk": 4,
-   "Bleeding Crown": 5,
-   "Blisterwort": 6,
-   "Blue Butterfly Wing": 7,
-   "Blue Dartwing": 8,
-   "Blue Mountain Flower": 9,
-   "Bone Meal": 10,
-   "Briar Heart": 11,
-   "Butterfly Wing": 12,
-   "Canis Root": 13,
-   "Charred Skeever Hide": 14,
-   "Chaurus Eggs": 15,
-   "Chaurus Hunter Antennae": 16,
-   "Chicken's Egg": 17,
-   "Creep Cluster": 18,
-   "Crimson Nirnroot": 19,
-   "Cyrodilic Spadetail": 20,
-   "Daedra Heart": 21,
-   "Deathbell": 22,
-   "Dragon's Tongue": 23,
-   "Dwarven Oil": 24,
-   "Ectoplasm": 25,
-   "Elves Ear": 26,
-   "Eye of Sabre Cat": 27,
-   "Falmer Ear": 28,
-   "Fire Salts": 29,
-   "Fly Amanita": 30,
-   "Frost Mirriam": 31,
-   "Frost Salts": 32,
-   "Garlic": 33,
-   "Giant Lichen": 34,
-   "Giant's Toe": 35,
-   "Gleamblossom": 36,
-   "Glow Dust": 37,
-   "Glowing Mushroom": 38,
-   "Grass Pod": 39,
-   "Hagraven Claw": 40,
-   "Hagraven Feathers": 41,
-   "Hanging Moss": 42,
-   "Hawk Beak": 43,
-   "Hawk Feathers": 44,
-   "Hawk's Egg": 45,
-   "Histcarp": 46,
-   "Honeycomb": 47,
-   "Human Flesh": 48,
-   "Human Heart": 49,
-   "Ice Wraith Teeth": 50,
-   "Imp Stool": 51,
-   "Jazbay Grapes": 52,
-   "Juniper Berries": 53,
-   "Large Antlers": 54,
-   "Lavender": 55,
-   "Luna Moth Wing": 56,
-   "Moon Sugar": 57,
-   "Mora Tapinella": 58,
-   "Mudcrab Chitin": 59,
-   "Namira's Rot": 60,
-   "Nightshade": 61,
-   "Nirnroot": 62,
-   "Nordic Barnacle": 63,
-   "Orange Dartwing": 64,
-   "Pearl": 65,
-   "Pine Thrush Egg": 66,
-   "Poison Bloom": 67,
-   "Powdered Mammoth Tusk": 68,
-   "Purple Mountain Flower": 69,
-   "Red Mountain Flower": 70,
-   "River Betty": 71,
-   "Rock Warbler Egg": 72,
-   "Sabre Cat Tooth": 73,
-   "Salmon Roe": 74,
-   "Salt Pile": 75,
-   "Scaly Pholiota": 76,
-   "Silverside Perch": 77,
-   "Skeever Tail": 78,
-   "Slaughterfish Egg": 79,
-   "Slaughterfish Scales": 80,
-   "Small Antlers": 81,
-   "Small Pearl": 82,
-   "Snowberries": 83,
-   "Spider Egg": 84,
-   "Spriggan Sap": 85,
-   "Swamp Fungal Pod": 86,
-   "Taproot": 87,
-   "Thistle Branch": 88,
-   "Torchbug Thorax": 89,
-   "Troll Fat": 90,
-   "Tundra Cotton": 91,
-   "Vampire Dust": 92,
-   "Void Salts": 93,
-   "Wheat": 94,
-   "White Cap": 95,
-   "Wisp Wrappings": 96,
-   "Yellow Mountain Flower": 97,
-   "Berit's Ashes": 98,
-   "Farengar's Frost Salt": 99,
-   "Fine-Cut Void Salts": 100,
-   "Jarrin Root": 101,
-   "Ash Creep Cluster": 102,
-   "Ash Hopper Jelly": 103,
-   "Ashen Grass Pod": 104,
-   "Boar Tusk": 105,
-   "Burnt Spriggan Wood": 106,
-   "Emperor Parasol Moss": 107,
-   "Felsaad Tern Feathers": 108,
-   "Netch Jelly": 109,
-   "Scathecraw": 110,
-   "Spawn Ash": 111,
-   "Trama Root": 112
-  },
-  "sorted": [
-   0,
-   112,
-   2,
-   3,
-   4,
-   5,
-   6,
-   7,
-   8,
-   9,
-   10,
-   11,
-   12,
-   13,
-   14,
-   15,
-   16,
-   17,
-   18,
-   19,
-   20,
-   21,
-   22,
-   23,
-   24,
-   25,
-   26,
-   27,
-   28,
-   29,
-   30,
-   31,
-   32,
-   33,
-   34,
-   35,
-   36,
-   37,
-   38,
-   39,
-   40,
-   41,
-   42,
-   43,
-   44,
-   45,
-   46,
-   47,
-   48,
-   49,
-   50,
-   51,
-   52,
-   53,
-   54,
-   55,
-   1,
-   57,
-   58,
-   59,
-   60,
-   61,
-   62,
-   63,
-   64,
-   65,
-   66,
-   67,
-   68,
-   69,
-   70,
-   71,
-   72,
-   73,
-   74,
-   75,
-   76,
-   77,
-   78,
-   79,
-   80,
-   81,
-   82,
-   83,
-   84,
-   85,
-   86,
-   87,
-   88,
-   89,
-   90,
-   91,
-   92,
-   93,
-   94,
-   95,
-   96,
-   97,
-   98,
-   99,
-   100,
-   101,
-   102,
-   103,
-   104,
-   105,
-   106,
-   107,
-   108,
-   109,
-   110,
-   111,
-   56
-  ],
   "prevDisplay": [
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
   ],
   "nextDisplay": [
    true,
@@ -4876,7 +4761,7 @@ function getIdx() { return({
    true,
    true
   ],
-  "selDisplay": [
+  "selected": [
    false,
    false,
    false,
@@ -4990,101 +4875,220 @@ function getIdx() { return({
    false,
    false,
    false
+  ],
+  "display": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
   ]
  },
  "eff": {
+  "num": {
+   "Cure Disease": 0,
+   "Damage Health": 1,
+   "Damage Magicka Regen": 2,
+   "Damage Magicka": 3,
+   "Damage Stamina Regen": 4,
+   "Damage Stamina": 5,
+   "Fear": 6,
+   "Fortify Alteration": 7,
+   "Fortify Barter": 8,
+   "Fortify Block": 9,
+   "Fortify Carry Weight": 10,
+   "Fortify Conjuration": 11,
+   "Fortify Destruction": 12,
+   "Fortify Enchanting": 13,
+   "Fortify Health": 14,
+   "Fortify Heavy Armor": 15,
+   "Fortify Illusion": 16,
+   "Fortify Light Armor": 17,
+   "Fortify Lockpicking": 18,
+   "Fortify Magicka": 19,
+   "Fortify Marksman": 20,
+   "Fortify One-handed": 21,
+   "Fortify Pickpocket": 22,
+   "Fortify Restoration": 23,
+   "Fortify Smithing": 24,
+   "Fortify Sneak": 25,
+   "Fortify Stamina": 26,
+   "Fortify Two-handed": 27,
+   "Frenzy": 28,
+   "Invisibility": 29,
+   "Lingering Damage Health": 30,
+   "Lingering Damage Magicka": 31,
+   "Lingering Damage Stamina": 32,
+   "Paralysis": 33,
+   "Ravage Health": 34,
+   "Ravage Magicka": 35,
+   "Ravage Stamina": 36,
+   "Regenerate Health": 37,
+   "Regenerate Magicka": 38,
+   "Regenerate Stamina": 39,
+   "Resist Fire": 40,
+   "Resist Frost": 41,
+   "Resist Magic": 42,
+   "Resist Poison": 43,
+   "Resist Shock": 44,
+   "Restore Health": 45,
+   "Restore Magicka": 46,
+   "Restore Stamina": 47,
+   "Slow": 48,
+   "Waterbreathing": 49,
+   "Weakness to Fire": 50,
+   "Weakness to Frost": 51,
+   "Weakness to Magic": 52,
+   "Weakness to Poison": 53,
+   "Weakness to Shock": 54
+  },
   "lab": [
    {
     "idx": 0,
-    "nam": "Weakness to Frost",
+    "nam": "Cure Disease",
     "ing": [
-     0,
-     26,
-     29,
-     50,
-     95,
-     103
+     14,
+     44,
+     59,
+     92,
+     108
     ]
    },
    {
     "idx": 1,
-    "nam": "Fortify Sneak",
+    "nam": "Damage Health",
     "ing": [
-     0,
-     4,
-     31,
-     44,
+     19,
+     22,
+     25,
+     28,
      48,
-     68,
-     69,
-     104
+     49,
+     51,
+     61,
+     62,
+     67,
+     70,
+     71,
+     78,
+     81,
+     90,
+     93,
+     100,
+     101,
+     107
     ]
    },
    {
     "idx": 2,
-    "nam": "Weakness to Poison",
-    "ing": [
-     0,
-     5,
-     15,
-     22,
-     34,
-     66,
-     73,
-     81
-    ]
-   },
-   {
-    "idx": 3,
-    "nam": "Fortify Restoration",
-    "ing": [
-     0,
-     20,
-     75,
-     81,
-     82,
-     97
-    ]
-   },
-   {
-    "idx": 4,
-    "nam": "Damage Stamina",
-    "ing": [
-     1,
-     6,
-     7,
-     10,
-     13,
-     16,
-     19,
-     20,
-     35,
-     62,
-     72,
-     84,
-     98,
-     101,
-     102
-    ]
-   },
-   {
-    "idx": 5,
-    "nam": "Fortify Conjuration",
-    "ing": [
-     1,
-     7,
-     9,
-     10,
-     16,
-     32,
-     41,
-     55,
-     98,
-     99
-    ]
-   },
-   {
-    "idx": 6,
     "nam": "Damage Magicka Regen",
     "ing": [
      1,
@@ -5105,7 +5109,155 @@ function getIdx() { return({
     ]
    },
    {
+    "idx": 3,
+    "nam": "Damage Magicka",
+    "ing": [
+     12,
+     15,
+     21,
+     27,
+     37,
+     41,
+     42,
+     49,
+     56,
+     60,
+     63,
+     101,
+     112
+    ]
+   },
+   {
+    "idx": 4,
+    "nam": "Damage Stamina Regen",
+    "ing": [
+     18,
+     21,
+     31,
+     35,
+     46,
+     53,
+     54,
+     77,
+     78,
+     94,
+     97
+    ]
+   },
+   {
+    "idx": 5,
+    "nam": "Damage Stamina",
+    "ing": [
+     1,
+     6,
+     7,
+     10,
+     13,
+     16,
+     19,
+     20,
+     35,
+     62,
+     72,
+     84,
+     98,
+     101,
+     102
+    ]
+   },
+   {
+    "idx": 6,
+    "nam": "Fear",
+    "ing": [
+     8,
+     20,
+     21,
+     36,
+     60,
+     67,
+     68,
+     109
+    ]
+   },
+   {
     "idx": 7,
+    "nam": "Fortify Alteration",
+    "ing": [
+     39,
+     71,
+     85,
+     106
+    ]
+   },
+   {
+    "idx": 8,
+    "nam": "Fortify Barter",
+    "ing": [
+     12,
+     23,
+     40,
+     91
+    ]
+   },
+   {
+    "idx": 9,
+    "nam": "Fortify Block",
+    "ing": [
+     5,
+     11,
+     47,
+     65,
+     80,
+     91,
+     105
+    ]
+   },
+   {
+    "idx": 10,
+    "nam": "Fortify Carry Weight",
+    "ing": [
+     18,
+     35,
+     43,
+     67,
+     71,
+     76,
+     96,
+     109,
+     112
+    ]
+   },
+   {
+    "idx": 11,
+    "nam": "Fortify Conjuration",
+    "ing": [
+     1,
+     7,
+     9,
+     10,
+     16,
+     32,
+     41,
+     55,
+     98,
+     99
+    ]
+   },
+   {
+    "idx": 12,
+    "nam": "Fortify Destruction",
+    "ing": [
+     4,
+     25,
+     37,
+     38,
+     61,
+     96,
+     102
+    ]
+   },
+   {
+    "idx": 13,
     "nam": "Fortify Enchanting",
     "ing": [
      1,
@@ -5118,7 +5270,453 @@ function getIdx() { return({
     ]
    },
    {
-    "idx": 8,
+    "idx": 14,
+    "nam": "Fortify Health",
+    "ing": [
+     2,
+     9,
+     35,
+     38,
+     42,
+     94,
+     97,
+     105
+    ]
+   },
+   {
+    "idx": 15,
+    "nam": "Fortify Heavy Armor",
+    "ing": [
+     50,
+     73,
+     80,
+     88,
+     95
+    ]
+   },
+   {
+    "idx": 16,
+    "nam": "Fortify Illusion",
+    "ing": [
+     23,
+     24,
+     58,
+     76,
+     87
+    ]
+   },
+   {
+    "idx": 17,
+    "nam": "Fortify Light Armor",
+    "ing": [
+     4,
+     44,
+     47,
+     56,
+     78,
+     103,
+     108
+    ]
+   },
+   {
+    "idx": 18,
+    "nam": "Fortify Lockpicking",
+    "ing": [
+     28,
+     60,
+     66,
+     84,
+     104
+    ]
+   },
+   {
+    "idx": 19,
+    "nam": "Fortify Magicka",
+    "ing": [
+     11,
+     25,
+     46,
+     52,
+     70,
+     74,
+     91,
+     93,
+     100,
+     107
+    ]
+   },
+   {
+    "idx": 20,
+    "nam": "Fortify Marksman",
+    "ing": [
+     13,
+     26,
+     53,
+     84
+    ]
+   },
+   {
+    "idx": 21,
+    "nam": "Fortify One-handed",
+    "ing": [
+     2,
+     13,
+     42,
+     44,
+     72,
+     82
+    ]
+   },
+   {
+    "idx": 22,
+    "nam": "Fortify Pickpocket",
+    "ing": [
+     8,
+     63,
+     64,
+     79
+    ]
+   },
+   {
+    "idx": 23,
+    "nam": "Fortify Restoration",
+    "ing": [
+     0,
+     20,
+     75,
+     81,
+     82,
+     97
+    ]
+   },
+   {
+    "idx": 24,
+    "nam": "Fortify Smithing",
+    "ing": [
+     6,
+     38,
+     73,
+     85
+    ]
+   },
+   {
+    "idx": 25,
+    "nam": "Fortify Sneak",
+    "ing": [
+     0,
+     4,
+     31,
+     44,
+     48,
+     68,
+     69,
+     104
+    ]
+   },
+   {
+    "idx": 26,
+    "nam": "Fortify Stamina",
+    "ing": [
+     15,
+     33,
+     54,
+     55,
+     79,
+     89,
+     105
+    ]
+   },
+   {
+    "idx": 27,
+    "nam": "Fortify Two-handed",
+    "ing": [
+     23,
+     30,
+     90,
+     107
+    ]
+   },
+   {
+    "idx": 28,
+    "nam": "Frenzy",
+    "ing": [
+     6,
+     28,
+     30,
+     41,
+     49,
+     90,
+     105
+    ]
+   },
+   {
+    "idx": 29,
+    "nam": "Invisibility",
+    "ing": [
+     15,
+     19,
+     50,
+     56,
+     62,
+     92,
+     102
+    ]
+   },
+   {
+    "idx": 30,
+    "nam": "Lingering Damage Health",
+    "ing": [
+     51,
+     58,
+     64,
+     79,
+     80,
+     110
+    ]
+   },
+   {
+    "idx": 31,
+    "nam": "Lingering Damage Magicka",
+    "ing": [
+     40,
+     69,
+     86,
+     89,
+     94
+    ]
+   },
+   {
+    "idx": 32,
+    "nam": "Lingering Damage Stamina",
+    "ing": [
+     12,
+     17,
+     45,
+     61,
+     81
+    ]
+   },
+   {
+    "idx": 33,
+    "nam": "Paralysis",
+    "ing": [
+     11,
+     13,
+     36,
+     48,
+     51,
+     86,
+     109
+    ]
+   },
+   {
+    "idx": 34,
+    "nam": "Ravage Health",
+    "ing": [
+     20,
+     27,
+     34,
+     52,
+     77,
+     78,
+     110
+    ]
+   },
+   {
+    "idx": 35,
+    "nam": "Ravage Magicka",
+    "ing": [
+     31,
+     39,
+     55,
+     64,
+     70,
+     95,
+     110,
+     111
+    ]
+   },
+   {
+    "idx": 36,
+    "nam": "Ravage Stamina",
+    "ing": [
+     3,
+     10,
+     22,
+     47,
+     88,
+     98,
+     110,
+     111
+    ]
+   },
+   {
+    "idx": 37,
+    "nam": "Regenerate Health",
+    "ing": [
+     33,
+     36,
+     53,
+     56,
+     60,
+     63,
+     92,
+     107
+    ]
+   },
+   {
+    "idx": 38,
+    "nam": "Regenerate Magicka",
+    "ing": [
+     24,
+     29,
+     33,
+     52,
+     57,
+     74,
+     75,
+     87
+    ]
+   },
+   {
+    "idx": 39,
+    "nam": "Regenerate Stamina",
+    "ing": [
+     3,
+     30,
+     58,
+     76
+    ]
+   },
+   {
+    "idx": 40,
+    "nam": "Resist Fire",
+    "ing": [
+     10,
+     23,
+     26,
+     29,
+     30,
+     59,
+     83,
+     98,
+     102,
+     104,
+     111
+    ]
+   },
+   {
+    "idx": 41,
+    "nam": "Resist Frost",
+    "ing": [
+     31,
+     32,
+     43,
+     57,
+     69,
+     77,
+     80,
+     82,
+     83,
+     88,
+     99
+    ]
+   },
+   {
+    "idx": 42,
+    "nam": "Resist Magic",
+    "ing": [
+     5,
+     17,
+     19,
+     36,
+     40,
+     45,
+     55,
+     62,
+     91,
+     93,
+     96,
+     100,
+     108
+    ]
+   },
+   {
+    "idx": 43,
+    "nam": "Resist Poison",
+    "ing": [
+     4,
+     14,
+     28,
+     33,
+     39,
+     59,
+     79,
+     88,
+     90,
+     97
+    ]
+   },
+   {
+    "idx": 44,
+    "nam": "Resist Shock",
+    "ing": [
+     8,
+     37,
+     38,
+     43,
+     65,
+     66,
+     83,
+     86,
+     103
+    ]
+   },
+   {
+    "idx": 45,
+    "nam": "Restore Health",
+    "ing": [
+     6,
+     8,
+     9,
+     12,
+     14,
+     21,
+     27,
+     51,
+     72,
+     86,
+     94,
+     103,
+     108
+    ]
+   },
+   {
+    "idx": 46,
+    "nam": "Restore Magicka",
+    "ing": [
+     11,
+     18,
+     24,
+     25,
+     26,
+     29,
+     32,
+     34,
+     39,
+     48,
+     57,
+     58,
+     65,
+     70,
+     87,
+     92,
+     95,
+     99
+    ]
+   },
+   {
+    "idx": 47,
     "nam": "Restore Stamina",
     "ing": [
      2,
@@ -5145,112 +5743,31 @@ function getIdx() { return({
     ]
    },
    {
-    "idx": 9,
-    "nam": "Fortify Health",
+    "idx": 48,
+    "nam": "Slow",
     "ing": [
-     2,
-     9,
-     35,
-     38,
-     42,
-     94,
-     97,
-     105
-    ]
-   },
-   {
-    "idx": 10,
-    "nam": "Fortify One-handed",
-    "ing": [
-     2,
-     13,
-     42,
-     44,
-     72,
-     82
-    ]
-   },
-   {
-    "idx": 11,
-    "nam": "Ravage Stamina",
-    "ing": [
-     3,
-     10,
      22,
-     47,
-     88,
-     98,
-     110,
-     111
-    ]
-   },
-   {
-    "idx": 12,
-    "nam": "Regenerate Stamina",
-    "ing": [
-     3,
-     30,
-     58,
-     76
-    ]
-   },
-   {
-    "idx": 13,
-    "nam": "Weakness to Shock",
-    "ing": [
-     3,
-     34,
-     41,
-     93,
-     100,
-     104,
+     54,
+     67,
+     71,
+     75,
+     106,
      112
     ]
    },
    {
-    "idx": 14,
-    "nam": "Resist Poison",
+    "idx": 49,
+    "nam": "Waterbreathing",
     "ing": [
-     4,
-     14,
-     28,
-     33,
-     39,
-     59,
-     79,
-     88,
-     90,
-     97
+     17,
+     45,
+     46,
+     63,
+     74
     ]
    },
    {
-    "idx": 15,
-    "nam": "Fortify Light Armor",
-    "ing": [
-     4,
-     44,
-     47,
-     56,
-     78,
-     103,
-     108
-    ]
-   },
-   {
-    "idx": 16,
-    "nam": "Fortify Destruction",
-    "ing": [
-     4,
-     25,
-     37,
-     38,
-     61,
-     96,
-     102
-    ]
-   },
-   {
-    "idx": 17,
+    "idx": 50,
     "nam": "Weakness to Fire",
     "ing": [
      5,
@@ -5264,320 +5781,19 @@ function getIdx() { return({
     ]
    },
    {
-    "idx": 18,
-    "nam": "Fortify Block",
+    "idx": 51,
+    "nam": "Weakness to Frost",
     "ing": [
-     5,
-     11,
-     47,
-     65,
-     80,
-     91,
-     105
-    ]
-   },
-   {
-    "idx": 19,
-    "nam": "Resist Magic",
-    "ing": [
-     5,
-     17,
-     19,
-     36,
-     40,
-     45,
-     55,
-     62,
-     91,
-     93,
-     96,
-     100,
-     108
-    ]
-   },
-   {
-    "idx": 20,
-    "nam": "Frenzy",
-    "ing": [
-     6,
-     28,
-     30,
-     41,
-     49,
-     90,
-     105
-    ]
-   },
-   {
-    "idx": 21,
-    "nam": "Restore Health",
-    "ing": [
-     6,
-     8,
-     9,
-     12,
-     14,
-     21,
-     27,
-     51,
-     72,
-     86,
-     94,
-     103,
-     108
-    ]
-   },
-   {
-    "idx": 22,
-    "nam": "Fortify Smithing",
-    "ing": [
-     6,
-     38,
-     73,
-     85
-    ]
-   },
-   {
-    "idx": 23,
-    "nam": "Resist Shock",
-    "ing": [
-     8,
-     37,
-     38,
-     43,
-     65,
-     66,
-     83,
-     86,
+     0,
+     26,
+     29,
+     50,
+     95,
      103
     ]
    },
    {
-    "idx": 24,
-    "nam": "Fortify Pickpocket",
-    "ing": [
-     8,
-     63,
-     64,
-     79
-    ]
-   },
-   {
-    "idx": 25,
-    "nam": "Fear",
-    "ing": [
-     8,
-     20,
-     21,
-     36,
-     60,
-     67,
-     68,
-     109
-    ]
-   },
-   {
-    "idx": 26,
-    "nam": "Resist Fire",
-    "ing": [
-     10,
-     23,
-     26,
-     29,
-     30,
-     59,
-     83,
-     98,
-     102,
-     104,
-     111
-    ]
-   },
-   {
-    "idx": 27,
-    "nam": "Restore Magicka",
-    "ing": [
-     11,
-     18,
-     24,
-     25,
-     26,
-     29,
-     32,
-     34,
-     39,
-     48,
-     57,
-     58,
-     65,
-     70,
-     87,
-     92,
-     95,
-     99
-    ]
-   },
-   {
-    "idx": 28,
-    "nam": "Paralysis",
-    "ing": [
-     11,
-     13,
-     36,
-     48,
-     51,
-     86,
-     109
-    ]
-   },
-   {
-    "idx": 29,
-    "nam": "Fortify Magicka",
-    "ing": [
-     11,
-     25,
-     46,
-     52,
-     70,
-     74,
-     91,
-     93,
-     100,
-     107
-    ]
-   },
-   {
-    "idx": 30,
-    "nam": "Fortify Barter",
-    "ing": [
-     12,
-     23,
-     40,
-     91
-    ]
-   },
-   {
-    "idx": 31,
-    "nam": "Lingering Damage Stamina",
-    "ing": [
-     12,
-     17,
-     45,
-     61,
-     81
-    ]
-   },
-   {
-    "idx": 32,
-    "nam": "Damage Magicka",
-    "ing": [
-     12,
-     15,
-     21,
-     27,
-     37,
-     41,
-     42,
-     49,
-     56,
-     60,
-     63,
-     101,
-     112
-    ]
-   },
-   {
-    "idx": 33,
-    "nam": "Fortify Marksman",
-    "ing": [
-     13,
-     26,
-     53,
-     84
-    ]
-   },
-   {
-    "idx": 34,
-    "nam": "Cure Disease",
-    "ing": [
-     14,
-     44,
-     59,
-     92,
-     108
-    ]
-   },
-   {
-    "idx": 35,
-    "nam": "Fortify Stamina",
-    "ing": [
-     15,
-     33,
-     54,
-     55,
-     79,
-     89,
-     105
-    ]
-   },
-   {
-    "idx": 36,
-    "nam": "Invisibility",
-    "ing": [
-     15,
-     19,
-     50,
-     56,
-     62,
-     92,
-     102
-    ]
-   },
-   {
-    "idx": 37,
-    "nam": "Waterbreathing",
-    "ing": [
-     17,
-     45,
-     46,
-     63,
-     74
-    ]
-   },
-   {
-    "idx": 38,
-    "nam": "Damage Stamina Regen",
-    "ing": [
-     18,
-     21,
-     31,
-     35,
-     46,
-     53,
-     54,
-     77,
-     78,
-     94,
-     97
-    ]
-   },
-   {
-    "idx": 39,
-    "nam": "Fortify Carry Weight",
-    "ing": [
-     18,
-     35,
-     43,
-     67,
-     71,
-     76,
-     96,
-     109,
-     112
-    ]
-   },
-   {
-    "idx": 40,
+    "idx": 52,
     "nam": "Weakness to Magic",
     "ing": [
      18,
@@ -5591,362 +5807,89 @@ function getIdx() { return({
     ]
    },
    {
-    "idx": 41,
-    "nam": "Damage Health",
-    "ing": [
-     19,
-     22,
-     25,
-     28,
-     48,
-     49,
-     51,
-     61,
-     62,
-     67,
-     70,
-     71,
-     78,
-     81,
-     90,
-     93,
-     100,
-     101,
-     107
-    ]
-   },
-   {
-    "idx": 42,
-    "nam": "Ravage Health",
-    "ing": [
-     20,
-     27,
-     34,
-     52,
-     77,
-     78,
-     110
-    ]
-   },
-   {
-    "idx": 43,
-    "nam": "Slow",
-    "ing": [
-     22,
-     54,
-     67,
-     71,
-     75,
-     106,
-     112
-    ]
-   },
-   {
-    "idx": 44,
-    "nam": "Fortify Illusion",
-    "ing": [
-     23,
-     24,
-     58,
-     76,
-     87
-    ]
-   },
-   {
-    "idx": 45,
-    "nam": "Fortify Two-handed",
-    "ing": [
-     23,
-     30,
-     90,
-     107
-    ]
-   },
-   {
-    "idx": 46,
-    "nam": "Regenerate Magicka",
-    "ing": [
-     24,
-     29,
-     33,
-     52,
-     57,
-     74,
-     75,
-     87
-    ]
-   },
-   {
-    "idx": 47,
-    "nam": "Fortify Lockpicking",
-    "ing": [
-     28,
-     60,
-     66,
-     84,
-     104
-    ]
-   },
-   {
-    "idx": 48,
-    "nam": "Resist Frost",
-    "ing": [
-     31,
-     32,
-     43,
-     57,
-     69,
-     77,
-     80,
-     82,
-     83,
-     88,
-     99
-    ]
-   },
-   {
-    "idx": 49,
-    "nam": "Ravage Magicka",
-    "ing": [
-     31,
-     39,
-     55,
-     64,
-     70,
-     95,
-     110,
-     111
-    ]
-   },
-   {
-    "idx": 50,
-    "nam": "Regenerate Health",
-    "ing": [
-     33,
-     36,
-     53,
-     56,
-     60,
-     63,
-     92,
-     107
-    ]
-   },
-   {
-    "idx": 51,
-    "nam": "Fortify Alteration",
-    "ing": [
-     39,
-     71,
-     85,
-     106
-    ]
-   },
-   {
-    "idx": 52,
-    "nam": "Lingering Damage Magicka",
-    "ing": [
-     40,
-     69,
-     86,
-     89,
-     94
-    ]
-   },
-   {
     "idx": 53,
-    "nam": "Fortify Heavy Armor",
+    "nam": "Weakness to Poison",
     "ing": [
-     50,
+     0,
+     5,
+     15,
+     22,
+     34,
+     66,
      73,
-     80,
-     88,
-     95
+     81
     ]
    },
    {
     "idx": 54,
-    "nam": "Lingering Damage Health",
+    "nam": "Weakness to Shock",
     "ing": [
-     51,
-     58,
-     64,
-     79,
-     80,
-     110
+     3,
+     34,
+     41,
+     93,
+     100,
+     104,
+     112
     ]
    }
   ],
-  "num": {
-   "Weakness to Frost": 0,
-   "Fortify Sneak": 1,
-   "Weakness to Poison": 2,
-   "Fortify Restoration": 3,
-   "Damage Stamina": 4,
-   "Fortify Conjuration": 5,
-   "Damage Magicka Regen": 6,
-   "Fortify Enchanting": 7,
-   "Restore Stamina": 8,
-   "Fortify Health": 9,
-   "Fortify One-handed": 10,
-   "Ravage Stamina": 11,
-   "Regenerate Stamina": 12,
-   "Weakness to Shock": 13,
-   "Resist Poison": 14,
-   "Fortify Light Armor": 15,
-   "Fortify Destruction": 16,
-   "Weakness to Fire": 17,
-   "Fortify Block": 18,
-   "Resist Magic": 19,
-   "Frenzy": 20,
-   "Restore Health": 21,
-   "Fortify Smithing": 22,
-   "Resist Shock": 23,
-   "Fortify Pickpocket": 24,
-   "Fear": 25,
-   "Resist Fire": 26,
-   "Restore Magicka": 27,
-   "Paralysis": 28,
-   "Fortify Magicka": 29,
-   "Fortify Barter": 30,
-   "Lingering Damage Stamina": 31,
-   "Damage Magicka": 32,
-   "Fortify Marksman": 33,
-   "Cure Disease": 34,
-   "Fortify Stamina": 35,
-   "Invisibility": 36,
-   "Waterbreathing": 37,
-   "Damage Stamina Regen": 38,
-   "Fortify Carry Weight": 39,
-   "Weakness to Magic": 40,
-   "Damage Health": 41,
-   "Ravage Health": 42,
-   "Slow": 43,
-   "Fortify Illusion": 44,
-   "Fortify Two-handed": 45,
-   "Regenerate Magicka": 46,
-   "Fortify Lockpicking": 47,
-   "Resist Frost": 48,
-   "Ravage Magicka": 49,
-   "Regenerate Health": 50,
-   "Fortify Alteration": 51,
-   "Lingering Damage Magicka": 52,
-   "Fortify Heavy Armor": 53,
-   "Lingering Damage Health": 54
-  },
-  "sorted": [
-   0,
-   54,
-   2,
-   3,
-   4,
-   5,
-   6,
-   7,
-   8,
-   9,
-   10,
-   11,
-   12,
-   13,
-   14,
-   15,
-   16,
-   17,
-   18,
-   19,
-   20,
-   21,
-   22,
-   23,
-   24,
-   25,
-   26,
-   1,
-   28,
-   29,
-   30,
-   31,
-   32,
-   33,
-   34,
-   35,
-   36,
-   37,
-   38,
-   39,
-   40,
-   41,
-   42,
-   43,
-   44,
-   45,
-   46,
-   47,
-   48,
-   49,
-   50,
-   51,
-   52,
-   53,
-   27
-  ],
   "prevDisplay": [
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true,
-   true
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
   ],
   "nextDisplay": [
    true,
@@ -6005,7 +5948,7 @@ function getIdx() { return({
    true,
    true
   ],
-  "selDisplay": [
+  "selected": [
    false,
    false,
    false,
@@ -6061,6 +6004,63 @@ function getIdx() { return({
    false,
    false,
    false
+  ],
+  "display": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
   ]
  },
  "metrics": {

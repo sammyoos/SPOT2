@@ -18,11 +18,7 @@
 		"selected" 	: "p.tIngs.tag-primary",
 		"selClass" 	: "tIngs tag tag-primary",
 		"notClass" 	: "tIngs tag",
-		"global"	 	: getIdx().ing.lab,
-		"sorted"	 	: getIdx().ing.sorted,
-		"prevDis"	  : getIdx().ing.prevDisplay,
-		"nextDis"	  : getIdx().ing.nextDisplay,
-		"selDis"	  : getIdx().ing.selDisplay,
+		"idx"				: getIdx().ing,
 		"list"			: "#ingredient-list",
 		"fpSelect"	: selectIngredient,
 	 	"type"			: "i",
@@ -33,18 +29,12 @@
 		"selected"  : "p.tEffs.tag-success",
 		"selClass"  : "tEffs tag tag-success",
 		"notClass"  : "tEffs tag",
-		"global"	  : getIdx().eff.lab,
-		"sorted"	  : getIdx().eff.sorted,
-		"prevDis"	  : getIdx().eff.prevDisplay,
-		"nextDis"	  : getIdx().eff.nextDisplay,
-		"selDis"	  : getIdx().eff.selDisplay,
+		"idx"				: getIdx().eff,
 		"list"			: "#effect-list",
 		"fpSelect"	: selectEffect,
 	 	"type"			: "e",
 	};
 
-	spot_ns.allIngredients 	= new Array();
-	spot_ns.allEffects 			= new Array();
 	spot_ns.favorites				= null;
 
 	function selectIngredient()
@@ -65,52 +55,55 @@
 	{
 		$( options.list ).empty();
 
-		for( var i=0; i<options.sorted.length; i++ )
+		for( var i=0; i<options.idx.lab.length; i++ )
 		{
-			var item = options.global[ options.sorted[i] ];
-			/*
-			console.log( options );
-			console.log( i );
-			console.log( options.sorted[i] );
-			console.log( options.nextDis[i] );
-			console.log( options.selDis[i] );
-			*/
-			$( options.list ).append( "<p" 
-					+ " style=\"display:none;\""
-					+ " data-idx=\"" + options.sorted[i] + "\""
-					+ " data-viable=\"" + (options.nextDis[i]?"y":"n") + "\""
-					+ " data-selected=\"" + (options.selDis[i]?"y":"n") + "\""
-					+ " class=\"" + options.notClass + "\">" 
-					+ item.nam + "</p>" );
+			var item = options.idx.lab[ i ];
+			options.idx.display[i] =
+				$( options.list ).append( "<p" 
+						+ " data-idx=\"" + i + "\""
+						+ " class=\"" + options.notClass + "\">" 
+						+ item.nam + "</p>" ).show( 'slow' );
+
 		}
 
+		$( options.list ).children( 'p' ).each( function(){ options.idx.display[ $(this).data( 'idx' ) ] = $(this); } );
 		$( options.selector ).click( options.fpSelect );
 	}
 
 	spot_ns.display_list = function( options )
 	{
-		console.log( options.list );
-		$( options.list ).children( 'p[viable="y"]' ).this.show( 'slow' ); 
+		for( var i=0; i<options.idx.display.length; i++ )
+		{
+			if( options.idx.prevDisplay[i] ) {
+				if( !options.idx.nextDisplay[i] ) {
+					console.log( "hiding " + i );
+					options.idx.display[i].hide( 'slow' );
+				}
+			}else{
+				if( options.idx.nextDisplay[i] ) {
+					console.log( "showing " + i );
+					console.log( options.idx.display[i] );
+					options.idx.display[i].show( 'slow' );
+				}
+			}
+		}
 	}
 
 	spot_ns.redraw = function( )
 	{
 		spot_ns.display_list( spot_ns.iOptions );
-		// spot_ns.display_list( spot_ns.eOptions );
+		spot_ns.display_list( spot_ns.eOptions );
+
+		var tmp = options.idx.nextDisplay;
+		options.idx.nextDisplay = options.idx.prevDisplay;
+		options.idx.prevDisplay = tmp;
 	}
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
 
 $(document).ready( function()
 { 
-	var i;
-
-	spot_ns.gi = new Object();
-	for( i=0; i<spot_ns.iOptions.global.length; i++ ) spot_ns.gi[i]=i;
 	spot_ns.create_display_list( spot_ns.iOptions );
-
-	spot_ns.ge = new Object();
-	for( i=0; i<spot_ns.eOptions.global.length; i++ ) spot_ns.ge[i]=i;
 	spot_ns.create_display_list( spot_ns.eOptions );
 
 	spot_ns.redraw();
