@@ -27,8 +27,7 @@
     idx.pot.num++;
     var pot = {
       n: pos,
-      a: X.idx,
-      b: Y.idx,
+      ing: [ X.idx, Y.idx ],
       eff: effect
     };
 

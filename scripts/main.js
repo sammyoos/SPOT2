@@ -35,7 +35,59 @@ spot_ns.eOptions = {
 	"type"			: "e",
 };
 
+spot_ns.pot = getIdx().pot;
+
 spot_ns.favorites				= null;
+
+function potionString ( potion )
+{
+	var ip = spot_ns.iOptions.idx.lab;
+	var ep = spot_ns.eOptions.idx.lab;
+	var ings = ip[ potion.ing[0] ].nam;
+	var effs = ep[ potion.eff[0] ].nam;
+
+	for( var i=1; i<potion.ing.length; i++ ) ings += ", " + ip[ potion.ing[i] ].nam;
+	for( var i=1; i<potion.eff.length; i++ ) effs += ", " + ep[ potion.eff[i] ].nam;
+
+
+	return( "<dl><dt>Ingredients :</dt><dd>"
+			+ ings
+			+ "</dd><dt>Effects :</dt><dd>"
+			+ effs
+			+ "</dd></dl>" );
+}
+
+
+function displayPotions( index )
+{
+	console.info( "displayPotions()" );
+	console.log( index );
+	console.log( 'pot' );
+	console.log( spot_ns.pot );
+	console.log( 'pot.lab' );
+	console.log( spot_ns.pot.lab );
+	$("#potion-list").empty();
+
+	var count=0,i;
+	for( i in index )
+	{
+		console.log( index[i] );
+		console.log( 'potion' );
+		console.log( spot_ns.pot.lab[ index[i]] );
+
+		$("#potion-list").append( "<div class='tPots tag tag-default' data-potion='"+index[i]+"'>" + potionString( spot_ns.pot.lab[index[i]] ) + "</div>" );
+
+		// speed up improvements
+		if( ++count > 50 ) 
+		{ 
+			$("#potion-list").append( "<p><i>&lt; list truncated &gt;</p>" );
+			break; 
+		}
+	}
+
+	// $( '.tPots' ).click( addFavorite );
+}
+
 
 // function: merge
 // provide a "safe" intersection of two sorted arrays
@@ -44,6 +96,9 @@ function merge(a, b)
 {
 	// this next line was my own addition
 	if( !a ) { return( b ); }
+	console.log( 'merging...' );
+	console.log ( 'a' );
+	console.log ( a );
 
 	var ai=0, bi=0, result = new Array();
 
@@ -57,30 +112,43 @@ function merge(a, b)
 	return result;
 }
 
-function option_merge( option )
+function option_merge( filter, options )
 {
-	var filter=false;
+	console.info( "option_merge()" );
+
 	var sel = options.idx.selected;
 	var len = sel.length;
 
+	console.log( "sel" );
+	console.log( sel );
+	console.log( "options.idx.pot" );
+	console.log( options.idx.pot );
 	for( var i=0; i<len; i++ )
 	{
-		if( sel[i] ) filter = merge( merge, options.idx.pot[i] );
+		if( sel[i] ) {
+			console.log( "options.idx.pot[i]" );
+			console.log( options.idx.pot[i] );
+			filter = merge( filter, options.idx.pot[i] );
+		}
 	}
+	console.log( "filter" );
+	console.log( filter );
+	return filter;
 }
 
 function merge_all( iOptions, eOptions )
 {
 	var filter=null;
 
-	filter = option_merge( filter, spot_ns.iOptions );
-	filter = option_merge( filter, spot_ns.eOptions );
+	filter = option_merge( filter, iOptions );
+	// filter = option_merge( filter, eOptions );
 
 	return filter;
 }
 
 function selectIngredient()
 {
+	console.info( "selectIngredient()" );
 	var ing = $(this);
 	var idx = ing.data('idx');
 	var sel = spot_ns.iOptions.idx.selected;
@@ -100,7 +168,7 @@ function selectIngredient()
 function selectEffect()
 {
 	var eff = $(this);
-	var idx = ing.data('idx');
+	var idx = eff.data('idx');
 	eff.toggleClass( "tag-success" );
 	console.log( idx );
 	spot_ns.redraw();
@@ -142,6 +210,11 @@ display_list = function( options )
 
 spot_ns.redraw = function( )
 {
+	console.info( "redraw()" );
+	var potions = merge_all( spot_ns.iOptions, spot_ns.eOptions );
+	console.log( potions );
+	displayPotions( potions )
+
 	display_list( spot_ns.iOptions );
 	display_list( spot_ns.eOptions );
 
