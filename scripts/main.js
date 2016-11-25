@@ -49,6 +49,11 @@ function potionString ( potion )
 	for( var i=1; i<potion.ing.length; i++ ) ings += ", " + ip[ potion.ing[i] ].nam;
 	for( var i=1; i<potion.eff.length; i++ ) effs += ", " + ep[ potion.eff[i] ].nam;
 
+	return( "<b>Ingredients :</b><br>"
+			+ ings
+			+ "<br><b>Effects :</b><br>"
+			+ effs
+			+ "" );
 
 	return( "<dl><dt>Ingredients :</dt><dd>"
 			+ ings
@@ -75,7 +80,7 @@ function displayPotions( index )
 		console.log( 'potion' );
 		console.log( spot_ns.pot.lab[ index[i]] );
 
-		$("#potion-list").append( "<div class='tPots tag tag-default' data-potion='"+index[i]+"'>" + potionString( spot_ns.pot.lab[index[i]] ) + "</div>" );
+		$("#potion-list").append( "<p class='tPots tag tag-default' data-potion='"+index[i]+"'>" + potionString( spot_ns.pot.lab[index[i]] ) + "</p>" );
 
 		// speed up improvements
 		if( ++count > 50 ) 
@@ -85,6 +90,8 @@ function displayPotions( index )
 		}
 	}
 
+	$( '#potion-list' ).children( 'p' ).each( function(){ $(this).show() } );
+	// $( '#potion-list' ).children( 'p' ).each( function(){ options.idx.display[ $(this).data( 'idx' ) ] = $(this); } );
 	// $( '.tPots' ).click( addFavorite );
 }
 
