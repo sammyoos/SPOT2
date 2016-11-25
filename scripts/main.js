@@ -143,7 +143,7 @@ function click() {
 		click.addClass( tag );
 	}
 
-	spot_ns.redraw();
+	spot_ns.redraw( false );
 	return( false );
 }
 
@@ -182,18 +182,22 @@ function display_list( idx )
 }
 
 function setAvail( potions, iIdx, eIdx ){
-	if( potions == null ) return;
 	var iDisp = iIdx.nextDisplay;
 	var eDisp = eIdx.nextDisplay;
 
 	var iLen = iDisp.length;
 	var eLen = eDisp.length;
-	var pLen = potions.length;
 
+	if( potions == null ){
+		for( var i=0; i<iLen; i++ ) iDisp[i] = true;
+		for( var i=0; i<eLen; i++ ) eDisp[i] = true;
+		return;
+	}
 
 	for( var i=0; i<iLen; i++ ) iDisp[i] = false;
 	for( var i=0; i<eLen; i++ ) eDisp[i] = false;
 
+	var pLen = potions.length;
 	for( var i=0; i<pLen; i++ ){
 		var pot = spot_ns.pot.lab[ potions[i] ];
 		for( var j=0; j<pot.ing.length; j++ ) iDisp[ pot.ing[j] ] = true;
@@ -201,9 +205,38 @@ function setAvail( potions, iIdx, eIdx ){
 	}
 }
 
-spot_ns.redraw = function( )
+spot_ns.resetAll = function()
 {
-	var potions = merge_all();
+	var iIdx = spot_ns.iOptions.idx;
+	var eIdx = spot_ns.eOptions.idx;
+
+	var iDisp = iIdx.nextDisplay;
+	var eDisp = eIdx.nextDisplay;
+
+	var iLen = iDisp.length;
+	var eLen = eDisp.length;
+
+	for( var i=0; i<iLen; i++ ) { 
+		iDisp[i] = true; 
+		if( iIdx.selected[i] ) {
+			iIdx.selected[i]=false; 
+			iIdx.display[i].removeClass( 'tag-primary' );
+		}
+	}
+	for( var i=0; i<eLen; i++ ) { 
+		eDisp[i] = true; 
+		if( eIdx.selected[i] ) {
+			eIdx.selected[i]=false; 
+			eIdx.display[i].removeClass( 'tag-success' );
+		}
+	}
+
+	spot_ns.redraw( true );
+}
+
+spot_ns.redraw = function( reset )
+{
+	var potions = reset?null:merge_all();
 	displayPotions( potions );
 
 	var iIdx = spot_ns.iOptions.idx;
@@ -230,7 +263,8 @@ $(document).ready( function()
 	spot_ns.create_display_list( spot_ns.iOptions );
 	spot_ns.create_display_list( spot_ns.eOptions );
 
-	spot_ns.redraw();
+	spot_ns.redraw( false );
+	$('#reset').click( spot_ns.resetAll );
 });
 
 // vim:set tabstop=2 shiftwidth=2 noexpandtab:
