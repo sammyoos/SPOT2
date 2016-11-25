@@ -21,7 +21,6 @@ spot_ns.iOptions = {
 	"idx"				: getIdx().ing,
 	"list"			: "#ingredient-list",
 	"fpSelect"	: click,
-	"type"			: "i",
 };
 
 spot_ns.eOptions = {
@@ -32,7 +31,6 @@ spot_ns.eOptions = {
 	"idx"				: getIdx().eff,
 	"list"			: "#effect-list",
 	"fpSelect"	: click,
-	"type"			: "e",
 };
 
 spot_ns.pot = getIdx().pot;
@@ -59,21 +57,11 @@ function potionString ( potion )
 
 function displayPotions( index )
 {
-	console.info( "displayPotions()" );
-	console.log( index );
-	console.log( 'pot' );
-	console.log( spot_ns.pot );
-	console.log( 'pot.lab' );
-	console.log( spot_ns.pot.lab );
 	$("#potion-list").empty();
 
 	var count=0,i;
 	for( i in index )
 	{
-		console.log( index[i] );
-		console.log( 'potion' );
-		console.log( spot_ns.pot.lab[ index[i]] );
-
 		$("#potion-list").append( "<p class='tPots tag tag-default' data-potion='"+index[i]+"'>" + potionString( spot_ns.pot.lab[index[i]] ) + "</p>" );
 
 		// speed up improvements
@@ -97,7 +85,6 @@ function merge(a, b)
 {
 	// this next line was my own addition
 	if( !a ) { return( b ); }
-	console.log( 'merging...' );
 
 	var ai=0, bi=0, result = new Array();
 
@@ -113,41 +100,29 @@ function merge(a, b)
 
 function option_merge( filter, options )
 {
-	console.info( "option_merge()" );
-
 	var sel = options.idx.selected;
 	var len = sel.length;
 
-	console.log( "sel" );
-	console.log( sel );
-	console.log( "options.idx.pot" );
-	console.log( options.idx.pot );
 	for( var i=0; i<len; i++ )
 	{
 		if( sel[i] ) {
-			console.log( "options.idx.pot[i]" );
-			console.log( options.idx.pot[i] );
 			filter = merge( filter, options.idx.pot[i] );
 		}
 	}
-	console.log( "filter" );
-	console.log( filter );
 	return filter;
 }
 
-function merge_all( iOptions, eOptions )
+function merge_all()
 {
 	var filter=null;
 
-	filter = option_merge( filter, iOptions );
-	filter = option_merge( filter, eOptions );
+	filter = option_merge( filter, spot_ns.iOptions );
+	filter = option_merge( filter, spot_ns.eOptions );
 
 	return filter;
 }
 
 function click() {
-	console.info( "click()" );
-
 	var sel,tag;
 	var click = $(this);
 	var idx = click.data('idx');
@@ -190,35 +165,62 @@ spot_ns.create_display_list = function( options )
 	$( options.selector ).click( options.fpSelect );
 }
 
-display_list = function( options )
+function display_list( idx )
 {
-	for( var i=0; i<options.idx.display.length; i++ )
+	for( var i=0; i<idx.display.length; i++ )
 	{
-		if( options.idx.prevDisplay[i] ) {
-			if( !options.idx.nextDisplay[i] ) {
-				options.idx.display[i].hide( 'slow' );
+		if( idx.prevDisplay[i] ) {
+			if( !idx.nextDisplay[i] ) {
+				idx.display[i].hide( 'slow' );
 			}
 		}else{
-			if( options.idx.nextDisplay[i] ) {
-				options.idx.display[i].show( 'slow' );
+			if( idx.nextDisplay[i] ) {
+				idx.display[i].show( 'slow' );
 			}
 		}
 	}
 }
 
+function setAvail( potions, iIdx, eIdx ){
+	if( potions == null ) return;
+	var iDisp = iIdx.nextDisplay;
+	var eDisp = eIdx.nextDisplay;
+
+	var iLen = iDisp.length;
+	var eLen = eDisp.length;
+	var pLen = potions.length;
+
+
+	for( var i=0; i<iLen; i++ ) iDisp[i] = false;
+	for( var i=0; i<eLen; i++ ) eDisp[i] = false;
+
+	for( var i=0; i<pLen; i++ ){
+		var pot = spot_ns.pot.lab[ potions[i] ];
+		for( var j=0; j<pot.ing.length; j++ ) iDisp[ pot.ing[j] ] = true;
+		for( var j=0; j<pot.eff.length; j++ ) eDisp[ pot.eff[j] ] = true;
+	}
+}
+
 spot_ns.redraw = function( )
 {
-	console.info( "redraw()" );
-	var potions = merge_all( spot_ns.iOptions, spot_ns.eOptions );
-	console.log( potions );
-	displayPotions( potions )
+	var potions = merge_all();
+	displayPotions( potions );
 
-	display_list( spot_ns.iOptions );
-	display_list( spot_ns.eOptions );
+	var iIdx = spot_ns.iOptions.idx;
+	var eIdx = spot_ns.eOptions.idx;
+	setAvail( potions, iIdx, eIdx );
 
-	// var tmp = options.idx.nextDisplay;
-	// options.idx.nextDisplay = options.idx.prevDisplay;
-	// options.idx.prevDisplay = tmp;
+	display_list( iIdx );
+	display_list( eIdx );
+
+	var iTmp = iIdx.nextDisplay;
+	var eTmp = eIdx.nextDisplay;
+
+	iIdx.nextDisplay = iIdx.prevDisplay;
+	eIdx.nextDisplay = eIdx.prevDisplay;
+
+	iIdx.prevDisplay = iTmp;
+	eIdx.prevDisplay = eTmp;
 }
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
