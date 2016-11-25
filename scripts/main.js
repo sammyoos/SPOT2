@@ -20,7 +20,7 @@ spot_ns.iOptions = {
 	"notClass" 	: "tIngs tag",
 	"idx"				: getIdx().ing,
 	"list"			: "#ingredient-list",
-	"fpSelect"	: selectIngredient,
+	"fpSelect"	: click,
 	"type"			: "i",
 };
 
@@ -31,7 +31,7 @@ spot_ns.eOptions = {
 	"notClass"  : "tEffs tag",
 	"idx"				: getIdx().eff,
 	"list"			: "#effect-list",
-	"fpSelect"	: selectEffect,
+	"fpSelect"	: click,
 	"type"			: "e",
 };
 
@@ -54,12 +54,6 @@ function potionString ( potion )
 			+ "<br><b>Effects :</b><br>"
 			+ effs
 			+ "" );
-
-	return( "<dl><dt>Ingredients :</dt><dd>"
-			+ ings
-			+ "</dd><dt>Effects :</dt><dd>"
-			+ effs
-			+ "</dd></dl>" );
 }
 
 
@@ -104,8 +98,6 @@ function merge(a, b)
 	// this next line was my own addition
 	if( !a ) { return( b ); }
 	console.log( 'merging...' );
-	console.log ( 'a' );
-	console.log ( a );
 
 	var ai=0, bi=0, result = new Array();
 
@@ -148,39 +140,38 @@ function merge_all( iOptions, eOptions )
 	var filter=null;
 
 	filter = option_merge( filter, iOptions );
-	// filter = option_merge( filter, eOptions );
+	filter = option_merge( filter, eOptions );
 
 	return filter;
 }
 
-function selectIngredient()
-{
-	console.info( "selectIngredient()" );
-	var ing = $(this);
-	var idx = ing.data('idx');
-	var sel = spot_ns.iOptions.idx.selected;
+function click() {
+	console.info( "click()" );
+
+	var sel,tag;
+	var click = $(this);
+	var idx = click.data('idx');
+
+	if( click.hasClass( 'tIngs' ) ) {
+		sel = spot_ns.iOptions.idx.selected;
+		tag = 'tag-primary';
+	} else {
+		sel = spot_ns.eOptions.idx.selected;
+		tag = 'tag-success';
+	}
 
 	if( sel[idx] ){
 		sel[idx] = false;
-		ing.removeClass( "tag-primary" );
+		click.removeClass( tag );
 	}else{
 		sel[idx] = true;
-		ing.addClass( "tag-primary" );
+		click.addClass( tag );
 	}
 
 	spot_ns.redraw();
 	return( false );
 }
 
-function selectEffect()
-{
-	var eff = $(this);
-	var idx = eff.data('idx');
-	eff.toggleClass( "tag-success" );
-	console.log( idx );
-	spot_ns.redraw();
-	return( false );
-}
 
 spot_ns.create_display_list = function( options )
 {
