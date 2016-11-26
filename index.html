@@ -24,7 +24,7 @@
 
 		<div class="nav navbar-nav float-xs-right">
 			<div class="btn-group">
-				<button type="button" id="ing_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># Ingredients</button>
+				<button type="button" id="ing_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># of Ingredients</button>
 				<div class="dropdown-menu" aria-labelledby="ing_menu">
 					<a class="dropdown-item" href="#">Two Ingredients</a>
 					<a class="dropdown-item" href="#">Three Ingredients</a>
@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="btn-group">
-				<button type="button" id="eff_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># Effects</button>
+				<button type="button" id="eff_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># of Effects</button>
 				<div class="dropdown-menu" aria-labelledby="eff_menu">
 					<a class="dropdown-item" href="#">One Effect</a>
 					<a class="dropdown-item" href="#">Two Effects</a>
@@ -44,17 +44,6 @@
 					<a class="dropdown-item" href="#">Any # of Effects</a>
 				</div>
 			</div>
-			<div class="btn-group">
-				<button type="button" id="dlc_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DLC Ingredients</button>
-				<div class="dropdown-menu" aria-labelledby="dlc_menu">
-					<a class="dropdown-item" href="#">Base Skyrim</a>
-					<a class="dropdown-item" href="#">Dawnguard</a>
-					<a class="dropdown-item" href="#">Dragonborn</a>
-					<a class="dropdown-item" href="#">Hearth Fire</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">All Ingredients</a>
-				</div>
-			</div>
 			<button type="button" id="reset" class="btn btn-sm btn-secondary btn-warning">Reset</button>
 		</div>
 	</header>
@@ -62,9 +51,26 @@
 	<div class="container spot-page">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<h3>Favorites</h3>
+				<h3>DLC Selections</h3>
 				<div id="favorite-list" class="tag-list">
-				One of three columns
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span class="tag tag-default tag-pill float-xs-right">95</span>
+							Base Skyrim
+						</li>
+						<li class="list-group-item">
+							<span class="tag tag-default tag-pill float-xs-right">5</span>
+							Dawnguard
+						</li>
+						<li class="list-group-item">
+							<span class="tag tag-default tag-pill float-xs-right">11</span>
+							Dragonborn
+						</li>
+						<li class="list-group-item">
+							<span class="tag tag-default tag-pill float-xs-right">2</span>
+							Hearth Fire
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">

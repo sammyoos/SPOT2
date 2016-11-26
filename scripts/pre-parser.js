@@ -175,7 +175,6 @@
 
   function newBaseIng(idx) {
     var p = {};
-    p.idx = idx;
     p.nam = "";
     p.val = -1;
     p.wgt = -1;

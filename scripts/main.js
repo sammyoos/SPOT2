@@ -254,6 +254,8 @@ spot_ns.redraw = function( reset )
 
 	iIdx.prevDisplay = iTmp;
 	eIdx.prevDisplay = eTmp;
+
+	$('html, body').animate({ scrollTop: 0 }, 'slow');
 }
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
