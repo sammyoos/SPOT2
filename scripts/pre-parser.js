@@ -1,19 +1,26 @@
 (function () {
   "use strict";
 
+  /* check_viable returns a viable potion or null
+   * idx = base index
+   * hash = find dups
+   * X = 1st ingredient
+   * Y = 2nd ingredient
+   */
   function check_viable( idx, hash, X, Y )
   {
     var effect = [];
     var viable = false;
-    var pos = idx.pot.num;
+    var pos = idx.p.x;
 
+    // all ingredients have 4 effects
     for(var a=0; a<4; ++a )
     {
-      var ai = X.eff[a].idx;
+      var ai = X.e[a].x;
 
       for(var b=0; b<4; ++b )
       {
-        if( ai == Y.eff[b].idx )
+        if( ai == Y.e[b].x )
         {
           viable = true;
           effect.push(ai);
@@ -26,11 +33,11 @@
 
     idx.pot.num++;
     var pot = {
-      n: pos,
-      ing: (X.idx<Y.idx)
+      x: pos,
+      i: (X.idx<Y.idx)
         ?[ X.idx, Y.idx ]
         :[ Y.idx, X.idx ],
-      eff: effect.sort( function(a,b) { return( a-b ); } )
+      e: effect.sort( function(a,b) { return( a-b ); } )
     };
 
     idx.pot.lab.push( pot );
