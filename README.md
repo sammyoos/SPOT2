@@ -102,7 +102,7 @@ var index = { // mechanism for accessing root of the index
 		z: 'total number of effects in the list',
 	},
 	p: { // SECTION: all _potion_ related nodes
-		n: 'total number of potions in the list',
+		z: 'total number of potions in the list',
 		l: [],   // ordered list pointers to all potion objects (sorted by the string value of concatinating the ordinal values of the contained ingredients)
 		i: [     // index of all potions based on the number of ingredients contained in the potion
 			null, // there are no potions with '0' ingredients
