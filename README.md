@@ -20,7 +20,6 @@ stored in index files and then retrieved at page load.
 The following conventions are observed for field names in structures to minimize space, as 
 it is transfered to the client side browser as a JSON string and many of these names are repeated
 many times.
-
 * `a` - *after* - represents an array of booleans indicating if this object should be displayed after this processing
 * `b` - *before* - represents an array of booleans indicating if this object is currently displayed
 * `d` - *display* - represents an array of jQuery objects that can be addressed directly
@@ -41,6 +40,10 @@ many times.
 * `v` - *value* - represents the value multiplier (both ingredients and effects)
 * `w` - *weight* - specifically for ingredients
 * `z` - *size* - represents the size structure (typically the number of elements in *list*)
+
+Other important conventions:
+* always use `index` to refer to the base index
+* always use `idx` to refer to a primary branch of the base index that is passed into a subroutine
 
 ``` javascript
 var ingredient = {
@@ -84,16 +87,19 @@ var index = { // mechanism for accessing root of the index
 		a: [], 	// ingredients that should be viewable after current processing is complete
 		b: [], 	// ingredients that are currently viewable (before current processing started)
 		d: [], 	// jQuery representation of all the ingredient objects
-		i: {}, 	// pre-created hash of ingredient names pointing to the index values for list 'l'
+		h: {}, 	// pre-created hash of ingredient names pointing to the index values for list 'l'
 		l: [],	// ordered list pointers to all ingredient objects (sorted by ingredient name)
 		p: [],  // list of potions that include this ingredient (must list be sorted)
 		z: 'total number of ingredients in the list',
 	},
 	e: { // SECTION: all _effect_ related nodes
-		n: 'total number of effects in the list',
-		i: {}, // pre-created hash of effect names pointing to the index values for list 'l'
-		l: [], // ordered list pointers to all effect objects (sorted by ingredient name)
-		p: [] // list of potions that include this effect (each list must be sorted)
+		a: [], 	// effects that should be viewable after current processing is complete
+		b: [], 	// effects that are currently viewable (before current processing started)
+		d: [], 	// jQuery representation of all the effect objects
+		h: {}, 	// pre-created hash of effect names pointing to the index values for list 'l'
+		l: [],	// ordered list pointers to all effect objects (sorted by effect name)
+		p: [],  // list of potions that include this effect (must list be sorted)
+		z: 'total number of effects in the list',
 	},
 	p: { // SECTION: all _potion_ related nodes
 		n: 'total number of potions in the list',
