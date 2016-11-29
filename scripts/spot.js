@@ -34,7 +34,8 @@ spot_ns.eOptions = {
 };
 
 spot_ns.pot = spot_ns.index.p;
-
+spot_ns.effScopeFilter 	= null;
+spot_ns.ingScopeFilter 	= null; 
 spot_ns.favorites				= null;
 
 function potionString ( potion )
@@ -84,7 +85,8 @@ function displayPotions( potList )
 function merge(a, b)
 {
 	// this next line was my own addition
-	if( !a ) { return( b ); }
+	if( !a ) { return( b ); } // case where filter has not been initialized yet
+	if( !b ) { return( a ); } // case where there is no filter set for b
 
 	var ai=0, bi=0, result = new Array();
 
@@ -117,6 +119,9 @@ function merge_all()
 
 	filter = option_merge( filter, spot_ns.iOptions );
 	filter = option_merge( filter, spot_ns.eOptions );
+
+	filter = merge( filter, spot_ns.effScopeFilter );
+	filter = merge( filter, spot_ns.ingScopeFilter );
 
 	return filter;
 }
@@ -202,6 +207,38 @@ function setAvail( potions, iIdx, eIdx ){
 	}
 }
 
+spot_ns.selectEffMenu = function()
+{
+	var hitText = $(this).text();
+
+	switch( true ) {
+		case /^One/.test( hitText ):
+			spot_ns.effScopeFilter = spot_ns.index.p.e[1];
+			break;
+		case /^Two/.test( hitText ):
+			spot_ns.effScopeFilter = spot_ns.index.p.e[2];
+			break;
+		case /^Three/.test( hitText ):
+			spot_ns.effScopeFilter = spot_ns.index.p.e[3];
+			break;
+		case /^Four/.test( hitText ):
+			spot_ns.effScopeFilter = spot_ns.index.p.e[4];
+			break;
+		case /^Five/.test( hitText ):
+			spot_ns.effScopeFilter = spot_ns.index.p.e[5];
+			break;
+		case /^Any/.test( hitText ):
+			spot_ns.effScopeFilter = null;
+			break;
+		default:
+			// alert( "You hit a WTF!" );
+			break;
+	}
+
+	spot_ns.redraw( false );
+	return( true );
+}
+
 spot_ns.resetAll = function()
 {
 	var iIdx = spot_ns.iOptions.idx;
@@ -264,6 +301,7 @@ $(document).ready( function()
 
 	spot_ns.redraw( false );
 	$('#reset').click( spot_ns.resetAll );
+	$('.selEff').click( spot_ns.selectEffMenu );
 });
 
 // vim:set tabstop=2 shiftwidth=2 noexpandtab:
