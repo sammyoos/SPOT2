@@ -207,6 +207,30 @@ function setAvail( potions, iIdx, eIdx ){
 	}
 }
 
+spot_ns.selectIngMenu = function()
+{
+	var hitText = $(this).text();
+
+	switch( true ) {
+		case /^Two/.test( hitText ):
+			spot_ns.ingScopeFilter = spot_ns.index.p.i[2];
+			break;
+		case /^Three/.test( hitText ):
+			spot_ns.ingScopeFilter = spot_ns.index.p.i[3];
+			break;
+		case /^Any/.test( hitText ):
+			spot_ns.ingScopeFilter = null;
+			break;
+		default:
+			// alert( "You hit a WTF!" );
+			break;
+	}
+
+	spot_ns.redraw( false );
+	return( true );
+}
+
+
 spot_ns.selectEffMenu = function()
 {
 	var hitText = $(this).text();
@@ -265,6 +289,9 @@ spot_ns.resetAll = function()
 		}
 	}
 
+	spot_ns.effScopeFilter 	= null;
+	spot_ns.ingScopeFilter 	= null; 
+
 	spot_ns.redraw( true );
 }
 
@@ -302,6 +329,7 @@ $(document).ready( function()
 	spot_ns.redraw( false );
 	$('#reset').click( spot_ns.resetAll );
 	$('.selEff').click( spot_ns.selectEffMenu );
+	$('.selIng').click( spot_ns.selectIngMenu );
 });
 
 // vim:set tabstop=2 shiftwidth=2 noexpandtab:
