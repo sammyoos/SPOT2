@@ -18,7 +18,7 @@ spot_ns.iOptions = {
 	"selected" 	: "p.tIngs.tag-primary",
 	"selClass" 	: "tIngs tag tag-primary",
 	"notClass" 	: "tIngs tag",
-	"idx"				: getIdx().ing,
+	"idx"				: spot_ns.index.i,
 	"list"			: "#ingredient-list",
 	"fpSelect"	: click,
 };
@@ -28,24 +28,24 @@ spot_ns.eOptions = {
 	"selected"  : "p.tEffs.tag-success",
 	"selClass"  : "tEffs tag tag-success",
 	"notClass"  : "tEffs tag",
-	"idx"				: getIdx().eff,
+	"idx"				: spot_ns.index.e,
 	"list"			: "#effect-list",
 	"fpSelect"	: click,
 };
 
-spot_ns.pot = getIdx().pot;
+spot_ns.pot = spot_ns.index.p;
 
 spot_ns.favorites				= null;
 
 function potionString ( potion )
 {
-	var ip = spot_ns.iOptions.idx.lab;
-	var ep = spot_ns.eOptions.idx.lab;
-	var ings = ip[ potion.ing[0] ].nam;
-	var effs = ep[ potion.eff[0] ].nam;
+	var ip = spot_ns.index.i.l;
+	var ep = spot_ns.index.e.l;
+	var ings = ip[ potion.i[0] ].n;
+	var effs = ep[ potion.e[0] ].n;
 
-	for( var i=1; i<potion.ing.length; i++ ) ings += ", " + ip[ potion.ing[i] ].nam;
-	for( var i=1; i<potion.eff.length; i++ ) effs += ", " + ep[ potion.eff[i] ].nam;
+	for( var i=1; i<potion.i.length; i++ ) ings += ", " + ip[ potion.i[i] ].n;
+	for( var i=1; i<potion.e.length; i++ ) effs += ", " + ep[ potion.e[i] ].n;
 
 	return( "<b>Ingredients :</b><br>"
 			+ ings
@@ -55,14 +55,14 @@ function potionString ( potion )
 }
 
 
-function displayPotions( index )
+function displayPotions( potList )
 {
 	$("#potion-list").empty();
 
 	var count=0,i;
-	for( i in index )
+	for( i in potList )
 	{
-		$("#potion-list").append( "<p class='tPots tag tag-default' data-potion='"+index[i]+"'>" + potionString( spot_ns.pot.lab[index[i]] ) + "</p>" );
+		$("#potion-list").append( "<p class='tPots tag tag-default' data-potion='"+potList[i]+"'>" + potionString( spot_ns.index.p.l[potList[i]] ) + "</p>" );
 
 		// speed up improvements
 		if( ++count > 50 ) 
@@ -100,14 +100,13 @@ function merge(a, b)
 
 function option_merge( filter, options )
 {
-	var sel = options.idx.selected;
-	var len = sel.length;
+	var sel = options.idx.s;
+	var len = options.idx.z;
+	var pot = options.idx.p;
 
 	for( var i=0; i<len; i++ )
 	{
-		if( sel[i] ) {
-			filter = merge( filter, options.idx.pot[i] );
-		}
+		if( sel[i] ) filter = merge( filter, pot[i] );
 	}
 	return filter;
 }
@@ -128,10 +127,10 @@ function click() {
 	var idx = click.data('idx');
 
 	if( click.hasClass( 'tIngs' ) ) {
-		sel = spot_ns.iOptions.idx.selected;
+		sel = spot_ns.iOptions.idx.s;
 		tag = 'tag-primary';
 	} else {
-		sel = spot_ns.eOptions.idx.selected;
+		sel = spot_ns.eOptions.idx.s;
 		tag = 'tag-success';
 	}
 
@@ -151,42 +150,40 @@ function click() {
 spot_ns.create_display_list = function( options )
 {
 	$( options.list ).empty();
+	var idx = options.idx;
+	var len = idx.z;
 
-	for( var i=0; i<options.idx.lab.length; i++ )
+	for( var i=0; i<len; i++ )
 	{
-		var item = options.idx.lab[ i ];
+		var item = idx.l[ i ];
 		$( options.list ).append( "<p" 
 				+ " data-idx=\"" + i + "\""
 				+ " class=\"" + options.notClass + "\">" 
-				+ item.nam + "</p>" ); 
+				+ item.n + "</p>" ); 
 	}
 
-	$( options.list ).children( 'p' ).each( function(){ options.idx.display[ $(this).data( 'idx' ) ] = $(this); } );
+	$( options.list ).children( 'p' ).each( function(){ idx.d[ $(this).data( 'idx' ) ] = $(this); } );
 	$( options.selector ).click( options.fpSelect );
 }
 
 function display_list( idx )
 {
-	for( var i=0; i<idx.display.length; i++ )
+	for( var i=0; i<idx.z; i++ )
 	{
-		if( idx.prevDisplay[i] ) {
-			if( !idx.nextDisplay[i] ) {
-				idx.display[i].hide( 'slow' );
-			}
+		if( idx.b[i] ) {
+			if( !idx.a[i] ) idx.d[i].hide( 'slow' );
 		}else{
-			if( idx.nextDisplay[i] ) {
-				idx.display[i].show( 'slow' );
-			}
+			if( idx.a[i] ) idx.d[i].show( 'slow' );
 		}
 	}
 }
 
 function setAvail( potions, iIdx, eIdx ){
-	var iDisp = iIdx.nextDisplay;
-	var eDisp = eIdx.nextDisplay;
+	var iDisp = iIdx.a;
+	var eDisp = eIdx.a;
 
-	var iLen = iDisp.length;
-	var eLen = eDisp.length;
+	var iLen = iIdx.z;
+	var eLen = eIdx.z;
 
 	if( potions == null ){
 		for( var i=0; i<iLen; i++ ) iDisp[i] = true;
@@ -199,9 +196,9 @@ function setAvail( potions, iIdx, eIdx ){
 
 	var pLen = potions.length;
 	for( var i=0; i<pLen; i++ ){
-		var pot = spot_ns.pot.lab[ potions[i] ];
-		for( var j=0; j<pot.ing.length; j++ ) iDisp[ pot.ing[j] ] = true;
-		for( var j=0; j<pot.eff.length; j++ ) eDisp[ pot.eff[j] ] = true;
+		var pot = spot_ns.index.p.l[ potions[i] ];
+		for( var j=0,k=pot.i.length; j<k; j++ ) iDisp[ pot.i[j] ] = true;
+		for( var j=0,k=pot.i.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
 	}
 }
 
@@ -210,24 +207,24 @@ spot_ns.resetAll = function()
 	var iIdx = spot_ns.iOptions.idx;
 	var eIdx = spot_ns.eOptions.idx;
 
-	var iDisp = iIdx.nextDisplay;
-	var eDisp = eIdx.nextDisplay;
+	var iDisp = iIdx.a;
+	var eDisp = eIdx.a;
 
-	var iLen = iDisp.length;
-	var eLen = eDisp.length;
+	var iLen = iIdx.z;
+	var eLen = eIdx.z;
 
 	for( var i=0; i<iLen; i++ ) { 
 		iDisp[i] = true; 
-		if( iIdx.selected[i] ) {
-			iIdx.selected[i]=false; 
-			iIdx.display[i].removeClass( 'tag-primary' );
+		if( iIdx.s[i] ) {
+			iIdx.s[i]=false; 
+			iIdx.d[i].removeClass( 'tag-primary' );
 		}
 	}
 	for( var i=0; i<eLen; i++ ) { 
 		eDisp[i] = true; 
-		if( eIdx.selected[i] ) {
-			eIdx.selected[i]=false; 
-			eIdx.display[i].removeClass( 'tag-success' );
+		if( eIdx.s[i] ) {
+			eIdx.s[i]=false; 
+			eIdx.d[i].removeClass( 'tag-success' );
 		}
 	}
 
@@ -246,14 +243,14 @@ spot_ns.redraw = function( reset )
 	display_list( iIdx );
 	display_list( eIdx );
 
-	var iTmp = iIdx.nextDisplay;
-	var eTmp = eIdx.nextDisplay;
+	var iTmp = iIdx.a;
+	var eTmp = eIdx.a;
 
-	iIdx.nextDisplay = iIdx.prevDisplay;
-	eIdx.nextDisplay = eIdx.prevDisplay;
+	iIdx.a = iIdx.b;
+	eIdx.a = eIdx.b;
 
-	iIdx.prevDisplay = iTmp;
-	eIdx.prevDisplay = eTmp;
+	iIdx.b = iTmp;
+	eIdx.b = eTmp;
 
 	$('html, body').animate({ scrollTop: 0 }, 'slow');
 }
