@@ -75,7 +75,7 @@ function displayPotions( potList )
 
 	$( '#potion-list' ).children( 'p' ).each( function(){ $(this).show() } );
 	// $( '#potion-list' ).children( 'p' ).each( function(){ options.idx.display[ $(this).data( 'idx' ) ] = $(this); } );
-	// $( '.tPots' ).click( addFavorite );
+	$('.tPots').click( spot_ns.showPot );
 }
 
 
@@ -131,18 +131,24 @@ function click() {
 	var click = $(this);
 	var idx = click.data('idx');
 
+	var name = null;
 	if( click.hasClass( 'tIngs' ) ) {
+		name = spot_ns.iOptions.idx.l[ idx ].n;
 		sel = spot_ns.iOptions.idx.s;
 		tag = 'tag-primary';
 	} else {
+		name = spot_ns.eOptions.idx.l[ idx ].n;
 		sel = spot_ns.eOptions.idx.s;
 		tag = 'tag-success';
 	}
 
+
 	if( sel[idx] ){
+		console.log( "unselect [" + idx + ", " + name + "]" );
 		sel[idx] = false;
 		click.removeClass( tag );
 	}else{
+		console.log( "select [" + idx + ", " + name + "]" );
 		sel[idx] = true;
 		click.addClass( tag );
 	}
@@ -190,21 +196,80 @@ function setAvail( potions, iIdx, eIdx ){
 	var iLen = iIdx.z;
 	var eLen = eIdx.z;
 
+	var qq=47;
+	console.log( "(A) display 'Restore Stanima' : " + eDisp[qq] );
+	console.log( eDisp[qq] );
+
 	if( potions == null ){
 		for( var i=0; i<iLen; i++ ) iDisp[i] = true;
 		for( var i=0; i<eLen; i++ ) eDisp[i] = true;
+
+		console.log( "(B) display 'Restore Stanima' : " + eDisp[qq] );
 		return;
 	}
+
 
 	for( var i=0; i<iLen; i++ ) iDisp[i] = false;
 	for( var i=0; i<eLen; i++ ) eDisp[i] = false;
 
+	console.log( "(C) display 'Restore Stanima' : " + eDisp[qq] );
+
 	var pLen = potions.length;
 	for( var i=0; i<pLen; i++ ){
+		if( potions[i] == 556 ) debugger;
+
 		var pot = spot_ns.index.p.l[ potions[i] ];
 		for( var j=0,k=pot.i.length; j<k; j++ ) iDisp[ pot.i[j] ] = true;
-		for( var j=0,k=pot.i.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
+		// for( var j=0,k=pot.i.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
+		for( var j=0,k=pot.i.length; j<k; j++ ) 
+		{
+			if( potions[i] == 556 ) 
+			{
+				console.log( 'Potion Effect: [' + pot.e[j] '] ==> [' + spot_ns.e.l[ pot.e[j] ].n + ']' );
+				eDisp[ pot.e[j] ] = true;
+		}
 	}
+
+	console.log( "(D) display 'Restore Stanima' : " + eDisp[qq] );
+}
+
+function debug_pot( idx ) 
+{
+	console.log( 'Selected potion: ' + idx );
+
+	var pot = spot_ns.index.p.l[idx];
+
+	var iNum = pot.i[ 0 ] + "";
+	var iStr = spot_ns.index.i.l[ pot.i[ 0 ] ].n + "";
+	for( var i=1; i<pot.i.length; i++ )
+	{
+		var iIdx = pot.i[i];
+		iNum += ', ' + iIdx;
+		iStr += ', ' + spot_ns.index.i.l[ iIdx ].n;
+	}
+
+	console.log( '[' + iNum + '] ==> [' + iStr +']' );
+
+	var eNum = pot.e[ 0 ] + "";
+	var eStr = spot_ns.index.e.l[ pot.e[ 0 ] ].n + "";
+	for( var e=1; e<pot.e.length; e++ )
+	{
+		var eIdx = pot.e[e];
+		eNum += ', ' + eIdx;
+		eStr += ', ' + spot_ns.index.e.l[ eIdx ].n;
+	}
+
+	console.log( '[' + eNum + '] ==> [' + eStr +']' );
+}
+
+spot_ns.showPot = function()
+{
+	var disp = $(this);
+	var idx = disp.data( 'potion' );
+
+	debug_pot( idx );
+
+	return( false );
 }
 
 spot_ns.selectIngMenu = function()
@@ -299,6 +364,12 @@ spot_ns.redraw = function( reset )
 {
 	var potions = reset?null:merge_all();
 	displayPotions( potions );
+	if( potions === null ) {
+		console.log( "potion list not created" );
+	}else{
+		console.log( "# of Potions: " + potions.length );
+		console.log( potions.join( ', ' ) );
+	}
 
 	var iIdx = spot_ns.iOptions.idx;
 	var eIdx = spot_ns.eOptions.idx;
