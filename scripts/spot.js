@@ -216,18 +216,19 @@ function setAvail( potions, iIdx, eIdx ){
 
 	var pLen = potions.length;
 	for( var i=0; i<pLen; i++ ){
-		if( potions[i] == 556 ) debugger;
+		// if( potions[i] == 556 ) debugger;
 
 		var pot = spot_ns.index.p.l[ potions[i] ];
 		for( var j=0,k=pot.i.length; j<k; j++ ) iDisp[ pot.i[j] ] = true;
-		// for( var j=0,k=pot.i.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
-		for( var j=0,k=pot.i.length; j<k; j++ ) 
-		{
-			if( potions[i] == 556 ) 
-			{
-				console.log( 'Potion Effect: [' + pot.e[j] '] ==> [' + spot_ns.e.l[ pot.e[j] ].n + ']' );
-				eDisp[ pot.e[j] ] = true;
-		}
+		for( var j=0,k=pot.e.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
+//		for( var j=0,k=pot.e.length; j<k; j++ ) 
+//		{
+//			if( potions[i] == 556 ) 
+//			{
+//				console.log( 'Potion Effect: [' + pot.e[j] + '] ==> [' + spot_ns.e.l[ pot.e[j] ].n + ']' );
+//				eDisp[ pot.e[j] ] = true;
+//			}
+//		}
 	}
 
 	console.log( "(D) display 'Restore Stanima' : " + eDisp[qq] );
