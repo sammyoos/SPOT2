@@ -120,6 +120,97 @@ var index = { // mechanism for accessing root of the index
 			[],   // ordered list of all potions with exactly '6' effects
 			[]    // ordered list of all potions with exactly '7' effects
 		] 
+	},
+	m: { // SECTION: all _metrics_ related nodes
+		o: { // ingredients - there are no DLC specific effects
+			'BS': '# of ingredients that are available in Base Skyrim',
+			'DB': '# of ingredients that are available in the Dragonborn DLC',
+			'DG': '# of ingredients that are available in the Dawnguard DLC',
+			'HS': '# of ingredients that are available in the Headstead DLC',
+		},
+		p: [ // mapping between number of ingredients and effects for useful potions
+			null, // there are no potions with '0' ingredients
+			null, // there are no potions with '1' ingredients
+			[
+				0, // 2 ingredient potions with 0 effects
+				x, // 2 ingredient potions with 1 effects
+				x, // 2 ingredient potions with 2 effects
+				x, // 2 ingredient potions with 3 effects
+				x, // 2 ingredient potions with 4 effects
+				x, // 2 ingredient potions with 5 effects
+				x, // 2 ingredient potions with 6 effects
+				x  // 2 ingredient potions with 7 effects
+			],
+			[
+				0, // 3 ingredient potions with 0 effects
+				x, // 3 ingredient potions with 1 effects
+				x, // 3 ingredient potions with 2 effects
+				x, // 3 ingredient potions with 3 effects
+				x, // 3 ingredient potions with 4 effects
+				x, // 3 ingredient potions with 5 effects
+				x, // 3 ingredient potions with 6 effects
+				x  // 3 ingredient potions with 7 effects
+			]
+		],
+		u: [ // mapping between number of ingredients and effects for useful potions
+			 // this is usually because the there no more effects in the 3 ingredient version
+			 // than in the two independent 2 ingredient potions - these are officially viable
+			 // but usually not very useful
+			null, // there are no potions with '0' ingredients
+			null, // there are no potions with '1' ingredients
+			[ // 2 ingredient potions
+				0, // ... with 0 effects
+				x, // ... with 1 effects
+				x, // ... with 2 effects
+				x, // ... with 3 effects
+				x, // ... with 4 effects
+				x, // ... with 5 effects
+				x, // ... with 6 effects
+				x  // ... with 7 effects
+			],
+			[ // 3 ingredient potions
+				0, // ... with 0 effects
+				x, // ... with 1 effects
+				x, // ... with 2 effects
+				x, // ... with 3 effects
+				x, // ... with 4 effects
+				x, // ... with 5 effects
+				x, // ... with 6 effects
+				x  // ... with 7 effects
+			]
+		],
+		f: { // mapping between number of effects and pos/neg effect mix
+			'pos': [ // purely positive potions
+				0, // ... with 0 effects
+				x, // ... with 1 effects
+				x, // ... with 2 effects
+				x, // ... with 3 effects
+				x, // ... with 4 effects
+				x, // ... with 5 effects
+				x, // ... with 6 effects
+				x  // ... with 7 effects
+			],
+			'neg': [ // purely negative potions
+				0, // ... with 0 effects
+				x, // ... with 1 effects
+				x, // ... with 2 effects
+				x, // ... with 3 effects
+				x, // ... with 4 effects
+				x, // ... with 5 effects
+				x, // ... with 6 effects
+				x  // ... with 7 effects
+			],
+			'mix': [ // potions with both negative and postive effects
+				0, // ... with 0 effects
+				x, // ... with 1 effects
+				x, // ... with 2 effects
+				x, // ... with 3 effects
+				x, // ... with 4 effects
+				x, // ... with 5 effects
+				x, // ... with 6 effects
+				x  // ... with 7 effects
+			]
+		}
 	}
 };
 ```

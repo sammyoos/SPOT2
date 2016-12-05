@@ -90,6 +90,30 @@ $(document).ready(function () {
   index.p.i = [ null, null, [], [] ];
   index.p.e = [ null, [], [], [], [], [], [], [] ];
 
+  index.m.p = [ null, null, [], [], [], [], [], [] ];
+  index.m.u = [ null, null, [], [], [], [], [], [] ];
+  index.m.f = { 'pos': [], 'neg': [], 'mix': [] };
+
+  for( var i=0; i<7; i++ ) {
+    index.m.p[2][i] = 0;
+    index.m.p[3][i] = 0;
+    index.m.p[4][i] = 0;
+    index.m.p[5][i] = 0;
+    index.m.p[6][i] = 0;
+    index.m.p[7][i] = 0;
+
+    index.m.u[2][i] = 0;
+    index.m.u[3][i] = 0;
+    index.m.u[4][i] = 0;
+    index.m.u[5][i] = 0;
+    index.m.u[6][i] = 0;
+    index.m.u[7][i] = 0;
+
+    index.m.f['pos'][i] = 0;
+    index.m.f['neg'][i] = 0;
+    index.m.f['mix'][i] = 0;
+  }
+  
   console.info( 'potion building' );
   spot_ns.buildPotions(index);
   spot_ns.JSON_dump( 'index_small', index );

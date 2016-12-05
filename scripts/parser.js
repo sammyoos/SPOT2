@@ -8,15 +8,12 @@
     var eList = effects.l;
     var effIdx = effects.h[ effNam ];
 
-    // if( eList == undefined || eList == null ) debugger;
-
     if( eList[ effIdx ].n === "" ) {
       eList[ effIdx ].x = effIdx;
       eList[ effIdx ].n = effNam;
       eList[ effIdx ].f = favourable;
     }
 
-    // eList[effIdx].i.push(ingIdx); // TODO: remove this line
     return( effIdx );
   }
 
@@ -77,6 +74,8 @@
 
           });
           // could also extract ID from here
+          if( !( 'o' in props ) || ( props.o === undefined ) || props.o === "" ) props.o = "BS";
+          index.m.o[ props.o ]++;
           break;
 
         case 2:
@@ -198,6 +197,9 @@ $(document).ready(function () {
     { n: "", f: false },
     { "Cure Disease": 0, "Damage Health": 1, "Damage Magicka Regen": 2, "Damage Magicka": 3, "Damage Stamina Regen": 4, "Damage Stamina": 5, "Fear": 6, "Fortify Alteration": 7, "Fortify Barter": 8, "Fortify Block": 9, "Fortify Carry Weight": 10, "Fortify Conjuration": 11, "Fortify Destruction": 12, "Fortify Enchanting": 13, "Fortify Health": 14, "Fortify Heavy Armor": 15, "Fortify Illusion": 16, "Fortify Light Armor": 17, "Fortify Lockpicking": 18, "Fortify Magicka": 19, "Fortify Marksman": 20, "Fortify One-handed": 21, "Fortify Pickpocket": 22, "Fortify Restoration": 23, "Fortify Smithing": 24, "Fortify Sneak": 25, "Fortify Stamina": 26, "Fortify Two-handed": 27, "Frenzy": 28, "Invisibility": 29, "Lingering Damage Health": 30, "Lingering Damage Magicka": 31, "Lingering Damage Stamina": 32, "Paralysis": 33, "Ravage Health": 34, "Ravage Magicka": 35, "Ravage Stamina": 36, "Regenerate Health": 37, "Regenerate Magicka": 38, "Regenerate Stamina": 39, "Resist Fire": 40, "Resist Frost": 41, "Resist Magic": 42, "Resist Poison": 43, "Resist Shock": 44, "Restore Health": 45, "Restore Magicka": 46, "Restore Stamina": 47, "Slow": 48, "Waterbreathing": 49, "Weakness to Fire": 50, "Weakness to Frost": 51, "Weakness to Magic": 52, "Weakness to Poison": 53, "Weakness to Shock": 54 } 
   );
+
+  index.m = {};
+  index.m.o = { 'BS': 0, 'DB': 0, 'DG': 0, 'HF': 0 };
 
   // fullJSON.text( JSON.stringify( index ));
   // source: http://stackoverflow.com/questions/3709597/wait-until-all-jquery-ajax-requests-are-done

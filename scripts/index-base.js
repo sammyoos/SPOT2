@@ -2,7 +2,7 @@
 (function( spot_ns, $, undefined ) {
 
 spot_ns.check_sum = {
- "index_base": "E1C-BF1"
+ "index_base": "EE7-0CB"
 };
 
 spot_ns.index = 
@@ -475,7 +475,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.5",
     "r": "Collected by catching Abacean Longfin fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -625,7 +625,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from various types of dead Bears.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -655,7 +655,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.1",
     "r": "Collected from beehives and by catching Bees.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -685,7 +685,7 @@ spot_ns.index =
     "v": "5",
     "w": "1",
     "r": "Collected from beehives.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -715,7 +715,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.2",
     "r": "This ingredient is given as a quest item. Its effects are all identical to standard Bone Meal.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -745,7 +745,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.3",
     "r": "Harvested from Bleeding Crown, a mushroom found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -775,7 +775,7 @@ spot_ns.index =
     "v": "12",
     "w": "0.2",
     "r": "Harvested from Blisterwort mushrooms found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -805,7 +805,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected by catching Blue Butterflies. Often found during daylight hours near flowering plants.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -835,7 +835,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Collected by catching Dragonflies found near rivers and streams below the snow line.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -865,7 +865,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Harvested from the blue variety of Mountain Flower, found throughout Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -925,7 +925,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.5",
     "r": "Collected from undead such as skeletons, and Draugr.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -955,7 +955,7 @@ spot_ns.index =
     "v": "20",
     "w": "0.5",
     "r": "Collected from Forsworn Briarhearts.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1015,7 +1015,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.1",
     "r": "Collected from catching Monarch Butterflies. Often found during daylight hours near flowering plants.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1045,7 +1045,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.1",
     "r": "Harvested from Canis Root, found in The Rift and Hjaalmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1075,7 +1075,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.5",
     "r": "Food, collected from dead Skeevers found on roasting spits.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1105,7 +1105,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.2",
     "r": "Collected from Chaurus Egg Sacs, found in Falmer caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1165,7 +1165,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.5",
     "r": "Food, harvested from Chicken nests in various farms.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1195,7 +1195,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.2",
     "r": "Harvested from Creep Cluster, found in the volcanic tundra of Eastmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1225,7 +1225,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.2",
     "r": "Harvested from Crimson Nirnroot, found in Blackreach, needed for the quest A Return To Your Roots.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -1255,7 +1255,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected by catching Cyrodilic Spadetail fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -1285,7 +1285,7 @@ spot_ns.index =
     "v": "250",
     "w": "0.5",
     "r": "Collected from dead Dremora.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1315,7 +1315,7 @@ spot_ns.index =
     "v": "4",
     "w": "0.1",
     "r": "Harvested from Deathbell, found in Hjaalmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1345,7 +1345,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.1",
     "r": "Harvested from Dragon's Tongue, found in the volcanic tundra of Eastmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -1375,7 +1375,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected from destroyed Dwarven Automatons, found in Dwarven Ruins.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1405,7 +1405,7 @@ spot_ns.index =
     "v": "25",
     "w": "0.1",
     "r": "Collected from undead Ghosts.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1435,7 +1435,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.1",
     "r": "Harvested from Dried Elves Ear bunches found in homes and camps.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -1495,7 +1495,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead Sabre Cats.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -1525,7 +1525,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.2",
     "r": "Collected from dead Falmer.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1555,7 +1555,7 @@ spot_ns.index =
     "v": "100",
     "w": "0.25",
     "r": "This ingredient is given as a quest item. It is identical to standard Frost Salts, except for its name.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -1615,7 +1615,7 @@ spot_ns.index =
     "v": "125",
     "w": "0.2",
     "r": "This ingredient is given as a quest item. It is identical to standard Void Salts, except for its name.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -1645,7 +1645,7 @@ spot_ns.index =
     "v": "50",
     "w": "0.25",
     "r": "Collected from dead Flame Atronachs, a type of daedra.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1675,7 +1675,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Harvested from Fly Amanita mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1705,7 +1705,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Dried Frost Mirriam bunches found in homes and camps.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1735,7 +1735,7 @@ spot_ns.index =
     "v": "100",
     "w": "0.25",
     "r": "Collected from dead Frost Atronachs, a type of daedra.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1765,7 +1765,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.25",
     "r": "Food. Can also be harvested from Garlic Braids.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -1795,7 +1795,7 @@ spot_ns.index =
     "v": "20",
     "w": "1",
     "r": "Collected from dead Giants, which can be found in Giant Camps.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1825,7 +1825,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.25",
     "r": "Harvested from Giant Lichen, found in Hjaalmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1885,7 +1885,7 @@ spot_ns.index =
     "v": "20",
     "w": "0.5",
     "r": "Collected from dead Wisps and Wispmothers.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1915,7 +1915,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.2",
     "r": "Harvested from Glowing Mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -1945,7 +1945,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Spiky Grass, found in northern regions of Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1975,7 +1975,7 @@ spot_ns.index =
     "v": "20",
     "w": "0.25",
     "r": "Collected from dead Hagravens.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2005,7 +2005,7 @@ spot_ns.index =
     "v": "20",
     "w": "0.1",
     "r": "Collected from dead Hagravens. Can also be found scattered around their sleeping areas.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2035,7 +2035,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.25",
     "r": "Harvested from Hanging Moss.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2095,7 +2095,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected from dead Hawks.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2125,7 +2125,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.1",
     "r": "Collected from dead Hawks.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2155,7 +2155,7 @@ spot_ns.index =
     "v": "6",
     "w": "0.25",
     "r": "Collected by catching Histcarp fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2185,7 +2185,7 @@ spot_ns.index =
     "v": "5",
     "w": "1",
     "r": "Food. Collected from beehives.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -2215,7 +2215,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.25",
     "r": "Cannot be harvested or collected; with the Dawnguard plug-in installed, several respawning samples can be found in Volkihar Keep.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -2245,7 +2245,7 @@ spot_ns.index =
     "v": "0",
     "w": "1",
     "r": "Cannot be harvested or collected; limited number of samples available.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -2275,7 +2275,7 @@ spot_ns.index =
     "v": "30",
     "w": "0.25",
     "r": "Collected from Ice Wraiths.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2305,7 +2305,7 @@ spot_ns.index =
     "v": "0",
     "w": "0.3",
     "r": "Harvested from Imp Stool mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2335,7 +2335,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.5",
     "r": "You may only receive this ingredient once during the Dark Brotherhood quest line.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -2365,7 +2365,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.2",
     "r": "Harvested from Jazbay vines, found in the volcanic tundra of Eastmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2395,7 +2395,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Juniper shrubs, common in The Reach.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2425,7 +2425,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead male Elk.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -2455,7 +2455,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Lavender, most common in Whiterun Hold.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2485,7 +2485,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.1",
     "r": "Collected by catching Luna Moths. Often found near flowers after dark.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2515,7 +2515,7 @@ spot_ns.index =
     "v": "50",
     "w": "0.25",
     "r": "Cannot be collected or harvested. Can be purchased from the Khajiit Traders.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2545,7 +2545,7 @@ spot_ns.index =
     "v": "4",
     "w": "0.25",
     "r": "Harvested from Mora Tapinella mushrooms, found growing on dead trees.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2575,7 +2575,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.25",
     "r": "Collected from dead Mudcrabs, found in or near bodies of water.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -2605,7 +2605,7 @@ spot_ns.index =
     "v": "0",
     "w": "0.25",
     "r": "Harvested from Namira's Rot mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2665,7 +2665,7 @@ spot_ns.index =
     "v": "8",
     "w": "0.1",
     "r": "Harvested from Nightshade, found growing throughout Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2695,7 +2695,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.2",
     "r": "Harvested from Nirnroot, found near bodies of water throughout Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2725,7 +2725,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.2",
     "r": "Harvested from Nordic Barnacle Clusters, found in or near water.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2755,7 +2755,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Collected by catching Dragonflies found near rivers and streams below the snow line.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -2785,7 +2785,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -2815,7 +2815,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.5",
     "r": "Harvested from bird nests in forested regions, in particular The Rift.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2875,7 +2875,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Cannot be harvested or collected; only readily available after the Merchant perk has been unlocked.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -2905,7 +2905,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Harvested from the purple variety of Mountain Flower.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2935,7 +2935,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Harvested from the red variety of Mountain Flower.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2965,7 +2965,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected by catching River Betty fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2995,7 +2995,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.5",
     "r": "Harvested from bird nests in rocky regions, in particular The Reach.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3025,7 +3025,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead Sabre cats.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -3085,7 +3085,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.2",
     "r": "Food. Cannot be harvested or collected, but is commonly found in barrels and sacks.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3115,7 +3115,7 @@ spot_ns.index =
     "v": "4",
     "w": "0.25",
     "r": "Harvested from Scaly Pholiota mushrooms, found growing on dead trees.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3175,7 +3175,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected by catching Silverside Perch fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3205,7 +3205,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.2",
     "r": "Collected from dead Skeevers.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3235,7 +3235,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.2",
     "r": "Collected from Slaughterfish Egg Nests, found in or near water.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3265,7 +3265,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.1",
     "r": "Collected from dead Slaughterfish.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3295,7 +3295,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead female Elk.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -3325,7 +3325,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -3355,7 +3355,7 @@ spot_ns.index =
     "v": "4",
     "w": "0.1",
     "r": "Harvested from Snowberry bushes, found in snowy regions of Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3415,7 +3415,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.2",
     "r": "Collected from spider Egg Sacs and Web Sacs.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3445,7 +3445,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.2",
     "r": "Cannot be harvested or collected; best source is merchants.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3475,7 +3475,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.25",
     "r": "Harvested from Swamp Fungal Pod, common in the tundra marsh of Hjaalmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3505,7 +3505,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.5",
     "r": "Collected from dead Spriggans.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3535,7 +3535,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Thistle.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3565,7 +3565,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Collected by catching Torchbugs. Found below the snowline after dark.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -3625,7 +3625,7 @@ spot_ns.index =
     "v": "15",
     "w": "1",
     "r": "Collected from dead Trolls.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3655,7 +3655,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Tundra Cotton, found in Whiterun Hold.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3685,7 +3685,7 @@ spot_ns.index =
     "v": "25",
     "w": "0.2",
     "r": "Collected from dead Vampires.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -3715,7 +3715,7 @@ spot_ns.index =
     "v": "125",
     "w": "0.2",
     "r": "Collected from dead Storm Atronachs.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -3745,7 +3745,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.1",
     "r": "Food. Harvested from wheat bushels, found in various farms.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3775,7 +3775,7 @@ spot_ns.index =
     "v": "0",
     "w": "0.3",
     "r": "Harvested from White Cap mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3805,7 +3805,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead Wispmothers.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -4713,6 +4713,14 @@ spot_ns.index =
    false,
    false
   ]
+ },
+ "m": {
+  "o": {
+   "BS": 95,
+   "DB": 11,
+   "DG": 5,
+   "HF": 2
+  }
  }
 };
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
