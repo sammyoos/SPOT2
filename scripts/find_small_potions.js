@@ -15,6 +15,8 @@
     var X = idx.i.l[x];
     var Y = idx.i.l[y];
 
+    var effPos = 0, effNeg = 0;
+
     // all ingredients have 4 effects
     for(var a=0; a<4; ++a )
     {
@@ -27,6 +29,12 @@
         viable = true;
         effect.push(ai);
         idx.e.p[ai].push( pos );
+
+        if( idx.e.l[ai].f ) {
+          ++effPos;
+        } else {
+          ++effNeg;
+        }
       }
     }
 
@@ -45,6 +53,16 @@
     idx.p.e[effect.length].push( pos );
     idx.i.p[x].push( pos );
     idx.i.p[y].push( pos );
+
+    idx.m.p[2][ effect.length ]++;
+    var effNet = effPos + effNeg;
+    if( effNeg == 0 ) {
+      ++idx.m.f.pos[ effNet ];
+    }else if( effPos == 0 ) {
+      ++idx.m.f.neg[ effNet ];
+    }else{
+      ++idx.m.f.mix[ effNet ];
+    }
 
     idx.p.z++;
     return pot;
@@ -94,28 +112,21 @@ $(document).ready(function () {
   index.m.u = [ null, null, [], [], [], [], [], [] ];
   index.m.f = { 'pos': [], 'neg': [], 'mix': [] };
 
-  for( var i=0; i<7; i++ ) {
-    index.m.p[2][i] = 0;
-    index.m.p[3][i] = 0;
-    index.m.p[4][i] = 0;
-    index.m.p[5][i] = 0;
-    index.m.p[6][i] = 0;
-    index.m.p[7][i] = 0;
+  for( var e=0; e<7; e++ ) {
+    index.m.p[2][e] = 0;
+    index.m.p[3][e] = 0;
 
-    index.m.u[2][i] = 0;
-    index.m.u[3][i] = 0;
-    index.m.u[4][i] = 0;
-    index.m.u[5][i] = 0;
-    index.m.u[6][i] = 0;
-    index.m.u[7][i] = 0;
+    index.m.u[2][e] = 0;
+    index.m.u[3][e] = 0;
 
-    index.m.f['pos'][i] = 0;
-    index.m.f['neg'][i] = 0;
-    index.m.f['mix'][i] = 0;
+    index.m.f['pos'][e] = 0;
+    index.m.f['neg'][e] = 0;
+    index.m.f['mix'][e] = 0;
   }
   
   console.info( 'potion building' );
   spot_ns.buildPotions(index);
-  spot_ns.JSON_dump( 'index_small', index );
+  // spot_ns.JSON_dump( 'index_small', index );
+  spot_ns.JSON_dump( 'index_small', index.m );
 });
 // vim: set ts=2 sw=2 et:
