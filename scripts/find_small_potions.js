@@ -40,12 +40,26 @@
 
     if( ! viable ) return null;
 
+    var effNet = effPos + effNeg;
+    var fVal;
+    if( effNeg == 0 ) {
+      ++idx.m.f.pos[ effNet ];
+      fVal = 0;
+    }else if( effPos == 0 ) {
+      ++idx.m.f.neg[ effNet ];
+      fVal = 1;
+    }else{
+      ++idx.m.f.mix[ effNet ];
+      fVal = 2;
+    }
+
     var pot = {
       x: pos,
       i: (x<y)
         ?[ x, y ]
         :[ y, x ],
-      e: effect.sort( function(a,b) { return( a-b ); } )
+      e: effect.sort( function(a,b) { return( a-b ); } ),
+      f: fVal
     };
 
     idx.p.l.push( pot );
@@ -55,14 +69,6 @@
     idx.i.p[y].push( pos );
 
     idx.m.p[2][ effect.length ]++;
-    var effNet = effPos + effNeg;
-    if( effNeg == 0 ) {
-      ++idx.m.f.pos[ effNet ];
-    }else if( effPos == 0 ) {
-      ++idx.m.f.neg[ effNet ];
-    }else{
-      ++idx.m.f.mix[ effNet ];
-    }
 
     idx.p.z++;
     return pot;
@@ -126,7 +132,7 @@ $(document).ready(function () {
   
   console.info( 'potion building' );
   spot_ns.buildPotions(index);
-  // spot_ns.JSON_dump( 'index_small', index );
-  spot_ns.JSON_dump( 'index_small', index.m );
+  spot_ns.JSON_dump( 'index_small', index );
+  // spot_ns.JSON_dump( 'index_small', index.m );
 });
 // vim: set ts=2 sw=2 et:

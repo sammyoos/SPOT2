@@ -88,16 +88,23 @@ var index = { // mechanism for accessing root of the index
 		b: [], 	// ingredients that are currently viewable (before current processing started)
 		d: [], 	// jQuery representation of all the ingredient objects
 		h: {}, 	// pre-created hash of ingredient names pointing to the index values for list 'l'
-		l: [],	// ordered list pointers to all ingredient objects (sorted by ingredient name)
+		l: [],	// ordered list of all ingredient objects (sorted by ingredient name)
 		p: [],  // list of potions that include this ingredient (must list be sorted)
 		z: 'total number of ingredients in the list',
+		o: {
+			'BS': [], // ingredients that are available in Base Skyrim
+			'DB': [], // ingredients that are available in the Dragonborn DLC
+			'DG': [], // ingredients that are available in the Dawnguard DLC
+			'HS': []  // ingredients that are available in the Headstead DLC
+		}
+
 	},
 	e: { // SECTION: all _effect_ related nodes
 		a: [], 	// effects that should be viewable after current processing is complete
 		b: [], 	// effects that are currently viewable (before current processing started)
 		d: [], 	// jQuery representation of all the effect objects
 		h: {}, 	// pre-created hash of effect names pointing to the index values for list 'l'
-		l: [],	// ordered list pointers to all effect objects (sorted by effect name)
+		l: [],	// ordered list of all effect objects (sorted by effect name)
 		p: [],  // list of potions that include this effect (must list be sorted)
 		z: 'total number of effects in the list',
 	},
@@ -119,7 +126,12 @@ var index = { // mechanism for accessing root of the index
 			[],   // ordered list of all potions with exactly '5' effects
 			[],   // ordered list of all potions with exactly '6' effects
 			[]    // ordered list of all potions with exactly '7' effects
-		] 
+		],
+		f: {
+			'pos': [],	// ordered list of all potions with only positive effects
+			'neg': [],  // ordered list of all potions with only negative effects
+			'mix': []	// ordered list of all potions with mixed effects
+		}
 	},
 	m: { // SECTION: all _metrics_ related nodes
 		o: { // ingredients - there are no DLC specific effects
@@ -234,4 +246,28 @@ give up jQuery or Bootstrap.
 With all the new data that the DLCs introduced, the page load was still
 too slow.  By spliting out some of the less used data for manual load
 the application returned to better page load times.
+
+## Why does the coding use so many local variables?
+
+The index structure is deep and complex.  Dereferencing into that can 
+be expensive when done many times.  Local variables that point to commonly
+used areas of the index encourage the compiler to keep those areas in
+registers (very fast memory) which *should* result in faster code.
+http://jonraasch.com/blog/10-javascript-performance-boosting-tips-from-nicholas-zakas
+Not directly related, but a delightful article on performance:
+http://www.webreference.com/programming/javascript/jkm3/index.html
+
+## What about browser support?
+
+As much as possible, the end user product (the potion optimizer) has
+been developed to usitilize no aspects of JavaScript, CSS, or HTML that
+require a new, up-to-date browser.  Minimal testing has been done up-front,
+but as more aspects of the system are fully developed, this testing will
+become more robust.
+
+For the development aspect (parser and creation of indexes) it is assumed
+the developer has access to the latest/greatest/fully patched browsers.
+Much of this was built and tested with:
+> *Google Chrome :*	55.0.2883.87 (Official Build) m (64-bit)
+
 

@@ -2,8 +2,8 @@
 (function( spot_ns, $, undefined ) {
 
 spot_ns.check_sum = {
- "index_base": "E1C-BF1",
- "index_small": "CA5-430"
+ "index_base": "EE7-0CB",
+ "index_small": "AE6-D4C"
 };
 
 spot_ns.index = 
@@ -476,7 +476,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.5",
     "r": "Collected by catching Abacean Longfin fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -626,7 +626,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from various types of dead Bears.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -656,7 +656,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.1",
     "r": "Collected from beehives and by catching Bees.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -686,7 +686,7 @@ spot_ns.index =
     "v": "5",
     "w": "1",
     "r": "Collected from beehives.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -716,7 +716,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.2",
     "r": "This ingredient is given as a quest item. Its effects are all identical to standard Bone Meal.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -746,7 +746,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.3",
     "r": "Harvested from Bleeding Crown, a mushroom found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -776,7 +776,7 @@ spot_ns.index =
     "v": "12",
     "w": "0.2",
     "r": "Harvested from Blisterwort mushrooms found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -806,7 +806,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected by catching Blue Butterflies. Often found during daylight hours near flowering plants.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -836,7 +836,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Collected by catching Dragonflies found near rivers and streams below the snow line.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -866,7 +866,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Harvested from the blue variety of Mountain Flower, found throughout Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -926,7 +926,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.5",
     "r": "Collected from undead such as skeletons, and Draugr.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -956,7 +956,7 @@ spot_ns.index =
     "v": "20",
     "w": "0.5",
     "r": "Collected from Forsworn Briarhearts.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1016,7 +1016,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.1",
     "r": "Collected from catching Monarch Butterflies. Often found during daylight hours near flowering plants.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1046,7 +1046,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.1",
     "r": "Harvested from Canis Root, found in The Rift and Hjaalmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1076,7 +1076,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.5",
     "r": "Food, collected from dead Skeevers found on roasting spits.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1106,7 +1106,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.2",
     "r": "Collected from Chaurus Egg Sacs, found in Falmer caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1166,7 +1166,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.5",
     "r": "Food, harvested from Chicken nests in various farms.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1196,7 +1196,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.2",
     "r": "Harvested from Creep Cluster, found in the volcanic tundra of Eastmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1226,7 +1226,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.2",
     "r": "Harvested from Crimson Nirnroot, found in Blackreach, needed for the quest A Return To Your Roots.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -1256,7 +1256,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected by catching Cyrodilic Spadetail fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -1286,7 +1286,7 @@ spot_ns.index =
     "v": "250",
     "w": "0.5",
     "r": "Collected from dead Dremora.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1316,7 +1316,7 @@ spot_ns.index =
     "v": "4",
     "w": "0.1",
     "r": "Harvested from Deathbell, found in Hjaalmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1346,7 +1346,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.1",
     "r": "Harvested from Dragon's Tongue, found in the volcanic tundra of Eastmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -1376,7 +1376,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected from destroyed Dwarven Automatons, found in Dwarven Ruins.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1406,7 +1406,7 @@ spot_ns.index =
     "v": "25",
     "w": "0.1",
     "r": "Collected from undead Ghosts.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1436,7 +1436,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.1",
     "r": "Harvested from Dried Elves Ear bunches found in homes and camps.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -1496,7 +1496,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead Sabre Cats.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -1526,7 +1526,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.2",
     "r": "Collected from dead Falmer.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1556,7 +1556,7 @@ spot_ns.index =
     "v": "100",
     "w": "0.25",
     "r": "This ingredient is given as a quest item. It is identical to standard Frost Salts, except for its name.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -1616,7 +1616,7 @@ spot_ns.index =
     "v": "125",
     "w": "0.2",
     "r": "This ingredient is given as a quest item. It is identical to standard Void Salts, except for its name.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -1646,7 +1646,7 @@ spot_ns.index =
     "v": "50",
     "w": "0.25",
     "r": "Collected from dead Flame Atronachs, a type of daedra.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1676,7 +1676,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Harvested from Fly Amanita mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1706,7 +1706,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Dried Frost Mirriam bunches found in homes and camps.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1736,7 +1736,7 @@ spot_ns.index =
     "v": "100",
     "w": "0.25",
     "r": "Collected from dead Frost Atronachs, a type of daedra.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1766,7 +1766,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.25",
     "r": "Food. Can also be harvested from Garlic Braids.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -1796,7 +1796,7 @@ spot_ns.index =
     "v": "20",
     "w": "1",
     "r": "Collected from dead Giants, which can be found in Giant Camps.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -1826,7 +1826,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.25",
     "r": "Harvested from Giant Lichen, found in Hjaalmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1886,7 +1886,7 @@ spot_ns.index =
     "v": "20",
     "w": "0.5",
     "r": "Collected from dead Wisps and Wispmothers.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1916,7 +1916,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.2",
     "r": "Harvested from Glowing Mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -1946,7 +1946,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Spiky Grass, found in northern regions of Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -1976,7 +1976,7 @@ spot_ns.index =
     "v": "20",
     "w": "0.25",
     "r": "Collected from dead Hagravens.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2006,7 +2006,7 @@ spot_ns.index =
     "v": "20",
     "w": "0.1",
     "r": "Collected from dead Hagravens. Can also be found scattered around their sleeping areas.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2036,7 +2036,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.25",
     "r": "Harvested from Hanging Moss.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2096,7 +2096,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected from dead Hawks.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2126,7 +2126,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.1",
     "r": "Collected from dead Hawks.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2156,7 +2156,7 @@ spot_ns.index =
     "v": "6",
     "w": "0.25",
     "r": "Collected by catching Histcarp fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2186,7 +2186,7 @@ spot_ns.index =
     "v": "5",
     "w": "1",
     "r": "Food. Collected from beehives.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -2216,7 +2216,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.25",
     "r": "Cannot be harvested or collected; with the Dawnguard plug-in installed, several respawning samples can be found in Volkihar Keep.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -2246,7 +2246,7 @@ spot_ns.index =
     "v": "0",
     "w": "1",
     "r": "Cannot be harvested or collected; limited number of samples available.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -2276,7 +2276,7 @@ spot_ns.index =
     "v": "30",
     "w": "0.25",
     "r": "Collected from Ice Wraiths.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2306,7 +2306,7 @@ spot_ns.index =
     "v": "0",
     "w": "0.3",
     "r": "Harvested from Imp Stool mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2336,7 +2336,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.5",
     "r": "You may only receive this ingredient once during the Dark Brotherhood quest line.",
-    "o": "",
+    "o": "BS",
     "q": "None",
     "e": [
      {
@@ -2366,7 +2366,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.2",
     "r": "Harvested from Jazbay vines, found in the volcanic tundra of Eastmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2396,7 +2396,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Juniper shrubs, common in The Reach.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2426,7 +2426,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead male Elk.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -2456,7 +2456,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Lavender, most common in Whiterun Hold.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2486,7 +2486,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.1",
     "r": "Collected by catching Luna Moths. Often found near flowers after dark.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2516,7 +2516,7 @@ spot_ns.index =
     "v": "50",
     "w": "0.25",
     "r": "Cannot be collected or harvested. Can be purchased from the Khajiit Traders.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2546,7 +2546,7 @@ spot_ns.index =
     "v": "4",
     "w": "0.25",
     "r": "Harvested from Mora Tapinella mushrooms, found growing on dead trees.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2576,7 +2576,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.25",
     "r": "Collected from dead Mudcrabs, found in or near bodies of water.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -2606,7 +2606,7 @@ spot_ns.index =
     "v": "0",
     "w": "0.25",
     "r": "Harvested from Namira's Rot mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2666,7 +2666,7 @@ spot_ns.index =
     "v": "8",
     "w": "0.1",
     "r": "Harvested from Nightshade, found growing throughout Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2696,7 +2696,7 @@ spot_ns.index =
     "v": "10",
     "w": "0.2",
     "r": "Harvested from Nirnroot, found near bodies of water throughout Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -2726,7 +2726,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.2",
     "r": "Harvested from Nordic Barnacle Clusters, found in or near water.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -2756,7 +2756,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Collected by catching Dragonflies found near rivers and streams below the snow line.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -2786,7 +2786,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -2816,7 +2816,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.5",
     "r": "Harvested from bird nests in forested regions, in particular The Rift.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2876,7 +2876,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Cannot be harvested or collected; only readily available after the Merchant perk has been unlocked.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -2906,7 +2906,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Harvested from the purple variety of Mountain Flower.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2936,7 +2936,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Harvested from the red variety of Mountain Flower.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2966,7 +2966,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected by catching River Betty fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -2996,7 +2996,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.5",
     "r": "Harvested from bird nests in rocky regions, in particular The Reach.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3026,7 +3026,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead Sabre cats.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -3086,7 +3086,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.2",
     "r": "Food. Cannot be harvested or collected, but is commonly found in barrels and sacks.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3116,7 +3116,7 @@ spot_ns.index =
     "v": "4",
     "w": "0.25",
     "r": "Harvested from Scaly Pholiota mushrooms, found growing on dead trees.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3176,7 +3176,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.25",
     "r": "Collected by catching Silverside Perch fish.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3206,7 +3206,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.2",
     "r": "Collected from dead Skeevers.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3236,7 +3236,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.2",
     "r": "Collected from Slaughterfish Egg Nests, found in or near water.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3266,7 +3266,7 @@ spot_ns.index =
     "v": "3",
     "w": "0.1",
     "r": "Collected from dead Slaughterfish.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3296,7 +3296,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead female Elk.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -3326,7 +3326,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -3356,7 +3356,7 @@ spot_ns.index =
     "v": "4",
     "w": "0.1",
     "r": "Harvested from Snowberry bushes, found in snowy regions of Skyrim.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3416,7 +3416,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.2",
     "r": "Collected from spider Egg Sacs and Web Sacs.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3446,7 +3446,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.2",
     "r": "Cannot be harvested or collected; best source is merchants.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3476,7 +3476,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.25",
     "r": "Harvested from Swamp Fungal Pod, common in the tundra marsh of Hjaalmarch.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3506,7 +3506,7 @@ spot_ns.index =
     "v": "15",
     "w": "0.5",
     "r": "Collected from dead Spriggans.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3536,7 +3536,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Thistle.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3566,7 +3566,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Collected by catching Torchbugs. Found below the snowline after dark.",
-    "o": "",
+    "o": "BS",
     "q": "None (Common)",
     "e": [
      {
@@ -3626,7 +3626,7 @@ spot_ns.index =
     "v": "15",
     "w": "1",
     "r": "Collected from dead Trolls.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3656,7 +3656,7 @@ spot_ns.index =
     "v": "1",
     "w": "0.1",
     "r": "Harvested from Tundra Cotton, found in Whiterun Hold.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3686,7 +3686,7 @@ spot_ns.index =
     "v": "25",
     "w": "0.2",
     "r": "Collected from dead Vampires.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -3716,7 +3716,7 @@ spot_ns.index =
     "v": "125",
     "w": "0.2",
     "r": "Collected from dead Storm Atronachs.",
-    "o": "",
+    "o": "BS",
     "q": "Rare",
     "e": [
      {
@@ -3746,7 +3746,7 @@ spot_ns.index =
     "v": "5",
     "w": "0.1",
     "r": "Food. Harvested from wheat bushels, found in various farms.",
-    "o": "",
+    "o": "BS",
     "q": "Common",
     "e": [
      {
@@ -3776,7 +3776,7 @@ spot_ns.index =
     "v": "0",
     "w": "0.3",
     "r": "Harvested from White Cap mushrooms, found in various caves.",
-    "o": "",
+    "o": "BS",
     "q": "Uncommon",
     "e": [
      {
@@ -3806,7 +3806,7 @@ spot_ns.index =
     "v": "2",
     "w": "0.1",
     "r": "Collected from dead Wispmothers.",
-    "o": "",
+    "o": "BS",
     "q": "None (Uncommon)",
     "e": [
      {
@@ -10544,6 +10544,95 @@ spot_ns.index =
    false
   ]
  },
+ "m": {
+  "o": {
+   "BS": 95,
+   "DB": 11,
+   "DG": 5,
+   "HF": 2
+  },
+  "p": [
+   null,
+   null,
+   [
+    0,
+    1623,
+    172,
+    10,
+    9,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [],
+   [],
+   [],
+   []
+  ],
+  "u": [
+   null,
+   null,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [],
+   [],
+   [],
+   []
+  ],
+  "f": {
+   "pos": [
+    0,
+    968,
+    50,
+    2,
+    0,
+    0,
+    0
+   ],
+   "neg": [
+    0,
+    655,
+    32,
+    1,
+    0,
+    0,
+    0
+   ],
+   "mix": [
+    0,
+    0,
+    90,
+    7,
+    9,
+    0,
+    0
+   ]
+  }
+ },
  "p": {
   "z": 1814,
   "l": [
@@ -10555,7 +10644,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1,
@@ -10565,7 +10655,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 2,
@@ -10575,7 +10666,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 3,
@@ -10585,7 +10677,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 4,
@@ -10595,7 +10688,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 5,
@@ -10605,7 +10699,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 6,
@@ -10615,7 +10710,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 7,
@@ -10625,7 +10721,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 8,
@@ -10635,7 +10732,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 9,
@@ -10645,7 +10743,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 10,
@@ -10655,7 +10754,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 11,
@@ -10665,7 +10765,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 12,
@@ -10675,7 +10776,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 13,
@@ -10685,7 +10787,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 14,
@@ -10695,7 +10798,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 15,
@@ -10705,7 +10809,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 16,
@@ -10715,7 +10820,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 17,
@@ -10725,7 +10831,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 18,
@@ -10735,7 +10842,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 19,
@@ -10746,7 +10854,8 @@ spot_ns.index =
     "e": [
      23,
      53
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 20,
@@ -10756,7 +10865,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 21,
@@ -10766,7 +10876,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 22,
@@ -10776,7 +10887,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 23,
@@ -10786,7 +10898,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 24,
@@ -10796,7 +10909,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 25,
@@ -10807,7 +10921,8 @@ spot_ns.index =
     "e": [
      5,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 26,
@@ -10817,7 +10932,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 27,
@@ -10830,7 +10946,8 @@ spot_ns.index =
      5,
      11,
      13
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 28,
@@ -10841,7 +10958,8 @@ spot_ns.index =
     "e": [
      2,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 29,
@@ -10852,7 +10970,8 @@ spot_ns.index =
     "e": [
      5,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 30,
@@ -10862,7 +10981,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 31,
@@ -10872,7 +10992,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 32,
@@ -10885,7 +11006,8 @@ spot_ns.index =
      5,
      11,
      13
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 33,
@@ -10895,7 +11017,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 34,
@@ -10905,7 +11028,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 35,
@@ -10915,7 +11039,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 36,
@@ -10925,7 +11050,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 37,
@@ -10935,7 +11061,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 38,
@@ -10945,7 +11072,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 39,
@@ -10955,7 +11083,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 40,
@@ -10965,7 +11094,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 41,
@@ -10975,7 +11105,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 42,
@@ -10985,7 +11116,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 43,
@@ -10995,7 +11127,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 44,
@@ -11005,7 +11138,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 45,
@@ -11016,7 +11150,8 @@ spot_ns.index =
     "e": [
      2,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 46,
@@ -11026,7 +11161,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 47,
@@ -11036,7 +11172,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 48,
@@ -11046,7 +11183,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 49,
@@ -11056,7 +11194,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 50,
@@ -11066,7 +11205,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 51,
@@ -11076,7 +11216,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 52,
@@ -11087,7 +11228,8 @@ spot_ns.index =
     "e": [
      2,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 53,
@@ -11098,7 +11240,8 @@ spot_ns.index =
     "e": [
      2,
      13
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 54,
@@ -11108,7 +11251,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 55,
@@ -11118,7 +11262,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 56,
@@ -11129,7 +11274,8 @@ spot_ns.index =
     "e": [
      5,
      40
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 57,
@@ -11139,7 +11285,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 58,
@@ -11149,7 +11296,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 59,
@@ -11160,7 +11308,8 @@ spot_ns.index =
     "e": [
      5,
      40
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 60,
@@ -11170,7 +11319,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 61,
@@ -11180,7 +11330,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 62,
@@ -11190,7 +11341,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 63,
@@ -11201,7 +11353,8 @@ spot_ns.index =
     "e": [
      5,
      29
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 64,
@@ -11211,7 +11364,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 65,
@@ -11221,7 +11375,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 66,
@@ -11231,7 +11386,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 67,
@@ -11241,7 +11397,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 68,
@@ -11251,7 +11408,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 69,
@@ -11261,7 +11419,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 70,
@@ -11271,7 +11430,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 71,
@@ -11281,7 +11441,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 72,
@@ -11291,7 +11452,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 73,
@@ -11301,7 +11463,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 74,
@@ -11311,7 +11474,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 75,
@@ -11321,7 +11485,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 76,
@@ -11331,7 +11496,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 77,
@@ -11341,7 +11507,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 78,
@@ -11352,7 +11519,8 @@ spot_ns.index =
     "e": [
      5,
      29
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 79,
@@ -11362,7 +11530,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 80,
@@ -11372,7 +11541,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 81,
@@ -11382,7 +11552,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 82,
@@ -11392,7 +11563,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 83,
@@ -11402,7 +11574,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 84,
@@ -11412,7 +11585,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 85,
@@ -11422,7 +11596,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 86,
@@ -11432,7 +11607,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 87,
@@ -11443,7 +11619,8 @@ spot_ns.index =
     "e": [
      44,
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 88,
@@ -11453,7 +11630,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 89,
@@ -11463,7 +11641,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 90,
@@ -11473,7 +11652,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 91,
@@ -11483,7 +11663,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 92,
@@ -11493,7 +11674,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 93,
@@ -11503,7 +11685,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 94,
@@ -11514,7 +11697,8 @@ spot_ns.index =
     "e": [
      17,
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 95,
@@ -11524,7 +11708,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 96,
@@ -11534,7 +11719,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 97,
@@ -11544,7 +11730,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 98,
@@ -11554,7 +11741,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 99,
@@ -11564,7 +11752,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 100,
@@ -11574,7 +11763,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 101,
@@ -11584,7 +11774,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 102,
@@ -11594,7 +11785,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 103,
@@ -11604,7 +11796,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 104,
@@ -11614,7 +11807,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 105,
@@ -11624,7 +11818,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 106,
@@ -11634,7 +11829,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 107,
@@ -11644,7 +11840,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 108,
@@ -11654,7 +11851,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 109,
@@ -11665,7 +11863,8 @@ spot_ns.index =
     "e": [
      44,
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 110,
@@ -11675,7 +11874,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 111,
@@ -11685,7 +11885,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 112,
@@ -11695,7 +11896,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 113,
@@ -11705,7 +11907,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 114,
@@ -11715,7 +11918,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 115,
@@ -11725,7 +11929,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 116,
@@ -11735,7 +11940,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 117,
@@ -11745,7 +11951,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 118,
@@ -11755,7 +11962,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 119,
@@ -11765,7 +11973,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 120,
@@ -11775,7 +11984,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 121,
@@ -11785,7 +11995,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 122,
@@ -11795,7 +12006,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 123,
@@ -11805,7 +12017,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 124,
@@ -11815,7 +12028,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 125,
@@ -11825,7 +12039,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 126,
@@ -11835,7 +12050,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 127,
@@ -11845,7 +12061,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 128,
@@ -11855,7 +12072,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 129,
@@ -11865,7 +12083,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 130,
@@ -11875,7 +12094,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 131,
@@ -11885,7 +12105,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 132,
@@ -11895,7 +12116,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 133,
@@ -11905,7 +12127,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 134,
@@ -11915,7 +12138,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 135,
@@ -11925,7 +12149,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 136,
@@ -11935,7 +12160,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 137,
@@ -11945,7 +12171,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 138,
@@ -11955,7 +12182,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 139,
@@ -11966,7 +12194,8 @@ spot_ns.index =
     "e": [
      2,
      14
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 140,
@@ -11976,7 +12205,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 141,
@@ -11986,7 +12216,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 142,
@@ -11996,7 +12227,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 143,
@@ -12006,7 +12238,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 144,
@@ -12016,7 +12249,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 145,
@@ -12026,7 +12260,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 146,
@@ -12036,7 +12271,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 147,
@@ -12046,7 +12282,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 148,
@@ -12056,7 +12293,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 149,
@@ -12066,7 +12304,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 150,
@@ -12078,7 +12317,8 @@ spot_ns.index =
      2,
      14,
      21
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 151,
@@ -12088,7 +12328,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 152,
@@ -12098,7 +12339,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 153,
@@ -12108,7 +12350,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 154,
@@ -12118,7 +12361,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 155,
@@ -12128,7 +12372,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 156,
@@ -12138,7 +12383,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 157,
@@ -12148,7 +12394,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 158,
@@ -12158,7 +12405,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 159,
@@ -12168,7 +12416,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 160,
@@ -12178,7 +12427,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 161,
@@ -12188,7 +12438,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 162,
@@ -12198,7 +12449,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 163,
@@ -12208,7 +12460,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 164,
@@ -12218,7 +12471,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 165,
@@ -12228,7 +12482,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 166,
@@ -12238,7 +12493,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 167,
@@ -12248,7 +12504,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 168,
@@ -12258,7 +12515,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 169,
@@ -12268,7 +12526,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 170,
@@ -12278,7 +12537,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 171,
@@ -12289,7 +12549,8 @@ spot_ns.index =
     "e": [
      21,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 172,
@@ -12299,7 +12560,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 173,
@@ -12309,7 +12571,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 174,
@@ -12319,7 +12582,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 175,
@@ -12329,7 +12593,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 176,
@@ -12339,7 +12604,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 177,
@@ -12349,7 +12615,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 178,
@@ -12359,7 +12626,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 179,
@@ -12369,7 +12637,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 180,
@@ -12379,7 +12648,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 181,
@@ -12389,7 +12659,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 182,
@@ -12399,7 +12670,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 183,
@@ -12409,7 +12681,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 184,
@@ -12419,7 +12692,8 @@ spot_ns.index =
     ],
     "e": [
      39
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 185,
@@ -12429,7 +12703,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 186,
@@ -12439,7 +12714,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 187,
@@ -12449,7 +12725,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 188,
@@ -12459,7 +12736,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 189,
@@ -12470,7 +12748,8 @@ spot_ns.index =
     "e": [
      36,
      47
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 190,
@@ -12480,7 +12759,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 191,
@@ -12490,7 +12770,8 @@ spot_ns.index =
     ],
     "e": [
      39
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 192,
@@ -12500,7 +12781,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 193,
@@ -12510,7 +12792,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 194,
@@ -12520,7 +12803,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 195,
@@ -12530,7 +12814,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 196,
@@ -12540,7 +12825,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 197,
@@ -12550,7 +12836,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 198,
@@ -12560,7 +12847,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 199,
@@ -12570,7 +12858,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 200,
@@ -12580,7 +12869,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 201,
@@ -12590,7 +12880,8 @@ spot_ns.index =
     ],
     "e": [
      39
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 202,
@@ -12600,7 +12891,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 203,
@@ -12610,7 +12902,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 204,
@@ -12620,7 +12913,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 205,
@@ -12630,7 +12924,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 206,
@@ -12640,7 +12935,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 207,
@@ -12650,7 +12946,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 208,
@@ -12660,7 +12957,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 209,
@@ -12670,7 +12968,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 210,
@@ -12680,7 +12979,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 211,
@@ -12690,7 +12990,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 212,
@@ -12700,7 +13001,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 213,
@@ -12710,7 +13012,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 214,
@@ -12720,7 +13023,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 215,
@@ -12730,7 +13034,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 216,
@@ -12740,7 +13045,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 217,
@@ -12750,7 +13056,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 218,
@@ -12760,7 +13067,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 219,
@@ -12770,7 +13078,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 220,
@@ -12781,7 +13090,8 @@ spot_ns.index =
     "e": [
      17,
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 221,
@@ -12791,7 +13101,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 222,
@@ -12801,7 +13112,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 223,
@@ -12811,7 +13123,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 224,
@@ -12821,7 +13134,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 225,
@@ -12831,7 +13145,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 226,
@@ -12841,7 +13156,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 227,
@@ -12851,7 +13167,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 228,
@@ -12861,7 +13178,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 229,
@@ -12871,7 +13189,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 230,
@@ -12881,7 +13200,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 231,
@@ -12891,7 +13211,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 232,
@@ -12901,7 +13222,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 233,
@@ -12911,7 +13233,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 234,
@@ -12921,7 +13244,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 235,
@@ -12932,7 +13256,8 @@ spot_ns.index =
     "e": [
      5,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 236,
@@ -12942,7 +13267,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 237,
@@ -12955,7 +13281,8 @@ spot_ns.index =
      11,
      36,
      40
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 238,
@@ -12965,7 +13292,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 239,
@@ -12976,7 +13304,8 @@ spot_ns.index =
     "e": [
      5,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 240,
@@ -12986,7 +13315,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 241,
@@ -12996,7 +13326,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 242,
@@ -13006,7 +13337,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 243,
@@ -13016,7 +13348,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 244,
@@ -13026,7 +13359,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 245,
@@ -13036,7 +13370,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 246,
@@ -13046,7 +13381,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 247,
@@ -13056,7 +13392,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 248,
@@ -13066,7 +13403,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 249,
@@ -13076,7 +13414,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 250,
@@ -13086,7 +13425,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 251,
@@ -13096,7 +13436,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 252,
@@ -13106,7 +13447,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 253,
@@ -13116,7 +13458,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 254,
@@ -13126,7 +13469,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 255,
@@ -13136,7 +13480,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 256,
@@ -13146,7 +13491,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 257,
@@ -13156,7 +13502,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 258,
@@ -13166,7 +13513,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 259,
@@ -13177,7 +13525,8 @@ spot_ns.index =
     "e": [
      36,
      40
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 260,
@@ -13187,7 +13536,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 261,
@@ -13197,7 +13547,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 262,
@@ -13207,7 +13558,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 263,
@@ -13217,7 +13569,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 264,
@@ -13227,7 +13580,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 265,
@@ -13237,7 +13591,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 266,
@@ -13247,7 +13602,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 267,
@@ -13257,7 +13613,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 268,
@@ -13267,7 +13624,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 269,
@@ -13277,7 +13635,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 270,
@@ -13287,7 +13646,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 271,
@@ -13297,7 +13657,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 272,
@@ -13307,7 +13668,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 273,
@@ -13317,7 +13679,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 274,
@@ -13327,7 +13690,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 275,
@@ -13337,7 +13701,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 276,
@@ -13347,7 +13712,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 277,
@@ -13357,7 +13723,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 278,
@@ -13367,7 +13734,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 279,
@@ -13377,7 +13745,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 280,
@@ -13387,7 +13756,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 281,
@@ -13397,7 +13767,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 282,
@@ -13407,7 +13778,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 283,
@@ -13417,7 +13789,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 284,
@@ -13427,7 +13800,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 285,
@@ -13437,7 +13811,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 286,
@@ -13447,7 +13822,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 287,
@@ -13457,7 +13833,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 288,
@@ -13467,7 +13844,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 289,
@@ -13478,7 +13856,8 @@ spot_ns.index =
     "e": [
      9,
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 290,
@@ -13488,7 +13867,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 291,
@@ -13498,7 +13878,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 292,
@@ -13508,7 +13889,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 293,
@@ -13518,7 +13900,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 294,
@@ -13528,7 +13911,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 295,
@@ -13538,7 +13922,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 296,
@@ -13548,7 +13933,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 297,
@@ -13558,7 +13944,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 298,
@@ -13568,7 +13955,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 299,
@@ -13578,7 +13966,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 300,
@@ -13588,7 +13977,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 301,
@@ -13598,7 +13988,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 302,
@@ -13608,7 +13999,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 303,
@@ -13618,7 +14010,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 304,
@@ -13628,7 +14021,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 305,
@@ -13638,7 +14032,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 306,
@@ -13648,7 +14043,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 307,
@@ -13658,7 +14054,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 308,
@@ -13668,7 +14065,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 309,
@@ -13678,7 +14076,8 @@ spot_ns.index =
     ],
     "e": [
      24
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 310,
@@ -13688,7 +14087,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 311,
@@ -13698,7 +14098,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 312,
@@ -13708,7 +14109,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 313,
@@ -13718,7 +14120,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 314,
@@ -13728,7 +14131,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 315,
@@ -13739,7 +14143,8 @@ spot_ns.index =
     "e": [
      5,
      45
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 316,
@@ -13749,7 +14154,8 @@ spot_ns.index =
     ],
     "e": [
      24
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 317,
@@ -13759,7 +14165,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 318,
@@ -13769,7 +14176,8 @@ spot_ns.index =
     ],
     "e": [
      24
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 319,
@@ -13779,7 +14187,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 320,
@@ -13789,7 +14198,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 321,
@@ -13799,7 +14209,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 322,
@@ -13810,7 +14221,8 @@ spot_ns.index =
     "e": [
      2,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 323,
@@ -13821,7 +14233,8 @@ spot_ns.index =
     "e": [
      5,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 324,
@@ -13831,7 +14244,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 325,
@@ -13841,7 +14255,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 326,
@@ -13854,7 +14269,8 @@ spot_ns.index =
      5,
      11,
      13
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 327,
@@ -13864,7 +14280,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 328,
@@ -13874,7 +14291,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 329,
@@ -13884,7 +14302,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 330,
@@ -13894,7 +14313,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 331,
@@ -13904,7 +14324,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 332,
@@ -13914,7 +14335,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 333,
@@ -13924,7 +14346,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 334,
@@ -13934,7 +14357,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 335,
@@ -13944,7 +14368,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 336,
@@ -13954,7 +14379,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 337,
@@ -13964,7 +14390,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 338,
@@ -13974,7 +14401,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 339,
@@ -13985,7 +14413,8 @@ spot_ns.index =
     "e": [
      2,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 340,
@@ -13995,7 +14424,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 341,
@@ -14005,7 +14435,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 342,
@@ -14015,7 +14446,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 343,
@@ -14025,7 +14457,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 344,
@@ -14035,7 +14468,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 345,
@@ -14045,7 +14479,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 346,
@@ -14056,7 +14491,8 @@ spot_ns.index =
     "e": [
      2,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 347,
@@ -14067,7 +14503,8 @@ spot_ns.index =
     "e": [
      2,
      13
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 348,
@@ -14077,7 +14514,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 349,
@@ -14087,7 +14525,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 350,
@@ -14097,7 +14536,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 351,
@@ -14107,7 +14547,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 352,
@@ -14118,7 +14559,8 @@ spot_ns.index =
     "e": [
      6,
      45
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 353,
@@ -14128,7 +14570,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 354,
@@ -14138,7 +14581,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 355,
@@ -14148,7 +14592,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 356,
@@ -14158,7 +14603,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 357,
@@ -14168,7 +14614,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 358,
@@ -14178,7 +14625,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 359,
@@ -14188,7 +14636,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 360,
@@ -14198,7 +14647,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 361,
@@ -14208,7 +14658,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 362,
@@ -14218,7 +14669,8 @@ spot_ns.index =
     ],
     "e": [
      22
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 363,
@@ -14228,7 +14680,8 @@ spot_ns.index =
     ],
     "e": [
      22
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 364,
@@ -14238,7 +14691,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 365,
@@ -14248,7 +14702,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 366,
@@ -14258,7 +14713,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 367,
@@ -14268,7 +14724,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 368,
@@ -14278,7 +14735,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 369,
@@ -14288,7 +14746,8 @@ spot_ns.index =
     ],
     "e": [
      22
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 370,
@@ -14298,7 +14757,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 371,
@@ -14309,7 +14769,8 @@ spot_ns.index =
     "e": [
      44,
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 372,
@@ -14319,7 +14780,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 373,
@@ -14329,7 +14791,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 374,
@@ -14339,7 +14802,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 375,
@@ -14349,7 +14813,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 376,
@@ -14359,7 +14824,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 377,
@@ -14369,7 +14835,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 378,
@@ -14380,7 +14847,8 @@ spot_ns.index =
     "e": [
      2,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 379,
@@ -14390,7 +14858,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 380,
@@ -14400,7 +14869,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 381,
@@ -14410,7 +14880,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 382,
@@ -14420,7 +14891,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 383,
@@ -14430,7 +14902,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 384,
@@ -14440,7 +14913,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 385,
@@ -14450,7 +14924,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 386,
@@ -14460,7 +14935,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 387,
@@ -14470,7 +14946,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 388,
@@ -14480,7 +14957,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 389,
@@ -14491,7 +14969,8 @@ spot_ns.index =
     "e": [
      2,
      14
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 390,
@@ -14501,7 +14980,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 391,
@@ -14511,7 +14991,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 392,
@@ -14521,7 +15002,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 393,
@@ -14531,7 +15013,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 394,
@@ -14541,7 +15024,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 395,
@@ -14551,7 +15035,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 396,
@@ -14561,7 +15046,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 397,
@@ -14571,7 +15057,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 398,
@@ -14581,7 +15068,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 399,
@@ -14591,7 +15079,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 400,
@@ -14602,7 +15091,8 @@ spot_ns.index =
     "e": [
      14,
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 401,
@@ -14612,7 +15102,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 402,
@@ -14622,7 +15113,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 403,
@@ -14632,7 +15124,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 404,
@@ -14642,7 +15135,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 405,
@@ -14652,7 +15146,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 406,
@@ -14662,7 +15157,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 407,
@@ -14672,7 +15168,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 408,
@@ -14682,7 +15179,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 409,
@@ -14692,7 +15190,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 410,
@@ -14702,7 +15201,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 411,
@@ -14712,7 +15212,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 412,
@@ -14722,7 +15223,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 413,
@@ -14732,7 +15234,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 414,
@@ -14742,7 +15245,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 415,
@@ -14752,7 +15256,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 416,
@@ -14762,7 +15267,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 417,
@@ -14772,7 +15278,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 418,
@@ -14782,7 +15289,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 419,
@@ -14792,7 +15300,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 420,
@@ -14802,7 +15311,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 421,
@@ -14812,7 +15322,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 422,
@@ -14822,7 +15333,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 423,
@@ -14832,7 +15344,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 424,
@@ -14843,7 +15356,8 @@ spot_ns.index =
     "e": [
      5,
      11
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 425,
@@ -14853,7 +15367,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 426,
@@ -14863,7 +15378,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 427,
@@ -14873,7 +15389,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 428,
@@ -14883,7 +15400,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 429,
@@ -14893,7 +15411,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 430,
@@ -14903,7 +15422,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 431,
@@ -14913,7 +15433,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 432,
@@ -14923,7 +15444,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 433,
@@ -14933,7 +15455,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 434,
@@ -14943,7 +15466,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 435,
@@ -14953,7 +15477,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 436,
@@ -14963,7 +15488,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 437,
@@ -14973,7 +15499,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 438,
@@ -14983,7 +15510,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 439,
@@ -14993,7 +15521,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 440,
@@ -15003,7 +15532,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 441,
@@ -15013,7 +15543,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 442,
@@ -15023,7 +15554,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 443,
@@ -15033,7 +15565,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 444,
@@ -15044,7 +15577,8 @@ spot_ns.index =
     "e": [
      36,
      40
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 445,
@@ -15054,7 +15588,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 446,
@@ -15064,7 +15599,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 447,
@@ -15074,7 +15610,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 448,
@@ -15084,7 +15621,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 449,
@@ -15094,7 +15632,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 450,
@@ -15105,7 +15644,8 @@ spot_ns.index =
     "e": [
      19,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 451,
@@ -15115,7 +15655,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 452,
@@ -15125,7 +15666,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 453,
@@ -15135,7 +15677,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 454,
@@ -15145,7 +15688,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 455,
@@ -15155,7 +15699,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 456,
@@ -15165,7 +15710,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 457,
@@ -15175,7 +15721,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 458,
@@ -15185,7 +15732,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 459,
@@ -15195,7 +15743,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 460,
@@ -15205,7 +15754,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 461,
@@ -15215,7 +15765,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 462,
@@ -15226,7 +15777,8 @@ spot_ns.index =
     "e": [
      33,
      46
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 463,
@@ -15236,7 +15788,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 464,
@@ -15246,7 +15799,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 465,
@@ -15256,7 +15810,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 466,
@@ -15266,7 +15821,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 467,
@@ -15276,7 +15832,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 468,
@@ -15287,7 +15844,8 @@ spot_ns.index =
     "e": [
      9,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 469,
@@ -15298,7 +15856,8 @@ spot_ns.index =
     "e": [
      19,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 470,
@@ -15308,7 +15867,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 471,
@@ -15318,7 +15878,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 472,
@@ -15328,7 +15889,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 473,
@@ -15338,7 +15900,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 474,
@@ -15349,7 +15912,8 @@ spot_ns.index =
     "e": [
      9,
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 475,
@@ -15359,7 +15923,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 476,
@@ -15369,7 +15934,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 477,
@@ -15379,7 +15945,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 478,
@@ -15389,7 +15956,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 479,
@@ -15399,7 +15967,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 480,
@@ -15409,7 +15978,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 481,
@@ -15419,7 +15989,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 482,
@@ -15429,7 +16000,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 483,
@@ -15439,7 +16011,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 484,
@@ -15449,7 +16022,8 @@ spot_ns.index =
     ],
     "e": [
      7
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 485,
@@ -15459,7 +16033,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 486,
@@ -15469,7 +16044,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 487,
@@ -15479,7 +16055,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 488,
@@ -15489,7 +16066,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 489,
@@ -15499,7 +16077,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 490,
@@ -15509,7 +16088,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 491,
@@ -15519,7 +16099,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 492,
@@ -15529,7 +16110,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 493,
@@ -15539,7 +16121,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 494,
@@ -15549,7 +16132,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 495,
@@ -15559,7 +16143,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 496,
@@ -15570,7 +16155,8 @@ spot_ns.index =
     "e": [
      7,
      48
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 497,
@@ -15580,7 +16166,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 498,
@@ -15590,7 +16177,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 499,
@@ -15601,7 +16189,8 @@ spot_ns.index =
     "e": [
      2,
      7
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 500,
@@ -15611,7 +16200,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 501,
@@ -15621,7 +16211,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 502,
@@ -15631,7 +16222,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 503,
@@ -15641,7 +16233,8 @@ spot_ns.index =
     ],
     "e": [
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 504,
@@ -15652,7 +16245,8 @@ spot_ns.index =
     "e": [
      3,
      45
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 505,
@@ -15662,7 +16256,8 @@ spot_ns.index =
     ],
     "e": [
      8
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 506,
@@ -15673,7 +16268,8 @@ spot_ns.index =
     "e": [
      3,
      45
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 507,
@@ -15683,7 +16279,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 508,
@@ -15693,7 +16290,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 509,
@@ -15703,7 +16301,8 @@ spot_ns.index =
     ],
     "e": [
      8
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 510,
@@ -15713,7 +16312,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 511,
@@ -15723,7 +16323,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 512,
@@ -15733,7 +16334,8 @@ spot_ns.index =
     ],
     "e": [
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 513,
@@ -15743,7 +16345,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 514,
@@ -15753,7 +16356,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 515,
@@ -15763,7 +16367,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 516,
@@ -15773,7 +16378,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 517,
@@ -15783,7 +16389,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 518,
@@ -15793,7 +16400,8 @@ spot_ns.index =
     ],
     "e": [
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 519,
@@ -15803,7 +16411,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 520,
@@ -15813,7 +16422,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 521,
@@ -15823,7 +16433,8 @@ spot_ns.index =
     ],
     "e": [
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 522,
@@ -15833,7 +16444,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 523,
@@ -15843,7 +16455,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 524,
@@ -15853,7 +16466,8 @@ spot_ns.index =
     ],
     "e": [
      8
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 525,
@@ -15863,7 +16477,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 526,
@@ -15873,7 +16488,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 527,
@@ -15883,7 +16499,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 528,
@@ -15893,7 +16510,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 529,
@@ -15903,7 +16521,8 @@ spot_ns.index =
     ],
     "e": [
      20
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 530,
@@ -15913,7 +16532,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 531,
@@ -15923,7 +16543,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 532,
@@ -15933,7 +16554,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 533,
@@ -15943,7 +16565,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 534,
@@ -15953,7 +16576,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 535,
@@ -15963,7 +16587,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 536,
@@ -15973,7 +16598,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 537,
@@ -15983,7 +16609,8 @@ spot_ns.index =
     ],
     "e": [
      20
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 538,
@@ -15993,7 +16620,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 539,
@@ -16003,7 +16631,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 540,
@@ -16014,7 +16643,8 @@ spot_ns.index =
     "e": [
      5,
      21
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 541,
@@ -16024,7 +16654,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 542,
@@ -16035,7 +16666,8 @@ spot_ns.index =
     "e": [
      5,
      20
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 543,
@@ -16045,7 +16677,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 544,
@@ -16055,7 +16688,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 545,
@@ -16066,7 +16700,8 @@ spot_ns.index =
     "e": [
      45,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 546,
@@ -16076,7 +16711,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 547,
@@ -16087,7 +16723,8 @@ spot_ns.index =
     "e": [
      0,
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 548,
@@ -16097,7 +16734,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 549,
@@ -16107,7 +16745,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 550,
@@ -16117,7 +16756,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 551,
@@ -16127,7 +16767,8 @@ spot_ns.index =
     ],
     "e": [
      0
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 552,
@@ -16137,7 +16778,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 553,
@@ -16147,7 +16789,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 554,
@@ -16157,7 +16800,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 555,
@@ -16167,7 +16811,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 556,
@@ -16179,7 +16824,8 @@ spot_ns.index =
      0,
      43,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 557,
@@ -16189,7 +16835,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 558,
@@ -16199,7 +16846,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 559,
@@ -16209,7 +16857,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 560,
@@ -16219,7 +16868,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 561,
@@ -16229,7 +16879,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 562,
@@ -16239,7 +16890,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 563,
@@ -16249,7 +16901,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 564,
@@ -16259,7 +16912,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 565,
@@ -16269,7 +16923,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 566,
@@ -16279,7 +16934,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 567,
@@ -16289,7 +16945,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 568,
@@ -16299,7 +16956,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 569,
@@ -16309,7 +16967,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 570,
@@ -16319,7 +16978,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 571,
@@ -16329,7 +16989,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 572,
@@ -16339,7 +17000,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 573,
@@ -16349,7 +17011,8 @@ spot_ns.index =
     ],
     "e": [
      0
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 574,
@@ -16359,7 +17022,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 575,
@@ -16369,7 +17033,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 576,
@@ -16379,7 +17044,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 577,
@@ -16389,7 +17055,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 578,
@@ -16399,7 +17066,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 579,
@@ -16409,7 +17077,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 580,
@@ -16419,7 +17088,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 581,
@@ -16429,7 +17099,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 582,
@@ -16439,7 +17110,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 583,
@@ -16449,7 +17121,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 584,
@@ -16459,7 +17132,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 585,
@@ -16469,7 +17143,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 586,
@@ -16479,7 +17154,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 587,
@@ -16489,7 +17165,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 588,
@@ -16499,7 +17176,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 589,
@@ -16509,7 +17187,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 590,
@@ -16519,7 +17198,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 591,
@@ -16530,7 +17210,8 @@ spot_ns.index =
     "e": [
      3,
      29
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 592,
@@ -16540,7 +17221,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 593,
@@ -16550,7 +17232,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 594,
@@ -16560,7 +17243,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 595,
@@ -16570,7 +17254,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 596,
@@ -16580,7 +17265,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 597,
@@ -16590,7 +17276,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 598,
@@ -16600,7 +17287,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 599,
@@ -16610,7 +17298,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 600,
@@ -16620,7 +17309,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 601,
@@ -16630,7 +17320,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 602,
@@ -16640,7 +17331,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 603,
@@ -16650,7 +17342,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 604,
@@ -16660,7 +17353,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 605,
@@ -16670,7 +17364,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 606,
@@ -16680,7 +17375,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 607,
@@ -16690,7 +17386,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 608,
@@ -16700,7 +17397,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 609,
@@ -16710,7 +17408,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 610,
@@ -16720,7 +17419,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 611,
@@ -16730,7 +17430,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 612,
@@ -16740,7 +17441,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 613,
@@ -16750,7 +17452,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 614,
@@ -16761,7 +17464,8 @@ spot_ns.index =
     "e": [
      2,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 615,
@@ -16771,7 +17475,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 616,
@@ -16781,7 +17486,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 617,
@@ -16791,7 +17497,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 618,
@@ -16801,7 +17508,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 619,
@@ -16811,7 +17519,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 620,
@@ -16821,7 +17530,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 621,
@@ -16832,7 +17542,8 @@ spot_ns.index =
     "e": [
      2,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 622,
@@ -16843,7 +17554,8 @@ spot_ns.index =
     "e": [
      2,
      13
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 623,
@@ -16853,7 +17565,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 624,
@@ -16863,7 +17576,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 625,
@@ -16873,7 +17587,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 626,
@@ -16883,7 +17598,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 627,
@@ -16893,7 +17609,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 628,
@@ -16903,7 +17620,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 629,
@@ -16913,7 +17631,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 630,
@@ -16926,7 +17645,8 @@ spot_ns.index =
      32,
      42,
      49
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 631,
@@ -16936,7 +17656,8 @@ spot_ns.index =
     ],
     "e": [
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 632,
@@ -16946,7 +17667,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 633,
@@ -16956,7 +17678,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 634,
@@ -16966,7 +17689,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 635,
@@ -16977,7 +17701,8 @@ spot_ns.index =
     "e": [
      2,
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 636,
@@ -16987,7 +17712,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 637,
@@ -16997,7 +17723,8 @@ spot_ns.index =
     ],
     "e": [
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 638,
@@ -17007,7 +17734,8 @@ spot_ns.index =
     ],
     "e": [
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 639,
@@ -17017,7 +17745,8 @@ spot_ns.index =
     ],
     "e": [
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 640,
@@ -17027,7 +17756,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 641,
@@ -17037,7 +17767,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 642,
@@ -17047,7 +17778,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 643,
@@ -17057,7 +17789,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 644,
@@ -17067,7 +17800,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 645,
@@ -17077,7 +17811,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 646,
@@ -17088,7 +17823,8 @@ spot_ns.index =
     "e": [
      46,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 647,
@@ -17098,7 +17834,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 648,
@@ -17108,7 +17845,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 649,
@@ -17118,7 +17856,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 650,
@@ -17128,7 +17867,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 651,
@@ -17138,7 +17878,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 652,
@@ -17148,7 +17889,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 653,
@@ -17159,7 +17901,8 @@ spot_ns.index =
     "e": [
      4,
      10
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 654,
@@ -17169,7 +17912,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 655,
@@ -17179,7 +17923,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 656,
@@ -17189,7 +17934,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 657,
@@ -17199,7 +17945,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 658,
@@ -17209,7 +17956,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 659,
@@ -17219,7 +17967,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 660,
@@ -17229,7 +17978,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 661,
@@ -17239,7 +17989,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 662,
@@ -17249,7 +18000,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 663,
@@ -17259,7 +18011,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 664,
@@ -17269,7 +18022,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 665,
@@ -17279,7 +18033,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 666,
@@ -17289,7 +18044,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 667,
@@ -17299,7 +18055,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 668,
@@ -17309,7 +18066,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 669,
@@ -17319,7 +18077,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 670,
@@ -17329,7 +18088,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 671,
@@ -17340,7 +18100,8 @@ spot_ns.index =
     "e": [
      10,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 672,
@@ -17350,7 +18111,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 673,
@@ -17360,7 +18122,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 674,
@@ -17371,7 +18134,8 @@ spot_ns.index =
     "e": [
      46,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 675,
@@ -17381,7 +18145,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 676,
@@ -17391,7 +18156,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 677,
@@ -17401,7 +18167,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 678,
@@ -17411,7 +18178,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 679,
@@ -17421,7 +18189,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 680,
@@ -17431,7 +18200,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 681,
@@ -17441,7 +18211,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 682,
@@ -17451,7 +18222,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 683,
@@ -17461,7 +18233,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 684,
@@ -17471,7 +18244,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 685,
@@ -17481,7 +18255,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 686,
@@ -17491,7 +18266,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 687,
@@ -17501,7 +18277,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 688,
@@ -17512,7 +18289,8 @@ spot_ns.index =
     "e": [
      1,
      42
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 689,
@@ -17522,7 +18300,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 690,
@@ -17532,7 +18311,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 691,
@@ -17542,7 +18322,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 692,
@@ -17552,7 +18333,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 693,
@@ -17562,7 +18344,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 694,
@@ -17572,7 +18355,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 695,
@@ -17582,7 +18366,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 696,
@@ -17592,7 +18377,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 697,
@@ -17603,7 +18389,8 @@ spot_ns.index =
     "e": [
      1,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 698,
@@ -17613,7 +18400,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 699,
@@ -17623,7 +18411,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 700,
@@ -17633,7 +18422,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 701,
@@ -17646,7 +18436,8 @@ spot_ns.index =
      5,
      29,
      42
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 702,
@@ -17656,7 +18447,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 703,
@@ -17666,7 +18458,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 704,
@@ -17676,7 +18469,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 705,
@@ -17686,7 +18480,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 706,
@@ -17696,7 +18491,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 707,
@@ -17706,7 +18502,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 708,
@@ -17716,7 +18513,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 709,
@@ -17726,7 +18524,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 710,
@@ -17736,7 +18535,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 711,
@@ -17746,7 +18546,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 712,
@@ -17757,7 +18558,8 @@ spot_ns.index =
     "e": [
      1,
      42
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 713,
@@ -17767,7 +18569,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 714,
@@ -17777,7 +18580,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 715,
@@ -17787,7 +18591,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 716,
@@ -17797,7 +18602,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 717,
@@ -17807,7 +18613,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 718,
@@ -17817,7 +18624,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 719,
@@ -17827,7 +18635,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 720,
@@ -17837,7 +18646,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 721,
@@ -17847,7 +18657,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 722,
@@ -17857,7 +18668,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 723,
@@ -17867,7 +18679,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 724,
@@ -17877,7 +18690,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 725,
@@ -17887,7 +18701,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 726,
@@ -17897,7 +18712,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 727,
@@ -17907,7 +18723,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 728,
@@ -17917,7 +18734,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 729,
@@ -17927,7 +18745,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 730,
@@ -17937,7 +18756,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 731,
@@ -17947,7 +18767,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 732,
@@ -17957,7 +18778,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 733,
@@ -17967,7 +18789,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 734,
@@ -17977,7 +18800,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 735,
@@ -17988,7 +18812,8 @@ spot_ns.index =
     "e": [
      3,
      45
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 736,
@@ -17998,7 +18823,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 737,
@@ -18008,7 +18834,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 738,
@@ -18018,7 +18845,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 739,
@@ -18028,7 +18856,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 740,
@@ -18038,7 +18867,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 741,
@@ -18048,7 +18878,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 742,
@@ -18058,7 +18889,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 743,
@@ -18068,7 +18900,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 744,
@@ -18078,7 +18911,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 745,
@@ -18088,7 +18922,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 746,
@@ -18098,7 +18933,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 747,
@@ -18108,7 +18944,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 748,
@@ -18118,7 +18955,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 749,
@@ -18128,7 +18966,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 750,
@@ -18139,7 +18978,8 @@ spot_ns.index =
     "e": [
      3,
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 751,
@@ -18149,7 +18989,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 752,
@@ -18159,7 +19000,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 753,
@@ -18169,7 +19011,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 754,
@@ -18179,7 +19022,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 755,
@@ -18189,7 +19033,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 756,
@@ -18199,7 +19044,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 757,
@@ -18209,7 +19055,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 758,
@@ -18219,7 +19066,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 759,
@@ -18229,7 +19077,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 760,
@@ -18240,7 +19089,8 @@ spot_ns.index =
     "e": [
      4,
      45
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 761,
@@ -18250,7 +19100,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 762,
@@ -18260,7 +19111,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 763,
@@ -18270,7 +19122,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 764,
@@ -18280,7 +19133,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 765,
@@ -18290,7 +19144,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 766,
@@ -18300,7 +19155,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 767,
@@ -18310,7 +19166,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 768,
@@ -18320,7 +19177,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 769,
@@ -18330,7 +19188,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 770,
@@ -18340,7 +19199,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 771,
@@ -18350,7 +19210,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 772,
@@ -18360,7 +19221,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 773,
@@ -18370,7 +19232,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 774,
@@ -18380,7 +19243,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 775,
@@ -18390,7 +19254,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 776,
@@ -18401,7 +19266,8 @@ spot_ns.index =
     "e": [
      1,
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 777,
@@ -18411,7 +19277,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 778,
@@ -18422,7 +19289,8 @@ spot_ns.index =
     "e": [
      1,
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 779,
@@ -18432,7 +19300,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 780,
@@ -18442,7 +19311,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 781,
@@ -18452,7 +19322,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 782,
@@ -18462,7 +19333,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 783,
@@ -18473,7 +19345,8 @@ spot_ns.index =
     "e": [
      1,
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 784,
@@ -18483,7 +19356,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 785,
@@ -18493,7 +19367,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 786,
@@ -18503,7 +19378,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 787,
@@ -18513,7 +19389,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 788,
@@ -18523,7 +19400,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 789,
@@ -18533,7 +19411,8 @@ spot_ns.index =
     ],
     "e": [
      16
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 790,
@@ -18543,7 +19422,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 791,
@@ -18553,7 +19433,8 @@ spot_ns.index =
     ],
     "e": [
      27
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 792,
@@ -18563,7 +19444,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 793,
@@ -18574,7 +19456,8 @@ spot_ns.index =
     "e": [
      27,
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 794,
@@ -18584,7 +19467,8 @@ spot_ns.index =
     ],
     "e": [
      8
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 795,
@@ -18594,7 +19478,8 @@ spot_ns.index =
     ],
     "e": [
      16
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 796,
@@ -18604,7 +19489,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 797,
@@ -18614,7 +19500,8 @@ spot_ns.index =
     ],
     "e": [
      16
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 798,
@@ -18624,7 +19511,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 799,
@@ -18634,7 +19522,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 800,
@@ -18644,7 +19533,8 @@ spot_ns.index =
     ],
     "e": [
      16
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 801,
@@ -18654,7 +19544,8 @@ spot_ns.index =
     ],
     "e": [
      27
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 802,
@@ -18664,7 +19555,8 @@ spot_ns.index =
     ],
     "e": [
      8
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 803,
@@ -18674,7 +19566,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 804,
@@ -18684,7 +19577,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 805,
@@ -18694,7 +19588,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 806,
@@ -18705,7 +19600,8 @@ spot_ns.index =
     "e": [
      38,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 807,
@@ -18715,7 +19611,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 808,
@@ -18725,7 +19622,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 809,
@@ -18735,7 +19633,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 810,
@@ -18745,7 +19644,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 811,
@@ -18755,7 +19655,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 812,
@@ -18766,7 +19667,8 @@ spot_ns.index =
     "e": [
      38,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 813,
@@ -18777,7 +19679,8 @@ spot_ns.index =
     "e": [
      38,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 814,
@@ -18788,7 +19691,8 @@ spot_ns.index =
     "e": [
      16,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 815,
@@ -18798,7 +19702,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 816,
@@ -18808,7 +19713,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 817,
@@ -18818,7 +19724,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 818,
@@ -18828,7 +19735,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 819,
@@ -18839,7 +19747,8 @@ spot_ns.index =
     "e": [
      38,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 820,
@@ -18850,7 +19759,8 @@ spot_ns.index =
     "e": [
      16,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 821,
@@ -18863,7 +19773,8 @@ spot_ns.index =
      38,
      46,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 822,
@@ -18873,7 +19784,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 823,
@@ -18883,7 +19795,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 824,
@@ -18893,7 +19806,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 825,
@@ -18903,7 +19817,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 826,
@@ -18914,7 +19829,8 @@ spot_ns.index =
     "e": [
      1,
      19
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 827,
@@ -18924,7 +19840,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 828,
@@ -18934,7 +19851,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 829,
@@ -18945,7 +19863,8 @@ spot_ns.index =
     "e": [
      1,
      19
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 830,
@@ -18955,7 +19874,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 831,
@@ -18965,7 +19885,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 832,
@@ -18975,7 +19896,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 833,
@@ -18985,7 +19907,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 834,
@@ -18995,7 +19918,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 835,
@@ -19005,7 +19929,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 836,
@@ -19015,7 +19940,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 837,
@@ -19026,7 +19952,8 @@ spot_ns.index =
     "e": [
      1,
      46
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 838,
@@ -19036,7 +19963,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 839,
@@ -19046,7 +19974,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 840,
@@ -19056,7 +19985,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 841,
@@ -19066,7 +19996,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 842,
@@ -19076,7 +20007,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 843,
@@ -19086,7 +20018,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 844,
@@ -19097,7 +20030,8 @@ spot_ns.index =
     "e": [
      1,
      12
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 845,
@@ -19107,7 +20041,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 846,
@@ -19117,7 +20052,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 847,
@@ -19127,7 +20063,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 848,
@@ -19139,7 +20076,8 @@ spot_ns.index =
      1,
      19,
      46
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 849,
@@ -19149,7 +20087,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 850,
@@ -19159,7 +20098,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 851,
@@ -19169,7 +20109,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 852,
@@ -19179,7 +20120,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 853,
@@ -19189,7 +20131,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 854,
@@ -19199,7 +20142,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 855,
@@ -19209,7 +20153,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 856,
@@ -19219,7 +20164,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 857,
@@ -19230,7 +20176,8 @@ spot_ns.index =
     "e": [
      1,
      19
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 858,
@@ -19240,7 +20187,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 859,
@@ -19250,7 +20198,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 860,
@@ -19260,7 +20209,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 861,
@@ -19272,7 +20222,8 @@ spot_ns.index =
      40,
      46,
      51
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 862,
@@ -19282,7 +20233,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 863,
@@ -19292,7 +20244,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 864,
@@ -19302,7 +20255,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 865,
@@ -19312,7 +20266,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 866,
@@ -19322,7 +20277,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 867,
@@ -19332,7 +20288,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 868,
@@ -19342,7 +20299,8 @@ spot_ns.index =
     ],
     "e": [
      20
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 869,
@@ -19352,7 +20310,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 870,
@@ -19362,7 +20321,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 871,
@@ -19372,7 +20332,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 872,
@@ -19382,7 +20343,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 873,
@@ -19392,7 +20354,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 874,
@@ -19402,7 +20365,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 875,
@@ -19412,7 +20376,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 876,
@@ -19422,7 +20387,8 @@ spot_ns.index =
     ],
     "e": [
      20
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 877,
@@ -19432,7 +20398,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 878,
@@ -19442,7 +20409,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 879,
@@ -19453,7 +20421,8 @@ spot_ns.index =
     "e": [
      46,
      51
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 880,
@@ -19463,7 +20432,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 881,
@@ -19474,7 +20444,8 @@ spot_ns.index =
     "e": [
      1,
      19
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 882,
@@ -19484,7 +20455,8 @@ spot_ns.index =
     ],
     "e": [
      27
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 883,
@@ -19494,7 +20466,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 884,
@@ -19504,7 +20477,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 885,
@@ -19514,7 +20488,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 886,
@@ -19524,7 +20499,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 887,
@@ -19534,7 +20510,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 888,
@@ -19544,7 +20521,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 889,
@@ -19554,7 +20532,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 890,
@@ -19564,7 +20543,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 891,
@@ -19574,7 +20554,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 892,
@@ -19584,7 +20565,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 893,
@@ -19594,7 +20576,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 894,
@@ -19604,7 +20587,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 895,
@@ -19614,7 +20598,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 896,
@@ -19624,7 +20609,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 897,
@@ -19634,7 +20620,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 898,
@@ -19645,7 +20632,8 @@ spot_ns.index =
     "e": [
      1,
      19
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 899,
@@ -19655,7 +20643,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 900,
@@ -19665,7 +20654,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 901,
@@ -19675,7 +20665,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 902,
@@ -19685,7 +20676,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 903,
@@ -19696,7 +20688,8 @@ spot_ns.index =
     "e": [
      1,
      27
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 904,
@@ -19706,7 +20699,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 905,
@@ -19716,7 +20710,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 906,
@@ -19727,7 +20722,8 @@ spot_ns.index =
     "e": [
      1,
      19
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 907,
@@ -19737,7 +20733,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 908,
@@ -19747,7 +20744,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 909,
@@ -19757,7 +20755,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 910,
@@ -19767,7 +20766,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 911,
@@ -19777,7 +20777,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 912,
@@ -19787,7 +20788,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 913,
@@ -19797,7 +20799,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 914,
@@ -19807,7 +20810,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 915,
@@ -19817,7 +20821,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 916,
@@ -19827,7 +20832,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 917,
@@ -19837,7 +20843,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 918,
@@ -19847,7 +20854,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 919,
@@ -19857,7 +20865,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 920,
@@ -19867,7 +20876,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 921,
@@ -19877,7 +20887,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 922,
@@ -19887,7 +20898,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 923,
@@ -19897,7 +20909,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 924,
@@ -19907,7 +20920,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 925,
@@ -19917,7 +20931,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 926,
@@ -19927,7 +20942,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 927,
@@ -19937,7 +20953,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 928,
@@ -19947,7 +20964,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 929,
@@ -19957,7 +20975,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 930,
@@ -19967,7 +20986,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 931,
@@ -19977,7 +20997,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 932,
@@ -19987,7 +21008,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 933,
@@ -19997,7 +21019,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 934,
@@ -20008,7 +21031,8 @@ spot_ns.index =
     "e": [
      34,
      47
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 935,
@@ -20018,7 +21042,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 936,
@@ -20028,7 +21053,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 937,
@@ -20038,7 +21064,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 938,
@@ -20048,7 +21075,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 939,
@@ -20058,7 +21086,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 940,
@@ -20068,7 +21097,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 941,
@@ -20078,7 +21108,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 942,
@@ -20088,7 +21119,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 943,
@@ -20098,7 +21130,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 944,
@@ -20108,7 +21141,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 945,
@@ -20118,7 +21152,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 946,
@@ -20128,7 +21163,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 947,
@@ -20138,7 +21174,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 948,
@@ -20149,7 +21186,8 @@ spot_ns.index =
     "e": [
      1,
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 949,
@@ -20159,7 +21197,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 950,
@@ -20169,7 +21208,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 951,
@@ -20179,7 +21219,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 952,
@@ -20189,7 +21230,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 953,
@@ -20199,7 +21241,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 954,
@@ -20209,7 +21252,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 955,
@@ -20219,7 +21263,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 956,
@@ -20229,7 +21274,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 957,
@@ -20239,7 +21285,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 958,
@@ -20249,7 +21296,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 959,
@@ -20259,7 +21307,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 960,
@@ -20269,7 +21318,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 961,
@@ -20279,7 +21329,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 962,
@@ -20289,7 +21340,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 963,
@@ -20299,7 +21351,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 964,
@@ -20311,7 +21364,8 @@ spot_ns.index =
      1,
      28,
      43
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 965,
@@ -20321,7 +21375,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 966,
@@ -20331,7 +21386,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 967,
@@ -20341,7 +21397,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 968,
@@ -20351,7 +21408,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 969,
@@ -20364,7 +21422,8 @@ spot_ns.index =
      41,
      46,
      50
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 970,
@@ -20374,7 +21433,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 971,
@@ -20384,7 +21444,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 972,
@@ -20394,7 +21455,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 973,
@@ -20404,7 +21466,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 974,
@@ -20414,7 +21477,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 975,
@@ -20424,7 +21488,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 976,
@@ -20434,7 +21499,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 977,
@@ -20444,7 +21510,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 978,
@@ -20456,7 +21523,8 @@ spot_ns.index =
      41,
      46,
      50
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 979,
@@ -20466,7 +21534,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 980,
@@ -20476,7 +21545,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 981,
@@ -20486,7 +21556,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 982,
@@ -20496,7 +21567,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 983,
@@ -20506,7 +21578,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 984,
@@ -20516,7 +21589,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 985,
@@ -20526,7 +21600,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 986,
@@ -20536,7 +21611,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 987,
@@ -20546,7 +21622,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 988,
@@ -20556,7 +21633,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 989,
@@ -20566,7 +21644,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 990,
@@ -20576,7 +21655,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 991,
@@ -20586,7 +21666,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 992,
@@ -20596,7 +21677,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 993,
@@ -20606,7 +21688,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 994,
@@ -20616,7 +21699,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 995,
@@ -20626,7 +21710,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 996,
@@ -20637,7 +21722,8 @@ spot_ns.index =
     "e": [
      0,
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 997,
@@ -20647,7 +21733,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 998,
@@ -20657,7 +21744,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 999,
@@ -20667,7 +21755,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1000,
@@ -20677,7 +21766,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1001,
@@ -20687,7 +21777,8 @@ spot_ns.index =
     ],
     "e": [
      0
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1002,
@@ -20697,7 +21788,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1003,
@@ -20707,7 +21799,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1004,
@@ -20717,7 +21810,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1005,
@@ -20727,7 +21821,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1006,
@@ -20737,7 +21832,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1007,
@@ -20747,7 +21843,8 @@ spot_ns.index =
     ],
     "e": [
      0
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1008,
@@ -20757,7 +21854,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1009,
@@ -20767,7 +21865,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1010,
@@ -20777,7 +21876,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1011,
@@ -20787,7 +21887,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1012,
@@ -20797,7 +21898,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1013,
@@ -20807,7 +21909,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1014,
@@ -20817,7 +21920,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1015,
@@ -20827,7 +21931,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1016,
@@ -20837,7 +21942,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1017,
@@ -20847,7 +21953,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1018,
@@ -20857,7 +21964,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1019,
@@ -20867,7 +21975,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1020,
@@ -20877,7 +21986,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1021,
@@ -20887,7 +21997,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1022,
@@ -20897,7 +22008,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1023,
@@ -20907,7 +22019,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1024,
@@ -20918,7 +22031,8 @@ spot_ns.index =
     "e": [
      1,
      42
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1025,
@@ -20928,7 +22042,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1026,
@@ -20939,7 +22054,8 @@ spot_ns.index =
     "e": [
      1,
      19
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1027,
@@ -20949,7 +22065,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1028,
@@ -20959,7 +22076,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1029,
@@ -20969,7 +22087,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1030,
@@ -20979,7 +22098,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1031,
@@ -20989,7 +22109,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1032,
@@ -20999,7 +22120,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1033,
@@ -21010,7 +22132,8 @@ spot_ns.index =
     "e": [
      19,
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1034,
@@ -21023,7 +22146,8 @@ spot_ns.index =
      19,
      42,
      54
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1035,
@@ -21033,7 +22157,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1036,
@@ -21043,7 +22168,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1037,
@@ -21053,7 +22179,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1038,
@@ -21063,7 +22190,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1039,
@@ -21073,7 +22201,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1040,
@@ -21083,7 +22212,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1041,
@@ -21093,7 +22223,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1042,
@@ -21103,7 +22234,8 @@ spot_ns.index =
     ],
     "e": [
      51
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1043,
@@ -21113,7 +22245,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1044,
@@ -21124,7 +22257,8 @@ spot_ns.index =
     "e": [
      38,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1045,
@@ -21134,7 +22268,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1046,
@@ -21144,7 +22279,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1047,
@@ -21154,7 +22290,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1048,
@@ -21164,7 +22301,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1049,
@@ -21174,7 +22312,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1050,
@@ -21184,7 +22323,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1051,
@@ -21194,7 +22334,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1052,
@@ -21204,7 +22345,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1053,
@@ -21215,7 +22357,8 @@ spot_ns.index =
     "e": [
      38,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1054,
@@ -21225,7 +22368,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1055,
@@ -21236,7 +22380,8 @@ spot_ns.index =
     "e": [
      46,
      51
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1056,
@@ -21246,7 +22391,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1057,
@@ -21256,7 +22402,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1058,
@@ -21266,7 +22413,8 @@ spot_ns.index =
     ],
     "e": [
      39
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1059,
@@ -21276,7 +22424,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1060,
@@ -21286,7 +22435,8 @@ spot_ns.index =
     ],
     "e": [
      39
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1061,
@@ -21296,7 +22446,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1062,
@@ -21306,7 +22457,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1063,
@@ -21317,7 +22469,8 @@ spot_ns.index =
     "e": [
      27,
      28
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1064,
@@ -21327,7 +22480,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1065,
@@ -21337,7 +22491,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1066,
@@ -21347,7 +22502,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1067,
@@ -21357,7 +22513,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1068,
@@ -21367,7 +22524,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1069,
@@ -21377,7 +22535,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1070,
@@ -21387,7 +22546,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1071,
@@ -21397,7 +22557,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1072,
@@ -21407,7 +22568,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1073,
@@ -21417,7 +22579,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1074,
@@ -21427,7 +22590,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1075,
@@ -21437,7 +22601,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1076,
@@ -21447,7 +22612,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1077,
@@ -21458,7 +22624,8 @@ spot_ns.index =
     "e": [
      25,
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1078,
@@ -21468,7 +22635,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1079,
@@ -21478,7 +22646,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1080,
@@ -21489,7 +22658,8 @@ spot_ns.index =
     "e": [
      4,
      41
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1081,
@@ -21499,7 +22669,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1082,
@@ -21509,7 +22680,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1083,
@@ -21519,7 +22691,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1084,
@@ -21529,7 +22702,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1085,
@@ -21539,7 +22713,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1086,
@@ -21549,7 +22724,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1087,
@@ -21559,7 +22735,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1088,
@@ -21569,7 +22746,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1089,
@@ -21579,7 +22757,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1090,
@@ -21589,7 +22768,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1091,
@@ -21599,7 +22779,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1092,
@@ -21609,7 +22790,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1093,
@@ -21619,7 +22801,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1094,
@@ -21629,7 +22812,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1095,
@@ -21639,7 +22823,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1096,
@@ -21649,7 +22834,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1097,
@@ -21659,7 +22845,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1098,
@@ -21671,7 +22858,8 @@ spot_ns.index =
      41,
      46,
      50
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1099,
@@ -21681,7 +22869,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1100,
@@ -21691,7 +22880,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1101,
@@ -21701,7 +22891,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1102,
@@ -21711,7 +22902,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1103,
@@ -21721,7 +22913,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1104,
@@ -21731,7 +22924,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1105,
@@ -21741,7 +22935,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1106,
@@ -21751,7 +22946,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1107,
@@ -21761,7 +22957,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1108,
@@ -21771,7 +22968,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1109,
@@ -21781,7 +22979,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1110,
@@ -21791,7 +22990,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1111,
@@ -21801,7 +23001,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1112,
@@ -21811,7 +23012,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1113,
@@ -21821,7 +23023,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1114,
@@ -21831,7 +23034,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1115,
@@ -21841,7 +23045,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1116,
@@ -21851,7 +23056,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1117,
@@ -21861,7 +23067,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1118,
@@ -21871,7 +23078,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1119,
@@ -21881,7 +23089,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1120,
@@ -21891,7 +23100,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1121,
@@ -21901,7 +23111,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1122,
@@ -21911,7 +23122,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1123,
@@ -21921,7 +23133,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1124,
@@ -21931,7 +23144,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1125,
@@ -21942,7 +23156,8 @@ spot_ns.index =
     "e": [
      26,
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1126,
@@ -21952,7 +23167,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1127,
@@ -21962,7 +23178,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1128,
@@ -21972,7 +23189,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1129,
@@ -21982,7 +23200,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1130,
@@ -21992,7 +23211,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1131,
@@ -22002,7 +23222,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1132,
@@ -22012,7 +23233,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1133,
@@ -22022,7 +23244,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1134,
@@ -22032,7 +23255,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1135,
@@ -22042,7 +23266,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1136,
@@ -22052,7 +23277,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1137,
@@ -22062,7 +23288,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1138,
@@ -22072,7 +23299,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1139,
@@ -22082,7 +23310,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1140,
@@ -22092,7 +23321,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1141,
@@ -22102,7 +23332,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1142,
@@ -22112,7 +23343,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1143,
@@ -22122,7 +23354,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1144,
@@ -22132,7 +23365,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1145,
@@ -22142,7 +23376,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1146,
@@ -22152,7 +23387,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1147,
@@ -22162,7 +23398,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1148,
@@ -22172,7 +23409,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1149,
@@ -22183,7 +23421,8 @@ spot_ns.index =
     "e": [
      4,
      14
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1150,
@@ -22193,7 +23432,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1151,
@@ -22204,7 +23444,8 @@ spot_ns.index =
     "e": [
      4,
      14
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1152,
@@ -22214,7 +23455,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1153,
@@ -22224,7 +23466,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1154,
@@ -22234,7 +23477,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1155,
@@ -22244,7 +23488,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1156,
@@ -22254,7 +23499,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1157,
@@ -22264,7 +23510,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1158,
@@ -22274,7 +23521,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1159,
@@ -22284,7 +23532,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1160,
@@ -22294,7 +23543,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1161,
@@ -22304,7 +23554,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1162,
@@ -22314,7 +23565,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1163,
@@ -22324,7 +23576,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1164,
@@ -22334,7 +23587,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1165,
@@ -22344,7 +23598,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1166,
@@ -22354,7 +23609,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1167,
@@ -22364,7 +23620,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1168,
@@ -22374,7 +23631,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1169,
@@ -22384,7 +23642,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1170,
@@ -22394,7 +23653,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1171,
@@ -22404,7 +23664,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1172,
@@ -22414,7 +23675,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1173,
@@ -22424,7 +23686,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1174,
@@ -22434,7 +23697,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1175,
@@ -22444,7 +23708,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1176,
@@ -22454,7 +23719,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1177,
@@ -22464,7 +23730,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1178,
@@ -22475,7 +23742,8 @@ spot_ns.index =
     "e": [
      6,
      37
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1179,
@@ -22486,7 +23754,8 @@ spot_ns.index =
     "e": [
      6,
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1180,
@@ -22496,7 +23765,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1181,
@@ -22506,7 +23776,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1182,
@@ -22516,7 +23787,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1183,
@@ -22526,7 +23798,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1184,
@@ -22536,7 +23809,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1185,
@@ -22546,7 +23820,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1186,
@@ -22556,7 +23831,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1187,
@@ -22566,7 +23842,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1188,
@@ -22576,7 +23853,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1189,
@@ -22587,7 +23865,8 @@ spot_ns.index =
     "e": [
      12,
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1190,
@@ -22597,7 +23876,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1191,
@@ -22608,7 +23888,8 @@ spot_ns.index =
     "e": [
      2,
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1192,
@@ -22618,7 +23899,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1193,
@@ -22628,7 +23910,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1194,
@@ -22639,7 +23922,8 @@ spot_ns.index =
     "e": [
      2,
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1195,
@@ -22650,7 +23934,8 @@ spot_ns.index =
     "e": [
      2,
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1196,
@@ -22660,7 +23945,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1197,
@@ -22670,7 +23956,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1198,
@@ -22681,7 +23968,8 @@ spot_ns.index =
     "e": [
      2,
      12
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1199,
@@ -22691,7 +23979,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1200,
@@ -22701,7 +23990,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1201,
@@ -22711,7 +24001,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1202,
@@ -22721,7 +24012,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1203,
@@ -22731,7 +24023,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1204,
@@ -22741,7 +24034,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1205,
@@ -22751,7 +24045,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1206,
@@ -22761,7 +24056,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1207,
@@ -22771,7 +24067,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1208,
@@ -22781,7 +24078,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1209,
@@ -22791,7 +24089,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1210,
@@ -22801,7 +24100,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1211,
@@ -22811,7 +24111,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1212,
@@ -22821,7 +24122,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1213,
@@ -22831,7 +24133,8 @@ spot_ns.index =
     ],
     "e": [
      24
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1214,
@@ -22841,7 +24144,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1215,
@@ -22851,7 +24155,8 @@ spot_ns.index =
     ],
     "e": [
      24
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1216,
@@ -22861,7 +24166,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1217,
@@ -22871,7 +24177,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1218,
@@ -22881,7 +24188,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1219,
@@ -22891,7 +24199,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1220,
@@ -22901,7 +24210,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1221,
@@ -22911,7 +24221,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1222,
@@ -22921,7 +24232,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1223,
@@ -22931,7 +24243,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1224,
@@ -22941,7 +24254,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1225,
@@ -22951,7 +24265,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1226,
@@ -22961,7 +24276,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1227,
@@ -22972,7 +24288,8 @@ spot_ns.index =
     "e": [
      35,
      46
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1228,
@@ -22982,7 +24299,8 @@ spot_ns.index =
     ],
     "e": [
      7
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1229,
@@ -22992,7 +24310,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1230,
@@ -23002,7 +24321,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1231,
@@ -23012,7 +24332,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1232,
@@ -23022,7 +24343,8 @@ spot_ns.index =
     ],
     "e": [
      7
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1233,
@@ -23032,7 +24354,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1234,
@@ -23042,7 +24365,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1235,
@@ -23052,7 +24376,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1236,
@@ -23062,7 +24387,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1237,
@@ -23073,7 +24399,8 @@ spot_ns.index =
     "e": [
      35,
      46
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1238,
@@ -23083,7 +24410,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1239,
@@ -23093,7 +24421,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1240,
@@ -23103,7 +24432,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1241,
@@ -23113,7 +24443,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1242,
@@ -23123,7 +24454,8 @@ spot_ns.index =
     ],
     "e": [
      31
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1243,
@@ -23133,7 +24465,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1244,
@@ -23143,7 +24476,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1245,
@@ -23153,7 +24487,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1246,
@@ -23163,7 +24498,8 @@ spot_ns.index =
     ],
     "e": [
      31
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1247,
@@ -23173,7 +24509,8 @@ spot_ns.index =
     ],
     "e": [
      31
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1248,
@@ -23184,7 +24521,8 @@ spot_ns.index =
     "e": [
      8,
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1249,
@@ -23194,7 +24532,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1250,
@@ -23204,7 +24543,8 @@ spot_ns.index =
     ],
     "e": [
      31
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1251,
@@ -23214,7 +24554,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1252,
@@ -23224,7 +24565,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1253,
@@ -23235,7 +24577,8 @@ spot_ns.index =
     "e": [
      3,
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1254,
@@ -23245,7 +24588,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1255,
@@ -23255,7 +24599,8 @@ spot_ns.index =
     ],
     "e": [
      11
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1256,
@@ -23265,7 +24610,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1257,
@@ -23275,7 +24621,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1258,
@@ -23285,7 +24632,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1259,
@@ -23296,7 +24644,8 @@ spot_ns.index =
     "e": [
      3,
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1260,
@@ -23306,7 +24655,8 @@ spot_ns.index =
     ],
     "e": [
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1261,
@@ -23316,7 +24666,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1262,
@@ -23326,7 +24677,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1263,
@@ -23336,7 +24688,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1264,
@@ -23347,7 +24700,8 @@ spot_ns.index =
     "e": [
      2,
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1265,
@@ -23358,7 +24712,8 @@ spot_ns.index =
     "e": [
      2,
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1266,
@@ -23368,7 +24723,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1267,
@@ -23378,7 +24734,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1268,
@@ -23388,7 +24745,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1269,
@@ -23398,7 +24756,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1270,
@@ -23408,7 +24767,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1271,
@@ -23418,7 +24778,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1272,
@@ -23428,7 +24789,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1273,
@@ -23438,7 +24800,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1274,
@@ -23448,7 +24811,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1275,
@@ -23458,7 +24822,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1276,
@@ -23468,7 +24833,8 @@ spot_ns.index =
     ],
     "e": [
      14
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1277,
@@ -23478,7 +24844,8 @@ spot_ns.index =
     ],
     "e": [
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1278,
@@ -23488,7 +24855,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1279,
@@ -23498,7 +24866,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1280,
@@ -23508,7 +24877,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1281,
@@ -23519,7 +24889,8 @@ spot_ns.index =
     "e": [
      2,
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1282,
@@ -23529,7 +24900,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1283,
@@ -23539,7 +24911,8 @@ spot_ns.index =
     ],
     "e": [
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1284,
@@ -23549,7 +24922,8 @@ spot_ns.index =
     ],
     "e": [
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1285,
@@ -23559,7 +24933,8 @@ spot_ns.index =
     ],
     "e": [
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1286,
@@ -23569,7 +24944,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1287,
@@ -23579,7 +24955,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1288,
@@ -23589,7 +24966,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1289,
@@ -23599,7 +24977,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1290,
@@ -23609,7 +24988,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1291,
@@ -23619,7 +24999,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1292,
@@ -23629,7 +25010,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1293,
@@ -23639,7 +25021,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1294,
@@ -23649,7 +25032,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1295,
@@ -23659,7 +25043,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1296,
@@ -23670,7 +25055,8 @@ spot_ns.index =
     "e": [
      10,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1297,
@@ -23680,7 +25066,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1298,
@@ -23691,7 +25078,8 @@ spot_ns.index =
     "e": [
      44,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1299,
@@ -23702,7 +25090,8 @@ spot_ns.index =
     "e": [
      44,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1300,
@@ -23712,7 +25101,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1301,
@@ -23722,7 +25112,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1302,
@@ -23733,7 +25124,8 @@ spot_ns.index =
     "e": [
      41,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1303,
@@ -23743,7 +25135,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1304,
@@ -23753,7 +25146,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1305,
@@ -23763,7 +25157,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1306,
@@ -23773,7 +25168,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1307,
@@ -23784,7 +25180,8 @@ spot_ns.index =
     "e": [
      41,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1308,
@@ -23794,7 +25191,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1309,
@@ -23805,7 +25203,8 @@ spot_ns.index =
     "e": [
      41,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1310,
@@ -23816,7 +25215,8 @@ spot_ns.index =
     "e": [
      41,
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1311,
@@ -23826,7 +25226,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1312,
@@ -23836,7 +25237,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1313,
@@ -23846,7 +25248,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1314,
@@ -23856,7 +25259,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1315,
@@ -23867,7 +25271,8 @@ spot_ns.index =
     "e": [
      10,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1316,
@@ -23877,7 +25282,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1317,
@@ -23887,7 +25293,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1318,
@@ -23897,7 +25304,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1319,
@@ -23907,7 +25315,8 @@ spot_ns.index =
     ],
     "e": [
      0
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1320,
@@ -23917,7 +25326,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1321,
@@ -23927,7 +25337,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1322,
@@ -23937,7 +25348,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1323,
@@ -23947,7 +25359,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1324,
@@ -23957,7 +25370,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1325,
@@ -23967,7 +25381,8 @@ spot_ns.index =
     ],
     "e": [
      0
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1326,
@@ -23977,7 +25392,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1327,
@@ -23987,7 +25403,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1328,
@@ -23997,7 +25414,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1329,
@@ -24008,7 +25426,8 @@ spot_ns.index =
     "e": [
      4,
      47
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1330,
@@ -24018,7 +25437,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1331,
@@ -24028,7 +25448,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1332,
@@ -24038,7 +25459,8 @@ spot_ns.index =
     ],
     "e": [
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1333,
@@ -24048,7 +25470,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1334,
@@ -24058,7 +25481,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1335,
@@ -24068,7 +25492,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1336,
@@ -24078,7 +25503,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1337,
@@ -24088,7 +25514,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1338,
@@ -24098,7 +25525,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1339,
@@ -24108,7 +25536,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1340,
@@ -24120,7 +25549,8 @@ spot_ns.index =
      19,
      47,
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1341,
@@ -24131,7 +25561,8 @@ spot_ns.index =
     "e": [
      4,
      47
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1342,
@@ -24141,7 +25572,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1343,
@@ -24151,7 +25583,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1344,
@@ -24161,7 +25594,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1345,
@@ -24171,7 +25605,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1346,
@@ -24181,7 +25616,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1347,
@@ -24191,7 +25627,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1348,
@@ -24201,7 +25638,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1349,
@@ -24211,7 +25649,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1350,
@@ -24221,7 +25660,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1351,
@@ -24231,7 +25671,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1352,
@@ -24241,7 +25682,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1353,
@@ -24251,7 +25693,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1354,
@@ -24261,7 +25704,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1355,
@@ -24272,7 +25716,8 @@ spot_ns.index =
     "e": [
      9,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1356,
@@ -24282,7 +25727,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1357,
@@ -24292,7 +25738,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1358,
@@ -24302,7 +25749,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1359,
@@ -24312,7 +25760,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1360,
@@ -24322,7 +25771,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1361,
@@ -24332,7 +25782,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1362,
@@ -24342,7 +25793,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1363,
@@ -24352,7 +25804,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1364,
@@ -24362,7 +25815,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1365,
@@ -24372,7 +25826,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1366,
@@ -24382,7 +25837,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1367,
@@ -24392,7 +25848,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1368,
@@ -24402,7 +25859,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1369,
@@ -24412,7 +25870,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1370,
@@ -24422,7 +25881,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1371,
@@ -24432,7 +25892,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1372,
@@ -24443,7 +25904,8 @@ spot_ns.index =
     "e": [
      1,
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1373,
@@ -24453,7 +25915,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1374,
@@ -24463,7 +25926,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1375,
@@ -24473,7 +25937,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1376,
@@ -24483,7 +25948,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1377,
@@ -24493,7 +25959,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1378,
@@ -24503,7 +25970,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1379,
@@ -24513,7 +25981,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1380,
@@ -24523,7 +25992,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1381,
@@ -24533,7 +26003,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1382,
@@ -24543,7 +26014,8 @@ spot_ns.index =
     ],
     "e": [
      25
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1383,
@@ -24554,7 +26026,8 @@ spot_ns.index =
     "e": [
      1,
      46
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1384,
@@ -24564,7 +26037,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1385,
@@ -24574,7 +26048,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1386,
@@ -24584,7 +26059,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1387,
@@ -24594,7 +26070,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1388,
@@ -24604,7 +26081,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1389,
@@ -24614,7 +26092,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1390,
@@ -24624,7 +26103,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1391,
@@ -24634,7 +26114,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1392,
@@ -24644,7 +26125,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1393,
@@ -24654,7 +26136,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1394,
@@ -24666,7 +26149,8 @@ spot_ns.index =
      1,
      2,
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1395,
@@ -24676,7 +26160,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1396,
@@ -24686,7 +26171,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1397,
@@ -24697,7 +26183,8 @@ spot_ns.index =
     "e": [
      1,
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1398,
@@ -24707,7 +26194,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1399,
@@ -24717,7 +26205,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1400,
@@ -24727,7 +26216,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1401,
@@ -24737,7 +26227,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1402,
@@ -24747,7 +26238,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1403,
@@ -24757,7 +26249,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1404,
@@ -24767,7 +26260,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1405,
@@ -24777,7 +26271,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1406,
@@ -24787,7 +26282,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1407,
@@ -24797,7 +26293,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1408,
@@ -24808,7 +26305,8 @@ spot_ns.index =
     "e": [
      1,
      28
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1409,
@@ -24818,7 +26316,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1410,
@@ -24828,7 +26327,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1411,
@@ -24838,7 +26338,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1412,
@@ -24848,7 +26349,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1413,
@@ -24858,7 +26360,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1414,
@@ -24868,7 +26371,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1415,
@@ -24878,7 +26382,8 @@ spot_ns.index =
     ],
     "e": [
      15
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1416,
@@ -24888,7 +26393,8 @@ spot_ns.index =
     ],
     "e": [
      15
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1417,
@@ -24898,7 +26404,8 @@ spot_ns.index =
     ],
     "e": [
      15
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1418,
@@ -24908,7 +26415,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1419,
@@ -24919,7 +26427,8 @@ spot_ns.index =
     "e": [
      15,
      51
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1420,
@@ -24929,7 +26438,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1421,
@@ -24939,7 +26449,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1422,
@@ -24949,7 +26460,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1423,
@@ -24959,7 +26471,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1424,
@@ -24969,7 +26482,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1425,
@@ -24979,7 +26493,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1426,
@@ -24989,7 +26504,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1427,
@@ -24999,7 +26515,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1428,
@@ -25009,7 +26526,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1429,
@@ -25019,7 +26537,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1430,
@@ -25029,7 +26548,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1431,
@@ -25039,7 +26559,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1432,
@@ -25049,7 +26570,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1433,
@@ -25059,7 +26581,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1434,
@@ -25069,7 +26592,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1435,
@@ -25080,7 +26604,8 @@ spot_ns.index =
     "e": [
      33,
      45
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1436,
@@ -25090,7 +26615,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1437,
@@ -25100,7 +26626,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1438,
@@ -25110,7 +26637,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1439,
@@ -25120,7 +26648,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1440,
@@ -25130,7 +26659,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1441,
@@ -25141,7 +26671,8 @@ spot_ns.index =
     "e": [
      1,
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1442,
@@ -25152,7 +26683,8 @@ spot_ns.index =
     "e": [
      1,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1443,
@@ -25162,7 +26694,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1444,
@@ -25172,7 +26705,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1445,
@@ -25182,7 +26716,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1446,
@@ -25192,7 +26727,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1447,
@@ -25202,7 +26738,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1448,
@@ -25212,7 +26749,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1449,
@@ -25222,7 +26760,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1450,
@@ -25233,7 +26772,8 @@ spot_ns.index =
     "e": [
      2,
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1451,
@@ -25243,7 +26783,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1452,
@@ -25253,7 +26794,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1453,
@@ -25263,7 +26805,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1454,
@@ -25273,7 +26816,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1455,
@@ -25283,7 +26827,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1456,
@@ -25293,7 +26838,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1457,
@@ -25303,7 +26849,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1458,
@@ -25314,7 +26861,8 @@ spot_ns.index =
     "e": [
      19,
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1459,
@@ -25325,7 +26873,8 @@ spot_ns.index =
     "e": [
      38,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1460,
@@ -25335,7 +26884,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1461,
@@ -25345,7 +26895,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1462,
@@ -25355,7 +26906,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1463,
@@ -25365,7 +26917,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1464,
@@ -25376,7 +26929,8 @@ spot_ns.index =
     "e": [
      38,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1465,
@@ -25386,7 +26940,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1466,
@@ -25396,7 +26951,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1467,
@@ -25406,7 +26962,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1468,
@@ -25416,7 +26973,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1469,
@@ -25426,7 +26984,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1470,
@@ -25436,7 +26995,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1471,
@@ -25446,7 +27006,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1472,
@@ -25456,7 +27017,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1473,
@@ -25466,7 +27028,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1474,
@@ -25476,7 +27039,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1475,
@@ -25486,7 +27050,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1476,
@@ -25496,7 +27061,8 @@ spot_ns.index =
     ],
     "e": [
      20
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1477,
@@ -25506,7 +27072,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1478,
@@ -25516,7 +27083,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1479,
@@ -25526,7 +27094,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1480,
@@ -25536,7 +27105,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1481,
@@ -25546,7 +27116,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1482,
@@ -25556,7 +27127,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1483,
@@ -25566,7 +27138,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1484,
@@ -25576,7 +27149,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1485,
@@ -25586,7 +27160,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1486,
@@ -25596,7 +27171,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1487,
@@ -25606,7 +27182,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1488,
@@ -25616,7 +27193,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1489,
@@ -25626,7 +27204,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1490,
@@ -25636,7 +27215,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1491,
@@ -25646,7 +27226,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1492,
@@ -25656,7 +27237,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1493,
@@ -25667,7 +27249,8 @@ spot_ns.index =
     "e": [
      4,
      47
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1494,
@@ -25677,7 +27260,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1495,
@@ -25687,7 +27271,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1496,
@@ -25697,7 +27282,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1497,
@@ -25708,7 +27294,8 @@ spot_ns.index =
     "e": [
      26,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1498,
@@ -25718,7 +27305,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1499,
@@ -25728,7 +27316,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1500,
@@ -25738,7 +27327,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1501,
@@ -25748,7 +27338,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1502,
@@ -25758,7 +27349,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1503,
@@ -25768,7 +27360,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1504,
@@ -25778,7 +27371,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1505,
@@ -25788,7 +27382,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1506,
@@ -25798,7 +27393,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1507,
@@ -25808,7 +27404,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1508,
@@ -25818,7 +27415,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1509,
@@ -25828,7 +27426,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1510,
@@ -25838,7 +27437,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1511,
@@ -25848,7 +27448,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1512,
@@ -25858,7 +27459,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1513,
@@ -25869,7 +27471,8 @@ spot_ns.index =
     "e": [
      3,
      37
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1514,
@@ -25879,7 +27482,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1515,
@@ -25890,7 +27494,8 @@ spot_ns.index =
     "e": [
      3,
      37
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1516,
@@ -25900,7 +27505,8 @@ spot_ns.index =
     ],
     "e": [
      17
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1517,
@@ -25910,7 +27516,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1518,
@@ -25921,7 +27528,8 @@ spot_ns.index =
     "e": [
      29,
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1519,
@@ -25931,7 +27539,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1520,
@@ -25941,7 +27550,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1521,
@@ -25951,7 +27561,8 @@ spot_ns.index =
     ],
     "e": [
      50
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1522,
@@ -25961,7 +27572,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1523,
@@ -25971,7 +27583,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1524,
@@ -25981,7 +27594,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1525,
@@ -25991,7 +27605,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1526,
@@ -26001,7 +27616,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1527,
@@ -26011,7 +27627,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1528,
@@ -26021,7 +27638,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1529,
@@ -26031,7 +27649,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1530,
@@ -26042,7 +27661,8 @@ spot_ns.index =
     "e": [
      38,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1531,
@@ -26052,7 +27672,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1532,
@@ -26062,7 +27683,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1533,
@@ -26072,7 +27694,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1534,
@@ -26082,7 +27705,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1535,
@@ -26092,7 +27716,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1536,
@@ -26102,7 +27727,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1537,
@@ -26113,7 +27739,8 @@ spot_ns.index =
     "e": [
      16,
      39
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1538,
@@ -26123,7 +27750,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1539,
@@ -26133,7 +27761,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1540,
@@ -26143,7 +27772,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1541,
@@ -26154,7 +27784,8 @@ spot_ns.index =
     "e": [
      16,
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1542,
@@ -26164,7 +27795,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1543,
@@ -26174,7 +27806,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1544,
@@ -26184,7 +27817,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1545,
@@ -26194,7 +27828,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1546,
@@ -26204,7 +27839,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1547,
@@ -26214,7 +27850,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1548,
@@ -26224,7 +27861,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1549,
@@ -26234,7 +27872,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1550,
@@ -26244,7 +27883,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1551,
@@ -26254,7 +27894,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1552,
@@ -26264,7 +27905,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1553,
@@ -26274,7 +27916,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1554,
@@ -26284,7 +27927,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1555,
@@ -26294,7 +27938,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1556,
@@ -26304,7 +27949,8 @@ spot_ns.index =
     ],
     "e": [
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1557,
@@ -26314,7 +27960,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1558,
@@ -26324,7 +27971,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1559,
@@ -26334,7 +27982,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1560,
@@ -26344,7 +27993,8 @@ spot_ns.index =
     ],
     "e": [
      0
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1561,
@@ -26354,7 +28004,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1562,
@@ -26364,7 +28015,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1563,
@@ -26374,7 +28026,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1564,
@@ -26385,7 +28038,8 @@ spot_ns.index =
     "e": [
      3,
      37
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1565,
@@ -26395,7 +28049,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1566,
@@ -26405,7 +28060,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1567,
@@ -26415,7 +28071,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1568,
@@ -26425,7 +28082,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1569,
@@ -26435,7 +28093,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1570,
@@ -26445,7 +28104,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1571,
@@ -26455,7 +28115,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1572,
@@ -26465,7 +28126,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1573,
@@ -26475,7 +28137,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1574,
@@ -26486,7 +28149,8 @@ spot_ns.index =
     "e": [
      6,
      10
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1575,
@@ -26497,7 +28161,8 @@ spot_ns.index =
     "e": [
      6,
      47
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1576,
@@ -26507,7 +28172,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1577,
@@ -26517,7 +28183,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1578,
@@ -26527,7 +28194,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1579,
@@ -26537,7 +28205,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1580,
@@ -26547,7 +28216,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1581,
@@ -26557,7 +28227,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1582,
@@ -26567,7 +28238,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1583,
@@ -26577,7 +28249,8 @@ spot_ns.index =
     ],
     "e": [
      33
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1584,
@@ -26587,7 +28260,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1585,
@@ -26597,7 +28271,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1586,
@@ -26608,7 +28283,8 @@ spot_ns.index =
     "e": [
      10,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1587,
@@ -26618,7 +28294,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1588,
@@ -26628,7 +28305,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1589,
@@ -26638,7 +28316,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1590,
@@ -26648,7 +28327,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1591,
@@ -26658,7 +28338,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1592,
@@ -26669,7 +28350,8 @@ spot_ns.index =
     "e": [
      1,
      32
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1593,
@@ -26679,7 +28361,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1594,
@@ -26689,7 +28372,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1595,
@@ -26699,7 +28383,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1596,
@@ -26709,7 +28394,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1597,
@@ -26719,7 +28405,8 @@ spot_ns.index =
     ],
     "e": [
      12
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1598,
@@ -26729,7 +28416,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1599,
@@ -26739,7 +28427,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1600,
@@ -26749,7 +28438,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1601,
@@ -26759,7 +28449,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1602,
@@ -26769,7 +28460,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1603,
@@ -26779,7 +28471,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1604,
@@ -26789,7 +28482,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1605,
@@ -26799,7 +28493,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1606,
@@ -26809,7 +28504,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1607,
@@ -26819,7 +28515,8 @@ spot_ns.index =
     ],
     "e": [
      29
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1608,
@@ -26830,7 +28527,8 @@ spot_ns.index =
     "e": [
      1,
      42
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1609,
@@ -26840,7 +28538,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1610,
@@ -26850,7 +28549,8 @@ spot_ns.index =
     ],
     "e": [
      22
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1611,
@@ -26860,7 +28560,8 @@ spot_ns.index =
     ],
     "e": [
      49
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1612,
@@ -26870,7 +28571,8 @@ spot_ns.index =
     ],
     "e": [
      22
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1613,
@@ -26880,7 +28582,8 @@ spot_ns.index =
     ],
     "e": [
      3
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1614,
@@ -26890,7 +28593,8 @@ spot_ns.index =
     ],
     "e": [
      37
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1615,
@@ -26900,7 +28604,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1616,
@@ -26910,7 +28615,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1617,
@@ -26920,7 +28626,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1618,
@@ -26930,7 +28637,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1619,
@@ -26940,7 +28648,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1620,
@@ -26950,7 +28659,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1621,
@@ -26960,7 +28670,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1622,
@@ -26971,7 +28682,8 @@ spot_ns.index =
     "e": [
      30,
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1623,
@@ -26981,7 +28693,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1624,
@@ -26992,7 +28705,8 @@ spot_ns.index =
     "e": [
      22,
      30
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1625,
@@ -27002,7 +28716,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1626,
@@ -27012,7 +28727,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1627,
@@ -27022,7 +28738,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1628,
@@ -27032,7 +28749,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1629,
@@ -27042,7 +28760,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1630,
@@ -27052,7 +28771,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1631,
@@ -27063,7 +28783,8 @@ spot_ns.index =
     "e": [
      44,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1632,
@@ -27073,7 +28794,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1633,
@@ -27083,7 +28805,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1634,
@@ -27093,7 +28816,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1635,
@@ -27103,7 +28827,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1636,
@@ -27113,7 +28838,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1637,
@@ -27123,7 +28849,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1638,
@@ -27133,7 +28860,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1639,
@@ -27143,7 +28871,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1640,
@@ -27153,7 +28882,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1641,
@@ -27163,7 +28893,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1642,
@@ -27173,7 +28904,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1643,
@@ -27183,7 +28915,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1644,
@@ -27193,7 +28926,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1645,
@@ -27203,7 +28937,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1646,
@@ -27213,7 +28948,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1647,
@@ -27223,7 +28959,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1648,
@@ -27233,7 +28970,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1649,
@@ -27243,7 +28981,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1650,
@@ -27254,7 +28993,8 @@ spot_ns.index =
     "e": [
      47,
      53
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1651,
@@ -27264,7 +29004,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1652,
@@ -27274,7 +29015,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1653,
@@ -27284,7 +29026,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1654,
@@ -27294,7 +29037,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1655,
@@ -27304,7 +29048,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1656,
@@ -27314,7 +29059,8 @@ spot_ns.index =
     ],
     "e": [
      18
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1657,
@@ -27324,7 +29070,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1658,
@@ -27334,7 +29081,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1659,
@@ -27344,7 +29092,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1660,
@@ -27354,7 +29103,8 @@ spot_ns.index =
     ],
     "e": [
      6
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1661,
@@ -27364,7 +29114,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1662,
@@ -27376,7 +29127,8 @@ spot_ns.index =
      1,
      10,
      48
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1663,
@@ -27386,7 +29138,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1664,
@@ -27396,7 +29149,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1665,
@@ -27406,7 +29160,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1666,
@@ -27416,7 +29171,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1667,
@@ -27427,7 +29183,8 @@ spot_ns.index =
     "e": [
      10,
      48
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1668,
@@ -27437,7 +29194,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1669,
@@ -27447,7 +29205,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1670,
@@ -27457,7 +29216,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1671,
@@ -27468,7 +29228,8 @@ spot_ns.index =
     "e": [
      25,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1672,
@@ -27478,7 +29239,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1673,
@@ -27488,7 +29250,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1674,
@@ -27498,7 +29261,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1675,
@@ -27508,7 +29272,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1676,
@@ -27518,7 +29283,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1677,
@@ -27528,7 +29294,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1678,
@@ -27538,7 +29305,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1679,
@@ -27548,7 +29316,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1680,
@@ -27559,7 +29328,8 @@ spot_ns.index =
     "e": [
      41,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1681,
@@ -27569,7 +29339,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1682,
@@ -27580,7 +29351,8 @@ spot_ns.index =
     "e": [
      41,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1683,
@@ -27590,7 +29362,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1684,
@@ -27600,7 +29373,8 @@ spot_ns.index =
     ],
     "e": [
      31
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1685,
@@ -27610,7 +29384,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1686,
@@ -27621,7 +29396,8 @@ spot_ns.index =
     "e": [
      31,
      47
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1687,
@@ -27631,7 +29407,8 @@ spot_ns.index =
     ],
     "e": [
      31
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1688,
@@ -27641,7 +29418,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1689,
@@ -27651,7 +29429,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1690,
@@ -27661,7 +29440,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1691,
@@ -27671,7 +29451,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1692,
@@ -27681,7 +29462,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1693,
@@ -27691,7 +29473,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1694,
@@ -27701,7 +29484,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1695,
@@ -27711,7 +29495,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1696,
@@ -27721,7 +29506,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1697,
@@ -27731,7 +29517,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1698,
@@ -27741,7 +29528,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1699,
@@ -27752,7 +29540,8 @@ spot_ns.index =
     "e": [
      1,
      19
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1700,
@@ -27763,7 +29552,8 @@ spot_ns.index =
     "e": [
      35,
      46
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1701,
@@ -27773,7 +29563,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1702,
@@ -27783,7 +29574,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1703,
@@ -27793,7 +29585,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1704,
@@ -27803,7 +29596,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1705,
@@ -27813,7 +29607,8 @@ spot_ns.index =
     ],
     "e": [
      7
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1706,
@@ -27824,7 +29619,8 @@ spot_ns.index =
     "e": [
      10,
      48
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1707,
@@ -27834,7 +29630,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1708,
@@ -27844,7 +29641,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1709,
@@ -27854,7 +29652,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1710,
@@ -27864,7 +29663,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1711,
@@ -27874,7 +29674,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1712,
@@ -27884,7 +29685,8 @@ spot_ns.index =
     ],
     "e": [
      21
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1713,
@@ -27894,7 +29696,8 @@ spot_ns.index =
     ],
     "e": [
      5
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1714,
@@ -27904,7 +29707,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1715,
@@ -27914,7 +29718,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1716,
@@ -27924,7 +29729,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1717,
@@ -27934,7 +29740,8 @@ spot_ns.index =
     ],
     "e": [
      45
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1718,
@@ -27944,7 +29751,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1719,
@@ -27954,7 +29762,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1720,
@@ -27964,7 +29773,8 @@ spot_ns.index =
     ],
     "e": [
      15
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1721,
@@ -27974,7 +29784,8 @@ spot_ns.index =
     ],
     "e": [
      53
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1722,
@@ -27984,7 +29795,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1723,
@@ -27994,7 +29806,8 @@ spot_ns.index =
     ],
     "e": [
      24
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1724,
@@ -28004,7 +29817,8 @@ spot_ns.index =
     ],
     "e": [
      15
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1725,
@@ -28014,7 +29828,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1726,
@@ -28024,7 +29839,8 @@ spot_ns.index =
     ],
     "e": [
      15
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1727,
@@ -28034,7 +29850,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1728,
@@ -28044,7 +29861,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1729,
@@ -28054,7 +29872,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1730,
@@ -28064,7 +29883,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1731,
@@ -28074,7 +29894,8 @@ spot_ns.index =
     ],
     "e": [
      38
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1732,
@@ -28084,7 +29905,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1733,
@@ -28094,7 +29916,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1734,
@@ -28104,7 +29927,8 @@ spot_ns.index =
     ],
     "e": [
      19
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1735,
@@ -28114,7 +29938,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1736,
@@ -28124,7 +29949,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1737,
@@ -28134,7 +29960,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1738,
@@ -28144,7 +29971,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1739,
@@ -28155,7 +29983,8 @@ spot_ns.index =
     "e": [
      38,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1740,
@@ -28165,7 +29994,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1741,
@@ -28175,7 +30005,8 @@ spot_ns.index =
     ],
     "e": [
      48
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1742,
@@ -28185,7 +30016,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1743,
@@ -28196,7 +30028,8 @@ spot_ns.index =
     "e": [
      16,
      52
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1744,
@@ -28206,7 +30039,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1745,
@@ -28216,7 +30050,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1746,
@@ -28226,7 +30061,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1747,
@@ -28236,7 +30072,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1748,
@@ -28246,7 +30083,8 @@ spot_ns.index =
     ],
     "e": [
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1749,
@@ -28256,7 +30094,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1750,
@@ -28266,7 +30105,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1751,
@@ -28277,7 +30117,8 @@ spot_ns.index =
     "e": [
      35,
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1752,
@@ -28287,7 +30128,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1753,
@@ -28297,7 +30139,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1754,
@@ -28308,7 +30151,8 @@ spot_ns.index =
     "e": [
      4,
      34
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1755,
@@ -28318,7 +30162,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1756,
@@ -28329,7 +30174,8 @@ spot_ns.index =
     "e": [
      41,
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1757,
@@ -28339,7 +30185,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1758,
@@ -28349,7 +30196,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1759,
@@ -28359,7 +30207,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1760,
@@ -28369,7 +30218,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1761,
@@ -28379,7 +30229,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1762,
@@ -28389,7 +30240,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1763,
@@ -28399,7 +30251,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1764,
@@ -28409,7 +30262,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1765,
@@ -28419,7 +30273,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1766,
@@ -28429,7 +30284,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1767,
@@ -28439,7 +30295,8 @@ spot_ns.index =
     ],
     "e": [
      4
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1768,
@@ -28449,7 +30306,8 @@ spot_ns.index =
     ],
     "e": [
      30
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1769,
@@ -28459,7 +30317,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1770,
@@ -28469,7 +30328,8 @@ spot_ns.index =
     ],
     "e": [
      26
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1771,
@@ -28479,7 +30339,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1772,
@@ -28489,7 +30350,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1773,
@@ -28499,7 +30361,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1774,
@@ -28509,7 +30372,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1775,
@@ -28520,7 +30384,8 @@ spot_ns.index =
     "e": [
      15,
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1776,
@@ -28530,7 +30395,8 @@ spot_ns.index =
     ],
     "e": [
      9
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1777,
@@ -28540,7 +30406,8 @@ spot_ns.index =
     ],
     "e": [
      15
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1778,
@@ -28550,7 +30417,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1779,
@@ -28560,7 +30428,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1780,
@@ -28570,7 +30439,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1781,
@@ -28580,7 +30450,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1782,
@@ -28590,7 +30461,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1783,
@@ -28600,7 +30472,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1784,
@@ -28610,7 +30483,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1785,
@@ -28620,7 +30494,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1786,
@@ -28630,7 +30505,8 @@ spot_ns.index =
     ],
     "e": [
      23
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1787,
@@ -28641,7 +30517,8 @@ spot_ns.index =
     "e": [
      13,
      40
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1788,
@@ -28651,7 +30528,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1789,
@@ -28661,7 +30539,8 @@ spot_ns.index =
     ],
     "e": [
      44
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1790,
@@ -28671,7 +30550,8 @@ spot_ns.index =
     ],
     "e": [
      41
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1791,
@@ -28681,7 +30561,8 @@ spot_ns.index =
     ],
     "e": [
      13
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1792,
@@ -28691,7 +30572,8 @@ spot_ns.index =
     ],
     "e": [
      36
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1793,
@@ -28701,7 +30583,8 @@ spot_ns.index =
     ],
     "e": [
      35
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1794,
@@ -28711,7 +30594,8 @@ spot_ns.index =
     ],
     "e": [
      2
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1795,
@@ -28721,7 +30605,8 @@ spot_ns.index =
     ],
     "e": [
      31
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1796,
@@ -28732,7 +30617,8 @@ spot_ns.index =
     "e": [
      31,
      45
-    ]
+    ],
+    "f": 2
    },
    {
     "x": 1797,
@@ -28742,7 +30628,8 @@ spot_ns.index =
     ],
     "e": [
      52
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1798,
@@ -28752,7 +30639,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1799,
@@ -28762,7 +30650,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1800,
@@ -28772,7 +30661,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1801,
@@ -28782,7 +30672,8 @@ spot_ns.index =
     ],
     "e": [
      15
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1802,
@@ -28792,7 +30683,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1803,
@@ -28802,7 +30694,8 @@ spot_ns.index =
     ],
     "e": [
      31
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1804,
@@ -28812,7 +30705,8 @@ spot_ns.index =
     ],
     "e": [
      47
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1805,
@@ -28822,7 +30716,8 @@ spot_ns.index =
     ],
     "e": [
      54
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1806,
@@ -28832,7 +30727,8 @@ spot_ns.index =
     ],
     "e": [
      10
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1807,
@@ -28842,7 +30738,8 @@ spot_ns.index =
     ],
     "e": [
      1
-    ]
+    ],
+    "f": 1
    },
    {
     "x": 1808,
@@ -28852,7 +30749,8 @@ spot_ns.index =
     ],
     "e": [
      43
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1809,
@@ -28863,7 +30761,8 @@ spot_ns.index =
     "e": [
      19,
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1810,
@@ -28873,7 +30772,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1811,
@@ -28883,7 +30783,8 @@ spot_ns.index =
     ],
     "e": [
      46
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1812,
@@ -28893,7 +30794,8 @@ spot_ns.index =
     ],
     "e": [
      42
-    ]
+    ],
+    "f": 0
    },
    {
     "x": 1813,
@@ -28904,7 +30806,8 @@ spot_ns.index =
     "e": [
      4,
      14
-    ]
+    ],
+    "f": 2
    }
   ],
   "i": [

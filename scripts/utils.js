@@ -5,6 +5,7 @@
 
 	var hashCode = function( big ) {
 		var hash = 0, i, chr, len;
+
 		if( big.length === 0 ) return hash;
 		for( i = 0, len = big.length; i < len; i++ ) {
 			chr   = big.charCodeAt(i);
@@ -34,6 +35,70 @@
 			+ myJSON
 			+ ";\n}( window.spot_ns = window.spot_ns || {}, jQuery ));\n"
 		);
+	}
+
+	// function: merge
+	// provide a "safe" intersection of two sorted arrays
+	// http://stackoverflow.com/questions/1885557/simplest-code-for-array-intersection-in-javascript
+	spot_ns.intersect = function(a, b) {
+		// this next line was my own addition
+		if( !a ) { return( b ); } // case where filter has not been initialized yet
+		if( !b ) { return( a ); } // case where there is no filter set for b
+
+		var ai=0, bi=0, result = new Array();
+		var aLen = a.length, bLen = b.length;
+
+		while( ai < aLen && bi < bLen )
+		{
+			if      (a[ai] < b[bi] ){ ai++; }
+			else if (a[ai] > b[bi] ){ bi++; }
+			else { result.push(a[ai]); ai++; bi++; }
+		}
+
+		return result;
+	}
+
+	// function: join
+	spot_ns.join = function(a, b)
+	{
+		// if( a == null || b == null ) debugger;
+		var aLen = a.length, bLen = b.length;
+		var ai=0, bi=0, result = new Array( aLen + bLen );
+		var idx = 0;
+
+		while( ai < aLen && bi < bLen )
+		{
+			if      (a[ai] < b[bi] ){ result[idx++] = a[ai++]; }
+			else if (a[ai] > b[bi] ){ result[idx++] = b[bi++]; }
+			else { result[idx++] = a[ai++]; bi++; }
+		}
+
+		while( ai < aLen ) { result[idx++] = a[ai++]; }
+		while( bi < bLen ) { result[idx++] = b[bi++]; }
+
+		result.length = idx;
+
+		return result;
+	}
+
+	spot_ns.timer2 = function( f ){
+		return function( x ) {
+			var n1 = new Date();
+			f(x); // do something here
+			return new Date() - n1;
+		};
+	}
+
+	spot_ns.timer3 = function( f ) {
+		let n1 = new Date();
+		f();
+		return( new Date() - n1 );
+	}
+
+	spot_ns.timer = function( f ) {
+		let start = performance.now();
+		f();
+		return( performance.now() - start );
 	}
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));

@@ -23,6 +23,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="scripts/utils.js"></script>
   <script src="scripts/parser.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function () {
+			let perf = spot_ns.timer( spot_ns.parser );
+			console.info( 'Time to execute parser: ' + perf );
+		});
+	</script>
 </body>
 </html>
 <!-- vim: set sw=2 ts=2: -->

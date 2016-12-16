@@ -34,8 +34,9 @@ spot_ns.eOptions = {
 };
 
 spot_ns.pot = spot_ns.index.p;
-spot_ns.effScopeFilter 	= null;
 spot_ns.ingScopeFilter 	= null; 
+spot_ns.effScopeFilter 	= null;
+spot_ns.purScopeFilter 	= null;
 spot_ns.favorites				= null;
 
 function potionString ( potion )
@@ -79,27 +80,6 @@ function displayPotions( potList )
 }
 
 
-// function: merge
-// provide a "safe" intersection of two sorted arrays
-// http://stackoverflow.com/questions/1885557/simplest-code-for-array-intersection-in-javascript
-function merge(a, b)
-{
-	// this next line was my own addition
-	if( !a ) { return( b ); } // case where filter has not been initialized yet
-	if( !b ) { return( a ); } // case where there is no filter set for b
-
-	var ai=0, bi=0, result = new Array();
-
-	while( ai < a.length && bi < b.length )
-	{
-		if      (a[ai] < b[bi] ){ ai++; }
-		else if (a[ai] > b[bi] ){ bi++; }
-		else { result.push(a[ai]); ai++; bi++; }
-	}
-
-	return result;
-}
-
 function option_merge( filter, options )
 {
 	var sel = options.idx.s;
@@ -108,7 +88,7 @@ function option_merge( filter, options )
 
 	for( var i=0; i<len; i++ )
 	{
-		if( sel[i] ) filter = merge( filter, pot[i] );
+		if( sel[i] ) filter = spot_ns.intersect( filter, pot[i] );
 	}
 	return filter;
 }
@@ -120,8 +100,9 @@ function merge_all()
 	filter = option_merge( filter, spot_ns.iOptions );
 	filter = option_merge( filter, spot_ns.eOptions );
 
-	filter = merge( filter, spot_ns.effScopeFilter );
-	filter = merge( filter, spot_ns.ingScopeFilter );
+	filter = spot_ns.intersect( filter, spot_ns.effScopeFilter );
+	filter = spot_ns.intersect( filter, spot_ns.ingScopeFilter );
+	filter = spot_ns.intersect( filter, spot_ns.purScopeFilter );
 
 	return filter;
 }
@@ -205,6 +186,36 @@ function setAvail( potions, iIdx, eIdx ){
 		for( var j=0,k=pot.i.length; j<k; j++ ) iDisp[ pot.i[j] ] = true;
 		for( var j=0,k=pot.e.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
 	}
+}
+
+spot_ns.selectPurMenu = function()
+{
+	var hitText = $(this).text();
+	debugger;
+
+	switch( true ) {
+		case /Positive/.test( hitText ):
+			spot_ns.purScopeFilter = spot_ns.index.p.f.pos;
+			break;
+		case /Negative/.test( hitText ):
+			spot_ns.purScopeFilter = spot_ns.index.p.f.neg;
+			break;
+		case /Any/.test( hitText ):
+			spot_ns.purScopeFilter = null;
+			break;
+		default:
+			// alert( "You hit a WTF!" );
+			break;
+	}
+
+	if( spot_ns.purScopeFilter === null ) {
+		console.info( "Purity filter: removed" );
+	}else{
+		console.info( "Purity filter: " + spot_ns.purScopeFilter.length );
+	}
+
+	spot_ns.redraw( false );
+	return( true );
 }
 
 spot_ns.selectIngMenu = function()
@@ -328,8 +339,9 @@ $(document).ready( function()
 
 	spot_ns.redraw( false );
 	$('#reset').click( spot_ns.resetAll );
-	$('.selEff').click( spot_ns.selectEffMenu );
 	$('.selIng').click( spot_ns.selectIngMenu );
+	$('.selEff').click( spot_ns.selectEffMenu );
+	$('.purEff').click( spot_ns.selectPurMenu );
 });
 
 // vim:set tabstop=2 shiftwidth=2 noexpandtab:
