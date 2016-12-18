@@ -1,6 +1,10 @@
 (function( spot_ns, $, undefined ) {
   "use strict";
 
+  if( spot_ns.DEBUG == undefined ) {
+		spot_ns.DEBUG = false;
+  }
+
 	spot_ns.check_sum = spot_ns.check_sum || {};
 
 	var hashCode = function( big ) {
