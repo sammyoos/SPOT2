@@ -36,7 +36,7 @@ spot_ns.buildBigPotions = function(idx)
 
       if( idx.p.z%100 == 0 ) {
         console.info( "[" + idx.p.z + "] Adding... " + key );
-        if( idx.p.z > 35000 ) debugger;
+        // if( idx.p.z > 35000 ) debugger;
       }
       // if( idx.p.z%100 == 0 ) fj.append( "<br>[" + idx.p.z + "] Adding... " + key );
 
@@ -67,14 +67,14 @@ spot_ns.buildBigPotions = function(idx)
 
     }
   }
-}
-}());
+};
 
-// window.onload = function () {
-$(document).ready( function() {
-  // debugger; 
+spot_ns.find_big_potions = function() {
   var idx = spot_ns.index;
   spot_ns.buildBigPotions(idx);
   spot_ns.JSON_dump( 'index_big', idx );
-} );
+};
+
+}());
+
 // vim: set ts=2 sw=2 et:

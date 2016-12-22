@@ -20,6 +20,16 @@
     // all ingredients have 4 effects
     for(var a=0; a<4; ++a )
     {
+      if( false ) {
+        console.info( 'Check Viable: ' + a );
+        console.log( 'x: ' + x + ', y: ' + y );
+        console.log( idx );
+        console.log( '   X: ' + X );
+        console.log( '   X.e: ' + X.e );
+        console.log( '   X.e[a]: ' + X.e[a] );
+        console.log( '   X.e[a].x: ' + X.e[a].x );
+      }
+
       var ai = X.e[a].x;
 
       for(var b=0; b<4; ++b )
@@ -100,39 +110,42 @@
         tmp[ AB ] = check_viable( idx, tmp, a, b );
       }
     }
-  }
+  };
+
+  function foobar() { return null; }
+
+  spot_ns.find_small_potions = function() {
+    var index = spot_ns.index;
+    console.log( 'find_small_potions()' );
+
+    index.p = {};
+    index.p.z = 0;
+    index.p.l = [];
+    index.p.i = [ null, null, [], [] ];
+    index.p.e = [ null, [], [], [], [], [], [], [] ];
+
+    index.m.p = [ null, null, [], [], [], [], [], [] ];
+    index.m.u = [ null, null, [], [], [], [], [], [] ];
+    index.m.f = { 'pos': [], 'neg': [], 'mix': [] };
+
+    for( var e=0; e<7; e++ ) {
+      index.m.p[2][e] = 0;
+      index.m.p[3][e] = 0;
+
+      index.m.u[2][e] = 0;
+      index.m.u[3][e] = 0;
+
+      index.m.f['pos'][e] = 0;
+      index.m.f['neg'][e] = 0;
+      index.m.f['mix'][e] = 0;
+    }
+    
+    console.info( 'potion building' );
+    spot_ns.buildPotions(index);
+    spot_ns.JSON_dump( 'index_small', index );
+    // spot_ns.JSON_dump( 'index_small', index.m );
+  };
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
 
-$(document).ready(function () {
-
-  var index = spot_ns.index;
-
-  index.p = {};
-  index.p.z = 0;
-  index.p.l = [];
-  index.p.i = [ null, null, [], [] ];
-  index.p.e = [ null, [], [], [], [], [], [], [] ];
-
-  index.m.p = [ null, null, [], [], [], [], [], [] ];
-  index.m.u = [ null, null, [], [], [], [], [], [] ];
-  index.m.f = { 'pos': [], 'neg': [], 'mix': [] };
-
-  for( var e=0; e<7; e++ ) {
-    index.m.p[2][e] = 0;
-    index.m.p[3][e] = 0;
-
-    index.m.u[2][e] = 0;
-    index.m.u[3][e] = 0;
-
-    index.m.f['pos'][e] = 0;
-    index.m.f['neg'][e] = 0;
-    index.m.f['mix'][e] = 0;
-  }
-  
-  console.info( 'potion building' );
-  spot_ns.buildPotions(index);
-  spot_ns.JSON_dump( 'index_small', index );
-  // spot_ns.JSON_dump( 'index_small', index.m );
-});
 // vim: set ts=2 sw=2 et:

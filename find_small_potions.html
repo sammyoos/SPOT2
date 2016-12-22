@@ -24,6 +24,12 @@
   <script src="scripts/utils.js"></script>
   <script src="scripts/index-base.js"></script>
   <script src="scripts/find_small_potions.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function () {
+			let perf = spot_ns.timer( spot_ns.find_small_potions );
+			console.info( 'Time to execute parser: ' + perf );
+		});
+	</script>
 
 </body>
 </html>

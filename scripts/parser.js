@@ -101,7 +101,7 @@
     return propIdx;
   }
 
-  spot_ns.parseIngFile = function(index, fn) {
+  spot_ns.parseIngFile_old = function(index, fn) {
     return (
         $.ajax({
           url: fn,
@@ -138,6 +138,46 @@
         })
     );
   }
+
+  spot_ns.parseIngFile = function(index, fn) {
+      return Promise.resolve( 
+        $.ajax({
+          url: fn,
+          dataType: 'text',
+          success: function (doc) {
+
+            // source: http://stackoverflow.com/questions/15150264/jquery-how-to-stop-auto-load-imges-when-parsehtml
+            var new_doc = doc.replace(/<img [^>]*src=['"]([^'"]+)[^>]*>/gi, function (match, capture) { return "<img no_load_src=\"" + capture + "\" />"; });
+            var topHalf = true;
+            var propsIdx = -1;
+            //var skipper = 0;
+
+            $("tr", new_doc).each(function () {
+              var iterField = 0;
+
+              $(this).find("td").each(function () {
+                //if (skipper++ > 200)return; // TODO: remove this line
+                propsIdx = parseIngTD(index,topHalf, iterField++, this, propsIdx );
+              });
+
+              if(iterField === 0){return;} // no fields processed, must be a header row
+
+              if (topHalf) {
+                topHalf = false;
+              } else {
+                // props.idx = index.ing.num[props.nam];
+                // index.ing.lab[props.idx] = props;
+                topHalf = true;
+                propsIdx = -1;
+              }
+            });
+          },
+          error: function (jqXHR, textStatus, errorThrown) { 
+            console.error( 'wtf' );
+          }
+        })
+      );
+    };
 
   spot_ns.setIngEffIdx = function( idx, template, hash ) {
     idx.h = hash;
@@ -193,12 +233,11 @@
     // fullJSON.text( JSON.stringify( index ));
     // source: http://stackoverflow.com/questions/3709597/wait-until-all-jquery-ajax-requests-are-done
     console.log( 'parseIngFile()' );
-    $.when(
-      spot_ns.parseIngFile( index, "source_data/simple_www.uesp.net_wiki_Skyrim_Ingredients.html" )
-    ).done( function( p1 ) {
-      spot_ns.JSON_dump( 'index_base', index );
-      // spot_ns.index = index;
-    });
+    spot_ns.parseIngFile( index, "source_data/simple_www.uesp.net_wiki_Skyrim_Ingredients.html" )
+    .then( function () { spot_ns.JSON_dump( 'index_base', index ); });
+
+    spot_ns.index = index;
+    return index;
   }
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
 // vim: set ts=2 sw=2 et:

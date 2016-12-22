@@ -6,18 +6,23 @@
   "use strict";
 
   spot_ns.qGetScript = function( script ) {
-    console.info( 'qGetScript' );
+    if( spot_ns.DEBUG ) console.info( 'qGetScript' );
     return new Promise(
       function( resolve, reject )
       {
         let path = '/scripts/' + script + '.js';
-        console.log( 'find_min: Loading ' + path );
+        if( spot_ns.DEBUG ) console.log( 'find_min: Loading ' + path );
 
         $.getScript( path )
           .done( function( contents, textStatus ) {
-            console.log( 'find_min: Loaded' );
-            resolve();
+            if( spot_ns.DEBUG ) console.log( 'find_min: Loaded ' + script);
+            if( spot_ns.DEBUG ) console.log( 'find_min: executing ' + script );
+            if( spot_ns.DEBUG ) console.log( spot_ns.index );
             spot_ns[ script ]();
+            // what does the index look like now...
+            if( spot_ns.DEBUG ) console.log( spot_ns.index );
+            if( spot_ns.DEBUG ) console.log( 'find_min: completed ' + script);
+            window.setTimeout( resolve, 1000, script );
           })
           .fail( function( jqxhr, settings, exception ) {
             if( spot_ns.DEBUG ) {
@@ -36,25 +41,17 @@
 
 
 $(document).ready(function () {
-  console.info( 'document is now ready' );
+  if( spot_ns.DEBUG ) console.info( 'document is now ready' );
   jQuery.ajaxSetup({ cache: false });
 
-  // spot_ns.qGetScript( [ 'parser' ] );
-  spot_ns.qGetScript( 'parser' ).then(
-    ( response ) => { // success
-      console.log( 'win' );
-      console.info( response );
-
-      // spot_ns.parser();
-      console.log( spot_ns.index );
-      spot_ns.JSON_dump( '', spot_ns.index );
-    },
-    ( reason ) => { // failure
-      console.log( 'fail' );
-      console.error( reason );
-    }
-  );
-  
+  spot_ns.qGetScript( 'parser' )
+  .then( function() { 
+    return spot_ns.qGetScript( 'find_small_potions' ); 
+  }).then( function() { 
+    return spot_ns.qGetScript( 'find_big_potions' ); 
+  }).then( function() { 
+    return spot_ns.JSON_dump( 'min', spot_ns.index );
+  });
 });
 
 // vim: set ts=2 sw=2 et:
