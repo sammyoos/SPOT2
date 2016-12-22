@@ -65,7 +65,7 @@
 	}
 
 	// function: join
-	spot_ns.join = function(a, b)
+	spot_ns.join_old = function(a, b)
 	{
 		// if( a == null || b == null ) debugger;
 		var aLen = a.length, bLen = b.length;
@@ -77,6 +77,32 @@
 			if      (a[ai] < b[bi] ){ result[idx++] = a[ai++]; }
 			else if (a[ai] > b[bi] ){ result[idx++] = b[bi++]; }
 			else { result[idx++] = a[ai++]; bi++; }
+		}
+
+		while( ai < aLen ) { result[idx++] = a[ai++]; }
+		while( bi < bLen ) { result[idx++] = b[bi++]; }
+
+		result.length = idx;
+
+		return result;
+	}
+
+	// function: join
+	spot_ns.join = function(a, b)
+	{
+		// if( a == null || b == null ) debugger;
+		const aLen = a.length, bLen = b.length;
+		var ai=0, bi=0, result = new Array( aLen + bLen );
+		var idx = 0;
+
+		while( ai < aLen && bi < bLen )
+		{
+			const A = a[ai];
+			const B = b[bi];
+
+			if      (A < B ){ result[idx++] = A; ai++; }
+			else if (A > B ){ result[idx++] = B; bi++; }
+			else { result[idx++] = A; ai++; bi++; }
 		}
 
 		while( ai < aLen ) { result[idx++] = a[ai++]; }
