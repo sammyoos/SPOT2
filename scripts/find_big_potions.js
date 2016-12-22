@@ -3,40 +3,34 @@
   
 spot_ns.buildBigPotions = function(idx)
 {
-  var fj = $("#fullJSON");
-
   // NOTE: every potion # less than max is a two ingredient potion
   var max = idx.p.z;
   var pList = idx.p.l;
-  var seen = {};
+  var seen = new Array( 1<<15 );
 
   for( var i=0; i<max-1; i++ ){
     const A = pList[i], Ai = A.i, Ae = A.e;
 
     for( var j=i+1; j<max; j++ ){
-      var B = pList[j], Bi = B.i, Be = B.e;
+      const B = pList[j], Bi = B.i, Be = B.e;
 
       // at least one ingredient must be in common to proceed
       if( Ai[0] != Bi[0] && Ai[0] != Bi[1] && Ai[1] != Bi[0] && Ai[1] != Bi[1] ) continue;
 
       // if an other variant of this potion has already been seen, jump out...
-      var ings = spot_ns.join( Ai, Bi );
-      var key = ings.join(':');
-      if( key in seen ) { continue; }
-      seen[key] = true; // from now on this key has been seen
+      const ings = spot_ns.join( Ai, Bi );
+      const key = (ings[0]<<14) | (ings[1]<<7) | ings[2];
+      if( seen[ key ] ) continue;
+      seen[ key ] = 1;
 
       // if no new effects are generated, this new potion is viable but useless...
-      var mustHit = Math.max(Ae.length,Be.length);
-      var effs = spot_ns.join( Ae, Be );
-      var effLen = effs.length;
-      if( effLen <= mustHit ) {
-        ++idx.m.u[3][effLen];
-        continue;
-      }
-
-      if( idx.p.z%1000 == 0 ) { console.info( "[" + idx.p.z + "] Adding... " + key ); }
+      const effs = spot_ns.join( Ae, Be );
+      const effLen = effs.length;
+      if( effLen <= Math.max( Ae.length,Be.length )) continue;
 
       const position = idx.p.z++;
+      if( (position&1023) == 1023 ) console.info( position );
+
       var pot = {
         x: position,
         i: ings,
