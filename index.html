@@ -48,7 +48,7 @@
 			</div> <!-- Filter for # of Effects -->
 
 			<div class="btn-group"> <!-- Filter for Purity of Effects -->
-				<button type="button" id="pur_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Purity of Effects</button>
+				<button type="button" id="pur_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nature of Effects</button>
 				<div class="dropdown-menu" aria-labelledby="ing_menu">
 					<a class="dropdown-item purEff" href="#">Only Positive Effects</a>
 					<a class="dropdown-item purEff" href="#">Only Negative Effects</a>
@@ -88,7 +88,10 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<h3>Ingredients</h3>
+				<h3>
+					Ingredients 
+					<span id="ingCount" class="tag tag-primary tag-pill float-xs-right">95</span>
+				</h3>
 				<div id="ingredient-list" class="tag-list">
 					<p class="tag tag-default">Onions</p>
 					<p class="tag tag-default">Lettuce</p>
@@ -97,7 +100,10 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<h3>Effects</h3>
+				<h3>
+					Effects 
+					<span id="effCount" class="tag tag-success tag-pill float-xs-right">95</span>
+				</h3>
 				<div id="effect-list" class="tag-list">
 					<p class="">Onions</p>
 					<p class="tag tag-default">Lettuce</p>
@@ -106,7 +112,10 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<h3>Potions</h3>
+				<h3>
+					Potions 
+					<span id="potCount" class="tag tag-info tag-pill float-xs-right">-</span>
+				</h3>
 				<div id="potion-list" class="tag-list">
 					<p class="tag tag-default">Major Health</p>
 					<p class="tag tag-default">Slow Everything</p>

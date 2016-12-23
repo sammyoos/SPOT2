@@ -16,6 +16,13 @@ body {
 	margin-bottom: 2px !important;
 }
 
+.tag-pill {
+	font-size: small;
+	font-weight: normal;
+	padding: 2px 5px 5px 5px;
+	margin: 5px 6px 5px 4px;
+}
+
 .tPots {
 	font-size: 85% !important;
 }

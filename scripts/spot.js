@@ -38,6 +38,10 @@ spot_ns.ingScopeFilter 	= null;
 spot_ns.effScopeFilter 	= null;
 spot_ns.purScopeFilter 	= null;
 spot_ns.favorites				= null;
+spot_ns.ingCount				= null;
+spot_ns.effCount				= null;
+spot_ns.potCount				= null;
+spot_ns.scroll					= null;
 
 function potionString ( potion )
 {
@@ -174,6 +178,7 @@ spot_ns.create_display_list = function( options )
 
 function display_list( idx )
 {
+	var count = 0;
 	for( var i=0; i<idx.z; i++ )
 	{
 		if( idx.b[i] ) {
@@ -181,7 +186,9 @@ function display_list( idx )
 		}else{
 			if( idx.a[i] ) idx.d[i].show( 'slow' );
 		}
+		if( idx.a[i] ) ++count;
 	}
+	return count;
 }
 
 function setAvail( potions, iIdx, eIdx ){
@@ -332,7 +339,6 @@ spot_ns.resetAll = function()
 
 spot_ns.redraw = function( reset )
 {
-	debugger;
 	var potions = reset?null:merge_all();
 	displayPotions( potions );
 
@@ -340,8 +346,8 @@ spot_ns.redraw = function( reset )
 	var eIdx = spot_ns.eOptions.idx;
 	setAvail( potions, iIdx, eIdx );
 
-	display_list( iIdx );
-	display_list( eIdx );
+	var iCnt = display_list( iIdx );
+	var eCnt = display_list( eIdx );
 
 	var iTmp = iIdx.a;
 	var eTmp = eIdx.a;
@@ -352,7 +358,11 @@ spot_ns.redraw = function( reset )
 	iIdx.b = iTmp;
 	eIdx.b = eTmp;
 
-	$('html, body').animate({ scrollTop: 0 }, 'slow');
+	pLen = potions ? potions.length : 0;
+	spot_ns.ingCount.text( iCnt ? iCnt : '-' );
+	spot_ns.effCount.text( eCnt ? eCnt : '-' );
+	spot_ns.potCount.text( pLen ? pLen : '-' );
+	spot_ns.scroll.animate({ scrollTop: 0 }, 'slow');
 }
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
@@ -362,7 +372,13 @@ $(document).ready( function()
 	spot_ns.create_display_list( spot_ns.iOptions );
 	spot_ns.create_display_list( spot_ns.eOptions );
 
+	spot_ns.ingCount = $('#ingCount');
+	spot_ns.effCount = $('#effCount');
+	spot_ns.potCount = $('#potCount');
+	spot_ns.scroll = $('html, body');
+
 	spot_ns.redraw( false );
+
 	$('#reset').click( spot_ns.resetAll );
 	$('.selIng').click( spot_ns.selectIngMenu );
 	$('.selEff').click( spot_ns.selectEffMenu );
