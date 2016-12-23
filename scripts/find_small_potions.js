@@ -8,7 +8,9 @@
     var effPos = 0, effNeg = 0;
 
     for( var e=0; e<effMax; e++ ) {
-      if( iEffList[ effs[ e ]].f ) {
+      var eff = effs[ e ];
+      idx.e.p[ eff ].push( iPot );
+      if( iEffList[ eff ].f ) {
         ++effPos;
       } else {
         ++effNeg;
@@ -71,7 +73,7 @@
 
         viable = true;
         effect.push(ai);
-        idx.e.p[ai].push( pos );
+        // idx.e.p[ai].push( pos );
       }
     }
 

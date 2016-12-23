@@ -204,7 +204,11 @@ function setAvail( potions, iIdx, eIdx ){
 	for( var i=0; i<pLen; i++ ){
 		var pot = spot_ns.index.p.l[ potions[i] ];
 		for( var j=0,k=pot.i.length; j<k; j++ ) iDisp[ pot.i[j] ] = true;
-		for( var j=0,k=pot.e.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
+		// for( var j=0,k=pot.e.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
+		for( var j=0,k=pot.e.length; j<k; j++ ) {
+			// if( pot.e[j] == 0 ) debugger;
+			eDisp[ pot.e[j] ] = true;
+		}
 	}
 }
 
@@ -328,6 +332,7 @@ spot_ns.resetAll = function()
 
 spot_ns.redraw = function( reset )
 {
+	debugger;
 	var potions = reset?null:merge_all();
 	displayPotions( potions );
 

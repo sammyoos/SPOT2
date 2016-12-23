@@ -270,4 +270,8 @@ the developer has access to the latest/greatest/fully patched browsers.
 Much of this was built and tested with:
 > *Google Chrome :*	55.0.2883.87 (Official Build) m (64-bit)
 
+## Testing... https://qunitjs.com/cookbook/
+... run tests.html
+and look at the javacript at .../scripts/tests.js
+
 

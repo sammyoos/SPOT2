@@ -6,6 +6,9 @@
 
 	spot_ns.check_sum = spot_ns.check_sum || {};
 
+	spot_ns.extHashCode = function( b ){ return hashCode( b ); }
+	spot_ns.extHashify = function( b ){ return hashify( b ); }
+
 	var hashCode = function( big ) {
 		var hash = 0, i, chr, len;
 
