@@ -3,59 +3,73 @@
   
 spot_ns.buildBigPotions = function(idx)
 {
-  // NOTE: every potion # less than max is a two ingredient potion
-  var max = idx.p.z;
-  var pList = idx.p.l;
+  const ip = idx.p, ipl = ip.l, ipi3 = ip.i[3], ipe = ip.e;
+  const ii = idx.i, iil = ii.l, iip = ii.p, iipMax = iip.length;
+  const ie = idx.e, iep = ie.p, iel = ie.l;
+  const imu3 = idx.m.u[3];
+
   var seen = new Array( 1<<15 );
+  var ingListMax = new Array( iipMax );
 
-  for( var i=0; i<max-1; i++ ){
-    const A = pList[i], Ai = A.i, Ae = A.e;
+  // need to save these values as they will change...
+  for( var k=0; k<iipMax; k++ ) ingListMax[k] = iip[k].length;
 
-    for( var j=i+1; j<max; j++ ){
-      const B = pList[j], Bi = B.i, Be = B.e;
+  for( var k=0; k<iipMax; k++ ){
+    const max = ingListMax[k];
+    const iipK = iip[k]; // all potions related to this ingredient
 
-      // at least one ingredient must be in common to proceed
-      if( Ai[0] != Bi[0] && Ai[0] != Bi[1] && Ai[1] != Bi[0] && Ai[1] != Bi[1] ) continue;
+    for( var i=0; i<max-1; i++ ){
+      const iPNum = iipK[i];
+      const A = ipl[iPNum], Ai = A.i, Ae = A.e;
 
-      // if an other variant of this potion has already been seen, jump out...
-      const ings = spot_ns.join( Ai, Bi );
-      const key = (ings[0]<<14) | (ings[1]<<7) | ings[2];
-      if( seen[ key ] ) continue;
-      seen[ key ] = 1;
+      for( var j=i+1; j<max; j++ ){
+        const jPNum = iipK[j];
+        const B = ipl[jPNum], Bi = B.i, Be = B.e;
 
-      // if no new effects are generated, this new potion is viable but useless...
-      const effs = spot_ns.join( Ae, Be );
-      const effLen = effs.length;
-      if( effLen <= Math.max( Ae.length,Be.length )) continue;
+        // if an other variant of this potion has already been seen, jump out...
+        const ings = spot_ns.join( Ai, Bi );
+        const key = (ings[0]<<14) | (ings[1]<<7) | ings[2];
+        if( seen[ key ] ) continue;
+        seen[ key ] = 1;
 
-      const position = idx.p.z++;
-      if( (position&1023) == 1023 ) console.info( position );
+        var ab = spot_ns.intersect( 
+          iil[ ings[0] ].e.map( function(e){ return e.x }), 
+          iil[ ings[1] ].e.map( function(e){ return e.x }));
+        var ac = spot_ns.intersect( 
+          iil[ ings[0] ].e.map( function(e){ return e.x }), 
+          iil[ ings[2] ].e.map( function(e){ return e.x }));
+        var bc = spot_ns.intersect( 
+          iil[ ings[1] ].e.map( function(e){ return e.x }), 
+          iil[ ings[2] ].e.map( function(e){ return e.x }));
 
-      var pot = {
-        x: position,
-        i: ings,
-        e: effs
-      };
+        var effs = spot_ns.join( ab, ac );
+        var effs = spot_ns.join( effs, bc );
 
-      pList.push( pot );
-      idx.p.i[ 3        ].push( position );
-      idx.p.e[ effLen   ].push( position );
-      idx.i.p[ pot.i[0] ].push( position );
-      idx.i.p[ pot.i[1] ].push( position );
-      idx.i.p[ pot.i[2] ].push( position );
+        // if no new effects are generated, this new potion is viable but useless...
+        // const effs = spot_ns.join( Ae, Be );
+        const effLen = effs.length;
+        if( effLen <= Math.max( Ae.length,Be.length )) continue;
 
-      var effPos = 0, effNeg = 0;
-      for( var i=0; i<effLen; i++ ) {
-        idx.e.p[ pot.e[i] ].push( position );
-        if( idx.e.l[i].f ) {
-          ++effPos;
-        } else {
-          ++effNeg;
-        }
+        const position = ip.z++;
+        if( (position&1023) == 1023 ) console.info( position );
+
+        var pot = {
+          x: position,
+          i: ings,
+          e: effs,
+          f: spot_ns.checkFavorable( idx, effs, position )
+        };
+
+        ipl.push( pot );
+        ipi3.push( position );
+        ipe[ effLen   ].push( position );
+        iip[ pot.i[0] ].push( position );
+        iip[ pot.i[1] ].push( position );
+        iip[ pot.i[2] ].push( position );
+
+        // ++idx.m.u[3][effLen];
+        ++imu3[ effLen ];
       }
-      
-      ++idx.m.u[3][effLen];
-
     }
   }
 };

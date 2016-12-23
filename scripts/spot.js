@@ -76,7 +76,11 @@ function displayPotions( potList )
 
 	$( '#potion-list' ).children( 'p' ).each( function(){ $(this).show() } );
 	// $( '#potion-list' ).children( 'p' ).each( function(){ options.idx.display[ $(this).data( 'idx' ) ] = $(this); } );
-	// $( '.tPots' ).click( addFavorite );
+	$( '.tPots' ).click( function() {
+		var click = $(this);
+		var idx = click.data('potion');
+		console.info( 'Potion #: ' + idx );
+	});
 }
 
 
@@ -115,9 +119,25 @@ function click() {
 	if( click.hasClass( 'tIngs' ) ) {
 		sel = spot_ns.iOptions.idx.s;
 		tag = 'tag-primary';
+
+		if( true ) { 
+			var ing = spot_ns.iOptions.idx.l[ idx ];
+			var strEffs = [];
+
+			console.info( "Ingredient: " + ing.n );
+			for( var e=0; e<ing.e.length; e++ ) {
+				strEffs.push( spot_ns.eOptions.idx.l[ ing.e[e].x ].n );
+			}
+			console.info( "   - Effects: [ " + strEffs.join( ', ' ) + ' ]' );
+		}
 	} else {
 		sel = spot_ns.eOptions.idx.s;
 		tag = 'tag-success';
+
+		if( true ) { 
+			var eff = spot_ns.eOptions.idx.l[ idx ];
+			console.info( "Effect: " + eff.n );
+		}
 	}
 
 	if( sel[idx] ){
@@ -191,7 +211,6 @@ function setAvail( potions, iIdx, eIdx ){
 spot_ns.selectPurMenu = function()
 {
 	var hitText = $(this).text();
-	debugger;
 
 	switch( true ) {
 		case /Positive/.test( hitText ):
@@ -302,6 +321,7 @@ spot_ns.resetAll = function()
 
 	spot_ns.effScopeFilter 	= null;
 	spot_ns.ingScopeFilter 	= null; 
+	spot_ns.purScopeFilter = null;
 
 	spot_ns.redraw( true );
 }

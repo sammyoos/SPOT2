@@ -1,6 +1,39 @@
 (function( spot_ns, $, undefined ) {
   "use strict";
 
+  spot_ns.checkFavorable = function( idx, effs, iPot )
+  {
+    const iMetFav = idx.m.f, iPotFav = idx.p.f, iEffList = idx.e.l;
+    const effMax = effs.length;
+    var effPos = 0, effNeg = 0;
+
+    for( var e=0; e<effMax; e++ ) {
+      if( iEffList[ effs[ e ]].f ) {
+        ++effPos;
+      } else {
+        ++effNeg;
+      }
+    }
+
+    const effNet = effPos + effNeg;
+
+    if( effNeg == 0 ) {
+      ++iMetFav.pos[ effNet ];
+      iPotFav.pos.push( iPot );
+      return 0;
+    }
+
+    if( effPos == 0 ) {
+      ++iMetFav.neg[ effNet ];
+      iPotFav.neg.push( iPot );
+      return 1;
+    }
+    
+    ++iMetFav.mix[ effNet ];
+    iPotFav.mix.push( iPot );
+    return 2;
+  }
+
   /* check_viable returns a viable potion or null
    * idx = base index
    * hash = find dups
@@ -39,29 +72,10 @@
         viable = true;
         effect.push(ai);
         idx.e.p[ai].push( pos );
-
-        if( idx.e.l[ai].f ) {
-          ++effPos;
-        } else {
-          ++effNeg;
-        }
       }
     }
 
     if( ! viable ) return null;
-
-    var effNet = effPos + effNeg;
-    var fVal;
-    if( effNeg == 0 ) {
-      ++idx.m.f.pos[ effNet ];
-      fVal = 0;
-    }else if( effPos == 0 ) {
-      ++idx.m.f.neg[ effNet ];
-      fVal = 1;
-    }else{
-      ++idx.m.f.mix[ effNet ];
-      fVal = 2;
-    }
 
     var pot = {
       x: pos,
@@ -69,7 +83,7 @@
         ?[ x, y ]
         :[ y, x ],
       e: effect.sort( function(a,b) { return( a-b ); } ),
-      f: fVal
+      f: spot_ns.checkFavorable( idx, effect, pos )
     };
 
     idx.p.l.push( pot );
@@ -123,6 +137,7 @@
     index.p.l = [];
     index.p.i = [ null, null, [], [] ];
     index.p.e = [ null, [], [], [], [], [], [], [] ];
+    index.p.f = { 'pos': [], 'neg': [], 'mix': [] };
 
     index.m.p = [ null, null, [], [], [], [], [], [] ];
     index.m.u = [ null, null, [], [], [], [], [], [] ];
