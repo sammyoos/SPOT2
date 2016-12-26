@@ -232,7 +232,7 @@ var index = { // mechanism for accessing root of the index
 ## Why not use a Javascript framework
 
 The first version of SPOT was written in 'pure' javascript (using
- [Bootstrap]http://getbootstrap.com/ and [jQuery]https://api.jquery.com).  
+ [Bootstrap](http://getbootstrap.com/) and [jQuery](https://api.jquery.com)).  
 After the DLCs were release, I tried rewritting using Angular and other
 popular frameworks.  Probably due to the fact that I did not know them
 well the page loading and manipulation becames very slow.  I am manipulating
@@ -271,7 +271,9 @@ Much of this was built and tested with:
 > *Google Chrome :*	55.0.2883.87 (Official Build) m (64-bit)
 
 ## Testing... https://qunitjs.com/cookbook/
+### Execute Tests
 ... run tests.html
-and look at the javacript at .../scripts/tests.js
+### Add Tests
+look at the javacript at .../scripts/tests.js
 
 
