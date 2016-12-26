@@ -19,8 +19,9 @@ body {
 .tag-pill {
 	font-size: small;
 	font-weight: normal;
-	padding: 2px 5px 5px 5px;
-	margin: 5px 6px 5px 4px;
+	padding: 7px 4px 7px 4px;
+	margin: 0px;
+	min-width: 31px !important;
 }
 
 .tPots {
