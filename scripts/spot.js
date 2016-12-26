@@ -169,7 +169,8 @@ spot_ns.create_display_list = function( options )
 		$( options.list ).append( "<p" 
 				+ " data-idx=\"" + i + "\""
 				+ " class=\"" + options.notClass + "\">" 
-				+ item.n + "</p>" ); 
+				+ item.n 
+				+ "</p>" ); 
 	}
 
 	$( options.list ).children( 'p' ).each( function(){ idx.d[ $(this).data( 'idx' ) ] = $(this); } );

@@ -270,10 +270,17 @@ the developer has access to the latest/greatest/fully patched browsers.
 Much of this was built and tested with:
 > *Google Chrome :*	55.0.2883.87 (Official Build) m (64-bit)
 
-## Testing... https://qunitjs.com/cookbook/
+## Testing... [QUnit](https://qunitjs.com/cookbook/)
+
+The testing currently only covers things that can be easily unit tested.
+I'm focusing on providing testing on the things that are most easily
+broken.
+
 ### Execute Tests
-... run tests.html
+... run `.../tests.html`
+
 ### Add Tests
-look at the javacript at .../scripts/tests.js
+look at the javacript at `.../scripts/tests.js`
+
 
 

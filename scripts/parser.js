@@ -195,7 +195,9 @@
     // source: http://stackoverflow.com/questions/3709597/wait-until-all-jquery-ajax-requests-are-done
     console.log( 'parseIngFile()' );
     spot_ns.parseIngFile( index, "source_data/simple_www.uesp.net_wiki_Skyrim_Ingredients.html" )
-    .then( function () { spot_ns.JSON_dump( 'index_base', index ); });
+    .then( function () { 
+      spot_ns.JSON_dump( 'index_base', index ); 
+    });
 
     spot_ns.index = index;
     return index;
