@@ -60,8 +60,6 @@ var ingredient = {
 	     // these attributes of the effects are ingredient specific
 		{
 			x: "index of effect in idx.i.l[]", // note this is NOT the ordinal index!
-			n: "DEPRECIATED: full name of ingredient", // this can be obtained by idx.i.l[x].n
-
 			v: "value multiplier of the effect for this ingredient",
 			m: "effect magnitude multiplier of the effect for this ingredient",
 		}
@@ -280,5 +278,8 @@ broken.
 ### Add Tests
 look at the javacript at `.../scripts/tests.js`
 
+## Other References
+- HTML Entities: https://dev.w3.org/html5/html-author/charref
+- Github Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 

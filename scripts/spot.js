@@ -70,7 +70,7 @@ function displayPotions( potList )
 	var count=0,i;
 	for( i in potList )
 	{
-		$("#potion-list").append( "<p class='tPots tag tag-default' data-potion='"+potList[i]+"'>" + potionString( spot_ns.index.p.l[potList[i]] ) + "</p>" );
+		$("#potion-list").append( "<p class='tPots' data-potion='"+potList[i]+"'>" + potionString( spot_ns.index.p.l[potList[i]] ) + "</p>" );
 
 		// speed up improvements
 		if( ++count > 50 ) 
@@ -81,7 +81,6 @@ function displayPotions( potList )
 	}
 
 	$( '#potion-list' ).children( 'p' ).each( function(){ $(this).show() } );
-	// $( '#potion-list' ).children( 'p' ).each( function(){ options.idx.display[ $(this).data( 'idx' ) ] = $(this); } );
 	$( '.tPots' ).click( function() {
 		var click = $(this);
 		var idx = click.data('potion');
@@ -236,9 +235,7 @@ function setAvail( potions, iIdx, eIdx ){
 	for( var i=0; i<pLen; i++ ){
 		var pot = spot_ns.index.p.l[ potions[i] ];
 		for( var j=0,k=pot.i.length; j<k; j++ ) iDisp[ pot.i[j] ] = true;
-		// for( var j=0,k=pot.e.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
 		for( var j=0,k=pot.e.length; j<k; j++ ) {
-			// if( pot.e[j] == 0 ) debugger;
 			eDisp[ pot.e[j] ] = true;
 		}
 	}
