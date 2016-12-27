@@ -7,20 +7,33 @@ body {
 }
 
 
-.tag-list > p {
+.caplet {
+	width: 100%;
+	margin-bottom: 2px !important;
+}
+
+.tPots, .ident {
 	text-align: left;
 	font-size: 110%;
 	font-weight: 200;
 	width: 100%;
+	margin-bottom: 0px !important;
+}
+
+.descr {
+	color: white;
+	font-size: 80%;
 	display: none;
-	margin-bottom: 2px !important;
+	border-style: solid;
+	border-width: 0 1px 1px 1px;
+	padding: 0 5px 5px 5px;
 }
 
 .tag-pill {
 	font-size: small;
 	font-weight: normal;
 	padding: 7px 4px 7px 4px;
-	margin: 0px;
+	margin: 0;
 	min-width: 31px !important;
 }
 
@@ -30,10 +43,10 @@ body {
 
 .spot-page {
 	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
-// vim:set tabstop=2 shiftwidth=2 noexpandtab:
+/* vim:set tabstop=2 shiftwidth=2 noexpandtab: */

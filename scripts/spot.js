@@ -1,4 +1,4 @@
-// file: main.js
+// file: spot.js
 // author: samuel oosterhuis
 
 //
@@ -16,21 +16,23 @@
 spot_ns.iOptions = {
 	"selector" 	: "p.tIngs",
 	"selected" 	: "p.tIngs.tag-primary",
-	"selClass" 	: "tIngs tag tag-primary",
-	"notClass" 	: "tIngs tag",
+	"selClass" 	: "tIngs tag-primary",
+	"notClass" 	: "tIngs",
 	"idx"				: spot_ns.index.i,
 	"list"			: "#ingredient-list",
 	"fpSelect"	: click,
+	"descrStr"  : createIngDescrStr,
 };
 
 spot_ns.eOptions = {
 	"selector"  : "p.tEffs",
 	"selected"  : "p.tEffs.tag-success",
-	"selClass"  : "tEffs tag tag-success",
-	"notClass"  : "tEffs tag",
+	"selClass"  : "tEffs tag-success",
+	"notClass"  : "tEffs",
 	"idx"				: spot_ns.index.e,
 	"list"			: "#effect-list",
 	"fpSelect"	: click,
+	"descrStr"  : createEffDescrStr,
 };
 
 spot_ns.pot = spot_ns.index.p;
@@ -123,37 +125,45 @@ function click() {
 	if( click.hasClass( 'tIngs' ) ) {
 		sel = spot_ns.iOptions.idx.s;
 		tag = 'tag-primary';
-
-		if( true ) { 
-			var ing = spot_ns.iOptions.idx.l[ idx ];
-			var strEffs = [];
-
-			console.info( "Ingredient: " + ing.n );
-			for( var e=0; e<ing.e.length; e++ ) {
-				strEffs.push( spot_ns.eOptions.idx.l[ ing.e[e].x ].n );
-			}
-			console.info( "   - Effects: [ " + strEffs.join( ', ' ) + ' ]' );
-		}
 	} else {
 		sel = spot_ns.eOptions.idx.s;
 		tag = 'tag-success';
-
-		if( true ) { 
-			var eff = spot_ns.eOptions.idx.l[ idx ];
-			console.info( "Effect: " + eff.n );
-		}
 	}
 
 	if( sel[idx] ){
 		sel[idx] = false;
 		click.removeClass( tag );
+		click.parent().children( '.descr' ).hide( 'slow' );
 	}else{
 		sel[idx] = true;
 		click.addClass( tag );
+		click.parent().children( '.descr' ).show( 'slow' );
 	}
 
 	spot_ns.redraw( false );
 	return( false );
+}
+
+function createEffDescrStr( eff ) {
+	var str = "<b>Nature:</b> ";
+	str += eff.f ? "favorable" : "unfavorable";
+
+	str += "<br>";
+	return( str );
+}
+
+function createIngDescrStr( ing ) {
+	var str = "<b>Effects:</b>";
+	var eList = spot_ns.index.e.l;
+
+	for( e=0; e<4; e++ ) {
+		effect = ing.e[ e ];
+		str += "<br> - " + eList[ effect.x ].n;
+		if( effect.v != 1 ) str += ' :  <b>&euro; &times; ' + effect.v + "</b>";
+		if( effect.m != 1 ) str += ' :  <b>&primes; &times; ' + effect.m + "</b>";
+	}
+
+	return( str );
 }
 
 
@@ -166,15 +176,25 @@ spot_ns.create_display_list = function( options )
 	for( var i=0; i<len; i++ )
 	{
 		var item = idx.l[ i ];
-		$( options.list ).append( "<p" 
-				+ " data-idx=\"" + i + "\""
-				+ " class=\"" + options.notClass + "\">" 
-				+ item.n 
-				+ "</p>" ); 
+
+		$( options.list ).append( 
+				'<div class="caplet">' 
+					+ '<p class="ident tag ' + options.notClass + '"' 
+					+ ' data-idx="' + i + '">'
+						+ item.n 
+					+ '</p>' 
+					+ '<p class="descr">'
+						+ options.descrStr( item )
+					+ '</p>'
+				+ '</div>'
+					); 
 	}
 
-	$( options.list ).children( 'p' ).each( function(){ idx.d[ $(this).data( 'idx' ) ] = $(this); } );
-	$( options.selector ).click( options.fpSelect );
+	$( options.list ).find( '.ident' ).each( function(){ 
+		var locIng = $(this);
+		idx.d[ locIng.data( 'idx' ) ] = $(this); 
+		locIng.click( options.fpSelect );
+	});
 }
 
 function display_list( idx )
@@ -183,7 +203,11 @@ function display_list( idx )
 	for( var i=0; i<idx.z; i++ )
 	{
 		if( idx.b[i] ) {
-			if( !idx.a[i] ) idx.d[i].hide( 'slow' );
+			if( !idx.a[i] ) {
+				idx.d[i].hide( 'slow' );
+				// if( idx.s[i] ) idx.d[i].parent().children('.descr').hide('slow');
+				if( idx.s[i] ) idx.d[i].next().hide('slow');
+			}
 		}else{
 			if( idx.a[i] ) idx.d[i].show( 'slow' );
 		}
@@ -320,6 +344,7 @@ spot_ns.resetAll = function()
 		iDisp[i] = true; 
 		if( iIdx.s[i] ) {
 			iIdx.s[i]=false; 
+			iIdx.d[i].next().hide('slow');
 			iIdx.d[i].removeClass( 'tag-primary' );
 		}
 	}
@@ -327,6 +352,7 @@ spot_ns.resetAll = function()
 		eDisp[i] = true; 
 		if( eIdx.s[i] ) {
 			eIdx.s[i]=false; 
+			eIdx.d[i].next().hide('slow');
 			eIdx.d[i].removeClass( 'tag-success' );
 		}
 	}

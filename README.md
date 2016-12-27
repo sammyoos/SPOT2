@@ -72,8 +72,6 @@ var effect = {
 	x: "DEPRECIATED: index value in effect list", // DO NOT USE
 	n: "full name of effect",
 	f: "is the effect favourable? (true/false)",
-	// TODO: is this really required... where is the ingredient list used???
-	i: [] // list of ingredients that cause this effect - odered by game list
 };
 
 var potion = {
