@@ -10,7 +10,7 @@ body {
 
 .caplet {
 	width: 100%;
-	margin-bottom: 2px !important;
+	margin-bottom: 12px !important;
 }
 
 .ident {
@@ -19,18 +19,23 @@ body {
 	font-size: 110%;
 	font-weight: 200;
 	width: 100%;
-	margin-bottom: 0px !important;
+	margin: 0 !important;
 }
 
 .tPots, .descr {
 	color: white;
 	font-size: 85%;
-	display: none;
 	border-style: solid;
 	border-width: 0 1px 1px 1px;
 	padding: 0 5px 5px 5px;
+	margin: 0 !important;
 	word-wrap: break-word !important;
 }
+
+.descr {
+	display: none;
+}
+
 
 .tag-pill {
 	font-size: small;

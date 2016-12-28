@@ -1,4 +1,5 @@
-# SPOT2
+# [SPOT2](http://sammyoos.github.io/SPOT2)
+
 ### Skyr\*m Potion Optimizing Tool (version 2)
 
 New pure javascript version of the Skyrim Potion Optimizer Tool (SPOT)
@@ -281,5 +282,7 @@ look at the javacript at `.../scripts/tests.js`
 ## Other References
 - HTML Entities: https://dev.w3.org/html5/html-author/charref
 - Github Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
+- Namespace mechanisms
+	- http://stackoverflow.com/questions/881515/javascript-namespace-declaration
+	- http://enterprisejquery.com/2010/10/how-good-c-habits-can-encourage-bad-javascript-habits-part-1/
 
