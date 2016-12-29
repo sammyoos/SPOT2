@@ -287,8 +287,9 @@ look at the javacript at `.../scripts/tests.js`
 	- http://stackoverflow.com/questions/881515/javascript-namespace-declaration
 	- http://enterprisejquery.com/2010/10/how-good-c-habits-can-encourage-bad-javascript-habits-part-1/
 - IOS Debugging: http://johnnyzone.com/2016/02/debug-a-website-in-ios-safari-on-windows/
+- Dynamic pages for download: http://stackoverflow.com/questions/3665115/create-a-file-in-memory-for-user-to-download-not-through-server
 
 ## Commonly used commands
 - *GIT*
 	- `git checkout -b newbranch` -- create a new branch hear and now
-
+	
