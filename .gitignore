@@ -13,6 +13,8 @@ bin-release/
 .idea/libraries/*.xml
 
 # Other files and folders
+bak/
+node_modules/
 .settings/
 desktop.ini
 

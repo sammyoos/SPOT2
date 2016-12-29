@@ -1,6 +1,7 @@
 (function( spot_ns, $, undefined ) {
-  "use strict";
+	"use strict";
 
+	QUnit.module( "utils" );
 	QUnit.test( "utils", function( assert ) {
 		assert.ok( window.hasOwnProperty( 'spot_ns' ), "utils is loading correctly" );
 		assert.ok( spot_ns.hasOwnProperty( 'extHashCode' ), "spot_ns is loading correctly" );
@@ -33,7 +34,7 @@
 		assert.deepEqual( spot_ns.intersect( null, B ), B, "intersect null and B" );
 		assert.deepEqual( spot_ns.intersect( B, null ), B, "intersect B and null" );
 	});
-	
+
 	QUnit.test( "join", function( assert ) {
 		assert.deepEqual( spot_ns.join( A, B ), A, "join A and B" );
 		assert.deepEqual( spot_ns.join( A, C ), A, "join A and C" );
@@ -43,7 +44,7 @@
 
 		// no null tests for the joins
 	});
-	
+
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
-// vim:set tabstop=2 shiftwidth=2 noexpandtab:
+// vim:set tabstop=2 shiftwidth=2 expandtab:

@@ -67,7 +67,6 @@ spot_ns.buildBigPotions = function(idx)
         iip[ pot.i[1] ].push( position );
         iip[ pot.i[2] ].push( position );
 
-        // ++idx.m.u[3][effLen];
         ++imu3[ effLen ];
       }
     }

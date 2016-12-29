@@ -2,6 +2,8 @@
 // author: samuel oosterhuis
 (function( spot_ns, $, undefined ) 
 {
+"use strict";
+
 //
 // more global variables...
 //
@@ -13,7 +15,7 @@ spot_ns.iOptions = {
   "notClass"  : "tIngs",
   "idx"       : spot_ns.index.i,
   "list"      : "#ingredient-list",
-  "fpSelect"  : click,
+  "fpSelect"  : clicker,
   "descrStr"  : createIngDescrStr
 };
 
@@ -24,7 +26,7 @@ spot_ns.eOptions = {
   "notClass"  : "tEffs",
   "idx"       : spot_ns.index.e,
   "list"      : "#effect-list",
-  "fpSelect"  : click,
+  "fpSelect"  : clicker,
   "descrStr"  : createEffDescrStr
 };
 
@@ -87,16 +89,14 @@ function displayPotions( potList )
 }
 
 
-function option_merge( filter, options )
+function option_merge( filter, optionsIdx )
 {
-  var sel = options.idx.s;
-  var len = options.idx.z;
-  var pot = options.idx.p;
+  var sel = optionsIdx.s, len = optionsIdx.z, pot = optionsIdx.p;
 
-  for( var i=0; i<len; i++ )
-  {
-    if( sel[i] ) filter = spot_ns.intersect( filter, pot[i] );
+  for( var i=0; i<len; i++ ) { 
+    if( sel[i] ) filter = spot_ns.intersect( filter, pot[i] ); 
   }
+
   return filter;
 }
 
@@ -104,8 +104,8 @@ function merge_all()
 {
   var filter=null;
 
-  filter = option_merge( filter, spot_ns.iOptions );
-  filter = option_merge( filter, spot_ns.eOptions );
+  filter = option_merge( filter, spot_ns.iOptions.idx );
+  filter = option_merge( filter, spot_ns.eOptions.idx );
 
   filter = spot_ns.intersect( filter, spot_ns.effScopeFilter );
   filter = spot_ns.intersect( filter, spot_ns.ingScopeFilter );
@@ -114,12 +114,11 @@ function merge_all()
   return filter;
 }
 
-function click() {
+function clicker( clicked ) {
   var sel,tag;
-  var click = $(this);
-  var idx = click.data("idx");
+  var idx = clicked.data("idx");
 
-  if( click.hasClass( "tIngs" ) ) {
+  if( clicked.hasClass( "tIngs" ) ) {
     sel = spot_ns.iOptions.idx.s;
     tag = "tag-primary";
   } else {
@@ -129,12 +128,12 @@ function click() {
 
   if( sel[idx] ){
     sel[idx] = false;
-    click.removeClass( tag );
-    click.parent().children( ".descr" ).slideUp( "slow" );
+    clicked.removeClass( tag );
+    clicked.parent().children( ".descr" ).slideUp( "slow" );
   }else{
     sel[idx] = true;
-    click.addClass( tag );
-    click.parent().children( ".descr" ).slideDown( "slow" );
+    clicked.addClass( tag );
+    clicked.parent().children( ".descr" ).slideDown( "slow" );
   }
 
   spot_ns.redraw( false );
@@ -188,7 +187,7 @@ spot_ns.create_display_list = function( options )
   $( options.list ).find( ".ident" ).each( function(){
     var locIng = $(this);
     idx.d[ locIng.data( "idx" ) ] = $(this);
-    locIng.click( options.fpSelect );
+    locIng.click( function() { options.fpSelect( $(this) ); });
   });
 };
 
@@ -235,60 +234,38 @@ function setAvail( potions, iIdx, eIdx ){
   }
 }
 
-spot_ns.selectPurMenu_old = function()
+spot_ns.selectIngMenu = function( hitText, idxPI )
 {
-  var hitText = $(this).text();
+  if(       hitText.startsWith( "Two" ))  { spot_ns.ingScopeFilter = idxPI[2]; } 
+  else if(  hitText.startsWith( "Three" )){ spot_ns.ingScopeFilter = idxPI[3]; } 
+  else                                    { spot_ns.ingScopeFilter = null; }
 
-  if( hitText.startsWith( "Only Positive" ) ) {
-    spot_ns.purScopeFilter = spot_ns.index.p.f.pos;
-  } else if( hitText.startsWith( "Only Positive" ) ) {
-    spot_ns.purScopeFilter = spot_ns.index.p.f.neg;
-  } else {
-    spot_ns.purScopeFilter = null;
-  }
-
-  spot_ns.redraw( false );
-  return( true );
-};
-
-spot_ns.selectIngMenu = function()
-{
-  var hitText = $(this).text();
-
-  if( hitText.startsWith( "Two" )) {
-    spot_ns.ingScopeFilter = spot_ns.index.p.i[2];
-  } else if( hitText.startsWith( "Three" )){
-    spot_ns.ingScopeFilter = spot_ns.index.p.i[3];
-  } else {
-    spot_ns.ingScopeFilter = null;
-  }
-
-  spot_ns.redraw( false );
-  return( true );
+  return( spot_ns.redraw( false )); // always return true???
 };
 
 
-spot_ns.selectEffMenu = function()
+spot_ns.selectEffMenu = function( hitText, idxPE )
 {
-  var hitText = $(this).text();
+  if(      hitText.startsWith( "One" )) { spot_ns.effScopeFilter = idxPE[1]; } 
+  else if( hitText.startsWith( "Two" )) { spot_ns.effScopeFilter = idxPE[2]; } 
+  else if( hitText.startsWith( "Three" )){spot_ns.effScopeFilter = idxPE[3]; } 
+  else if( hitText.startsWith( "Four" )){ spot_ns.effScopeFilter = idxPE[4]; } 
+  else if( hitText.startsWith( "Five" )){ spot_ns.effScopeFilter = idxPE[5]; } 
+  else                                  { spot_ns.effScopeFilter = null; }
 
-  if( hitText.startsWith( "One" )) {
-    spot_ns.effScopeFilter = spot_ns.index.p.e[1];
-  } else if( hitText.startsWith( "Two" )){
-    spot_ns.effScopeFilter = spot_ns.index.p.e[2];
-  } else if( hitText.startsWith( "Three" )){
-    spot_ns.effScopeFilter = spot_ns.index.p.e[3];
-  } else if( hitText.startsWith( "Four" )){
-    spot_ns.effScopeFilter = spot_ns.index.p.e[4];
-  } else if( hitText.startsWith( "Five" )){
-    spot_ns.effScopeFilter = spot_ns.index.p.e[5];
-  } else {
-    spot_ns.effScopeFilter = null;
-  }
-
-  spot_ns.redraw( false );
-  return( true );
+  return( spot_ns.redraw( false )); // always return true???
 };
+
+spot_ns.selectPurMenu = function( hitText, idxPF )
+{
+  if(      hitText.startsWith( "Only Positive" ) ) { spot_ns.purScopeFilter = idxPF.pos; } 
+  else if( hitText.startsWith( "Only Negative" ) ) { spot_ns.purScopeFilter = idxPF.neg; } 
+  // could do an only mixed... but why???
+  else                                             { spot_ns.purScopeFilter = null; }
+
+  return( spot_ns.redraw( false )); // always return true???
+};
+
 
 spot_ns.resetAll = function()
 {
@@ -353,12 +330,16 @@ spot_ns.redraw = function( reset )
   spot_ns.effCount.text( eCnt ? eCnt : "-" );
   spot_ns.potCount.text( pLen ? pLen : "-" );
   spot_ns.scroll.animate({ scrollTop: 0 }, "slow");
+
+  return( true );
 };
 
 }( window.spot_ns = window.spot_ns || {}, jQuery ));
 
 $(document).ready( function()
 {
+  "use strict";
+
   spot_ns.create_display_list( spot_ns.iOptions );
   spot_ns.create_display_list( spot_ns.eOptions );
 
@@ -369,10 +350,15 @@ $(document).ready( function()
 
   spot_ns.redraw( false );
 
-  $("#reset").click( spot_ns.resetAll );
-  $(".selIng").click( spot_ns.selectIngMenu );
-  $(".selEff").click( spot_ns.selectEffMenu );
-  $(".purEff").click( spot_ns.selectPurMenu );
+  var idxP = spot_ns.index.p;
+  var idxPI = idxP.i;
+  var idxPE = idxP.e;
+  var idxPF = idxP.f;
+
+  $("#reset" ).click( function() { spot_ns.resetAll(); });
+  $(".selIng").click( function() { spot_ns.selectIngMenu( $(this).text(), idxPI ); });
+  $(".selEff").click( function() { spot_ns.selectEffMenu( $(this).text(), idxPE ); });
+  $(".purEff").click( function() { spot_ns.selectPurMenu( $(this).text(), idxPF ); });
 });
 
 // vim:set tabstop=2 shiftwidth=2 expandtab:

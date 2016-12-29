@@ -9,26 +9,26 @@ body {
 
 
 .caplet {
-	width: 100%;
 	margin-bottom: 12px !important;
+	width: 100%;
 }
 
 .ident {
 	color: white;
-	text-align: left;
 	font-size: 110%;
 	font-weight: 200;
-	width: 100%;
 	margin: 0 !important;
+	text-align: left;
+	width: 100%;
 }
 
 .tPots, .descr {
-	color: white;
-	font-size: 85%;
 	border-style: solid;
 	border-width: 0 1px 1px 1px;
-	padding: 0 5px 5px 5px;
+	color: white;
+	font-size: 85%;
 	margin: 0 !important;
+	padding: 0 5px 5px 5px;
 	word-wrap: break-word !important;
 }
 
@@ -40,14 +40,13 @@ body {
 .tag-pill {
 	font-size: small;
 	font-weight: normal;
-	padding: 7px 4px 7px 4px;
 	margin: 0;
 	min-width: 31px !important;
+	padding: 7px 4px 7px 4px;
 }
 
 .spot-page {
 	width: 100%;
-	// margin: 15px;
 }
 
 /* vim:set tabstop=2 shiftwidth=2 noexpandtab: */

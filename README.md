@@ -2,7 +2,11 @@
 
 ### Skyr\*m Potion Optimizing Tool (version 2)
 
-New pure javascript version of the Skyrim Potion Optimizer Tool (SPOT)
+New javascript version of the Skyrim Potion Optimizer Tool (SPOT).
+This was originally written to make it easier for friends and family
+to build potions in Skyrim.  It turned out to be an interesting problem
+to solve and the logistics of keeping the program relatively responsive
+when dealing with such large quantities of data was challenging.
 
 
 # Implementation Details
@@ -48,7 +52,6 @@ Other important conventions:
 
 ``` javascript
 var ingredient = {
-	x: "DEPRECIATED: index value in ingredient list" // DO NOT USE
 	n: "full name of ingredient",
 
 	v: "value multiplier for the ingredient",
@@ -68,13 +71,11 @@ var ingredient = {
 };
 
 var effect = {
-	x: "DEPRECIATED: index value in effect list", // DO NOT USE
 	n: "full name of effect",
 	f: "is the effect favourable? (true/false)",
 };
 
 var potion = {
-	x: "DEPRECIATED: index value in potion list", // DO NOT USE
 	i: [], // ordered list of indexes for each ingredient
 	e: []  // ordered list of indexes for each effect
 };
@@ -285,4 +286,9 @@ look at the javacript at `.../scripts/tests.js`
 - Namespace mechanisms
 	- http://stackoverflow.com/questions/881515/javascript-namespace-declaration
 	- http://enterprisejquery.com/2010/10/how-good-c-habits-can-encourage-bad-javascript-habits-part-1/
+- IOS Debugging: http://johnnyzone.com/2016/02/debug-a-website-in-ios-safari-on-windows/
+
+## Commonly used commands
+- *GIT*
+	- `git checkout -b newbranch` -- create a new branch hear and now
 
