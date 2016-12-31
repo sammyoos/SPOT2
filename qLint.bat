@@ -5,12 +5,20 @@ set jslint=call jshint --show-non-errors --verbose
 set csslint=call csslint --quiet --ignore=important
 
 echo HTML Lint
-%htmllint% .\data\body-generator.html || EXIT /B 1
-%htmllint% .\data\parser.html || EXIT /B 1
+%htmllint% .\body-generator.html || EXIT /B 1
+%htmllint% .\parser.html || EXIT /B 1
+%htmllint% .\find_small_potions.html || EXIT /B 1
+%htmllint% .\index.html || EXIT /B 1
 
 echo Javascript Lint
-%jslint% .\scripts\parser.js || EXIT /B 1
 %jslint% .\data\index_base.js || EXIT /B 1
+%jslint% .\data\index_small.js || EXIT /B 1
+
+%jslint% .\scripts\parser.js || EXIT /B 1
+%jslint% .\scripts\constants.js || EXIT /B 1
+%jslint% .\scripts\utils.js || EXIT /B 1
+%jslint% .\scripts\bootstrap-index.js || EXIT /B 1
+%jslint% .\scripts\find_small_potions.js || EXIT /B 1
 
 echo CSS Lint
 %csslint% .\styles\parser.css || EXIT /B 1

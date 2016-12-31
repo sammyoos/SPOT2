@@ -1,5 +1,5 @@
 {
 	"strict": true,
-	"predef": [ "jQuery", "window", "console" ]
+	"predef": [ "jQuery", "window", "console", "performance", "Promise" ]
 }
 

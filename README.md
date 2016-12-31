@@ -51,178 +51,64 @@ Other important conventions:
 * always use `idx` to refer to a primary branch of the base index that is passed into a subroutine
 
 ``` javascript
-var ingredient = {
-	n: "full name of ingredient",
+var index = [];		// mechanism for accessing root of the index
+	idxIng = [];		// SECTION: all _ingredient_ related nodes
+		ieSiz;				// total number of ingredients in the list
+		ieLst = [];			// ordered list of all ingredient objects (sorted by ingredient name)
+			objIngNam;			// name of ingredient
+			objIngVal;			// base value
+			objIngWgt;			// weight
+			objIngLoc;			// location to find
+			objIngDLC;			// DLC containing ingredient
+			objIngMer;			// quantity of merchants selling this ingredient
+			objIngEff = [];		// effects caused by this ingredient
+								// properties that are specific to this ingredient
+								// the effects *MUST* be sorted by Pos (reverse order)
+				objIngEffPos;		// position in the effect list -> idxEffLst
+				objIngEffVal;		// value multiplier
+				objIngEffMag;		// effect strength magnitude multiplier
+			objIngLen;			// length of object
+		ieDis = [];			// display properties of the ingredients
+			objDisNxt = [];		// ingredients that should be viewable after current processing is complete
+			objDisPrv = [];		// ingredients that are currently viewable (before current processing started)
+			objDisjQr = [];		// jQuery representation of all the ingredient objects
+			objDisCnt = [];		// number of jQuery objects
+		iePot = [];			// list of potions that include this ingredient (must list be sorted)
+		ieDLC = [];
+			objDlcBS: [], // ingredients that are available in Base Skyrim
+			objDlcDB: [], // ingredients that are available in the Dragonborn DLC
+			objDlcDG: [], // ingredients that are available in the Dawnguard DLC
+			objDlcHS: []  // ingredients that are available in the Headstead DLC
+		ieRev: {},	// pre-created hash of ingredient names pointing to the index values for list 'l'
 
-	v: "value multiplier for the ingredient",
-	w: "weight of the ingredient",
-	r: "region where the ingredient is found",
-	o: "DLC that added this ingredient",
-	q: "how many merchants store this ingredient",
+	idxEff: { // SECTION: all _effect_ related nodes
+		ieSiz;				// total number of effects in the list
+		ieLst = [];			// ordered list of all effect objects (sorted by effect name)
+			objEffNam;			// name of effect
+			objIngNat;			// nature of effect
+		ieDis = [];			// display properties of the effects
+			objDisNxt = [];		// effects that should be viewable after current processing is complete
+			objDisPrv = [];		// effects that are currently viewable (before current processing started)
+			objDisjQr = [];		// jQuery representation of all the effect objects
+			objDisCnt = [];		// number of jQuery objects
+		iePot = [];			// list of potions that include this effect (must list be sorted)
+		ieDLC = null;		// not used for effects
+		ieRev: {},	// pre-created hash of effect names pointing to the index values for list 'l'
 
-	e: [ // list of effects this ingredient causes - odered by game list (exactly 4)
-	     // these attributes of the effects are ingredient specific
-		{
-			x: "index of effect in idx.i.l[]", // note this is NOT the ordinal index!
-			v: "value multiplier of the effect for this ingredient",
-			m: "effect magnitude multiplier of the effect for this ingredient",
-		}
-	]
-};
-
-var effect = {
-	n: "full name of effect",
-	f: "is the effect favourable? (true/false)",
-};
-
-var potion = {
-	i: [], // ordered list of indexes for each ingredient
-	e: []  // ordered list of indexes for each effect
-};
-
-var index = { // mechanism for accessing root of the index
-	i: { // SECTION: all _ingredient_ related nodes
-		a: [], 	// ingredients that should be viewable after current processing is complete
-		b: [], 	// ingredients that are currently viewable (before current processing started)
-		d: [], 	// jQuery representation of all the ingredient objects
-		h: {}, 	// pre-created hash of ingredient names pointing to the index values for list 'l'
-		l: [],	// ordered list of all ingredient objects (sorted by ingredient name)
-		p: [],  // list of potions that include this ingredient (must list be sorted)
-		z: 'total number of ingredients in the list',
-		o: {
-			'BS': [], // ingredients that are available in Base Skyrim
-			'DB': [], // ingredients that are available in the Dragonborn DLC
-			'DG': [], // ingredients that are available in the Dawnguard DLC
-			'HS': []  // ingredients that are available in the Headstead DLC
-		}
-
-	},
-	e: { // SECTION: all _effect_ related nodes
-		a: [], 	// effects that should be viewable after current processing is complete
-		b: [], 	// effects that are currently viewable (before current processing started)
-		d: [], 	// jQuery representation of all the effect objects
-		h: {}, 	// pre-created hash of effect names pointing to the index values for list 'l'
-		l: [],	// ordered list of all effect objects (sorted by effect name)
-		p: [],  // list of potions that include this effect (must list be sorted)
-		z: 'total number of effects in the list',
-	},
-	p: { // SECTION: all _potion_ related nodes
-		z: 'total number of potions in the list',
-		l: [],   // ordered list pointers to all potion objects (sorted by the string value of concatinating the ordinal values of the contained ingredients)
-		i: [     // index of all potions based on the number of ingredients contained in the potion
-			null, // there are no potions with '0' ingredients
-			null, // there are no potions with '1' ingredients
-			[],   // ordered list of all potions with exactly '2' ingredients
-			[]    // ordered list of all potions with exactly '3' ingredients
-		],
-		e: [     // index of all potions based on the number of effects contained in the potion
-			null, // there are no potions with '0' effects
-			[],   // ordered list of all potions with exactly '1' effects
-			[],   // ordered list of all potions with exactly '2' effects
-			[],   // ordered list of all potions with exactly '3' effects
-			[],   // ordered list of all potions with exactly '4' effects
-			[],   // ordered list of all potions with exactly '5' effects
-			[],   // ordered list of all potions with exactly '6' effects
-			[]    // ordered list of all potions with exactly '7' effects
-		],
-		f: {
-			'pos': [],	// ordered list of all potions with only positive effects
-			'neg': [],  // ordered list of all potions with only negative effects
-			'mix': []	// ordered list of all potions with mixed effects
-		}
-	},
-	m: { // SECTION: all _metrics_ related nodes
-		o: { // ingredients - there are no DLC specific effects
-			'BS': '# of ingredients that are available in Base Skyrim',
-			'DB': '# of ingredients that are available in the Dragonborn DLC',
-			'DG': '# of ingredients that are available in the Dawnguard DLC',
-			'HS': '# of ingredients that are available in the Headstead DLC',
-		},
-		p: [ // mapping between number of ingredients and effects for useful potions
-			null, // there are no potions with '0' ingredients
-			null, // there are no potions with '1' ingredients
-			[
-				0, // 2 ingredient potions with 0 effects
-				x, // 2 ingredient potions with 1 effects
-				x, // 2 ingredient potions with 2 effects
-				x, // 2 ingredient potions with 3 effects
-				x, // 2 ingredient potions with 4 effects
-				x, // 2 ingredient potions with 5 effects
-				x, // 2 ingredient potions with 6 effects
-				x  // 2 ingredient potions with 7 effects
-			],
-			[
-				0, // 3 ingredient potions with 0 effects
-				x, // 3 ingredient potions with 1 effects
-				x, // 3 ingredient potions with 2 effects
-				x, // 3 ingredient potions with 3 effects
-				x, // 3 ingredient potions with 4 effects
-				x, // 3 ingredient potions with 5 effects
-				x, // 3 ingredient potions with 6 effects
-				x  // 3 ingredient potions with 7 effects
-			]
-		],
-		u: [ // mapping between number of ingredients and effects for useful potions
-			 // this is usually because the there no more effects in the 3 ingredient version
-			 // than in the two independent 2 ingredient potions - these are officially viable
-			 // but usually not very useful
-			null, // there are no potions with '0' ingredients
-			null, // there are no potions with '1' ingredients
-			[ // 2 ingredient potions
-				0, // ... with 0 effects
-				x, // ... with 1 effects
-				x, // ... with 2 effects
-				x, // ... with 3 effects
-				x, // ... with 4 effects
-				x, // ... with 5 effects
-				x, // ... with 6 effects
-				x  // ... with 7 effects
-			],
-			[ // 3 ingredient potions
-				0, // ... with 0 effects
-				x, // ... with 1 effects
-				x, // ... with 2 effects
-				x, // ... with 3 effects
-				x, // ... with 4 effects
-				x, // ... with 5 effects
-				x, // ... with 6 effects
-				x  // ... with 7 effects
-			]
-		],
-		f: { // mapping between number of effects and pos/neg effect mix
-			'pos': [ // purely positive potions
-				0, // ... with 0 effects
-				x, // ... with 1 effects
-				x, // ... with 2 effects
-				x, // ... with 3 effects
-				x, // ... with 4 effects
-				x, // ... with 5 effects
-				x, // ... with 6 effects
-				x  // ... with 7 effects
-			],
-			'neg': [ // purely negative potions
-				0, // ... with 0 effects
-				x, // ... with 1 effects
-				x, // ... with 2 effects
-				x, // ... with 3 effects
-				x, // ... with 4 effects
-				x, // ... with 5 effects
-				x, // ... with 6 effects
-				x  // ... with 7 effects
-			],
-			'mix': [ // potions with both negative and postive effects
-				0, // ... with 0 effects
-				x, // ... with 1 effects
-				x, // ... with 2 effects
-				x, // ... with 3 effects
-				x, // ... with 4 effects
-				x, // ... with 5 effects
-				x, // ... with 6 effects
-				x  // ... with 7 effects
-			]
-		}
-	}
-};
+	idxPot: { // SECTION: all _potion_ related nodes
+		ieSiz;				// total number of potionss in the list
+		ieLst = [];			// ordered list of all potions objects (sorted by potions name)
+			objPotIng = [];		// list of ingredients in the potions
+			objPotEff = [];		// list of effects in the potions
+			objPotNat;			// nature of the potions
+		ieDis = [];			// display properties of the potionss
+			objDisNxt = [];		// potionss that should be viewable after current processing is complete
+			objDisPrv = [];		// potionss that are currently viewable (before current processing started)
+			objDisjQr = [];		// jQuery representation of all the potions objects
+			objDisCnt = [];		// number of jQuery objects
+		idxPotIng = [];		// lists of potions - grouped by number of ingredients
+		idxPotEff = [];		// lists of potions - grouped by number of effects
+		idxPotNat = [];		// lists of potions - grouped by their nature
 ```
 
 # Discussion

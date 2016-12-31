@@ -4,8 +4,9 @@
 
   sns.check_sum = {};
 
-  function parseEffInIng( idxEff, ingEff, td ){
+  function parseEffInIng( idxEff, td ){
     const TD = $(td);
+    let ingEff = [ -1, 1, 1 ];
     let tmpNam = "",
       aCntr = 0,
       size = [];
@@ -29,6 +30,8 @@
     var pos = idxEff[ sns.ieRev ][ tmpNam ];
     ingEff[ sns.objIngEffPos ] = pos;
     idxEff[ sns.ieLst ][ pos ][ sns.objEffNat ] = TD.hasClass("EffectPos") ? sns.objEffNatPos : sns.objEffNatNeg;
+
+    return( ingEff );
   }
 
   function parseIngTD( idxIng, idxEff, rowTop, tdCnt, rowContent, propIdx ) {
@@ -85,7 +88,7 @@
         case 2: /* fall through */
         case 3: 
           var ingEff = ingObj[ sns.objIngEff ];
-          parseEffInIng( idxEff, ingEff, rowContent ); 
+          ingEff.push( parseEffInIng( idxEff, rowContent )); 
           break;
         case 4: ingObj[ sns.objIngVal ] = qText; break; // value
         case 5: ingObj[ sns.objIngWgt ] = qText; break; // weight

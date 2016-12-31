@@ -1,16 +1,22 @@
-(function( spot_ns, $, undefined ) {
+// jshint esversion: 6
+(function( sns, $, undefined ) {
   "use strict";
 
-  spot_ns.checkFavorable = function( idx, effs, iPot )
+  sns.processEffects = function( index, ingEff, potPos )
   {
-    const iMetFav = idx.m.f, iPotFav = idx.p.f, iEffList = idx.e.l;
-    const effMax = effs.length;
+    const idxEff = index[ sns.idxEff ];
+    const effLst = idxEff[ sns.ieLst ];
+    const effPot = idxEff[ sns.iePot ];
+
+    const idxPot = index[ sns.idxPot ];
+    const potNat = idxPot[ sns.objPotNat ];
+
     var effPos = 0, effNeg = 0;
 
-    for( var e=0; e<effMax; e++ ) {
-      var eff = effs[ e ];
-      idx.e.p[ eff ].push( iPot );
-      if( iEffList[ eff ].f ) {
+    for( var e=0; e<ingEff.length; e++ ) {
+      var eff = ingEff[ e ];
+      effPot[ eff ].push( potPos );
+      if( effLst[ eff ][ sns.objEffNat ] == sns.objEffNatPos ) {
         ++effPos;
       } else {
         ++effNeg;
@@ -19,36 +25,44 @@
 
     const effNet = effPos + effNeg;
 
-    if( effNeg == 0 ) {
-      ++iMetFav.pos[ effNet ];
-      iPotFav.pos.push( iPot );
+    if( effNeg === 0 ) {
+      potNat[ sns.objEffNatPos ].push( potPos );
       return 0;
     }
 
-    if( effPos == 0 ) {
-      ++iMetFav.neg[ effNet ];
-      iPotFav.neg.push( iPot );
+    if( effPos === 0 ) {
+      potNat[ sns.objEffNatNeg ].push( potPos );
       return 1;
     }
     
-    ++iMetFav.mix[ effNet ];
-    iPotFav.mix.push( iPot );
+    potNat[ sns.objEffNatMix ].push( potPos );
     return 2;
-  }
+  };
 
   /* check_viable returns a viable potion or null
    * idx = base index
-   * hash = find dups
    * X = 1st ingredient
    * Y = 2nd ingredient
    */
-  function check_viable( idx, hash, x, y )
+  function check_viable( index, x, y )
   {
+    const idxIng = index[ sns.idxIng ];
+    const ingSiz = idxIng[ sns.ieSiz ];
+    const ingLst = idxIng[ sns.ieLst ];
+    const X = ingLst[x];
+    const Xeff = X[ sns.objIngEff ];
+    const Y = ingLst[y];
+    const Yeff = Y[ sns.objIngEff ];
+
+    const idxIngPot = idxIng[ sns.iePot ];
+    const idxPot = index[ sns.idxPot ];
+    const idxPotLst = idxPot[ sns.idxPotLst ];
+    const idxPotIng = idxPot[ sns.idxPotIng ];
+    const idxPotEff = idxPot[ sns.idxPotEff ];
+    const pos = idxPot[ sns.idxPotSiz ];
+
     var effect = [];
     var viable = false;
-    var pos = idx.p.z;
-    var X = idx.i.l[x];
-    var Y = idx.i.l[y];
 
     var effPos = 0, effNeg = 0;
 
@@ -58,111 +72,72 @@
       if( false ) {
         console.info( 'Check Viable: ' + a );
         console.log( 'x: ' + x + ', y: ' + y );
-        console.log( idx );
+        console.log( index );
         console.log( '   X: ' + X );
-        console.log( '   X.e: ' + X.e );
-        console.log( '   X.e[a]: ' + X.e[a] );
-        console.log( '   X.e[a].x: ' + X.e[a].x );
+        console.log( '   X.e: ' + Xeff );
+        console.log( '   X.e[a]: ' + Xeff[a] );
+        console.log( '   X.e[a].x: ' + Xeff[a][ sns.objIngEffPos ] );
+        // debugger;
       }
 
-      var ai = X.e[a].x;
+      var ai = Xeff[a][ sns.objIngEffPos ];
 
       for(var b=0; b<4; ++b )
       {
-        if( ai != Y.e[b].x ) continue;
+        if( ai != Yeff[b][ sns.objIngEffPos ] ) continue;
 
         viable = true;
         effect.push(ai);
-        // idx.e.p[ai].push( pos );
       }
     }
 
     if( ! viable ) return null;
 
-    var pot = {
-      x: pos,
-      i: (x<y)
-        ?[ x, y ]
-        :[ y, x ],
-      e: effect.sort( function(a,b) { return( a-b ); } ),
-      f: spot_ns.checkFavorable( idx, effect, pos )
-    };
+    var pot = [ [], [], 0 ];
+    pot[ sns.objPotIng ] = (x>y) ? [ x, y ] : [ y, x ];
+    pot[ sns.objPotEff ] = effect.sort( function(a,b) { return( b-a ); } );
+    pot[ sns.objPotNat ] = sns.processEffects( index, effect, pos );
 
-    idx.p.l.push( pot );
-    idx.p.i[2].push( pos );
-    idx.p.e[effect.length].push( pos );
-    idx.i.p[x].push( pos );
-    idx.i.p[y].push( pos );
+    idxPotLst.push( pot );
+    idxPotIng[2].push( pos );
+    idxPotEff[ effect.length ].push( pos );
 
-    idx.m.p[2][ effect.length ]++;
+    console.log( x );
+    console.log( y );
+    console.log( idxIngPot );
 
-    idx.p.z++;
+    idxIngPot[x].push( pos );
+    idxIngPot[y].push( pos );
+    idxIng[ sns.ieSiz ]++;
     return pot;
   }
 
-  function potHash( idx, hash, X, Y )
-  {
-    var XY = X.n + ":" + Y.n;
-    if( XY in hash ) return;
-
-    hash[ XY ] = check_viable( idx, hash, X, Y );
-    return;
-  }
-
-
   // function buildPotions(idx)
-  spot_ns.buildPotions = function(idx)
+  sns.buildPotions = function( index )
   {
+    const idxIng = index[ sns.idxIng ];
+    const ingLst = idxIng[ sns.ieLst ];
+    const ingSiz = idxIng[ sns.ieSiz ];
     var tmp = {};
-    var ing = idx.i.l;
-    var len = idx.i.z;
 
-    for( var a=0; a<len-1; a++ )
+    for( var a=0; a<ingSiz-1; a++ )
     {
-      for( var b=a+1; b<len; b++ )
+      for( var b=a+1; b<ingSiz; b++ )
       {
-        var AB = ing[a].n + ":" + ing[b].n;
+        var AB = ingLst[a][ sns.objIngNam ] + ":" + ingLst[b][ sns.objIngNam ];
         if( AB in tmp ) continue;
-        tmp[ AB ] = check_viable( idx, tmp, a, b );
+        tmp[ AB ] = check_viable( index, a, b );
       }
     }
   };
 
-  function foobar() { return null; }
-
-  spot_ns.find_small_potions = function() {
-    var index = spot_ns.index;
+  sns.find_small_potions = function() {
+    var index = sns.index;
     console.log( 'find_small_potions()' );
-
-    index.p = {};
-    index.p.z = 0;
-    index.p.l = [];
-    index.p.i = [ null, null, [], [] ];
-    index.p.e = [ null, [], [], [], [], [], [], [] ];
-    index.p.f = { 'pos': [], 'neg': [], 'mix': [] };
-
-    index.m.p = [ null, null, [], [], [], [], [], [] ];
-    index.m.u = [ null, null, [], [], [], [], [], [] ];
-    index.m.f = { 'pos': [], 'neg': [], 'mix': [] };
-
-    for( var e=0; e<7; e++ ) {
-      index.m.p[2][e] = 0;
-      index.m.p[3][e] = 0;
-
-      index.m.u[2][e] = 0;
-      index.m.u[3][e] = 0;
-
-      index.m.f['pos'][e] = 0;
-      index.m.f['neg'][e] = 0;
-      index.m.f['mix'][e] = 0;
-    }
-    
-    console.info( 'potion building' );
-    spot_ns.buildPotions(index);
-    spot_ns.JSON_dump( 'index_small', index );
-    // spot_ns.JSON_dump( 'index_small', index.m );
+    sns.buildPotions(index);
+    sns.JSON_dump( 'index_small', index );
   };
 
-}( window.spot_ns = window.spot_ns || {}, jQuery ));
+}( window.sns = window.sns || {}, jQuery ));
 
-// vim: set ts=2 sw=2 et:
+/* vim:set tabstop=2 shiftwidth=2 expandtab: */

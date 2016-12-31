@@ -1,7 +1,6 @@
-// window.onload = function () {
-//   spot_ns.JSON_dump( '', spot_ns.index );
-// }
-//
+/* 
+ * jshint esversion: 6
+ */
 ( function( spot_ns, $, undefined ) {
   "use strict";
 
@@ -54,4 +53,4 @@ $(document).ready(function () {
   });
 });
 
-// vim: set ts=2 sw=2 et:
+/* vim:set tabstop=2 shiftwidth=2 expandtab: */

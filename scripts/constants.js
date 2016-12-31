@@ -59,6 +59,8 @@
   sns.objPotEff = 1;  // list of effects caused by this potion
                       // effects *MUST* be sorted by Pos (reverse order)
                       // Pos in idxEffLst
+  sns.objPotNat = 2;  // list of effects caused by this potion
+  sns.objPotLen = 3;  // length of object
 
   // display properties object
   sns.objDisPrv = 0;  // objects that were viewable before current processing

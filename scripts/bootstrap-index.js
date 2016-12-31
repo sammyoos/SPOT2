@@ -213,12 +213,7 @@
     var ie = new Array ( length );
     ie[ sns.objIngNam ] = name; // position '0' for both ingredients and effects
     if( length > 4 ) { // what a hack - ingredients have more feilds...
-      var ingEff = new Array( sns.objIngEffLen );
-      // set the default values...
-      ingEff[ sns.objIngEffPos ] = -1;
-      ingEff[ sns.objIngEffVal ] =  1;
-      ingEff[ sns.objIngEffMag ] =  1;
-      ie[ sns.objIngEff ] = ingEff;
+      ie[ sns.objIngEff ] = [];
     }
 
     ieIdx[ sns.ieLst ][ counter ] = ie;
