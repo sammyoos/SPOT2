@@ -1,4 +1,14 @@
 body {
-	padding: 15px;
+  margin: 15px;
 }
 
+a {
+  margin: 15px;
+}
+
+pre {
+  background: lightgrey;
+  margin: 15px;
+}
+
+/* vim:set tabstop=2 shiftwidth=2 expandtab: */

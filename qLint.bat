@@ -1,24 +1,18 @@
 @echo off
-if "%1" == "js" goto :jsLint
-if "%1" == "html" goto :htmlLint
-if "%1" == "css" goto :cssLint
+set qexit=|| EXIT /B 1
+set htmllint=java -jar .\node_modules\vnu-jar\build\dist\vnu.jar
+set jslint=call jshint --show-non-errors --verbose
+set csslint=call csslint --quiet --ignore=important
 
-echo WTF
-
-goto :done
-:jsLint
-echo Javascript Lint
-jshint --show-non-errors --verbose .\scripts\%2.js
-
-goto :done
-:htmlLint
 echo HTML Lint
-java -jar .\node_modules\vnu-jar\build\dist\vnu.jar --verbose %2.html
+%htmllint% .\data\body-generator.html || EXIT /B 1
+%htmllint% .\data\parser.html || EXIT /B 1
 
-goto :done
-:cssLint
+echo Javascript Lint
+%jslint% .\scripts\parser.js || EXIT /B 1
+%jslint% .\data\index_base.js || EXIT /B 1
+
 echo CSS Lint
-csslint --ignore=important .\styles\%2.css
+%csslint% .\styles\parser.css || EXIT /B 1
+%csslint% .\styles\spot.css || EXIT /B 1
 
-goto :done
-:done
