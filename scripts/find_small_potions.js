@@ -22,7 +22,7 @@
   const potIng2 = potIng[2];
   const potIng3 = potIng[2];
 
-  sns.processEffects = function( ingEff, potPos )
+  var processEffects = function( ingEff, potPos )
   {
     var effPos = 0, effNeg = 0;
 
@@ -48,6 +48,24 @@
     potNat[ sns.objEffNatMix ].push( potPos );
     return 2;
   };
+
+  sns.addPotion = function( ings, effs, pos ) {
+    var pot = [
+      ings, // should be presorted
+      effs,
+      processEffects( effs, pos )
+    ];
+
+    potLst.push( pot );
+    idxPot[ sns.ieSiz ] = potLst.length;
+
+    potIng2.push( pos );
+    potEff[ effs.length ].push( pos );
+
+    for( var i=0; i<ings.length; i++ ) { 
+      ingPot[i].push( pos ); 
+    }
+  }
 
   /* check_viable returns a viable potion or null
    * X = 1st ingredient
@@ -81,22 +99,13 @@
       }
     }
 
-    if( ! viable ) return null;
+    if( ! viable ) return;
 
-    var pot = [ [], [], 0 ];
-    pot[ sns.objPotIng ] = (x>y) ? [ x, y ] : [ y, x ];
-    pot[ sns.objPotEff ] = effect.sort( function(a,b) { return( b-a ); } );
-    pot[ sns.objPotNat ] = sns.processEffects( effect, pos );
+    sns.addPotion( 
+      (x>y) ? [ x, y ] : [ y, x ],
+      effect.sort( function(a,b) { return( b-a ); } ),
+      pos );
 
-    potLst.push( pot );
-    idxPot[ sns.ieSiz ] = potLst.length;
-
-    potIng2.push( pos );
-    potEff[ effect.length ].push( pos );
-
-    ingPot[x].push( pos );
-    ingPot[y].push( pos );
-    return pot;
   }
 
   // function buildPotions(idx)
@@ -110,7 +119,8 @@
       {
         var AB = ingLst[a][ sns.objIngNam ] + ":" + ingLst[b][ sns.objIngNam ];
         if( AB in tmp ) continue;
-        tmp[ AB ] = check_viable( a, b );
+        tmp[ AB ] = true;
+        check_viable( a, b );
       }
     }
   };
