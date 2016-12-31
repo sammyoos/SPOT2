@@ -1,16 +1,25 @@
 // jshint esversion: 6
 (function( sns, $, undefined ) {
   "use strict";
+  const index = sns.index;
+
+  const idxIng = index[ sns.idxIng ];
+  const ingLst = idxIng[ sns.ieLst ];
+  const ingSiz = idxIng[ sns.ieSiz ];
+  const ingPot = idxIng[ sns.iePot ];
+
+  const idxEff = index[ sns.idxEff ];
+  const effLst = idxEff[ sns.ieLst ];
+  const effPot = idxEff[ sns.iePot ];
+
+  const idxPot = index[ sns.idxPot ];
+  const potEff = idxPot[ sns.idxPotEff ];
+  const potIng = idxPot[ sns.idxPotIng ];
+  const potLst = idxPot[ sns.idxPotLst ];
+  const potNat = idxPot[ sns.idxPotNat ];
 
   sns.processEffects = function( index, ingEff, potPos )
   {
-    const idxEff = index[ sns.idxEff ];
-    const effLst = idxEff[ sns.ieLst ];
-    const effPot = idxEff[ sns.iePot ];
-
-    const idxPot = index[ sns.idxPot ];
-    const potNat = idxPot[ sns.objPotNat ];
-
     var effPos = 0, effNeg = 0;
 
     for( var e=0; e<ingEff.length; e++ ) {
@@ -28,13 +37,10 @@
     if( effNeg === 0 ) {
       potNat[ sns.objEffNatPos ].push( potPos );
       return 0;
-    }
-
-    if( effPos === 0 ) {
+    } else if( effPos === 0 ) {
       potNat[ sns.objEffNatNeg ].push( potPos );
       return 1;
-    }
-    
+    } 
     potNat[ sns.objEffNatMix ].push( potPos );
     return 2;
   };
@@ -46,19 +52,11 @@
    */
   function check_viable( index, x, y )
   {
-    const idxIng = index[ sns.idxIng ];
-    const ingSiz = idxIng[ sns.ieSiz ];
-    const ingLst = idxIng[ sns.ieLst ];
     const X = ingLst[x];
     const Xeff = X[ sns.objIngEff ];
     const Y = ingLst[y];
     const Yeff = Y[ sns.objIngEff ];
 
-    const idxIngPot = idxIng[ sns.iePot ];
-    const idxPot = index[ sns.idxPot ];
-    const idxPotLst = idxPot[ sns.idxPotLst ];
-    const idxPotIng = idxPot[ sns.idxPotIng ];
-    const idxPotEff = idxPot[ sns.idxPotEff ];
     const pos = idxPot[ sns.idxPotSiz ];
 
     var effect = [];
@@ -98,26 +96,29 @@
     pot[ sns.objPotEff ] = effect.sort( function(a,b) { return( b-a ); } );
     pot[ sns.objPotNat ] = sns.processEffects( index, effect, pos );
 
-    idxPotLst.push( pot );
-    idxPotIng[2].push( pos );
-    idxPotEff[ effect.length ].push( pos );
+    /*
+    console.log( idxPot );
+    console.log( potLst );
+    */
+    potLst.push( pot );
+    potIng[2].push( pos );
+    potEff[ effect.length ].push( pos );
 
+    /*
     console.log( x );
     console.log( y );
-    console.log( idxIngPot );
+    console.log( ingPot );
+    */
 
-    idxIngPot[x].push( pos );
-    idxIngPot[y].push( pos );
-    idxIng[ sns.ieSiz ]++;
+    ingPot[x].push( pos );
+    ingPot[y].push( pos );
+    idxPot[ sns.ieSiz ] = potLst.length;
     return pot;
   }
 
   // function buildPotions(idx)
   sns.buildPotions = function( index )
   {
-    const idxIng = index[ sns.idxIng ];
-    const ingLst = idxIng[ sns.ieLst ];
-    const ingSiz = idxIng[ sns.ieSiz ];
     var tmp = {};
 
     for( var a=0; a<ingSiz-1; a++ )
@@ -132,7 +133,6 @@
   };
 
   sns.find_small_potions = function() {
-    var index = sns.index;
     console.log( 'find_small_potions()' );
     sns.buildPotions(index);
     sns.JSON_dump( 'index_small', index );

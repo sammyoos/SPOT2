@@ -308,6 +308,9 @@
           []                  // all 6 effect potions
         ],
         [                     // lists of potions grouped by nature
+          [],                 // postive
+          [],                 // negative
+          []                  // mixed
         ] 
       ];
 
