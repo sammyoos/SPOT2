@@ -73,8 +73,8 @@
 
     while( ai < aLen && bi < bLen )
     {
-      if      (a[ai] < b[bi] ){ ai++; }
-      else if (a[ai] > b[bi] ){ bi++; }
+      if      (a[ai] > b[bi] ){ ai++; }
+      else if (a[ai] < b[bi] ){ bi++; }
       else { result.push(a[ai]); ai++; bi++; }
     }
 
@@ -94,8 +94,8 @@
       var A = a[ai];
       var B = b[bi];
 
-      if      (A < B ){ result[idx++] = A; ai++; }
-      else if (A > B ){ result[idx++] = B; bi++; }
+      if      (A > B ){ result[idx++] = A; ai++; }
+      else if (A < B ){ result[idx++] = B; bi++; }
       else { result[idx++] = A; ai++; bi++; }
     }
 

@@ -1,6 +1,7 @@
 // jshint esversion: 6
 (function( sns, $, undefined ) {
   "use strict";
+
   const index = sns.index;
 
   const idxIng = index[ sns.idxIng ];
@@ -9,6 +10,7 @@
   const ingPot = idxIng[ sns.iePot ];
 
   const idxEff = index[ sns.idxEff ];
+  const effSiz = idxEff[ sns.ieSiz ];
   const effLst = idxEff[ sns.ieLst ];
   const effPot = idxEff[ sns.iePot ];
 
@@ -17,8 +19,10 @@
   const potIng = idxPot[ sns.idxPotIng ];
   const potLst = idxPot[ sns.idxPotLst ];
   const potNat = idxPot[ sns.idxPotNat ];
+  const potIng2 = potIng[2];
+  const potIng3 = potIng[2];
 
-  sns.processEffects = function( index, ingEff, potPos )
+  sns.processEffects = function( ingEff, potPos )
   {
     var effPos = 0, effNeg = 0;
 
@@ -46,11 +50,10 @@
   };
 
   /* check_viable returns a viable potion or null
-   * idx = base index
    * X = 1st ingredient
    * Y = 2nd ingredient
    */
-  function check_viable( index, x, y )
+  function check_viable( x, y )
   {
     const X = ingLst[x];
     const Xeff = X[ sns.objIngEff ];
@@ -67,17 +70,6 @@
     // all ingredients have 4 effects
     for(var a=0; a<4; ++a )
     {
-      if( false ) {
-        console.info( 'Check Viable: ' + a );
-        console.log( 'x: ' + x + ', y: ' + y );
-        console.log( index );
-        console.log( '   X: ' + X );
-        console.log( '   X.e: ' + Xeff );
-        console.log( '   X.e[a]: ' + Xeff[a] );
-        console.log( '   X.e[a].x: ' + Xeff[a][ sns.objIngEffPos ] );
-        // debugger;
-      }
-
       var ai = Xeff[a][ sns.objIngEffPos ];
 
       for(var b=0; b<4; ++b )
@@ -94,30 +86,21 @@
     var pot = [ [], [], 0 ];
     pot[ sns.objPotIng ] = (x>y) ? [ x, y ] : [ y, x ];
     pot[ sns.objPotEff ] = effect.sort( function(a,b) { return( b-a ); } );
-    pot[ sns.objPotNat ] = sns.processEffects( index, effect, pos );
+    pot[ sns.objPotNat ] = sns.processEffects( effect, pos );
 
-    /*
-    console.log( idxPot );
-    console.log( potLst );
-    */
     potLst.push( pot );
-    potIng[2].push( pos );
-    potEff[ effect.length ].push( pos );
+    idxPot[ sns.ieSiz ] = potLst.length;
 
-    /*
-    console.log( x );
-    console.log( y );
-    console.log( ingPot );
-    */
+    potIng2.push( pos );
+    potEff[ effect.length ].push( pos );
 
     ingPot[x].push( pos );
     ingPot[y].push( pos );
-    idxPot[ sns.ieSiz ] = potLst.length;
     return pot;
   }
 
   // function buildPotions(idx)
-  sns.buildPotions = function( index )
+  sns.buildPotions = function()
   {
     var tmp = {};
 
@@ -127,17 +110,16 @@
       {
         var AB = ingLst[a][ sns.objIngNam ] + ":" + ingLst[b][ sns.objIngNam ];
         if( AB in tmp ) continue;
-        tmp[ AB ] = check_viable( index, a, b );
+        tmp[ AB ] = check_viable( a, b );
       }
     }
   };
 
   sns.find_small_potions = function() {
     console.log( 'find_small_potions()' );
-    sns.buildPotions(index);
+    sns.buildPotions();
     sns.JSON_dump( 'index_small', index );
   };
 
-}( window.sns = window.sns || {}, jQuery ));
-
+}( window.sns = window.sns || {}, jQuery )); 
 /* vim:set tabstop=2 shiftwidth=2 expandtab: */
