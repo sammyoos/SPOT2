@@ -126,10 +126,11 @@
               if (topHalf) {
                 topHalf = false;
               } else {
-                // fix: effects were not sorted...
-                var ingEffs = idxIng[ sns.ieLst ][ propsIdx ][ sns.objIngEff ];
+                var ing = idxIng[ sns.ieLst ][ propsIdx ];
+                idxIng[ sns.ieDLC ][ ing[ sns.objIngDLC ] ].push( propsIdx );
+
+                var ingEffs = ing[ sns.objIngEff ];
                 ingEffs.sort( function(a,b) { return( b[ sns.objIngEffPos ] - a[ sns.objIngEffPos ] ); });
-                // index.i.l[propsIdx].e = index.i.l[propsIdx].e.sort( function(a,b){ return b.x - a.x; });
                 topHalf = true;
                 propsIdx = -1;
               }
@@ -150,6 +151,8 @@
     console.log( 'parseIngFile()' );
     sns.parseIngFile( index, "/source_data/simple_www.uesp.net_wiki_Skyrim_Ingredients.html" )
     .then( function () { 
+      for( var d=0; d<sns.objDlcLen; d++ )
+        sns.index[ sns.idxIng ][ sns.ieDLC ][ d ].sort( function(a,b){ return b-a; });
       sns.JSON_dump( 'index_base', index ); 
     });
 

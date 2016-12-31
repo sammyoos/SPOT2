@@ -11,14 +11,14 @@
   sns.objDlcBS  = 0;    // Base Skyrim
   sns.objDlcDB  = 1;    // Dragonborn
   sns.objDlcDG  = 2;    // Dawnguard
-  sns.objDlcHS  = 3;    // Homestead
+  sns.objDlcHF  = 3;    // Hearthfire
   sns.objDlcLen = 4;    // length of object
 
   sns.objDlcNam = [
     "Base Skyrim",
     "Dragonborn",
     "Dawnguard",
-    "Homestead"
+    "Hearthfire"
   ];
 
   // nature of the effects

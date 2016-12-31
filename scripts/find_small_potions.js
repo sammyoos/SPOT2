@@ -62,8 +62,10 @@
     potIng2.push( pos );
     potEff[ effs.length ].push( pos );
 
+    // var checkDLC = new Array( sns.objDlcLen );
     for( var i=0; i<ings.length; i++ ) { 
-      ingPot[i].push( pos ); 
+      ingPot[ings[i]].push( pos ); 
+      // checkDLC[ ings[i][ sns.objIngDLC ] ].push( pos );
     }
   }
 
@@ -128,6 +130,12 @@
   sns.find_small_potions = function() {
     console.log( 'find_small_potions()' );
     sns.buildPotions();
+    /*
+    sns.index[ sns.idxIng ][ sns.ieRev ] = null;
+    sns.index[ sns.idxEff ][ sns.ieRev ] = null;
+    */
+    sns.index[ sns.idxIng ].pop();
+    sns.index[ sns.idxEff ].pop();
     sns.JSON_dump( 'index_small', index );
   };
 

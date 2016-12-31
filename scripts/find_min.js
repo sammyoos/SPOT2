@@ -1,30 +1,30 @@
 /* 
  * jshint esversion: 6
  */
-( function( spot_ns, $, undefined ) {
+( function( sns, $, undefined ) {
   "use strict";
 
-  spot_ns.qGetScript = function( script ) {
-    if( spot_ns.DEBUG ) console.info( 'qGetScript' );
+  sns.qGetScript = function( script ) {
+    if( sns.DEBUG ) console.info( 'qGetScript' );
     return new Promise(
       function( resolve, reject )
       {
         let path = '/scripts/' + script + '.js';
-        if( spot_ns.DEBUG ) console.log( 'find_min: Loading ' + path );
+        if( sns.DEBUG ) console.log( 'find_min: Loading ' + path );
 
         $.getScript( path )
           .done( function( contents, textStatus ) {
-            if( spot_ns.DEBUG ) console.log( 'find_min: Loaded ' + script);
-            if( spot_ns.DEBUG ) console.log( 'find_min: executing ' + script );
-            if( spot_ns.DEBUG ) console.log( spot_ns.index );
-            spot_ns[ script ]();
+            if( sns.DEBUG ) console.log( 'find_min: Loaded ' + script);
+            if( sns.DEBUG ) console.log( 'find_min: executing ' + script );
+            if( sns.DEBUG ) console.log( sns.index );
+            sns[ script ]();
             // what does the index look like now...
-            if( spot_ns.DEBUG ) console.log( spot_ns.index );
-            if( spot_ns.DEBUG ) console.log( 'find_min: completed ' + script);
+            if( sns.DEBUG ) console.log( sns.index );
+            if( sns.DEBUG ) console.log( 'find_min: completed ' + script);
             window.setTimeout( resolve, 1000, script );
           })
           .fail( function( jqxhr, settings, exception ) {
-            if( spot_ns.DEBUG ) {
+            if( sns.DEBUG ) {
               console.error( 'find_min: Failed' );
               console.error( jqxhr.status );
               console.error( jqxhr );
@@ -36,21 +36,12 @@
       });
   };
 
-}( window.spot_ns = window.spot_ns || {}, jQuery ));
+}( window.sns = window.sns || {}, jQuery ));
 
 
 $(document).ready(function () {
-  if( spot_ns.DEBUG ) console.info( 'document is now ready' );
-  jQuery.ajaxSetup({ cache: false });
-
-  spot_ns.qGetScript( 'parser' )
-  .then( function() { 
-    return spot_ns.qGetScript( 'find_small_potions' ); 
-  }).then( function() { 
-    return spot_ns.qGetScript( 'find_big_potions' ); 
-  }).then( function() { 
-    return spot_ns.JSON_dump( 'min', spot_ns.index );
-  });
+  if( sns.DEBUG ) console.info( 'document is now ready' );
+  sns.JSON_dump( 'min', sns.index );
 });
 
 /* vim:set tabstop=2 shiftwidth=2 expandtab: */

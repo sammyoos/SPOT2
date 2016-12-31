@@ -83,14 +83,7 @@
           const position = idxPot[ sns.idxPotSiz ]++;
           if( (position&1023) == 1023 ) console.info( position );
 
-          var pot = [ ings, effs, sns.processEffects( effs, position )  ];
-
-          potLst.push( pot );
-          potIng3.push( position );
-          potEff[ effLen   ].push( position );
-          ingPot[ ings[0] ].push( position );
-          ingPot[ ings[1] ].push( position );
-          ingPot[ ings[2] ].push( position );
+          sns.addPotion( ings, effs, position ); 
         }
       }
     }
