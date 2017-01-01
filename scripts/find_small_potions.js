@@ -36,8 +36,6 @@
       }
     }
 
-    const effNet = effPos + effNeg;
-
     if( effNeg === 0 ) {
       potNat[ sns.objEffNatPos ].push( potPos );
       return 0;
@@ -67,7 +65,7 @@
       ingPot[ings[i]].push( pos ); 
       // checkDLC[ ings[i][ sns.objIngDLC ] ].push( pos );
     }
-  }
+  };
 
   /* check_viable returns a viable potion or null
    * X = 1st ingredient
@@ -84,8 +82,6 @@
 
     var effect = [];
     var viable = false;
-
-    var effPos = 0, effNeg = 0;
 
     // all ingredients have 4 effects
     for(var a=0; a<4; ++a )
@@ -104,8 +100,8 @@
     if( ! viable ) return;
 
     sns.addPotion( 
-      (x>y) ? [ x, y ] : [ y, x ],
-      effect.sort( function(a,b) { return( b-a ); } ),
+      (x<y) ? [ x, y ] : [ y, x ],
+      effect.sort( function(a,b) { return( a-b ); } ),
       pos );
 
   }
@@ -130,10 +126,7 @@
   sns.find_small_potions = function() {
     console.log( 'find_small_potions()' );
     sns.buildPotions();
-    /*
-    sns.index[ sns.idxIng ][ sns.ieRev ] = null;
-    sns.index[ sns.idxEff ][ sns.ieRev ] = null;
-    */
+    /* get rid of the reverse lookups */
     sns.index[ sns.idxIng ].pop();
     sns.index[ sns.idxEff ].pop();
     sns.JSON_dump( 'index_small', index );

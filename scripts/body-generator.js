@@ -3,6 +3,7 @@
   "use strict";
 
   var extractIng = function( lines, obj ) {
+    if( !obj ) debugger;
     lines[ 0 ] = "";  // for later use
     lines[ 1 ] = obj[ sns.objIngNam ];
     lines[ 2 ] = "<b>Effects:</b><br>foobar";
@@ -26,6 +27,7 @@
     "countSel"  : "ingCount",
     "countTag"  : "tag-primary",
     "listSel"   : "ingredients",
+    "selector"  : "tIngs",
     "extract"   : extractIng
   };
 
@@ -34,6 +36,7 @@
     "countSel"  : "effCount",
     "countTag"  : "tag-success",
     "listSel"   : "effects",
+    "selector"  : "tEffs",
     "extract"   : extractEff
   };
 
@@ -42,6 +45,7 @@
     "countSel"  : "potCount",
     "countTag"  : "tag-info",
     "listSel"   : "potions",
+    "selector"  : "tPots",
     "extract"   : extractPot
   };
 
@@ -70,19 +74,13 @@
         "class": "tag-list"
     }).appendTo( column );
 
-    var max;
-    if( list ) {
-      max = list.length - 1;
-    } else {
-      max = sns.maxPotDis - 1;
-    }
-
+    var max = list ? list.length : sns.maxPotDis;
     var lines = [];
-    for( var i=max; i>=0; i-- ) {
+    for( var i=0; i<max; i++ ) {
       opt.extract( lines, list[i] );
       var caplet = $( "<div/>", { "class": "caplet" }).appendTo( wrapper );
       $( "<p/>", { 
-        "class"   : "ident tag",
+        "class"   : opt.selector + " tag",
         "data-idx": i,
         "text"    : lines[1]
       }).appendTo( caplet );
@@ -110,7 +108,7 @@ $(document).ready( function()
   sns.createColumn( sns.pOptions, sns.index[ sns.idxPot ][ sns.ieLst ] ).appendTo( base );
 
   var text = anchor.html();
-  $( "#fullJSON" ).text( text );
+  $( "#fullJSON" ).text( "<!-- checksum: " + sns.extHashify( text ) + " -->\n" + text );
 
   var dlButton = $("#download");
   dlButton.prop( "href", "data:text/plain;charset=utf-8," + encodeURIComponent( text ));

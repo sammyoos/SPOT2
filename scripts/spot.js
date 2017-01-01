@@ -1,364 +1,398 @@
 // file: spot.js
 // author: samuel oosterhuis
-(function( spot_ns, $, undefined ) 
-{
-"use strict";
-
 //
-// more global variables...
+// MUST work with older browsers
 //
-
-spot_ns.iOptions = {
-  "selector"  : "p.tIngs",
-  "selected"  : "p.tIngs.tag-primary",
-  "selClass"  : "tIngs tag-primary",
-  "notClass"  : "tIngs",
-  "idx"       : spot_ns.index.i,
-  "list"      : "#ingredient-list",
-  "fpSelect"  : clicker,
-  "descrStr"  : createIngDescrStr
-};
-
-spot_ns.eOptions = {
-  "selector"  : "p.tEffs",
-  "selected"  : "p.tEffs.tag-success",
-  "selClass"  : "tEffs tag-success",
-  "notClass"  : "tEffs",
-  "idx"       : spot_ns.index.e,
-  "list"      : "#effect-list",
-  "fpSelect"  : clicker,
-  "descrStr"  : createEffDescrStr
-};
-
-spot_ns.pot = spot_ns.index.p;
-spot_ns.ingScopeFilter  = null;
-spot_ns.effScopeFilter  = null;
-spot_ns.purScopeFilter  = null;
-spot_ns.favorites       = null;
-spot_ns.ingCount        = null;
-spot_ns.effCount        = null;
-spot_ns.potCount        = null;
-spot_ns.scroll          = null;
-
-function potionString ( potion )
-{
-  var ip = spot_ns.index.i.l;
-  var ep = spot_ns.index.e.l;
-  var ings = ip[ potion.i[0] ].n;
-  var effs = ep[ potion.e[0] ].n;
-
-  for( var i=1; i<potion.i.length; i++ ) ings += ", " + ip[ potion.i[i] ].n;
-  for( var e=1; e<potion.e.length; e++ ) effs += ", " + ep[ potion.e[e] ].n;
-
-  return( "<b>Ingredients :</b><br>" + ings + "<br><b>Effects :</b><br>" + effs + "" );
-}
-
-
-function displayPotions( potList )
-{
-  $("#potion-list").empty();
-
-  var p;
-  var max = potList ? Math.min( 50, potList.length ) : 0;
-  for( p=0; p<max; p++ )
-  {
-    var info = "", mag=1, val=1;
-    var potNum = potList[p];
-    var potion = spot_ns.index.p.l[potNum];
-
-    $("#potion-list").append(
-        "<div class=\"caplet\">" + 
-          "<p class=\"tPots\" data-potion=\""+potNum+"\">" + potionString( potion ) + "</p>" + 
-          "<p class=\"descr\">" + 
-            "Potion information..." + 
-          "</p>" + 
-        "</div>"
-          );
-  }
-
-  if( p >= 50 ) { $("#potion-list").append( "<p><i>&lt; list truncated &gt;</p>" ); }
-
-  $( "#potion-list" ).children( "p" ).each( function(){ $(this).slideDown(); } );
-  $( ".tPots" ).click( function() {
-    var click = $(this);
-    click.next().slideToggle( "slow" );
-
-    var idx = click.data("potion");
-    console.info( "Potion #: " + idx );
-  });
-}
-
-
-function option_merge( filter, optionsIdx )
-{
-  var sel = optionsIdx.s, len = optionsIdx.z, pot = optionsIdx.p;
-
-  for( var i=0; i<len; i++ ) { 
-    if( sel[i] ) filter = spot_ns.intersect( filter, pot[i] ); 
-  }
-
-  return filter;
-}
-
-function merge_all()
-{
-  var filter=null;
-
-  filter = option_merge( filter, spot_ns.iOptions.idx );
-  filter = option_merge( filter, spot_ns.eOptions.idx );
-
-  filter = spot_ns.intersect( filter, spot_ns.effScopeFilter );
-  filter = spot_ns.intersect( filter, spot_ns.ingScopeFilter );
-  filter = spot_ns.intersect( filter, spot_ns.purScopeFilter );
-
-  return filter;
-}
-
-function clicker( clicked ) {
-  var sel,tag;
-  var idx = clicked.data("idx");
-
-  if( clicked.hasClass( "tIngs" ) ) {
-    sel = spot_ns.iOptions.idx.s;
-    tag = "tag-primary";
-  } else {
-    sel = spot_ns.eOptions.idx.s;
-    tag = "tag-success";
-  }
-
-  if( sel[idx] ){
-    sel[idx] = false;
-    clicked.removeClass( tag );
-    clicked.parent().children( ".descr" ).slideUp( "slow" );
-  }else{
-    sel[idx] = true;
-    clicked.addClass( tag );
-    clicked.parent().children( ".descr" ).slideDown( "slow" );
-  }
-
-  spot_ns.redraw( false );
-  return( false );
-}
-
-function createEffDescrStr( eff ) {
-  var str = "<b>Nature:</b> ";
-  str += eff.f ? "favorable" : "unfavorable";
-
-  str += "<br>";
-  return( str );
-}
-
-function createIngDescrStr( ing ) {
-  var str = "<b>Effects:</b>";
-  var eList = spot_ns.index.e.l;
-
-  for( var e=0; e<4; e++ ) {
-    var effect = ing.e[ e ];
-    str += "<br> - " + eList[ effect.x ].n;
-    if( effect.v != 1 ) str += " :  <b>&euro; &times; " + effect.v + "</b>";
-    if( effect.m != 1 ) str += " :  <b>&primes; &times; " + effect.m + "</b>";
-  }
-
-  return( str );
-}
-
-
-spot_ns.create_display_list = function( options )
-{
-  $( options.list ).empty();
-  var idx = options.idx;
-  var len = idx.z;
-
-  for( var i=0; i<len; i++ )
-  {
-    var item = idx.l[ i ];
-
-    $( options.list ).append(
-        "<div class=\"caplet\">" + 
-          "<p class=\"ident tag " + options.notClass + "\"" + " data-idx=\"" + i + "\">" + 
-            item.n + 
-          "</p>" + 
-          "<p class=\"descr\">" + 
-            options.descrStr( item ) + 
-          "</p>" + 
-        "</div>");
-  }
-
-  $( options.list ).find( ".ident" ).each( function(){
-    var locIng = $(this);
-    idx.d[ locIng.data( "idx" ) ] = $(this);
-    locIng.click( function() { options.fpSelect( $(this) ); });
-  });
-};
-
-function display_list( idx )
-{
-  var count = 0;
-  for( var i=0; i<idx.z; i++ )
-  {
-    if( idx.b[i] ) {
-      if( !idx.a[i] ) {
-        idx.d[i].slideUp( "slow" );
-        if( idx.s[i] ) idx.d[i].next().slideUp("slow");
-      }
-    }else{
-      if( idx.a[i] ) idx.d[i].slideDown( "slow" );
-    }
-    if( idx.a[i] ) ++count;
-  }
-  return count;
-}
-
-function setAvail( potions, iIdx, eIdx ){
-  var iDisp = iIdx.a;
-  var eDisp = eIdx.a;
-
-  var iLen = iIdx.z;
-  var eLen = eIdx.z;
-  var i,e,j,k;
-
-  if( potions === null ){
-    for( i=0; i<iLen; i++ ) iDisp[i] = true;
-    for( e=0; e<eLen; e++ ) eDisp[e] = true;
-    return;
-  }
-
-  for( i=0; i<iLen; i++ ) iDisp[i] = false;
-  for( e=0; e<eLen; e++ ) eDisp[e] = false;
-
-  var pLen = potions.length;
-  for( i=0; i<pLen; i++ ){
-    var pot = spot_ns.index.p.l[ potions[i] ];
-    for( j=0,k=pot.i.length; j<k; j++ ) iDisp[ pot.i[j] ] = true;
-    for( j=0,k=pot.e.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
-  }
-}
-
-spot_ns.selectIngMenu = function( hitText, idxPI )
-{
-  if(       hitText.startsWith( "Two" ))  { spot_ns.ingScopeFilter = idxPI[2]; } 
-  else if(  hitText.startsWith( "Three" )){ spot_ns.ingScopeFilter = idxPI[3]; } 
-  else                                    { spot_ns.ingScopeFilter = null; }
-
-  return( spot_ns.redraw( false )); // always return true???
-};
-
-
-spot_ns.selectEffMenu = function( hitText, idxPE )
-{
-  if(      hitText.startsWith( "One" )) { spot_ns.effScopeFilter = idxPE[1]; } 
-  else if( hitText.startsWith( "Two" )) { spot_ns.effScopeFilter = idxPE[2]; } 
-  else if( hitText.startsWith( "Three" )){spot_ns.effScopeFilter = idxPE[3]; } 
-  else if( hitText.startsWith( "Four" )){ spot_ns.effScopeFilter = idxPE[4]; } 
-  else if( hitText.startsWith( "Five" )){ spot_ns.effScopeFilter = idxPE[5]; } 
-  else                                  { spot_ns.effScopeFilter = null; }
-
-  return( spot_ns.redraw( false )); // always return true???
-};
-
-spot_ns.selectPurMenu = function( hitText, idxPF )
-{
-  if(      hitText.startsWith( "Only Positive" ) ) { spot_ns.purScopeFilter = idxPF.pos; } 
-  else if( hitText.startsWith( "Only Negative" ) ) { spot_ns.purScopeFilter = idxPF.neg; } 
-  // could do an only mixed... but why???
-  else                                             { spot_ns.purScopeFilter = null; }
-
-  return( spot_ns.redraw( false )); // always return true???
-};
-
-
-spot_ns.resetAll = function()
-{
-  var iIdx = spot_ns.iOptions.idx;
-  var eIdx = spot_ns.eOptions.idx;
-
-  var iDisp = iIdx.a;
-  var eDisp = eIdx.a;
-
-  var iLen = iIdx.z;
-  var eLen = eIdx.z;
-
-  var i;
-
-  for( i=0; i<iLen; i++ ) {
-    iDisp[i] = true;
-    if( iIdx.s[i] ) {
-      iIdx.s[i]=false;
-      iIdx.d[i].next().slideUp("slow");
-      iIdx.d[i].removeClass( "tag-primary" );
-    }
-  }
-  for( i=0; i<eLen; i++ ) {
-    eDisp[i] = true;
-    if( eIdx.s[i] ) {
-      eIdx.s[i]=false;
-      eIdx.d[i].next().slideUp("slow");
-      eIdx.d[i].removeClass( "tag-success" );
-    }
-  }
-
-  spot_ns.effScopeFilter  = null;
-  spot_ns.ingScopeFilter  = null;
-  spot_ns.purScopeFilter = null;
-
-  spot_ns.redraw( true );
-};
-
-spot_ns.redraw = function( reset )
-{
-  var potions = reset?null:merge_all();
-  displayPotions( potions );
-
-  var iIdx = spot_ns.iOptions.idx;
-  var eIdx = spot_ns.eOptions.idx;
-  setAvail( potions, iIdx, eIdx );
-
-  var iCnt = display_list( iIdx );
-  var eCnt = display_list( eIdx );
-
-  var iTmp = iIdx.a;
-  var eTmp = eIdx.a;
-
-  iIdx.a = iIdx.b;
-  eIdx.a = eIdx.b;
-
-  iIdx.b = iTmp;
-  eIdx.b = eTmp;
-
-  var pLen = potions ? potions.length : 0;
-  spot_ns.ingCount.text( iCnt ? iCnt : "-" );
-  spot_ns.effCount.text( eCnt ? eCnt : "-" );
-  spot_ns.potCount.text( pLen ? pLen : "-" );
-  spot_ns.scroll.animate({ scrollTop: 0 }, "slow");
-
-  return( true );
-};
-
-}( window.spot_ns = window.spot_ns || {}, jQuery ));
-
-$(document).ready( function()
+(function( sns, $, undefined ) 
 {
   "use strict";
 
-  spot_ns.create_display_list( spot_ns.iOptions );
-  spot_ns.create_display_list( spot_ns.eOptions );
+  var index = sns.index;
 
-  spot_ns.ingCount = $("#ingCount");
-  spot_ns.effCount = $("#effCount");
-  spot_ns.potCount = $("#potCount");
-  spot_ns.scroll = $("html, body");
+  var idxIng = index[ sns.idxIng ];
+  var ingDis = idxIng[ sns.ieDis ];
+  var ingLst = idxIng[ sns.ieLst ];
+  var ingSiz = idxIng[ sns.ieSiz ];
+  var ingPot = idxIng[ sns.iePot ];
 
-  spot_ns.redraw( false );
+  var idxEff = index[ sns.idxEff ];
+  var effDis = idxEff[ sns.ieDis ];
+  var effSiz = idxEff[ sns.ieSiz ];
+  var effLst = idxEff[ sns.ieLst ];
+  var effPot = idxEff[ sns.iePot ];
 
-  var idxP = spot_ns.index.p;
-  var idxPI = idxP.i;
-  var idxPE = idxP.e;
-  var idxPF = idxP.f;
+  var idxPot = index[ sns.idxPot ];
+  var potDis = idxPot[ sns.idxPotDis ];
+  var potDisjQr = potDis[ sns.objDisjQr ];
+  var potEff = idxPot[ sns.idxPotEff ];
+  var potIng = idxPot[ sns.idxPotIng ];
+  var potLst = idxPot[ sns.idxPotLst ];
+  var potNat = idxPot[ sns.idxPotNat ];
+  var potIng2 = potIng[2];
+  var potIng3 = potIng[2];
 
-  $("#reset" ).click( function() { spot_ns.resetAll(); });
-  $(".selIng").click( function() { spot_ns.selectIngMenu( $(this).text(), idxPI ); });
-  $(".selEff").click( function() { spot_ns.selectEffMenu( $(this).text(), idxPE ); });
-  $(".purEff").click( function() { spot_ns.selectPurMenu( $(this).text(), idxPF ); });
-});
+  var iOptions = {
+    "idx"       : idxIng,
+    "disjQr"    : ingDis[ sns.objDisjQr ],
+    "header"    : "Ingredients",
+    "countSel"  : "#ingCount",
+    "countTag"  : "tag-primary",
+    "countDis"  : null,
+    "listSel"   : "#ingredients",
+    "selector"  : "p.tIngs",
+    "fpSelect"  : clicker,
+    "filter"    : null, //filter number of ingredients
+    "menuClick" : selectIngMenu,
+    "menuSel"   : ".selIng"
+  };
 
-// vim:set tabstop=2 shiftwidth=2 expandtab:
+  var eOptions = {
+    "idx"       : idxEff,
+    "disjQr"    : effDis[ sns.objDisjQr ],
+    "header"    : "Effects",
+    "countSel"  : "#effCount",
+    "countTag"  : "tag-success",
+    "countDis"  : null,
+    "listSel"   : "#effects",
+    "selector"  : "p.tEffs",
+    "fpSelect"  : clicker,
+    "filter"    : null, //filter number of effects
+    "menuClick" : selectEffMenu,
+    "menuSel"   : ".selEff"
+  };
+
+  var pOptions = {
+    "idx"       : idxPot,
+    "disjQr"    : potDis[ sns.objDisjQr ],
+    "header"    : "Potions",
+    "countSel"  : "#potCount",
+    "countTag"  : "tag-info",
+    "countDis"  : null,
+    "selector"  : "p.tPots",
+    "listSel"   : "#potions",
+    "fpSelect"  : null,
+    "filter"    : null, //filter nature of potion (pos,neg,mix)
+    "menuClick" : selectPurMenu,
+    "menuSel"   : ".purEff"
+  };
+
+  /*
+  sns.iOptions = {
+    "selected"  : "p.tIngs.tag-primary",
+    "selClass"  : "tIngs tag-primary",
+    "notClass"  : "tIngs",
+    "idx"       : sns.index.i,
+    "list"      : "#ingredient-list",
+    "fpSelect"  : clicker,
+    "descrStr"  : createIngDescrStr
+  };
+
+  sns.eOptions = {
+    "selected"  : "p.tEffs.tag-success",
+    "selClass"  : "tEffs tag-success",
+    "notClass"  : "tEffs",
+    "idx"       : sns.index.e,
+    "list"      : "#effect-list",
+    "fpSelect"  : clicker,
+    "descrStr"  : createEffDescrStr
+  };
+  */
+
+  sns.ingCount        = null;
+  sns.effCount        = null;
+  sns.potCount        = null;
+  // sns.scroll          = null;
+
+  function potionString ( potion )
+  {
+    var potionIng = potion[ sns.objPotIng ];
+    var potionEff = potion[ sns.objPotEff ];
+    var ings = ingLst[ potionIng[ 0 ] ][ sns.objIngNam ];
+    var effs = effLst[ potionEff[ 0 ] ][ sns.objEffNam ];
+
+    for( var i=1; i<potionIng.length; i++ ) ings += ", " + ingLst[ potionIng[ i ] ][ sns.objIngNam ];
+    for( var e=1; e<potionEff.length; e++ ) effs += ", " + effLst[ potionEff[ i ] ][ sns.objEffNam ];
+
+    return( "<b>Ingredients :</b><br>" + ings + "<br><b>Effects :</b><br>" + effs + "" );
+  }
+
+
+  function displayPotions( potions )
+  {
+    var append = "";
+    var max = potions ? potions.length : 0;
+
+    if( max > sns.maxPotDis ) {
+      max = sns.maxPotDis;
+      pOptions.trunc.show();
+    } else {
+      pOptions.trunc.hide();
+    }
+
+    for( var p=0; p<max; p++ ) {
+      // var info = "", mag=1, val=1;
+      var node = potDisjQr[p];
+      node.text( potionString( potLst[ potions[p] ] ));
+      node.show();
+    }
+
+    // anything over max hide...
+    for( var p=max; p<sns.maxPotDis; p++ ) {
+      potDisjQr[p].hide();
+    }
+  }
+
+
+  function option_merge( filter, optionsIdx )
+  {
+    var sel = optionsIdx.s, len = optionsIdx.z;
+
+    for( var i=0; i<len; i++ ) { 
+      if( sel[i] ) filter = sns.intersect( filter, idxPot[i] ); 
+    }
+
+    return filter;
+  }
+
+  function merge_all()
+  {
+    var filter=null;
+
+    filter = option_merge( filter, iOptions.idx );
+    filter = option_merge( filter, eOptions.idx );
+
+    filter = sns.intersect( filter, eOptions.filter );
+    filter = sns.intersect( filter, iOptions.filter );
+    filter = sns.intersect( filter, pOptions.filter );
+
+    return filter;
+  }
+
+
+  function createEffDescrStr( eff ) {
+    var str = "<b>Nature:</b> ";
+    str += eff.f ? "favorable" : "unfavorable";
+
+    str += "<br>";
+    return( str );
+  }
+
+  function createIngDescrStr( ing ) {
+    var str = "<b>Effects:</b>";
+    var eList = sns.index.e.l;
+
+    for( var e=0; e<4; e++ ) {
+      var effect = ing.e[ e ];
+      str += "<br> - " + eList[ effect.x ].n;
+      if( effect.v != 1 ) str += " :  <b>&euro; &times; " + effect.v + "</b>";
+      if( effect.m != 1 ) str += " :  <b>&primes; &times; " + effect.m + "</b>";
+    }
+
+    return( str );
+  }
+
+  function display_list( idx )
+  {
+    var count = 0;
+
+    for( var i=0; i<idx.z; i++ )
+    {
+      if( idx.b[i] ) {
+        if( !idx.a[i] ) {
+          idx.d[i].slideUp( "slow" );
+          if( idx.s[i] ) idx.d[i].next().slideUp("slow");
+        }
+      }else{
+        if( idx.a[i] ) idx.d[i].slideDown( "slow" );
+      }
+      if( idx.a[i] ) ++count;
+    }
+    return count;
+  }
+
+  function setAvail( potions ){
+    var iDisp = ingDis[ sns.objDisNxt ]
+    var eDisp = effDis[ sns.objDisNxt ]
+
+    var iLen = idxIng[ sns.ieSiz ];
+    var eLen = idxEff[ sns.ieSiz ];
+    var i,e,j,k;
+
+    if( potions === null ){
+      for( i=0; i<iLen; i++ ) iDisp[i] = true;
+      for( e=0; e<eLen; e++ ) eDisp[e] = true;
+      return;
+    }
+
+    for( i=0; i<iLen; i++ ) iDisp[i] = false;
+    for( e=0; e<eLen; e++ ) eDisp[e] = false;
+
+    var pLen = potions.length;
+    for( i=0; i<pLen; i++ ){
+      var pot = potLst[ potions[i] ];
+      for( j=0,k=pot.i.length; j<k; j++ ) iDisp[ pot.i[j] ] = true;
+      for( j=0,k=pot.e.length; j<k; j++ ) eDisp[ pot.e[j] ] = true;
+    }
+  }
+
+
+  var resetAll = function()
+  {
+    var iIdx = sns.iOptions.idx;
+    var eIdx = sns.eOptions.idx;
+
+    var iDisp = iIdx.a;
+    var eDisp = eIdx.a;
+
+    var iLen = iIdx.z;
+    var eLen = eIdx.z;
+
+    var i;
+
+    for( i=0; i<iLen; i++ ) {
+      iDisp[i] = true;
+      if( iIdx.s[i] ) {
+        iIdx.s[i]=false;
+        iIdx.d[i].next().slideUp("slow");
+        iIdx.d[i].removeClass( "tag-primary" );
+      }
+    }
+    for( i=0; i<eLen; i++ ) {
+      eDisp[i] = true;
+      if( eIdx.s[i] ) {
+        eIdx.s[i]=false;
+        eIdx.d[i].next().slideUp("slow");
+        eIdx.d[i].removeClass( "tag-success" );
+      }
+    }
+
+    sns.iOptions.filter = null;
+    sns.eOptions.filter = null;
+    sns.pOptions.filter = null;
+
+    redraw( true );
+  };
+
+  var redraw = function( reset )
+  {
+    debugger;
+    var potions = reset?null:merge_all();
+    displayPotions( potions );
+
+    var iIdx = sns.iOptions.idx;
+    var eIdx = sns.eOptions.idx;
+    setAvail( potions, iIdx, eIdx );
+
+    var iCnt = display_list( iIdx );
+    var eCnt = display_list( eIdx );
+
+    var iTmp = iIdx.a;
+    var eTmp = eIdx.a;
+
+    iIdx.a = iIdx.b;
+    eIdx.a = eIdx.b;
+
+    iIdx.b = iTmp;
+    eIdx.b = eTmp;
+
+    var pLen = potions ? potions.length : 0;
+    iOptions.countDis.text( iCnt ? iCnt : "-" );
+    eOptions.countDis.text( eCnt ? eCnt : "-" );
+    pOptions.countDis.text( pLen ? pLen : "-" );
+    // sns.scroll.animate({ scrollTop: 0 }, "slow");
+
+    return( true );
+  };
+
+  function clicker( clicked, opt ) {
+    console.log( 'clicking...' );
+    console.log( opt );
+    var sel = opt.idx[ sns.ieDis ][ sns.objDisSel ];
+    var tag = opt.countTag;
+    var idx = clicked.data("idx");
+
+    if( sel[idx] ){
+      sel[idx] = false;
+      clicked.next().slideUp( "slow" );
+      clicked.removeClass( tag );
+    }else{
+      sel[idx] = true;
+      clicked.addClass( tag );
+      clicked.next().slideDown( "slow" );
+    }
+
+    redraw( false );
+    return( false );
+  }
+
+  var selectIngMenu = function( hitText, opt )
+  {
+    if(       hitText.startsWith( "Two" ))  { opt.filter = potIng2; } 
+    else if(  hitText.startsWith( "Three" )){ opt.filter = potIng3; } 
+    else                                    { opt.filter = null; }
+
+    return( redraw( false )); // always return true???
+  };
+
+
+  var selectEffMenu = function( hitText, opt )
+  {
+    if(      hitText.startsWith( "One" )) { opt.filter = potEff[1]; } 
+    else if( hitText.startsWith( "Two" )) { opt.filter = potEff[2]; } 
+    else if( hitText.startsWith( "Three" )){opt.filter = potEff[3]; } 
+    else if( hitText.startsWith( "Four" )){ opt.filter = potEff[4]; } 
+    else if( hitText.startsWith( "Five" )){ opt.filter = potEff[5]; } 
+    else                                  { opt.filter = null; }
+
+    return( redraw( false )); // always return true???
+  };
+
+  var selectPurMenu = function( hitText, opt )
+  {
+    if(      hitText.startsWith( "Only Positive" ) ) { opt.filter = potNat[ sns.objEffNatPos ]; } 
+    else if( hitText.startsWith( "Only Negative" ) ) { opt.filter = potNat[ sns.objEffNatNeg ]; } 
+    // could do an only mixed... but why???
+    else                                             { sns.filter = null; }
+
+    return( redraw( false )); // always return true???
+  };
+
+
+  var setDisplayInfo = function( opt ) 
+  {
+    // counter
+    opt.countDis = $( opt.countSel );
+    // menu clicks
+    $( opt.menuSel ).click( function() { opt.menuClick( $(this).text(), opt ); });
+    // ingredient, effect and potion clicks
+    $( opt.selector ).each( function(){
+      var local = $(this);
+      opt.disjQr[ local.data( "idx" ) ] = local;
+      local.click( function() { 
+        console.log( 'click' );
+        opt.fpSelect ?  opt.fpSelect( local, opt ) : console.log( this ); 
+      });
+    });
+  };
+
+  sns.runSpotRun = function() {
+    setDisplayInfo( iOptions );
+    setDisplayInfo( eOptions );
+    setDisplayInfo( pOptions );
+
+    pOptions.trunc = $( "<p/>" );
+    $( "<i/>", { "text": "&lt; list truncated &gt;" } ).appendTo( pOptions.trunc );
+    pOptions.trunc.appendTo( $( "#potions" ));
+    $("#reset" ).click( function() { resetAll(); });
+  };
+
+}( window.sns = window.sns || {}, jQuery ));
+
+  // sns.create_display_list( sns.iOptions );
+  // sns.create_display_list( sns.eOptions );
+
+  // sns.scroll = $("html, body");
+
+  // redraw( false );
+
+/* vim:set tabstop=2 shiftwidth=2 expandtab: */

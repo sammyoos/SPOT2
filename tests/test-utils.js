@@ -19,19 +19,11 @@
     assert.equal( sns.extHashify( "0" ), "000-030", "hashify for '0'" );
   });
 
-  /*
   var A = [ 1, 2, 3, 4, 9, 10 ];
   var B = [ 1, 2 ];
   var C = [ 3, 4 ];
   var D = [ 9, 10 ];
   var E = [ 7, 9, 11, 19 ];
-  */
-
-  var A = [ 10, 9, 4, 3, 2, 1 ];
-  var B = [ 2, 1 ];
-  var C = [ 4, 3 ];
-  var D = [ 10, 9 ];
-  var E = [ 19, 11, 9, 7 ];
 
   QUnit.test( "intersect", function( assert ) {
     assert.deepEqual( sns.intersect( A, B ), B, "intersect A and B" );
@@ -48,8 +40,8 @@
     assert.deepEqual( sns.join( A, B ), A, "join A and B" );
     assert.deepEqual( sns.join( A, C ), A, "join A and C" );
     assert.deepEqual( sns.join( A, D ), A, "join A and D" );
-    assert.deepEqual( sns.join( A, E ), [ 19, 11, 10, 9, 7, 4, 3, 2, 1 ], "join A and E" );
-    assert.deepEqual( sns.join( B, E ), [ 19, 11, 9, 7, 2, 1 ], "join B and E" );
+		assert.deepEqual( sns.join( A, E ), [ 1, 2, 3, 4, 7, 9, 10, 11, 19 ], "join A and E" );
+		assert.deepEqual( sns.join( B, E ), [ 1, 2, 7, 9, 11, 19 ], "join B and E" );
 
     // no null tests for the joins
   });

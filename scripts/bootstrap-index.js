@@ -222,7 +222,7 @@
 
   var fillLocalIEdata = function( ieObj, options, names, tmplLen ) {
     options.idx = ieObj;
-    names.sort( function( a, b ){ return b.localeCompare( a ); });
+    names.sort( function( a, b ){ return a.localeCompare( b ); });
 
     for( var i=0; i<names.length; i++ ) {
       fillTemplateIE( i, names[ i ], ieObj, tmplLen );

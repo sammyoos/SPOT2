@@ -16,10 +16,10 @@
     assert.equal( idx[ sns.idxPot ][ sns.ieSiz ]    ,   0, "potion array size (method 1)" ); // both this and next line are acceptable
     assert.equal( idx[ sns.idxPot ][ sns.idxPotSiz ],   0, "potion array size (method 2)" );
 
-    assert.equal( idx[ sns.idxIng ][ sns.ieRev ][ "Abecean Longfin"         ], 112, "first ingredient (alphabetically)" );
-    assert.equal( idx[ sns.idxIng ][ sns.ieRev ][ "Yellow Mountain Flower"  ],   0, "last ingredient (alphabetically)" );
-    assert.equal( idx[ sns.idxEff ][ sns.ieRev ][ "Cure Disease"            ],  54, "first effect (alphabetically)" );
-    assert.equal( idx[ sns.idxEff ][ sns.ieRev ][ "Weakness to Shock"       ],   0, "last effect (alphabetically)" );
+    assert.equal( idx[ sns.idxIng ][ sns.ieRev ][ "Abecean Longfin"         ],   0, "first ingredient (alphabetically)" );
+    assert.equal( idx[ sns.idxIng ][ sns.ieRev ][ "Yellow Mountain Flower"  ], 112, "last ingredient (alphabetically)" );
+    assert.equal( idx[ sns.idxEff ][ sns.ieRev ][ "Cure Disease"            ],   0, "first effect (alphabetically)" );
+    assert.equal( idx[ sns.idxEff ][ sns.ieRev ][ "Weakness to Shock"       ],  54, "last effect (alphabetically)" );
   });
 
 }( window.sns = window.sns || {}, jQuery ));
