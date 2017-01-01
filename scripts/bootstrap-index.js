@@ -230,7 +230,7 @@
       ieObj[ sns.iePot ][ i ] = [];
 
       var display = ieObj[ sns.ieDis ];
-      display[ sns.objDisPrv ][ i ] = false;
+      display[ sns.objDisPrv ][ i ] = true;
       display[ sns.objDisNxt ][ i ] = true;
       display[ sns.objDisSel ][ i ] = false;
       display[ sns.objDisjQr ][ i ] = null;

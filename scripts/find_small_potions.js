@@ -10,7 +10,6 @@
   const ingPot = idxIng[ sns.iePot ];
 
   const idxEff = index[ sns.idxEff ];
-  const effSiz = idxEff[ sns.ieSiz ];
   const effLst = idxEff[ sns.ieLst ];
   const effPot = idxEff[ sns.iePot ];
 
@@ -19,8 +18,6 @@
   const potIng = idxPot[ sns.idxPotIng ];
   const potLst = idxPot[ sns.idxPotLst ];
   const potNat = idxPot[ sns.idxPotNat ];
-  const potIng2 = potIng[2];
-  const potIng3 = potIng[2];
 
   var processEffects = function( ingEff, potPos )
   {
@@ -57,7 +54,7 @@
     potLst.push( pot );
     idxPot[ sns.ieSiz ] = potLst.length;
 
-    potIng2.push( pos );
+    potIng[ ings.length ].push( pos );
     potEff[ effs.length ].push( pos );
 
     // var checkDLC = new Array( sns.objDlcLen );

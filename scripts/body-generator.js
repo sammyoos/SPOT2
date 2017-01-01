@@ -2,27 +2,60 @@
 {
   "use strict";
 
-  var extractIng = function( lines, obj ) {
-    if( !obj ) debugger;
-    lines[ 0 ] = "";  // for later use
-    lines[ 1 ] = obj[ sns.objIngNam ];
-    lines[ 2 ] = "<b>Effects:</b><br>foobar";
+  var index = sns.index;
+
+  var idxIng = index[ sns.idxIng ];
+  var ingDis = idxIng[ sns.ieDis ];
+  var ingDisSel = ingDis[ sns.objDisSel ];
+  var ingLst = idxIng[ sns.ieLst ];
+  var ingSiz = idxIng[ sns.ieSiz ];
+  var ingPot = idxIng[ sns.iePot ];
+
+  var idxEff = index[ sns.idxEff ];
+  var effDis = idxEff[ sns.ieDis ];
+  var effDisSel = effDis[ sns.objDisSel ];
+  var effSiz = idxEff[ sns.ieSiz ];
+  var effLst = idxEff[ sns.ieLst ];
+  var effPot = idxEff[ sns.iePot ];
+
+  var idxPot = index[ sns.idxPot ];
+  var potDis = idxPot[ sns.idxPotDis ];
+  var potDisjQr = potDis[ sns.objDisjQr ];
+  var potEff = idxPot[ sns.idxPotEff ];
+  var potIng = idxPot[ sns.idxPotIng ];
+  var potLst = idxPot[ sns.idxPotLst ];
+  var potNat = idxPot[ sns.idxPotNat ];
+
+  var extractIng = function( pTop, pBot, item ) {
+    pTop.text( item[ sns.objIngNam ] );
+
+    pBot.append( "<b>Effects:</b>" );
+    item[ sns.objIngEff ].forEach( function( eff ) {
+      var eNum = eff[ sns.objIngEffPos ];
+      pBot.append( "<br> - " + effLst[ eNum ][ sns.objEffNam ] );
+    });
+
+    pBot.append( "<br><b>Base Value:</b> " + item[ sns.objIngVal ] );
+    pBot.append( "<br><b>Weight:</b> " + item[ sns.objIngWgt ] );
+    pBot.append( "<br><b>Location:</b> " + item[ sns.objIngLoc ] );
+    pBot.append( "<br><b>Merchants:</b> " + item[ sns.objIngMer ] );
+    pBot.append( "<br><b>DLC:</b> " + sns.objDlcNam[ item[ sns.objIngDLC ]] );
   };
 
-  var extractEff = function( lines, obj ) {
-    lines[ 0 ] = "";  // for later use
-    lines[ 1 ] = obj[ sns.objEffNam ];
-    lines[ 2 ] = "<b>Number of Ingredients:</b><br>foobar";
+  var extractEff = function( pTop, pBot, item ) {
+    pTop.text( item[ sns.objEffNam ] );
+    pBot.text( "Nature: " + (( item[ sns.objEffNat ] == sns.objEffNatPos ) ? "Positive" : "Negative" ));
   };
 
-  var extractPot = function( lines, obj ) {
-    lines[ 0 ] = "";  // for later use
-    lines[ 1 ] = "";
-    lines[ 2 ] = "";
+  var extractPot = function( pTop, pBot, item ) {
+    pTop.append( "<b>Ingredients:</b><br><span class=\"potIngs\"></span><br>" )
+    pTop.append( "<b>Effects:</b><br><span class=\"potEffs\"></span>" )
+
+    pBot.append( "...potions specific information..." );
   };
 
 
-  sns.iOptions = {
+  var iOptions = {
     "header"    : "Ingredients",
     "countSel"  : "ingCount",
     "countTag"  : "tag-primary",
@@ -31,7 +64,7 @@
     "extract"   : extractIng
   };
 
-  sns.eOptions = {
+  var eOptions = {
     "header"    : "Effects",
     "countSel"  : "effCount",
     "countTag"  : "tag-success",
@@ -40,7 +73,7 @@
     "extract"   : extractEff
   };
 
-  sns.pOptions = {
+  var pOptions = {
     "header"    : "Potions",
     "countSel"  : "potCount",
     "countTag"  : "tag-info",
@@ -49,7 +82,7 @@
     "extract"   : extractPot
   };
 
-  sns.createColumn = function( opt, list ) {
+  var createColumn = function( opt, list, len ) {
     var anchor = $( "<div/>" );
 
     var column = $( "<div/>", {
@@ -61,7 +94,7 @@
     $( "<span/>", {
       "id": opt.countSel,
       "class": "tag " + opt.countTag + " tag-pill",
-      "text": list ? list.length : " - "
+      "text": len ? len : " - "
     }).appendTo( heading );
 
     $( "<span/>", {
@@ -74,45 +107,42 @@
         "class": "tag-list"
     }).appendTo( column );
 
-    var max = list ? list.length : sns.maxPotDis;
-    var lines = [];
-    for( var i=0; i<max; i++ ) {
-      opt.extract( lines, list[i] );
+    var i=0;
+    list.forEach( function( item ) {
       var caplet = $( "<div/>", { "class": "caplet" }).appendTo( wrapper );
-      $( "<p/>", { 
-        "class"   : opt.selector + " tag",
-        "data-idx": i,
-        "text"    : lines[1]
-      }).appendTo( caplet );
-      $( "<p/>", { 
-        "class": "descr tag",
-        "text" : lines[2]
-      }).appendTo( caplet );
-    }
 
-    console.log( column );
+      var pTop = $( "<p/>", { 
+        "class"   : opt.selector + " tag",
+        "data-idx": i++
+      }).appendTo( caplet );
+      var pBot = $( "<p/>", { 
+        "class": "descr tag",
+      }).appendTo( caplet );
+
+      opt.extract( pTop, pBot, item );
+    });
+
     return( column );
   };
 
+  sns.generate = function(){
+    var anchor = $("<div/>");
+    var base = $("<div/>", { "class": "row" } ).appendTo( anchor );
+
+    createColumn( iOptions, ingLst, ingLst.length ).appendTo( base );
+    createColumn( eOptions, effLst, ingLst.length ).appendTo( base );
+    var potCol = createColumn( pOptions, new Array( sns.maxPotDis ).fill( false ), 0 ).appendTo( base );
+
+    potCol.append( "<p class=\"trunc\"><i>&lt; list truncated &gt;</i></p>" );
+
+    var text = anchor.html();
+    $( "#fullJSON" ).text( "<!-- checksum: " + sns.extHashify( text ) + " -->\n" + text );
+
+
+    var dlButton = $("#download");
+    dlButton.prop( "href", "data:text/plain;charset=utf-8," + encodeURIComponent( text ));
+    dlButton.prop( "download", "body.html" );
+  };
+
 }( window.sns = window.sns || {}, jQuery ));
-
-$(document).ready( function()
-{
-  "use strict";
-
-  var anchor = $("<div/>");
-  var base = $("<div/>", { "class": "row" } ).appendTo( anchor );
-
-  sns.createColumn( sns.iOptions, sns.index[ sns.idxIng ][ sns.ieLst ] ).appendTo( base );
-  sns.createColumn( sns.eOptions, sns.index[ sns.idxEff ][ sns.ieLst ] ).appendTo( base );
-  sns.createColumn( sns.pOptions, sns.index[ sns.idxPot ][ sns.ieLst ] ).appendTo( base );
-
-  var text = anchor.html();
-  $( "#fullJSON" ).text( "<!-- checksum: " + sns.extHashify( text ) + " -->\n" + text );
-
-  var dlButton = $("#download");
-  dlButton.prop( "href", "data:text/plain;charset=utf-8," + encodeURIComponent( text ));
-  dlButton.prop( "download", "body.html" );
-});
-
 /* vim:set tabstop=2 shiftwidth=2 expandtab: */

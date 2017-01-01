@@ -27,4 +27,6 @@ echo CSS Lint
 
 echo Minimize
 %minimize% data\index_big.js -o data\index.min.js || EXIT /B 1
+%minimize% scripts\constants.js -o scripts\constants.min.js || EXIT /B 1
 %minimize% scripts\utils.js -o scripts\utils.min.js || EXIT /B 1
+%minimize% scripts\spot.js -o scripts\spot.min.js || EXIT /B 1
