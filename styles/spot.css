@@ -45,7 +45,9 @@ h3 {
   margin: 0 !important;
   padding: 0 5px 5px 5px;
   text-align: left;
-  word-wrap: break-word !important;
+  white-space: normal;
+  word-wrap: normal;
+  // word-wrap: break-all;
 }
 
 .trunc {

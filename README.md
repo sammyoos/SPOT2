@@ -113,19 +113,71 @@ var index = [];		// mechanism for accessing root of the index
 
 # Discussion
 
+## How do potions work in Skyrim?
+
+http://elderscrolls.wikia.com/wiki/Alchemy_(Skyrim)
+
+Important Bits:
+- As you play Skyrim you will aquire ingredients
+- Each ingredient has exactly four effects
+- When you combine two ingredients (in an alchemy lab) and those two ingredients share 1 or more similar effects you will create a potion that has each of the shared effects
+- Some ingredients make their effects stronger/weaker or more/less expensive
+
+## How many potions does this application track?
+
+With the three core DLCs installed there are 115 ingredients and a total of 55 effects.  There are close to 40,000 potions possible. This application 
+tracks all two ingredient potions (1,814) and only the three ingredient potions that add more effects than when you combine the most productive two
+ingredients in a potion (for a total of 34,917).  Other interesting facts:
+
+### Number of Effects
+- 1,623 single effect potions
+- 28,293 two effect potions
+- 6,264 three effect potions
+- 539 four effect potions
+- 12 five effect potions
+
+### Nature of Effects
+- 12,324 potions that have only positive effects
+- 6,211 potions that have only negative effects
+- all the rest have a mixture of positve and negative effects
+
+## Interesting potions 
+
+### Strictly Positive
+
+> Ingredients: Bear Claws, Charred Skeever Hide, Wheat
+> Effects: Fortify Health, Restore Health, Restore Stamina
+
+> Ingredients: Ash Creep Cluster, Ectoplasm, Vampire Dust
+> Effects: Fortify Destruction, Invisibility, Restore Magicka
+
+> Ingredients: Bear Claws, Beehive Husk, Hawk Feathers
+> Effects: Fortify Light Armor, Fortify One-handed, Fortify Sneak
+
+### Strictly Negative
+
+> Ingredients: Imp Stool, Scathecraw, Skeever Tail
+> Effects: Damage Health, Lingering Damage Health, Ravage Health
+
+> Ingredients: Butterfly Wing, Human Heart, Nightshade
+> Effects: Damage Health, Damage Magicka, Damage Magicka Regen, Lingering Damage Stamina
+
+> Ingredients: Emperor Parasol Moss, Glow Dust, Human Heart
+> Effects: Damage Health, Damage Magicka, Damage Magicka Regen 
+
 ## Why not use a Javascript framework
 
-The first version of SPOT was written in 'pure' javascript (using
+The first version of SPOT was written in javascript (using
  [Bootstrap](http://getbootstrap.com/) and [jQuery](https://api.jquery.com)).  
-After the DLCs were release, I tried rewritting using Angular and other
+After the DLCs were released, I tried rewritting using Angular and other
 popular frameworks.  Probably due to the fact that I did not know them
-well the page loading and manipulation becames very slow.  I am manipulating
+well, the page loading and manipulation becames very slow.  I am manipulating
 many DOM elements and the communication between objects became a significant
 issue.  I was able to get significant performance gains by switching back 
 to a more 'pure' javascript implementation - though I still was loath to
 give up jQuery or Bootstrap.
 
-## Why is does the application not load all the data immediately?
+## Why does the application not load all the data immediately?
 
 With all the new data that the DLCs introduced, the page load was still
 too slow.  By spliting out some of the less used data for manual load
@@ -178,4 +230,8 @@ look at the javacript at `.../scripts/tests.js`
 ## Commonly used commands
 - *GIT*
 	- `git checkout -b newbranch` -- create a new branch hear and now
-	
+	- make current branch master
+		- `git checkout mybranch`
+		- `git merge -s ours master`
+		- `git checkout master`
+		- `git merge mybranch`
