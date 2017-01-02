@@ -21,35 +21,7 @@ Creating all required potions based on the current selection critera on the clie
 processor heavy and also quite slow, as such, as much as possible of computing is done before hand,
 stored in index files and then retrieved at page load.
 
-### Variable Naming Conventions (inside of the index)
-The following conventions are observed for field names in structures to minimize space, as 
-it is transfered to the client side browser as a JSON string and many of these names are repeated
-many times.
-* `a` - *after* - represents an array of booleans indicating if this object should be displayed after this processing
-* `b` - *before* - represents an array of booleans indicating if this object is currently displayed
-* `d` - *display* - represents an array of jQuery objects that can be addressed directly
-* `e` - *effect* - represents an 'effect' related structure
-* `f` - *favourable* - specifically for effects - represents if the effect is positive or negative
-* `h` - *hash* - represents a hash of the name of the current object pointing to its index value
-* `i` - *ingredient* - represents an 'ingredient' related structure
-* `l` - *list* - represents an ordered list of objects
-* `m` - *magnitude* - specifically for ingredients - the effect multiplier
-* `n` - *name* - represents the full name of the object
-* `o` - *origin* - specifically for ingreidents (DLC that adds this ingredient)
-	* BS=Base Skyrim, DB=Dragonborn, DG=Dawnguard, HF=Hearthfire
-* `p` - *potion* - represents a 'potion' releated structure
-* `q` - *quantity* - represents the merchant availability of this ingredient
-* `r` - *region* - specifically for ingredients (where it is found)
-* `s` - *selected* - represents an array of booleans indicating if this object is currently selected
-* `x` - *index* - represents the index of this object within it's primary list
-* `v` - *value* - represents the value multiplier (both ingredients and effects)
-* `w` - *weight* - specifically for ingredients
-* `z` - *size* - represents the size structure (typically the number of elements in *list*)
-
-Other important conventions:
-* always use `index` to refer to the base index
-* always use `idx` to refer to a primary branch of the base index that is passed into a subroutine
-
+### Informal Data Structure
 ``` javascript
 var index = [];		// mechanism for accessing root of the index
 	idxIng = [];		// SECTION: all _ingredient_ related nodes
@@ -145,25 +117,25 @@ ingredients in a potion (for a total of 34,917).  Other interesting facts:
 
 ### Strictly Positive
 
-> Ingredients: Bear Claws, Charred Skeever Hide, Wheat
-> Effects: Fortify Health, Restore Health, Restore Stamina
+> *Ingredients:* Bear Claws, Charred Skeever Hide, Wheat  
+> *Effects:* Fortify Health, Restore Health, Restore Stamina  
 
-> Ingredients: Ash Creep Cluster, Ectoplasm, Vampire Dust
-> Effects: Fortify Destruction, Invisibility, Restore Magicka
+> *Ingredients:* Ash Creep Cluster, Ectoplasm, Vampire Dust  
+> *Effects:* Fortify Destruction, Invisibility, Restore Magicka  
 
-> Ingredients: Bear Claws, Beehive Husk, Hawk Feathers
-> Effects: Fortify Light Armor, Fortify One-handed, Fortify Sneak
+> *Ingredients:* Bear Claws, Beehive Husk, Hawk Feathers  
+> *Effects:* Fortify Light Armor, Fortify One-handed, Fortify Sneak  
 
 ### Strictly Negative
 
-> Ingredients: Imp Stool, Scathecraw, Skeever Tail
-> Effects: Damage Health, Lingering Damage Health, Ravage Health
+> *Ingredients:* Imp Stool, Scathecraw, Skeever Tail  
+> *Effects:* Damage Health, Lingering Damage Health, Ravage Health  
 
-> Ingredients: Butterfly Wing, Human Heart, Nightshade
-> Effects: Damage Health, Damage Magicka, Damage Magicka Regen, Lingering Damage Stamina
+> *Ingredients:* Butterfly Wing, Human Heart, Nightshade  
+> *Effects:* Damage Health, Damage Magicka, Damage Magicka Regen, Lingering Damage Stamina  
 
-> Ingredients: Emperor Parasol Moss, Glow Dust, Human Heart
-> Effects: Damage Health, Damage Magicka, Damage Magicka Regen 
+> *Ingredients:* Emperor Parasol Moss, Glow Dust, Human Heart  
+> *Effects:* Damage Health, Damage Magicka, Damage Magicka Regen   
 
 ## Why not use a Javascript framework
 
