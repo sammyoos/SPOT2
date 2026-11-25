@@ -267,9 +267,12 @@ function RecipeExplorer({ dataset }: { dataset: RecipeDataset }) {
             <select
               value={filters.ingredientCount}
               onChange={(event) => {
+                const ingredientCount = parseIngredientCount(
+                  event.currentTarget.value,
+                )
                 setFilters((current) => ({
                   ...current,
-                  ingredientCount: parseIngredientCount(event.currentTarget.value),
+                  ingredientCount,
                 }))
                 resetResultWindow()
               }}
@@ -284,9 +287,10 @@ function RecipeExplorer({ dataset }: { dataset: RecipeDataset }) {
             <select
               value={filters.effectCount}
               onChange={(event) => {
+                const effectCount = parseEffectCount(event.currentTarget.value)
                 setFilters((current) => ({
                   ...current,
-                  effectCount: parseEffectCount(event.currentTarget.value),
+                  effectCount,
                 }))
                 resetResultWindow()
               }}
