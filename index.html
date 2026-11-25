@@ -1,113 +1,17 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Skyrim Potion Optimizer Tool">
-  <meta name="repo" content="github.com/sammyoos/SPOT2">
-  <meta name="author" content="sammyoos">
-
-  <title>SPOT2 :: Skyrim Potion Optimizer Tool</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/spot.css">
-
-</head>
-<body>
-  <!--[if lt IE 10]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-
-	<header class="navbar navbar-static-top navbar-dark bg-inverse">
-		<a class="navbar-brand" href="#">Skyrim Potion Optimizing Tool</a>
-
-		<div class="nav navbar-nav float-xs-right">
-			<div class="btn-group">
-				<button type="button" id="ing_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># of Ingredients</button>
-				<div class="dropdown-menu" aria-labelledby="ing_menu">
-					<a class="dropdown-item selIng" href="#">Two Ingredients</a>
-					<a class="dropdown-item selIng" href="#">Three Ingredients</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item selIng" href="#">Any # of Ingredients</a>
-				</div>
-			</div>
-			<div class="btn-group">
-				<button type="button" id="eff_menu" class="btn btn-sm btn-secondary btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"># of Effects</button>
-				<div class="dropdown-menu" aria-labelledby="eff_menu">
-					<a class="dropdown-item selEff" href="#">One Effect</a>
-					<a class="dropdown-item selEff" href="#">Two Effects</a>
-					<a class="dropdown-item selEff" href="#">Three Effects</a>
-					<a class="dropdown-item selEff" href="#">Four Effects</a>
-					<a class="dropdown-item selEff" href="#">Five Effects</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item selEff" href="#">Any # of Effects</a>
-				</div>
-			</div>
-			<button type="button" id="reset" class="btn btn-sm btn-secondary btn-warning">Reset</button>
-		</div>
-	</header>
-
-	<div class="container spot-page">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<h3>DLC Selections</h3>
-				<div id="favorite-list" class="tag-list">
-					<ul class="list-group">
-						<li class="list-group-item">
-							<span class="tag tag-default tag-pill float-xs-right">95</span>
-							Base Skyrim
-						</li>
-						<li class="list-group-item">
-							<span class="tag tag-default tag-pill float-xs-right">5</span>
-							Dawnguard
-						</li>
-						<li class="list-group-item">
-							<span class="tag tag-default tag-pill float-xs-right">11</span>
-							Dragonborn
-						</li>
-						<li class="list-group-item">
-							<span class="tag tag-default tag-pill float-xs-right">2</span>
-							Hearth Fire
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<h3>Ingredients</h3>
-				<div id="ingredient-list" class="tag-list">
-					<p class="tag tag-default">Onions</p>
-					<p class="tag tag-default">Lettuce</p>
-					<p class="tag tag-primary">Garlic</p>
-					<p class="tag tag-default">Peppers</p>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<h3>Effects</h3>
-				<div id="effect-list" class="tag-list">
-					<p class="">Onions</p>
-					<p class="tag tag-default">Lettuce</p>
-					<p class="tag tag-success">Garlic</p>
-					<p class="tag tag-default">Peppers</p>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<h3>Potions</h3>
-				<div id="potion-list" class="tag-list">
-					<p class="tag tag-default">Major Health</p>
-					<p class="tag tag-default">Slow Everything</p>
-					<p class="tag tag-info">Lots of Poison</p>
-					<p class="tag tag-default">Accurate</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-  <script src="scripts/index.js"></script>
-  <script src="scripts/spot.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern Skyrim potion optimizer."
+    />
+    <title>Skyrim Potion Optimizer</title>
+    <script type="module" crossorigin src="/SPOT2/assets/index-Doz2BdHK.js"></script>
+    <link rel="stylesheet" crossorigin href="/SPOT2/assets/index-BjDE1vpV.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
-<!-- vim:set tabstop=2 shiftwidth=2 noexpandtab: -->
